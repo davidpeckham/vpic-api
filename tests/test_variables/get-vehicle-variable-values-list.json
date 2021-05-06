@@ -1,0 +1,104 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleVariableValuesList/Vehicle%20Type?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 9,
+        "Message": "Results returned successfully",
+        "SearchCriteria": "Variable:Vehicle Type",
+        "Results": [
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 1,
+                "Name": "Motorcycle"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 2,
+                "Name": "Passenger Car"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 3,
+                "Name": "Truck "
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 5,
+                "Name": "Bus"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 6,
+                "Name": "Trailer"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 7,
+                "Name": "Multipurpose Passenger Vehicle (MPV)"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 9,
+                "Name": "Low Speed Vehicle (LSV)"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 10,
+                "Name": "Incomplete Vehicle"
+            },
+            {
+                "ElementName": "Vehicle Type",
+                "Id": 13,
+                "Name": "Off Road Vehicle"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 1,
+            "Name": "Motorcycle"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 2,
+            "Name": "Passenger Car"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 3,
+            "Name": "Truck "
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 5,
+            "Name": "Bus"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 6,
+            "Name": "Trailer"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 7,
+            "Name": "Multipurpose Passenger Vehicle (MPV)"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 9,
+            "Name": "Low Speed Vehicle (LSV)"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 10,
+            "Name": "Incomplete Vehicle"
+        },
+        {
+            "ElementName": "Vehicle Type",
+            "Id": 13,
+            "Name": "Off Road Vehicle"
+        }
+    ]
+}

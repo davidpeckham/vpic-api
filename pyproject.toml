@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "vpic-api"
+version = "0.1.0"
+description = "A client for the United States National Highway Traffic Safety Administration (NHTSA) Vehicle Product Information Catalog (vPIC) API"
+authors = ["David Peckham <dave.peckham@icloud.com>"]
+license = "MIT"
+readme = "README.rst"
+keywords = [
+    "vpic",
+    "nhtsa",
+    "vin",
+    "vehicle",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Manufacturing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [
+    { include = "vpic" },
+]
+exclude = ["NOTES.rst"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+responses = "^0.13.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-datadir = "^1.3.1"
+black = {version = "^21.4b0", allow-prereleases = true}
+flake8 = "^3.9.1"
+mypy = "^0.812"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

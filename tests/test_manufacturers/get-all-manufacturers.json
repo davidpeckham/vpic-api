@@ -1,0 +1,2618 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetAllManufacturers?ManufacturerType=Completed+Vehicle+Manufacturer&page=1&format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 100,
+        "Message": "Response returned successfully",
+        "SearchCriteria": null,
+        "Results": [
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Tesla",
+                "Mfr_ID": 955,
+                "Mfr_Name": "TESLA, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED KINGDOM (UK)",
+                "Mfr_CommonName": "Aston Martin",
+                "Mfr_ID": 956,
+                "Mfr_Name": "ASTON MARTIN LAGONDA LIMITED",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 958,
+                "Mfr_Name": "JAGUAR LAND ROVER NA, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Maserati",
+                "Mfr_ID": 959,
+                "Mfr_Name": "MASERATI NORTH AMERICA, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "FRANCE",
+                "Mfr_CommonName": "Bugatti",
+                "Mfr_ID": 970,
+                "Mfr_Name": "BUGATTI AUTOMOBILES S.A.S",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Hombilt",
+                "Mfr_ID": 971,
+                "Mfr_Name": "HOMBILT TRAILERS INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "ACG",
+                "Mfr_ID": 973,
+                "Mfr_Name": "AMERICAN CUSTOM GOLF CARS, INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Off Road Vehicle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 974,
+                "Mfr_Name": "MOONLIGHT AUTO",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Latitude",
+                "Mfr_ID": 980,
+                "Mfr_Name": "LATITUDE CAMPER COMPANY, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "CANADA",
+                "Mfr_CommonName": "Westward",
+                "Mfr_ID": 982,
+                "Mfr_Name": "WESTWARD INDUSTRIES LTD.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "GM",
+                "Mfr_ID": 984,
+                "Mfr_Name": "GENERAL MOTORS LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": true,
+                        "Name": "Incomplete Vehicle"
+                    }
+                ]
+            },
+            {
+                "Country": "JAPAN",
+                "Mfr_CommonName": "Honda",
+                "Mfr_ID": 987,
+                "Mfr_Name": "HONDA MOTOR CO., LTD",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Honda",
+                "Mfr_ID": 988,
+                "Mfr_Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Volvo",
+                "Mfr_ID": 1006,
+                "Mfr_Name": "VOLVO CAR USA, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Volvo (Truck \/ Bus)",
+                "Mfr_ID": 1015,
+                "Mfr_Name": "VOLVO GROUP NORTH AMERICA, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Bus"
+                    }
+                ]
+            },
+            {
+                "Country": "GERMANY",
+                "Mfr_CommonName": "Daimler",
+                "Mfr_ID": 1023,
+                "Mfr_Name": "MERCEDES-BENZ AG",
+                "VehicleTypes": []
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Mack",
+                "Mfr_ID": 1027,
+                "Mfr_Name": "MACK TRUCKS INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": true,
+                        "Name": "Incomplete Vehicle"
+                    }
+                ]
+            },
+            {
+                "Country": "ITALY",
+                "Mfr_CommonName": "Fiat",
+                "Mfr_ID": 1029,
+                "Mfr_Name": "FCA ITALY S.P.A.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Chairiot Mobility",
+                "Mfr_ID": 1030,
+                "Mfr_Name": "CHAIRIOT MOBILITY INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "PACCAR",
+                "Mfr_ID": 1031,
+                "Mfr_Name": "PACCAR INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Truck "
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1035,
+                "Mfr_Name": "MAD DAWG CYCLES AND TRAILERS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1040,
+                "Mfr_Name": "HAYES WELDING INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1044,
+                "Mfr_Name": "BLUE BIRD BODY COMPANY",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Suzuki",
+                "Mfr_ID": 1048,
+                "Mfr_Name": "SUZUKI MOTOR OF AMERICA, INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1053,
+                "Mfr_Name": "PETE’S GOLF CARTS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED KINGDOM (UK)",
+                "Mfr_CommonName": "Jaguar Land Rover",
+                "Mfr_ID": 1079,
+                "Mfr_Name": "JAGUAR LAND ROVER LIMITED",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "CHINA",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1080,
+                "Mfr_Name": "GEELY GROUP ZHEJIANG MOTORCYCLE CO., LTD.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "JAPAN",
+                "Mfr_CommonName": "Mitsubishi Fuso Truck",
+                "Mfr_ID": 1081,
+                "Mfr_Name": "MITSUBISHI FUSO TRUCK & BUS CORPORATION",
+                "VehicleTypes": []
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "FOREST RIVER, INC.",
+                "Mfr_ID": 1084,
+                "Mfr_Name": "FOREST RIVER, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Bus"
+                    },
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1089,
+                "Mfr_Name": "JOHN THOMAS, INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "AM GENERAL",
+                "Mfr_ID": 1093,
+                "Mfr_Name": "AM GENERAL CORPORATION ",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1101,
+                "Mfr_Name": "THOR INDUSTRIES",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Cruiser RV",
+                "Mfr_ID": 1104,
+                "Mfr_Name": "CRUISER RV",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1106,
+                "Mfr_Name": "MVP RV INC. (THOR CALIFORNIA, INC.)",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Thor Manufacturing",
+                "Mfr_ID": 1107,
+                "Mfr_Name": "THOR MANUFACTURING LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Winnebago Of Indiana",
+                "Mfr_ID": 1108,
+                "Mfr_Name": "WINNEBAGO OF INDIANA, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Gillig",
+                "Mfr_ID": 1118,
+                "Mfr_Name": "GILLIG LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1120,
+                "Mfr_Name": "CHAMPION TELECOM, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1121,
+                "Mfr_Name": "CHAMPION BRIDGE CO., INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1122,
+                "Mfr_Name": "Champion Trailers, Inc.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "PIERCE MANUFACTURING",
+                "Mfr_ID": 1124,
+                "Mfr_Name": "PIERCE MANUFACTURING INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Truck "
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "MCI",
+                "Mfr_ID": 1126,
+                "Mfr_Name": "MOTOR COACH INDUSTRIES, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Incomplete Vehicle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1127,
+                "Mfr_Name": "TURTLEBACK TRAILERS LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Prevost",
+                "Mfr_ID": 1128,
+                "Mfr_Name": "PREVOST A DIVISION OF PREVOST CAR (US) INC. (NOVA BUS, INCORPORATED)",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    }
+                ]
+            },
+            {
+                "Country": "TURKEY",
+                "Mfr_CommonName": "TEMSA ",
+                "Mfr_ID": 1129,
+                "Mfr_Name": "TEMSA ULASIM ARACLARI SANAYI VE TICARET A.S.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Bus"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Triumph Motorcycles",
+                "Mfr_ID": 1131,
+                "Mfr_Name": "TRIUMPH MOTORCYCLES (AMERICA) LIMITED",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Polaris",
+                "Mfr_ID": 1132,
+                "Mfr_Name": "POLARIS INDUSTRIES INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    }
+                ]
+            },
+            {
+                "Country": "ITALY",
+                "Mfr_CommonName": "Ducati",
+                "Mfr_ID": 1133,
+                "Mfr_Name": "DUCATI MOTOR HOLDING S.p.A. ",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "CANADA",
+                "Mfr_CommonName": "BRP",
+                "Mfr_ID": 1134,
+                "Mfr_Name": "BOMBARDIER RECREATIONAL PRODUCTS INC ",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    }
+                ]
+            },
+            {
+                "Country": "TAIWAN",
+                "Mfr_CommonName": "Genuine Scooters",
+                "Mfr_ID": 1135,
+                "Mfr_Name": "MOTIVE POWER INDUSTRY CO. LTD.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1142,
+                "Mfr_Name": "KTLL Group LLC dBa VICTORY TRAILERS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Volkswagen",
+                "Mfr_ID": 1147,
+                "Mfr_Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "GERMANY",
+                "Mfr_CommonName": "Volkswagen",
+                "Mfr_ID": 1148,
+                "Mfr_Name": "VOLKSWAGEN AG",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Google Auto",
+                "Mfr_ID": 1151,
+                "Mfr_Name": "GOOGLE AUTO LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    }
+                ]
+            },
+            {
+                "Country": "TAIWAN",
+                "Mfr_CommonName": "Yamaha",
+                "Mfr_ID": 1153,
+                "Mfr_Name": "YAMAHA MOTOR TAIWAN CO., LTD.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "BELGIUM",
+                "Mfr_CommonName": "Van Hool",
+                "Mfr_ID": 1163,
+                "Mfr_Name": "VAN HOOL N.V.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Incomplete Vehicle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Volvo Bus (Mexico)",
+                "Mfr_ID": 1164,
+                "Mfr_Name": "VOLVO INDUSTRIAL DE MEXICO, S.A. DE C.V.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    }
+                ]
+            },
+            {
+                "Country": "BRAZIL",
+                "Mfr_CommonName": "Busscar",
+                "Mfr_ID": 1166,
+                "Mfr_Name": "BUSSCAR ONIBUS S.A.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Bus"
+                    }
+                ]
+            },
+            {
+                "Country": "CHINA",
+                "Mfr_CommonName": "ZheJiang LingYun",
+                "Mfr_ID": 1167,
+                "Mfr_Name": "ZheJiang LingYun Motorcycle Co., Ltd.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "MOBILITY VENTURES",
+                "Mfr_ID": 1174,
+                "Mfr_Name": "AM GENERAL LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1178,
+                "Mfr_Name": "3T MFG.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Incomplete Vehicle"
+                    }
+                ]
+            },
+            {
+                "Country": "CANADA",
+                "Mfr_CommonName": "9013-7233 Quebec",
+                "Mfr_ID": 1180,
+                "Mfr_Name": "9013-7233 QUEBEC INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "A&M Fabrications",
+                "Mfr_ID": 1182,
+                "Mfr_Name": "A & M FABRICATIONS LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "ARM INC",
+                "Mfr_ID": 1189,
+                "Mfr_Name": "A.R.M.(U.S.A.), INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "A-BAR-D",
+                "Mfr_ID": 1192,
+                "Mfr_Name": "A-BAR-D MFG.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES",
+                "Mfr_ID": 1193,
+                "Mfr_Name": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "CANADA",
+                "Mfr_CommonName": "Matrixx Specialized Trailers",
+                "Mfr_ID": 1196,
+                "Mfr_Name": "2231545 ONTARIO INC. DBA MATRIXX SPECIALIZED TRAILERS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Trailers",
+                "Mfr_ID": 1199,
+                "Mfr_Name": "COUNTRY TRAILERS LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Crary Agricultural",
+                "Mfr_ID": 1202,
+                "Mfr_Name": "CRARY AGRICULTURAL SOLUTIONS, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1207,
+                "Mfr_Name": "CREATIVE COACHWORKS, INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1218,
+                "Mfr_Name": "CUSTOM CYCLE STUDIO LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    },
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "C.D.M.",
+                "Mfr_ID": 1219,
+                "Mfr_Name": "CUSTOM DESIGN MANUFACTURING",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Custom Mobile Designs",
+                "Mfr_ID": 1228,
+                "Mfr_Name": "CUSTOM MOBILE DESIGNS LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Custom Pits and Fabrication",
+                "Mfr_ID": 1229,
+                "Mfr_Name": "CUSTOM PITS AND FABRICATION LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1244,
+                "Mfr_Name": "MARKET DIRECT CAMPERS\/MDC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Count's Kustoms",
+                "Mfr_ID": 1246,
+                "Mfr_Name": "COUNT'S KUSTOMS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Copper River Fabricators",
+                "Mfr_ID": 1247,
+                "Mfr_Name": "COPPER RIVER FABRICATORS, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Coras Trailers",
+                "Mfr_ID": 1250,
+                "Mfr_Name": "CORAS TRAILER MANUFACTURING, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1254,
+                "Mfr_Name": "CORNELIUS MANUFACTURING, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "American Made",
+                "Mfr_ID": 1255,
+                "Mfr_Name": "AMERICAN MADE",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1256,
+                "Mfr_Name": "AMERICAN MANUFACTURING OPERATIONS, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1265,
+                "Mfr_Name": "COTNER TRAILERS, INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "CRONKHITE",
+                "Mfr_ID": 1290,
+                "Mfr_Name": "CRONKHITE INDUSTRIES, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": "Coyote",
+                "Mfr_ID": 1296,
+                "Mfr_Name": "COYOTE MFG CO",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1298,
+                "Mfr_Name": "CROSS CLEANING SOLUTIONS, LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1302,
+                "Mfr_Name": "TIM NOBLES TRAILERS and Repair LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1305,
+                "Mfr_Name": "TOP NOTCH TRAILER Manufacturing, Inc.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1308,
+                "Mfr_Name": "CSC MOTORCYCLES INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1318,
+                "Mfr_Name": "AFFORDABLE TRAILERS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1341,
+                "Mfr_Name": "TMP TRUCK & TRAILER",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "SWEDEN",
+                "Mfr_CommonName": "Koenigsegg",
+                "Mfr_ID": 1344,
+                "Mfr_Name": "KOENIGSEGG AUTOMOTIVE AB",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Passenger Car"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1347,
+                "Mfr_Name": "DYMAC VEHICLE GROUP, INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Low Speed Vehicle (LSV)"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1351,
+                "Mfr_Name": "MID SOUTH DISTRIBUTION SERVICES",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1352,
+                "Mfr_Name": "IMPACT HYDRAULIC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1359,
+                "Mfr_Name": "KEIZER MORRIS INTERNATIONAL, INC. DBA KM INTERNATIONAL",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1361,
+                "Mfr_Name": "LIBERATOR TRIKES LLC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Motorcycle"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1379,
+                "Mfr_Name": "WILKENS MANUFACTURING",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": true,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1402,
+                "Mfr_Name": "E. T. & T. ENTERPRISES dba HOLLAND METAL FAB., INC",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1404,
+                "Mfr_Name": "GREEN VALLEY PRODUCTS",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            },
+            {
+                "Country": "CANADA",
+                "Mfr_CommonName": null,
+                "Mfr_ID": 1410,
+                "Mfr_Name": "SIGNALISATION VER-MAC INC.",
+                "VehicleTypes": [
+                    {
+                        "IsPrimary": false,
+                        "Name": "Trailer"
+                    }
+                ]
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Tesla",
+            "Mfr_ID": 955,
+            "Mfr_Name": "TESLA, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED KINGDOM (UK)",
+            "Mfr_CommonName": "Aston Martin",
+            "Mfr_ID": 956,
+            "Mfr_Name": "ASTON MARTIN LAGONDA LIMITED",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 958,
+            "Mfr_Name": "JAGUAR LAND ROVER NA, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Maserati",
+            "Mfr_ID": 959,
+            "Mfr_Name": "MASERATI NORTH AMERICA, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "FRANCE",
+            "Mfr_CommonName": "Bugatti",
+            "Mfr_ID": 970,
+            "Mfr_Name": "BUGATTI AUTOMOBILES S.A.S",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Hombilt",
+            "Mfr_ID": 971,
+            "Mfr_Name": "HOMBILT TRAILERS INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "ACG",
+            "Mfr_ID": 973,
+            "Mfr_Name": "AMERICAN CUSTOM GOLF CARS, INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Low Speed Vehicle (LSV)"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Off Road Vehicle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 974,
+            "Mfr_Name": "MOONLIGHT AUTO",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Latitude",
+            "Mfr_ID": 980,
+            "Mfr_Name": "LATITUDE CAMPER COMPANY, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "CANADA",
+            "Mfr_CommonName": "Westward",
+            "Mfr_ID": 982,
+            "Mfr_Name": "WESTWARD INDUSTRIES LTD.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "GM",
+            "Mfr_ID": 984,
+            "Mfr_Name": "GENERAL MOTORS LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": true,
+                    "Name": "Incomplete Vehicle"
+                }
+            ]
+        },
+        {
+            "Country": "JAPAN",
+            "Mfr_CommonName": "Honda",
+            "Mfr_ID": 987,
+            "Mfr_Name": "HONDA MOTOR CO., LTD",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Honda",
+            "Mfr_ID": 988,
+            "Mfr_Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Volvo",
+            "Mfr_ID": 1006,
+            "Mfr_Name": "VOLVO CAR USA, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Volvo (Truck \/ Bus)",
+            "Mfr_ID": 1015,
+            "Mfr_Name": "VOLVO GROUP NORTH AMERICA, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Bus"
+                }
+            ]
+        },
+        {
+            "Country": "GERMANY",
+            "Mfr_CommonName": "Daimler",
+            "Mfr_ID": 1023,
+            "Mfr_Name": "MERCEDES-BENZ AG",
+            "VehicleTypes": []
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Mack",
+            "Mfr_ID": 1027,
+            "Mfr_Name": "MACK TRUCKS INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": true,
+                    "Name": "Incomplete Vehicle"
+                }
+            ]
+        },
+        {
+            "Country": "ITALY",
+            "Mfr_CommonName": "Fiat",
+            "Mfr_ID": 1029,
+            "Mfr_Name": "FCA ITALY S.P.A.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Chairiot Mobility",
+            "Mfr_ID": 1030,
+            "Mfr_Name": "CHAIRIOT MOBILITY INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Low Speed Vehicle (LSV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "PACCAR",
+            "Mfr_ID": 1031,
+            "Mfr_Name": "PACCAR INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Truck "
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1035,
+            "Mfr_Name": "MAD DAWG CYCLES AND TRAILERS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1040,
+            "Mfr_Name": "HAYES WELDING INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1044,
+            "Mfr_Name": "BLUE BIRD BODY COMPANY",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Suzuki",
+            "Mfr_ID": 1048,
+            "Mfr_Name": "SUZUKI MOTOR OF AMERICA, INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1053,
+            "Mfr_Name": "PETE’S GOLF CARTS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Low Speed Vehicle (LSV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED KINGDOM (UK)",
+            "Mfr_CommonName": "Jaguar Land Rover",
+            "Mfr_ID": 1079,
+            "Mfr_Name": "JAGUAR LAND ROVER LIMITED",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "CHINA",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1080,
+            "Mfr_Name": "GEELY GROUP ZHEJIANG MOTORCYCLE CO., LTD.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "JAPAN",
+            "Mfr_CommonName": "Mitsubishi Fuso Truck",
+            "Mfr_ID": 1081,
+            "Mfr_Name": "MITSUBISHI FUSO TRUCK & BUS CORPORATION",
+            "VehicleTypes": []
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "FOREST RIVER, INC.",
+            "Mfr_ID": 1084,
+            "Mfr_Name": "FOREST RIVER, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Bus"
+                },
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1089,
+            "Mfr_Name": "JOHN THOMAS, INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "AM GENERAL",
+            "Mfr_ID": 1093,
+            "Mfr_Name": "AM GENERAL CORPORATION ",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1101,
+            "Mfr_Name": "THOR INDUSTRIES",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Cruiser RV",
+            "Mfr_ID": 1104,
+            "Mfr_Name": "CRUISER RV",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1106,
+            "Mfr_Name": "MVP RV INC. (THOR CALIFORNIA, INC.)",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Thor Manufacturing",
+            "Mfr_ID": 1107,
+            "Mfr_Name": "THOR MANUFACTURING LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Winnebago Of Indiana",
+            "Mfr_ID": 1108,
+            "Mfr_Name": "WINNEBAGO OF INDIANA, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Gillig",
+            "Mfr_ID": 1118,
+            "Mfr_Name": "GILLIG LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1120,
+            "Mfr_Name": "CHAMPION TELECOM, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1121,
+            "Mfr_Name": "CHAMPION BRIDGE CO., INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1122,
+            "Mfr_Name": "Champion Trailers, Inc.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "PIERCE MANUFACTURING",
+            "Mfr_ID": 1124,
+            "Mfr_Name": "PIERCE MANUFACTURING INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Truck "
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "MCI",
+            "Mfr_ID": 1126,
+            "Mfr_Name": "MOTOR COACH INDUSTRIES, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Incomplete Vehicle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1127,
+            "Mfr_Name": "TURTLEBACK TRAILERS LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Prevost",
+            "Mfr_ID": 1128,
+            "Mfr_Name": "PREVOST A DIVISION OF PREVOST CAR (US) INC. (NOVA BUS, INCORPORATED)",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                }
+            ]
+        },
+        {
+            "Country": "TURKEY",
+            "Mfr_CommonName": "TEMSA ",
+            "Mfr_ID": 1129,
+            "Mfr_Name": "TEMSA ULASIM ARACLARI SANAYI VE TICARET A.S.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Bus"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Triumph Motorcycles",
+            "Mfr_ID": 1131,
+            "Mfr_Name": "TRIUMPH MOTORCYCLES (AMERICA) LIMITED",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Polaris",
+            "Mfr_ID": 1132,
+            "Mfr_Name": "POLARIS INDUSTRIES INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Low Speed Vehicle (LSV)"
+                }
+            ]
+        },
+        {
+            "Country": "ITALY",
+            "Mfr_CommonName": "Ducati",
+            "Mfr_ID": 1133,
+            "Mfr_Name": "DUCATI MOTOR HOLDING S.p.A. ",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "CANADA",
+            "Mfr_CommonName": "BRP",
+            "Mfr_ID": 1134,
+            "Mfr_Name": "BOMBARDIER RECREATIONAL PRODUCTS INC ",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Low Speed Vehicle (LSV)"
+                }
+            ]
+        },
+        {
+            "Country": "TAIWAN",
+            "Mfr_CommonName": "Genuine Scooters",
+            "Mfr_ID": 1135,
+            "Mfr_Name": "MOTIVE POWER INDUSTRY CO. LTD.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1142,
+            "Mfr_Name": "KTLL Group LLC dBa VICTORY TRAILERS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Volkswagen",
+            "Mfr_ID": 1147,
+            "Mfr_Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "GERMANY",
+            "Mfr_CommonName": "Volkswagen",
+            "Mfr_ID": 1148,
+            "Mfr_Name": "VOLKSWAGEN AG",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Google Auto",
+            "Mfr_ID": 1151,
+            "Mfr_Name": "GOOGLE AUTO LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Low Speed Vehicle (LSV)"
+                }
+            ]
+        },
+        {
+            "Country": "TAIWAN",
+            "Mfr_CommonName": "Yamaha",
+            "Mfr_ID": 1153,
+            "Mfr_Name": "YAMAHA MOTOR TAIWAN CO., LTD.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "BELGIUM",
+            "Mfr_CommonName": "Van Hool",
+            "Mfr_ID": 1163,
+            "Mfr_Name": "VAN HOOL N.V.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Incomplete Vehicle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Volvo Bus (Mexico)",
+            "Mfr_ID": 1164,
+            "Mfr_Name": "VOLVO INDUSTRIAL DE MEXICO, S.A. DE C.V.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                }
+            ]
+        },
+        {
+            "Country": "BRAZIL",
+            "Mfr_CommonName": "Busscar",
+            "Mfr_ID": 1166,
+            "Mfr_Name": "BUSSCAR ONIBUS S.A.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Bus"
+                }
+            ]
+        },
+        {
+            "Country": "CHINA",
+            "Mfr_CommonName": "ZheJiang LingYun",
+            "Mfr_ID": 1167,
+            "Mfr_Name": "ZheJiang LingYun Motorcycle Co., Ltd.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "MOBILITY VENTURES",
+            "Mfr_ID": 1174,
+            "Mfr_Name": "AM GENERAL LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1178,
+            "Mfr_Name": "3T MFG.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Incomplete Vehicle"
+                }
+            ]
+        },
+        {
+            "Country": "CANADA",
+            "Mfr_CommonName": "9013-7233 Quebec",
+            "Mfr_ID": 1180,
+            "Mfr_Name": "9013-7233 QUEBEC INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "A&M Fabrications",
+            "Mfr_ID": 1182,
+            "Mfr_Name": "A & M FABRICATIONS LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "ARM INC",
+            "Mfr_ID": 1189,
+            "Mfr_Name": "A.R.M.(U.S.A.), INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "A-BAR-D",
+            "Mfr_ID": 1192,
+            "Mfr_Name": "A-BAR-D MFG.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES",
+            "Mfr_ID": 1193,
+            "Mfr_Name": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "CANADA",
+            "Mfr_CommonName": "Matrixx Specialized Trailers",
+            "Mfr_ID": 1196,
+            "Mfr_Name": "2231545 ONTARIO INC. DBA MATRIXX SPECIALIZED TRAILERS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Trailers",
+            "Mfr_ID": 1199,
+            "Mfr_Name": "COUNTRY TRAILERS LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Crary Agricultural",
+            "Mfr_ID": 1202,
+            "Mfr_Name": "CRARY AGRICULTURAL SOLUTIONS, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1207,
+            "Mfr_Name": "CREATIVE COACHWORKS, INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1218,
+            "Mfr_Name": "CUSTOM CYCLE STUDIO LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "C.D.M.",
+            "Mfr_ID": 1219,
+            "Mfr_Name": "CUSTOM DESIGN MANUFACTURING",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Custom Mobile Designs",
+            "Mfr_ID": 1228,
+            "Mfr_Name": "CUSTOM MOBILE DESIGNS LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Custom Pits and Fabrication",
+            "Mfr_ID": 1229,
+            "Mfr_Name": "CUSTOM PITS AND FABRICATION LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1244,
+            "Mfr_Name": "MARKET DIRECT CAMPERS\/MDC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Count's Kustoms",
+            "Mfr_ID": 1246,
+            "Mfr_Name": "COUNT'S KUSTOMS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Copper River Fabricators",
+            "Mfr_ID": 1247,
+            "Mfr_Name": "COPPER RIVER FABRICATORS, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Coras Trailers",
+            "Mfr_ID": 1250,
+            "Mfr_Name": "CORAS TRAILER MANUFACTURING, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1254,
+            "Mfr_Name": "CORNELIUS MANUFACTURING, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "American Made",
+            "Mfr_ID": 1255,
+            "Mfr_Name": "AMERICAN MADE",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1256,
+            "Mfr_Name": "AMERICAN MANUFACTURING OPERATIONS, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1265,
+            "Mfr_Name": "COTNER TRAILERS, INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "CRONKHITE",
+            "Mfr_ID": 1290,
+            "Mfr_Name": "CRONKHITE INDUSTRIES, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Coyote",
+            "Mfr_ID": 1296,
+            "Mfr_Name": "COYOTE MFG CO",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1298,
+            "Mfr_Name": "CROSS CLEANING SOLUTIONS, LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1302,
+            "Mfr_Name": "TIM NOBLES TRAILERS and Repair LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1305,
+            "Mfr_Name": "TOP NOTCH TRAILER Manufacturing, Inc.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1308,
+            "Mfr_Name": "CSC MOTORCYCLES INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1318,
+            "Mfr_Name": "AFFORDABLE TRAILERS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1341,
+            "Mfr_Name": "TMP TRUCK & TRAILER",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "SWEDEN",
+            "Mfr_CommonName": "Koenigsegg",
+            "Mfr_ID": 1344,
+            "Mfr_Name": "KOENIGSEGG AUTOMOTIVE AB",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Passenger Car"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1347,
+            "Mfr_Name": "DYMAC VEHICLE GROUP, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Low Speed Vehicle (LSV)"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1351,
+            "Mfr_Name": "MID SOUTH DISTRIBUTION SERVICES",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1352,
+            "Mfr_Name": "IMPACT HYDRAULIC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1359,
+            "Mfr_Name": "KEIZER MORRIS INTERNATIONAL, INC. DBA KM INTERNATIONAL",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1361,
+            "Mfr_Name": "LIBERATOR TRIKES LLC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Motorcycle"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1379,
+            "Mfr_Name": "WILKENS MANUFACTURING",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1402,
+            "Mfr_Name": "E. T. & T. ENTERPRISES dba HOLLAND METAL FAB., INC",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1404,
+            "Mfr_Name": "GREEN VALLEY PRODUCTS",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        },
+        {
+            "Country": "CANADA",
+            "Mfr_CommonName": null,
+            "Mfr_ID": 1410,
+            "Mfr_Name": "SIGNALISATION VER-MAC INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": false,
+                    "Name": "Trailer"
+                }
+            ]
+        }
+    ]
+}

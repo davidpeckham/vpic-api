@@ -1,0 +1,114 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetManufacturerDetails/988?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 1,
+        "Message": "Response returned successfully",
+        "SearchCriteria": null,
+        "Results": [
+            {
+                "Address": "1919 Torrance Blvd.",
+                "Address2": null,
+                "City": "Torrance",
+                "ContactEmail": "jeff_chang@ahm.honda.com",
+                "ContactFax": null,
+                "ContactPhone": "(310)783-3401",
+                "Country": "UNITED STATES (USA)",
+                "DBAs": "Marysville Auto Plant and East Liberty Auto Plant; Alabama Auto Plant; Indiana Auto Plant",
+                "EquipmentItems": [],
+                "LastUpdated": "\/Date(1618422117803-0400)\/",
+                "ManufacturerTypes": [
+                    {
+                        "Name": "Completed Vehicle Manufacturer"
+                    }
+                ],
+                "Mfr_CommonName": "Honda",
+                "Mfr_ID": 988,
+                "Mfr_Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "OtherManufacturerDetails": null,
+                "PostalCode": "90501",
+                "PrimaryProduct": null,
+                "PrincipalFirstName": "Shinji Aoyama",
+                "PrincipalLastName": null,
+                "PrincipalPosition": "President & CEO",
+                "StateProvince": "CALIFORNIA",
+                "SubmittedName": "Wilson Tran",
+                "SubmittedOn": "\/Date(1618286400000-0400)\/",
+                "SubmittedPosition": "Sr. Specialist, II",
+                "VehicleTypes": [
+                    {
+                        "GVWRFrom": "Class 1A: 3,000 lb or less (1,360 kg or less)",
+                        "GVWRTo": "Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)",
+                        "IsPrimary": true,
+                        "Name": "Passenger Car"
+                    },
+                    {
+                        "GVWRFrom": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+                        "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+                        "IsPrimary": false,
+                        "Name": "Truck "
+                    },
+                    {
+                        "GVWRFrom": "Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)",
+                        "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+                        "IsPrimary": false,
+                        "Name": "Multipurpose Passenger Vehicle (MPV)"
+                    }
+                ]
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Address": "1919 Torrance Blvd.",
+            "Address2": null,
+            "City": "Torrance",
+            "ContactEmail": "jeff_chang@ahm.honda.com",
+            "ContactFax": null,
+            "ContactPhone": "(310)783-3401",
+            "Country": "UNITED STATES (USA)",
+            "DBAs": "Marysville Auto Plant and East Liberty Auto Plant; Alabama Auto Plant; Indiana Auto Plant",
+            "EquipmentItems": [],
+            "LastUpdated": "\/Date(1618422117803-0400)\/",
+            "ManufacturerTypes": [
+                {
+                    "Name": "Completed Vehicle Manufacturer"
+                }
+            ],
+            "Mfr_CommonName": "Honda",
+            "Mfr_ID": 988,
+            "Mfr_Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "OtherManufacturerDetails": null,
+            "PostalCode": "90501",
+            "PrimaryProduct": null,
+            "PrincipalFirstName": "Shinji Aoyama",
+            "PrincipalLastName": null,
+            "PrincipalPosition": "President & CEO",
+            "StateProvince": "CALIFORNIA",
+            "SubmittedName": "Wilson Tran",
+            "SubmittedOn": "\/Date(1618286400000-0400)\/",
+            "SubmittedPosition": "Sr. Specialist, II",
+            "VehicleTypes": [
+                {
+                    "GVWRFrom": "Class 1A: 3,000 lb or less (1,360 kg or less)",
+                    "GVWRTo": "Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)",
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "GVWRFrom": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+                    "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+                    "IsPrimary": false,
+                    "Name": "Truck "
+                },
+                {
+                    "GVWRFrom": "Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)",
+                    "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            ]
+        }
+    ]
+}

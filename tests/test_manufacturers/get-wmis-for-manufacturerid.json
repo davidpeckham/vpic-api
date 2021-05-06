@@ -1,0 +1,414 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetWMIsForManufacturer/988?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 20,
+        "Message": "Response returned successfully",
+        "SearchCriteria": "Manufacturer: 988",
+        "Results": [
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-26",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Passenger Car",
+                "WMI": "1HG"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-26",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Passenger Car",
+                "WMI": "5KB"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-26",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Passenger Car",
+                "WMI": "19X"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2015-03-27",
+                "VehicleType": "Passenger Car",
+                "WMI": "19U"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5J6"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2015-03-27",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5J8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Truck ",
+                "WMI": "5J7"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Truck ",
+                "WMI": "5J0"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Passenger Car",
+                "WMI": "5KC"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5FN"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5FR"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Truck ",
+                "WMI": "5FP"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Truck ",
+                "WMI": "5FS"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-03",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Motorcycle",
+                "WMI": "1HF"
+            },
+            {
+                "Country": "BELGIUM",
+                "CreatedOn": "2015-04-03",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2016-07-08",
+                "VehicleType": "Motorcycle",
+                "WMI": "YC1"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-21",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Passenger Car",
+                "WMI": "19V"
+            },
+            {
+                "Country": "ITALY",
+                "CreatedOn": "2015-06-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Motorcycle",
+                "WMI": "ZDC"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-06-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Motorcycle",
+                "WMI": "LWB"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-06-08",
+                "DateAvailableToPublic": "2016-06-08",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Motorcycle",
+                "WMI": "478"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-03-09",
+                "DateAvailableToPublic": "2017-03-09",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "7FA"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-26",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Passenger Car",
+            "WMI": "1HG"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-26",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Passenger Car",
+            "WMI": "5KB"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-26",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Passenger Car",
+            "WMI": "19X"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2015-03-27",
+            "VehicleType": "Passenger Car",
+            "WMI": "19U"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5J6"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2015-03-27",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5J8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Truck ",
+            "WMI": "5J7"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Truck ",
+            "WMI": "5J0"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Passenger Car",
+            "WMI": "5KC"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5FN"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5FR"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Truck ",
+            "WMI": "5FP"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Truck ",
+            "WMI": "5FS"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-03",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Motorcycle",
+            "WMI": "1HF"
+        },
+        {
+            "Country": "BELGIUM",
+            "CreatedOn": "2015-04-03",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2016-07-08",
+            "VehicleType": "Motorcycle",
+            "WMI": "YC1"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-21",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Passenger Car",
+            "WMI": "19V"
+        },
+        {
+            "Country": "ITALY",
+            "CreatedOn": "2015-06-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Motorcycle",
+            "WMI": "ZDC"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-06-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Motorcycle",
+            "WMI": "LWB"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-06-08",
+            "DateAvailableToPublic": "2016-06-08",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Motorcycle",
+            "WMI": "478"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-03-09",
+            "DateAvailableToPublic": "2017-03-09",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "7FA"
+        }
+    ]
+}

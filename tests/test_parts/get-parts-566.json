@@ -1,0 +1,344 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetParts?type=566&fromDate=2016-02-01&toDate=2016-02-15&page=1&format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 15,
+        "Message": "Results returned successfully",
+        "SearchCriteria": "Type: 566 | From Date: 2\/1\/2016 | To Date: 2\/15\/2016",
+        "Results": [
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/15\/2016",
+                "ManufacturerId": 14569,
+                "ManufacturerName": "COGBURN & COGBURN LLC",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12482",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/9a1ab14e-88d3-4db9-81be-e3cba2ad89f4"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/15\/2016",
+                "ManufacturerId": 14711,
+                "ManufacturerName": "Release Industrial Technology LLC",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12543",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/b6fa50df-1789-4656-a435-fc4129b696a1"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/15\/2016",
+                "ManufacturerId": 15083,
+                "ManufacturerName": "RIZHAO YOUNAI TIRES CO., LTD.",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12793",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/c95e463b-c6ac-4a75-9471-b29fe1fe672a"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/11\/2016",
+                "ManufacturerId": 15262,
+                "ManufacturerName": "TOKAI RIKA CO., LTD.",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG13654",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/2dc388d7-c686-4ba7-b097-8d3bc12b4533"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/11\/2016",
+                "ManufacturerId": 6329,
+                "ManufacturerName": "MASTIFF TRAILERS",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12561",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/7c286b20-04bb-433d-bf57-4f29f1854952"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/11\/2016",
+                "ManufacturerId": 14712,
+                "ManufacturerName": "THE DOLOMITE GROUP",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12544",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/6b2dd87b-2033-4da4-8dce-1f6d6c617d24"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/10\/2016",
+                "ManufacturerId": 14699,
+                "ManufacturerName": "Elite Metal Perfomance, LLC",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12529",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/2673ee28-24ac-4be5-bb54-f5af7516598c"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/10\/2016",
+                "ManufacturerId": 14503,
+                "ManufacturerName": "TROJAN IND. INC",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12463",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/fff824ba-1387-46bf-879d-82fa86b407c7"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/10\/2016",
+                "ManufacturerId": 14555,
+                "ManufacturerName": "APPLE GLASS PERUANA S.A.C",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12472",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/3c8096c4-ea31-4512-8d83-d41390f1f89a"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/10\/2016",
+                "ManufacturerId": 14564,
+                "ManufacturerName": "CONSTRUCTORA DHAP, S.A. DE C.V.",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12480",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/e882e2ae-042e-4f17-948f-da339b4544fb"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/9\/2016",
+                "ManufacturerId": 2952,
+                "ManufacturerName": "TENNESSEE TRAILERS INC.",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12557",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/c8a468b0-4b0c-4604-9310-53c6c7da5b34"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/5\/2016",
+                "ManufacturerId": 14421,
+                "ManufacturerName": "TUFF BUILT PRODUCTS INC.",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12454",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/601825d9-a1c1-4991-a113-50891d4fb2ed"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/5\/2016",
+                "ManufacturerId": 14708,
+                "ManufacturerName": "Gardner Cryogenics, A Dept. of Air Products & Chemicals, Inc.",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12536",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/04a7f9c5-adec-4f47-8c92-3f10064fc261"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/4\/2016",
+                "ManufacturerId": 958,
+                "ManufacturerName": "JAGUAR LAND ROVER NA, LLC",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12556",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/7e070271-9c54-40a0-a1cd-e734403cdab8"
+            },
+            {
+                "CoverLetterURL": "",
+                "LetterDate": "2\/4\/2016",
+                "ManufacturerId": 14701,
+                "ManufacturerName": "Wabtee Global Services",
+                "ModelYearFrom": null,
+                "ModelYearTo": null,
+                "Name": "ORG12532",
+                "Type": null,
+                "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/39a4b336-2a9e-4872-8aea-a991f87f2fe6"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/15\/2016",
+            "ManufacturerId": 14569,
+            "ManufacturerName": "COGBURN & COGBURN LLC",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12482",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/9a1ab14e-88d3-4db9-81be-e3cba2ad89f4"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/15\/2016",
+            "ManufacturerId": 14711,
+            "ManufacturerName": "Release Industrial Technology LLC",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12543",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/b6fa50df-1789-4656-a435-fc4129b696a1"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/15\/2016",
+            "ManufacturerId": 15083,
+            "ManufacturerName": "RIZHAO YOUNAI TIRES CO., LTD.",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12793",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/c95e463b-c6ac-4a75-9471-b29fe1fe672a"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/11\/2016",
+            "ManufacturerId": 15262,
+            "ManufacturerName": "TOKAI RIKA CO., LTD.",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG13654",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/2dc388d7-c686-4ba7-b097-8d3bc12b4533"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/11\/2016",
+            "ManufacturerId": 6329,
+            "ManufacturerName": "MASTIFF TRAILERS",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12561",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/7c286b20-04bb-433d-bf57-4f29f1854952"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/11\/2016",
+            "ManufacturerId": 14712,
+            "ManufacturerName": "THE DOLOMITE GROUP",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12544",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/6b2dd87b-2033-4da4-8dce-1f6d6c617d24"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/10\/2016",
+            "ManufacturerId": 14699,
+            "ManufacturerName": "Elite Metal Perfomance, LLC",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12529",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/2673ee28-24ac-4be5-bb54-f5af7516598c"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/10\/2016",
+            "ManufacturerId": 14503,
+            "ManufacturerName": "TROJAN IND. INC",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12463",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/fff824ba-1387-46bf-879d-82fa86b407c7"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/10\/2016",
+            "ManufacturerId": 14555,
+            "ManufacturerName": "APPLE GLASS PERUANA S.A.C",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12472",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/3c8096c4-ea31-4512-8d83-d41390f1f89a"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/10\/2016",
+            "ManufacturerId": 14564,
+            "ManufacturerName": "CONSTRUCTORA DHAP, S.A. DE C.V.",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12480",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/e882e2ae-042e-4f17-948f-da339b4544fb"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/9\/2016",
+            "ManufacturerId": 2952,
+            "ManufacturerName": "TENNESSEE TRAILERS INC.",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12557",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/c8a468b0-4b0c-4604-9310-53c6c7da5b34"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/5\/2016",
+            "ManufacturerId": 14421,
+            "ManufacturerName": "TUFF BUILT PRODUCTS INC.",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12454",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/601825d9-a1c1-4991-a113-50891d4fb2ed"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/5\/2016",
+            "ManufacturerId": 14708,
+            "ManufacturerName": "Gardner Cryogenics, A Dept. of Air Products & Chemicals, Inc.",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12536",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/04a7f9c5-adec-4f47-8c92-3f10064fc261"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/4\/2016",
+            "ManufacturerId": 958,
+            "ManufacturerName": "JAGUAR LAND ROVER NA, LLC",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12556",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/7e070271-9c54-40a0-a1cd-e734403cdab8"
+        },
+        {
+            "CoverLetterURL": "",
+            "LetterDate": "2\/4\/2016",
+            "ManufacturerId": 14701,
+            "ManufacturerName": "Wabtee Global Services",
+            "ModelYearFrom": null,
+            "ModelYearTo": null,
+            "Name": "ORG12532",
+            "Type": null,
+            "URL": "http:\/\/vpic.nhtsa.dot.gov\/mid\/home\/displayfile\/39a4b336-2a9e-4872-8aea-a991f87f2fe6"
+        }
+    ]
+}

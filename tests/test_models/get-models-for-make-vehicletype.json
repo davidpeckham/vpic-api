@@ -1,0 +1,94 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/TESLA/vehicletype/Car?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 5,
+        "Message": "Results returned successfully",
+        "SearchCriteria": "Make:TESLA | VehicleType:Car",
+        "Results": [
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 1685,
+                "Model_Name": "Model S",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 2071,
+                "Model_Name": "Roadster",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 10199,
+                "Model_Name": "Model X",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 17834,
+                "Model_Name": "Model 3",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 27027,
+                "Model_Name": "Model Y",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 1685,
+            "Model_Name": "Model S",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 2071,
+            "Model_Name": "Roadster",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 10199,
+            "Model_Name": "Model X",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 17834,
+            "Model_Name": "Model 3",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 27027,
+            "Model_Name": "Model Y",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        }
+    ]
+}

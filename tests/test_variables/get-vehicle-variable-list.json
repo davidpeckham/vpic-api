@@ -1,0 +1,1634 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleVariableList?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 135,
+        "Message": "Results returned successfully",
+        "SearchCriteria": null,
+        "Results": [
+            {
+                "DataType": "string",
+                "Description": "<p>Any other battery information that does not belong to any of the battery related fields.</p>",
+                "ID": 1,
+                "Name": "Other Battery Info"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Battery type field stores the battery chemistry type for anode, cathode.</p>",
+                "ID": 2,
+                "Name": "Battery Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Bed type is the type of bed (the open back) used for pickup trucks. The common values are standard, short, long, extended.</p>",
+                "ID": 3,
+                "Name": "Bed Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Cab type applies to both pickup truck and other medium and heavy duty trucks. The cab or cabin of a truck is the inside space in a truck where the driver is seated. For pickup trucks, the cab type is categorized by the combination number of doors and number of rows for seating. For medium and heavy duty trucks (MDHD), the cab type is categorized by the relative location of engine and cab.</p><p>For pickup trucks, there are 4 cab types:</p><ul><li>Regular: 2 door, 1 row of seats</li><li>Extra/Super/Quad/Double/King/Extended: 2 doors, 2 row of seats</li><li>Crew/Super Crew/Crew Max: 4 doors, 2 rows of seats</li><li>Mega: 4 doors, 2 rows of seats (with a bigger cabin than crew cab type)</li></ul><p>For medium and heavy duty (MDHD) trucks, there are several categories as listed below:</p><ul><li>Cab Beside Engine</li><li>CAE: Cab Above Engine</li><li>CBE: Cab Behind Engine</li><li>COE: Cab Over Engine or flat nose: Driver sits on top of the front axle and engine</li><li>LCF: Low Cab Forward</li><li>Conventional: Driver sits behind the engine</li><li>Non Tilt</li><li>Tilt</li></ul>",
+                "ID": 4,
+                "Name": "Cab Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Body Class presents the Body Type, based on 49 CFR 565.12(b): \"Body type means the general configuration or shape of a vehicle distinguished by such characteristics as the number of doors or windows, cargo-carrying features and the roofline (e.g., sedan, fastback, hatchback).\" Definitions are not provided for individual Body Types in the regulation.</p>",
+                "ID": 5,
+                "Name": "Body Class"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This is a numerical field to store the number of cylinders in an engine. Common values for passenger cars are 4 or 6.</p>",
+                "ID": 9,
+                "Name": "Engine Number of Cylinders"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Destination Market is the market where the vehicle is intended to be sold.</p>",
+                "ID": 10,
+                "Name": "Destination Market"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Engine displacement (in cubic centimeters) is the volume swept by all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead center to bottom dead center.</p>",
+                "ID": 11,
+                "Name": "Displacement (CC)"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Engine displacement (in cubic inches) is the volume swept by all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead center to bottom dead center.</p>",
+                "ID": 12,
+                "Name": "Displacement (CI)"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Engine displacement (in liters) is the volume swept by all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead center to bottom dead center.</p>",
+                "ID": 13,
+                "Name": "Displacement (L)"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This is a numerical field to store the number of doors on a vehicle.</p>",
+                "ID": 14,
+                "Name": "Doors"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Drive type stores information about vehicle drivetrain configuration. The most common drive types for passenger cars, crossover vehicles and pickup trucks are front wheel drive (FWD), rear wheel drive (RWD), all-wheel drive (AWD) and 4-wheel drive (4WD).</p>",
+                "ID": 15,
+                "Name": "Drive Type"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Engine stroke cycle is a numerical field for the number of strokes used by an internal combustion engine to complete a power cycle.</p>",
+                "ID": 17,
+                "Name": "Engine Stroke Cycles"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Engine model is a name that a manufacture applies to a family of engine.</p>",
+                "ID": 18,
+                "Name": "Engine Model"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>This field stores engine power in kilowatts (KW).</p>",
+                "ID": 21,
+                "Name": "Engine Power (KW)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field defines the type of different entertainment systems in vehicles, such as CD+stereo, rear entertainment system, etc.</p>",
+                "ID": 23,
+                "Name": "Entertainment System"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Fuel type defines the fuel used to power the vehicle. For vehicles that have two power sources, such as plug-in hybrid vehicle, both primary fuel type and secondary fuel type will be provided.</p>",
+                "ID": 24,
+                "Name": "Fuel Type - Primary"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Gross Vehicle Weight Rating (GVWR) is the maximum operating weight of a vehicle including the vehicle's chassis, body, engine, engine fluids, fuel, accessories, driver, passengers and cargo, but excluding that of the trailers. As in 49 CFR 565.15, Class 1 is further broken down to Class A-D; Class 2 is further broken down to Class E-H. This field captures the lower bound of GVWR range for the vehicle.</p>",
+                "ID": 25,
+                "Name": "Gross Vehicle Weight Rating From"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>As per 49 CFR 565, Make is a name that a manufacturer applies to a group of vehicles or engines.</p>",
+                "ID": 26,
+                "Name": "Make"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "Name of the vehicle manufacturer.",
+                "ID": 27,
+                "Name": "Manufacturer Name"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>As per 49 CFR 565, Model means a name that a manufacturer applies to a family of vehicles of the same type, make, line, series and body type.</p>",
+                "ID": 28,
+                "Name": "Model"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>If a Model Year is supplied when the VIN is decoded, such as from a crash report or a vehicle registration record, the Model Year value will be the supplied Model Year, even if the Model Year decoded from the VIN differs from the supplied Model Year. If the Model Year is not supplied when the VIN is decoded, the Model Year value will be decoded from the tenth character in the VIN.</p>",
+                "ID": 29,
+                "Name": "Model Year"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>City of the manufacturing plant where the manufacturer affixes the VIN.</p>",
+                "ID": 31,
+                "Name": "Plant City"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>A numeric field to store the number of seats in a vehicle.</p>",
+                "ID": 33,
+                "Name": "Number of Seats"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>As per 49 CFR 565, Series means a name that a manufacturer applies to a subdivision of a \"line\" denoting price, size or weight identification and that is used by the manufacturer for marketing purposes.</p>",
+                "ID": 34,
+                "Name": "Series"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Defines the location of steering column, either on left (LHD) or right hand side (RHD).</p>",
+                "ID": 36,
+                "Name": "Steering Location"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Transmission style provides information about the type of transmissions. The major types of transmissions are manual transmission, automatic transmission, continuous variable transmission (CVT), and dual clutch transmission (DCT).</p> ",
+                "ID": 37,
+                "Name": "Transmission Style"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Trim levels further identify a vehicle by a particular set of special features. Higher trim levels either will add to the features of the base (entry-level model), or replace them with something else.</p>",
+                "ID": 38,
+                "Name": "Trim"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field defines the type of the vehicle based on the World Manufacturer Identifier (WMI).</p>",
+                "ID": 39,
+                "Name": "Vehicle Type"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field defines the number of windows on a vehicle.</p>",
+                "ID": 40,
+                "Name": "Windows"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This numerical field defines the number of axles on a vehicle.</p>",
+                "ID": 41,
+                "Name": "Axles"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Brake system type is the type of brake systems used to stop and hold the vehicle or combination of motor vehicles. The normal brake systems include hydraulic brake system, air brake system, air and hydraulic brake system.</p>",
+                "ID": 42,
+                "Name": "Brake System Type"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field stores the information about how battery cells are arranged for a vehicle.</p>",
+                "ID": 48,
+                "Name": "Number of Battery Cells per Module"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Defines the length of the pickup truck bed in inches.</p>",
+                "ID": 49,
+                "Name": "Bed Length (inches)"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>This field provides additional details about the brake system.</p>",
+                "ID": 52,
+                "Name": "Brake System Description"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Curb weight (in pounds) is the total weight of a vehicle with standard equipment, all necessary operating consumables such as motor oil, transmission oil, coolant, air conditioning refrigerant, and a full tank of fuel, while not loaded with either passengers or cargo.</p>",
+                "ID": 54,
+                "Name": "Curb Weight (pounds)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field captures the location of curtain air bags. Curtain airbags are side airbags that protect the head.</p>",
+                "ID": 55,
+                "Name": "Curtain Air Bag Locations"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field captures the location of seat cushion air bags. The seat cushion airbag is used as a supplement to the seat belts to help prevent the front passenger from sliding forward in the event of a front impact collision.</p>",
+                "ID": 56,
+                "Name": "Seat Cushion Air Bag Locations"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Battery Current (Amps) field stores the lower range value for battery current in the unit of ampere (Amps).</p>",
+                "ID": 57,
+                "Name": "Battery Current (Amps) From"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Battery Voltage (Volts) field stores the lower range value for battery voltage in the unit of Volts.</p>",
+                "ID": 58,
+                "Name": "Battery Voltage (Volts) From"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Battery Energy (kWh) field stores the lower range value of battery energy in the unit of kilowatt-hour (kWh).</p>",
+                "ID": 59,
+                "Name": "Battery Energy (KWh) From"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field describes the wheel base variations for some trucks and passenger cars, relative to other variants of the vehicle model. This field may have values such as short, standard, long, extra long or super long.</p>",
+                "ID": 60,
+                "Name": "Wheel Base Type"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>A numeric field to capture the number of rows of seats in a vehicle.</p>",
+                "ID": 61,
+                "Name": "Number of Seat Rows"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Valve train design defines engine camshaft design and control. Common values are single overhead cam (SOHC), dual overhead cam (DOHC), overhead valve (OHV), etc.</p>",
+                "ID": 62,
+                "Name": "Valve Train Design"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Transmission speed is a numerical field to capture the number of speeds for a transmission, such as 6 for a six-speed automatic or manual transmission.</p>",
+                "ID": 63,
+                "Name": "Transmission Speeds"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Engine configuration defines how engine cylinders are arranged. Common values are V6 for V-shaped arrangement, I4 or L4 for in-line arrangement.</p>",
+                "ID": 64,
+                "Name": "Engine Configuration"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field captures the location of frontal air bags. Frontal air bags are generally designed to deploy in \"moderate to severe\" frontal or near-frontal crashes.</p>",
+                "ID": 65,
+                "Name": "Front Air Bag Locations"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "Fuel type defines the fuel used to power the vehicle. For vehicles that have two power sources, such as plug-in hybrid vehicle, both primary fuel type and secondary fuel type will be provided.",
+                "ID": 66,
+                "Name": "Fuel Type - Secondary"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Fuel Delivery / Fuel Injection Type defines the mechanism through which Fuel is delivered to the engine. Some of the examples include Common Rail Direct Injection for diesel, Multiport Fuel Inject, etc.</p>",
+                "ID": 67,
+                "Name": "Fuel Delivery / Fuel Injection Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field captures the location of knee air bags. Knee airbags, which deploy from a car's lower dashboard, are meant to distribute impact forces on an occupant's legs in the case of a crash, thereby reducing leg injuries.</p>",
+                "ID": 69,
+                "Name": "Knee Air Bag Locations"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Engine Brake is the horsepower (hp) at the engine output shaft. This field has a high and low range.</p>",
+                "ID": 71,
+                "Name": "Engine Brake (hp) From"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>EV Drive Unit field stores Electric Vehicle (EV) motor configuration for single or dual motor.</p>",
+                "ID": 72,
+                "Name": "EV Drive Unit"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>The country of the manufacturing plant where the manufacturer affixes the VIN.</p>",
+                "ID": 75,
+                "Name": "Plant Country"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Name of the company that owns the manufacturing plant  where the manufacturer affixes the VIN.</p>",
+                "ID": 76,
+                "Name": "Plant Company Name"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>The State or Province name within the Plant Country of the manufacturing plant where the manufacturer affixes the VIN.</p>",
+                "ID": 77,
+                "Name": "Plant State"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A yes/no field that captures whether or not the vehicle has a pretensioner. A pretensioner, is a device designed to make seatbelts even more effective by removing the slack from a seatbelt as soon as a crash is detected or if the system senses excessive seatbelt tension on the driver's or passenger's seatbelt.</p>",
+                "ID": 78,
+                "Name": "Pretensioner"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field describes the type of seat belt, such as manual or automatic. Automatic seat belts are seat belts that automatically close over riders in a vehicle. Automatic seat belts were mainly used in some older model GM, Nissan and Honda vehicles and is rarely seen now.</p>",
+                "ID": 79,
+                "Name": "Seat Belts Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Adaptive cruise control (ACC) is similar to conventional cruise control in that it maintains the vehicle's pre-set speed. However, unlike conventional cruise control, this new system can automatically adjust speed in order to maintain a proper distance between vehicles in the same lane. This is achieved through a radar headway sensor, digital signal processor and longitudinal controller. If the lead vehicle slows down, or if another object is detected, the system sends a signal to the engine or braking system to decelerate. Then, when the road is clear, the system will re-accelerate the vehicle back to the set speed.</p>",
+                "ID": 81,
+                "Name": "Adaptive Cruise Control (ACC)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Antilock Brake System or ABS means a portion of a service brake system that automatically controls the degree of rotational wheel slip during braking by: (1) Sensing the rate of angular rotation of the wheels; (2) Transmitting signals regarding the rate of wheel angular rotation to one or more controlling devices which interpret those signals and generate responsive controlling output signals; and (3) Transmitting those controlling signals to one or more modulator devices which adjust brake actuating forces in response to those signals.</p>",
+                "ID": 86,
+                "Name": "Anti-lock Braking System (ABS)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Crash Imminent Braking (CIB) systems detect an impending forward crash with another vehicle in time to avoid or mitigate the crash. These systems automatically energize the brakes in crash imminent situation to slow or stop the car, avoiding the crash or reducing its severity if the driver does not respond at all to the warnings.</p>",
+                "ID": 87,
+                "Name": "Crash Imminent Braking (CIB)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A Blind Spot Detection (BSD) system uses digital camera imaging technology or radar sensor technology to detect one or more vehicles in either of the adjacent lanes that may not be apparent to the driver. The system warns the driver of an approaching vehicle's presence to help facilitate safe lane changes.</p>",
+                "ID": 88,
+                "Name": "Blind Spot Detection (BSD)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>An internal NHTSA field to capture the body type of the vehicle.</p>",
+                "ID": 96,
+                "Name": "NCSA Body Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>An internal NHTSA field to capture the Make of the vehicle.</p>",
+                "ID": 97,
+                "Name": "NCSA Make"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>An internal NHTSA field to capture the Model of the vehicle.</p>",
+                "ID": 98,
+                "Name": "NCSA Model"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Electronic Stability Control (ESC) helps drivers maintain control of their vehicle during extreme steering maneuvers by keeping the vehicle headed in the driver's intended direction, even when the vehicle nears or exceeds the limits of road traction. ESC has the following attributes: (1) That augments vehicle directional stability by applying and adjusting the vehicle brake torques individually to induce a correcting yaw moment to a vehicle; (2) That is computer controlled with the computer using a closed-loop algorithm to limit vehicle oversteer and to limit vehicle understeer; (3) That has a means to determine the vehicle's yaw rate and to estimate its side slip or side slip derivative with respect to time; (4) That has a means to monitor driver steering inputs; (5) That has an algorithm to determine the need, and a means to modify engine torque, as necessary, to assist the driver in maintaining control of the vehicle, and (6) That is operational over the full speed range of the vehicle (except at vehicle speeds less than 20 km/h (12.4 mph), when being driven in reverse, or during system initialization).</p>",
+                "ID": 99,
+                "Name": "Electronic Stability Control (ESC)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>When the traction control computer detects a driven wheel or wheels spinning significantly faster than another, it invokes an electronic control unit to apply brake friction to wheels spinning due to loss of traction. This braking action on slipping wheel(s) will cause power transfer to wheel with traction due to the mechanical action within the differential.</p>",
+                "ID": 100,
+                "Name": "Traction Control"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A forward collision warning (FCW) system monitors a vehicle's speed, the speed of the vehicle in front of it, and the distance between the vehicles. If vehicles get too close due to the speed of the rear vehicle, the FCW system will warn that driver of an impending crash so that the driver can apply the brakes or take evasive action, such as steering, to prevent a potential crash. FCW systems provide an audible, visual, haptic warning, or any combination thereof, to alert the driver of an FCW-equipped vehicle of a potential collision with another vehicle or vehicles in the anticipated forward pathway of the vehicle.</p>",
+                "ID": 101,
+                "Name": "Forward Collision Warning (FCW)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A lane departure warning (LDW) system is an advanced safety technology that alerts drivers when they drift out of their lanes without a turn signal or any control input indicating the lane departure is intentional.</p>",
+                "ID": 102,
+                "Name": "Lane Departure Warning (LDW)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Using lane monitoring technology, Lane Keeping Support (LKS) is an emerging safety technology that prevents drivers from unintentionally drifting out of their lanes. LKS systems use information provided by sensors in a lane departure warning system (LDW) system to determine whether a vehicle is about to move out of its lane of travel. If so, LKS activates by correcting the steering, braking or accelerating one or more of the wheels, or a combination of both, resulting in the vehicle returning to its intended lane of travel. If the technology applied is intended to keep the vehicle in the center of the lane, LKS will indicate this as Lane Centering.</p>",
+                "ID": 103,
+                "Name": "Lane Keeping Support (LKS)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A rearview visibility system (RVS) (includes the camera and the display), also known as a backup camera, is a safety technology designed to prevent back-over crashes and protect vulnerable children and senior citizens. By providing an image of the area behind the vehicle, backup cameras help drivers to view people and objects that may be behind the vehicle.</p>",
+                "ID": 104,
+                "Name": "Rear Visibility System (RVS)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A Parking Assist system implemented in a vehicle uses computer processors; back up cameras; surround view cameras; and/or sensors to assist with steering and potentially other functions during parking maneuvers. Drivers may be required to accelerate, brake, and/or select gear position. Some systems are capable of parallel and/or perpendicular parking. Drivers must constantly supervise this support feature and maintain responsibility for parking.</p>",
+                "ID": 105,
+                "Name": "Parking Assist"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field captures the location of side air bags. Side airbags are typically designed for one of three areas of added protection; chest/torso, head or a combination of the two.</p>",
+                "ID": 107,
+                "Name": "Side Air Bag Locations"
+            },
+            {
+                "DataType": "string",
+                "Description": "Captures additional information about Trim of the vehicle.",
+                "ID": 109,
+                "Name": "Trim2"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Captures additional information about Series of the vehicle.</p>",
+                "ID": 110,
+                "Name": "Series2"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Wheel Base is the distance between the centers of the front and rear wheels measured in inches. This field captures the lower range of the wheel base.</p>",
+                "ID": 111,
+                "Name": "Wheel Base (inches) From"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Wheel Base is the distance between the centers of the front and rear wheels measured in inches. This field captures the higher range of the wheel base.</p>",
+                "ID": 112,
+                "Name": "Wheel Base (inches) To"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Note is used to store any additional information that does not correspond to any of the specified fields on the interface. This is a \"catch-all\" element for systems other than for engine, restraint system, brake and battery. Engine, restraint system, brake and battery have their own note element.</p>",
+                "ID": 114,
+                "Name": "Note"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field captures the number of wheels on a vehicle.</p>",
+                "ID": 115,
+                "Name": "Number of Wheels"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Trailer Type Connection means the connector or tongue used for the trailers.</p>",
+                "ID": 116,
+                "Name": "Trailer Type Connection"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Trailer Body Type means the purpose of the trailer or how it is designed to be used.</p>",
+                "ID": 117,
+                "Name": "Trailer Body Type"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Trailer length is the length of the trailer in feet from the front of the connector to the end of the trailer.</p>",
+                "ID": 118,
+                "Name": "Trailer Length (feet)"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field captures the size of the front wheel in inches.</p>",
+                "ID": 119,
+                "Name": "Wheel Size Front (inches)"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field captures the size of the rear wheel in inches.</p>",
+                "ID": 120,
+                "Name": "Wheel Size Rear (inches)"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Other Restraint Info field is used to code additional information about restraint system that cannot be coded in any other restraint fields.</p>",
+                "ID": 121,
+                "Name": "Other Restraint System Info"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Cooling type defines the cooling system used to control the engine temperature. It can be either air cooled or water cooled.</p>",
+                "ID": 122,
+                "Name": "Cooling Type"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Engine Brake up to is the higher range of the horsepower (hp) at the engine output shaft.</p>",
+                "ID": 125,
+                "Name": "Engine Brake (hp) To"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Electrification level defines to what level the vehicle is powered by electric system. The common electric system configurations are mild hybrid, strong hybrid, plug-in hybrid, battery electric and fuel cell vehicles.</p><p>(1) Mild Hybrid is the system such as 12 Volt start-stop or 48 Volt Belt Integrator Starter Generator (BISG) system which uses an electric motor to add assisting power to the internal combustion engine. The system has features such as stop-start, power assist and mild level of generative braking features.</p><p>(2) Strong Hybrid vehicles are vehicles such as Toyota Prius which mainly consists of motors, conventional gasoline engine and battery, but the source of electrical charge for the battery power is provided by the conventional engine and/or regenerative braking.</p><p>(3) Plug-in Hybrid vehicles are vehicles such as Toyota Rav4 Prime which mainly consists of motors, conventional gasoline engine and battery. Plug-in hybrid vehicles are like strong hybrids, but they have a larger battery pack and can be charged with an external source of electricity by an Electric Vehicle Supply Equipment (EVSE).</p><p>(4) BEVs (Battery Electric Vehicles) are vehicles such as Tesla Model S or Nissan Leaf which have only a battery and electrical motor components and use electricity as the only power source.</p><p>(5) Fuel Cell Electric Vehicles (FCEVs) utilize a full electric drive platform but consume electricity generated by an onboard fuel cell and hydrogen fuel.</p>",
+                "ID": 126,
+                "Name": "Electrification Level"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>There are 3 levels of battery chargers currently. Level 1 and 2 are AC chargers; Level 3 is DC charger. Chargers at each level charges batteries with different voltage and current levels. Level 3 is the fast charging.</p><p>-Level 1</p><ul><li>AC charger.</li><li>In North America this typically means 16 Amps at 120 Volts delivering 1.9 kW of power.</li><li>In Europe it may be 13 or 16 Amps at 240 Volts delivering 3 kW of power.</li><li>The EV may incorporate a standard domestic power cord to connect the vehicle to a domestic socket outlet or a Level 1 charging station.</li></ul><p>-Level 2</p><ul><li>AC Charger.</li><li>It delivers up to 20 kW of power from either Single or Three Phase Alternating Current (AC) sources of 208-240Volts at up to 80Amps.</li></ul><p>-Level 3</p><ul><li>DC charging, or \"fast charging\".</li><li>To achieve very short charging times, Level 3 chargers supply very high currents of up to 400 Amps at voltages up to 600Volts DC delivering a maximum power of 240kW.</li></ul>",
+                "ID": 127,
+                "Name": "Charger Level"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Charger power stores the power of the charging circuit on board in kilowatts (kW).</p>",
+                "ID": 128,
+                "Name": "Charger Power (KW)"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>This is a catch-all field for storing additional engine information that does not fit in any of the other engine fields.</p>",
+                "ID": 129,
+                "Name": "Other Engine Info"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Battery Current (Amps) up to field stores the higher range value for battery current in the unit of ampere (Amps).</p>",
+                "ID": 132,
+                "Name": "Battery Current (Amps) To"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>Battery Voltage (Volts) up to field stores the higher range value for battery voltage in the unit of Volts.</p>",
+                "ID": 133,
+                "Name": "Battery Voltage (Volts) To"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Battery Energy (kWh) up to field stores the higher range value of battery energy in the unit of kilowatt-hour (kWh).</p>",
+                "ID": 134,
+                "Name": "Battery Energy (KWh) To"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Turbo is a yes/no field to identify whether the engine is turbo charged or not.</p>",
+                "ID": 135,
+                "Name": "Turbo"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>Base price of the vehicle is the cost of a new vehicle with only the standard  equipment and factory warranty. It is the cost without any optional packages.</p>",
+                "ID": 136,
+                "Name": "Base Price ($)"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field stores the information about how battery modules are arranged for a vehicle.</p>",
+                "ID": 137,
+                "Name": "Number of Battery Modules per Pack"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field stores the information about how battery packs are arranged for a vehicle.</p>",
+                "ID": 138,
+                "Name": "Number of Battery Packs per Vehicle"
+            },
+            {
+                "DataType": "int",
+                "Description": "Top Speed of the vehicle in miles per hour (MPH).",
+                "ID": 139,
+                "Name": "Top Speed (MPH)"
+            },
+            {
+                "DataType": "string",
+                "Description": "A suggested VIN is provided when there are errors in the VIN decode.",
+                "ID": 142,
+                "Name": "Suggested VIN"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Error Code is a numerical code that determines the nature of the error from VIN decode, and why it occurred.</p>",
+                "ID": 143,
+                "Name": "Error Code"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>A list of possible characters that can be used to replace the erratic characters in the VIN.</p>",
+                "ID": 144,
+                "Name": "Possible Values"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Axle configuration describes the placement of the axles in a vehicle. This field is mainly used for trucks. The common values for this field are Set Back Axle, Set Forward Axle and Tandem Axle.</p>",
+                "ID": 145,
+                "Name": "Axle Configuration"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>The manufacturer of the engine.</p>",
+                "ID": 146,
+                "Name": "Engine Manufacturer"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>This field captures the length of bus in feet.</p>",
+                "ID": 147,
+                "Name": "Bus Length (feet)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field defines the relative height of bus floor from the ground. Common values include normal, lift/raised, low floor and sleeper coach. Low floor refers to a bus deck that is accessible from the sidewalk with only a single step with a small height difference, caused solely by the difference between the bus deck and sidewalk. This is distinct from high/raised floor, a bus deck design that requires climbing one or more steps to access the interior floor that is placed at a higher height. A sleeper coach is a type of specially adapted coach which is designed for the passengers to sleep in.</p>",
+                "ID": 148,
+                "Name": "Bus Floor Configuration Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>This field defines the type of bus. Common types include commuter coach, double deck coach, tourist coach, urban bus, transit bus, entertainer coach and motorhome.</p>",
+                "ID": 149,
+                "Name": "Bus Type"
+            },
+            {
+                "DataType": "string",
+                "Description": "Additional information about bus is captured in this field.",
+                "ID": 150,
+                "Name": "Other Bus Info"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Defines the type of customized motorcycle, including values such as bagger, chopper, cruise, touring. Custom motorcycle type is provided by the manufacturer but not defined.</p>",
+                "ID": 151,
+                "Name": "Custom Motorcycle Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Defines the type of suspension in motorcycles, including values such as hardtail, softail, wing fork, etc. Motorcycle Suspension Type is provided by the manufacturer but not defined.</p>",
+                "ID": 152,
+                "Name": "Motorcycle Suspension Type"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Defines the type of motorcycle chassis, including values such as trike, reversed trike/autocycle, three wheeler, etc.</p>",
+                "ID": 153,
+                "Name": "Motorcycle Chassis Type"
+            },
+            {
+                "DataType": "string",
+                "Description": "Additional information about motorcycles is captured in this field.",
+                "ID": 154,
+                "Name": "Other Motorcycle Info"
+            },
+            {
+                "DataType": "string",
+                "Description": "Additional information about trailers is captured in this field.",
+                "ID": 155,
+                "Name": "Other Trailer Info"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>This field is to store the additional description of the error text.</p>",
+                "ID": 156,
+                "Name": "Additional Error Text"
+            },
+            {
+                "DataType": "decimal",
+                "Description": "<p>A vehicle's track, or track width, is the distance in inches between the center line of each of the two wheels on the same axle on any given vehicle.</p>",
+                "ID": 159,
+                "Name": "Track Width"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A tire-pressure monitoring system (TPMS) Type is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMS can be divided into two different types - direct and indirect. Direct TPMS employ pressure sensors on each wheel, either internal or external. The sensors physically measure the tire pressure in each tire and report it to the vehicle's instrument cluster or a corresponding monitor. Indirect TPMS do not use physical pressure sensors but measure air pressures by monitoring individual wheel rotational speeds and other signals available outside of the tire itself.</p>",
+                "ID": 168,
+                "Name": "Tire Pressure Monitoring System (TPMS) Type"
+            },
+            {
+                "DataType": "string",
+                "Description": "This field stores additional information about active safety systems in a vehicle.",
+                "ID": 169,
+                "Name": "Active Safety System Note"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Dynamic brake support (DBS) is a crash avoidance technology and works as an automatic emergency braking system that detects an impending forward crash with another vehicle. The systems first alert the driver to take corrective action and supplements the driver's braking to avoid the crash. If the driver brakes, but not hard enough to avoid the crash, DBS automatically supplements the driver's braking in an effort to avoid the crash.</p>",
+                "ID": 170,
+                "Name": "Dynamic Brake Support (DBS)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A pedestrian automatic emergency braking (PAEB) system-also known as frontal pedestrian impact mitigation braking-is an emerging safety technology that provides automatic braking for vehicles when pedestrians are in front of the vehicle and the driver has not acted to avoid a crash.</p>",
+                "ID": 171,
+                "Name": "Pedestrian Automatic Emergency Braking (PAEB)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Auto-Reverse System enables power windows and sunroofs on motor vehicles to automatically reverse direction when such power windows and panels detect an obstruction. This feature can prevent children and others from being trapped, injured, or killed by the power windows and sunroofs.</p>",
+                "ID": 172,
+                "Name": "Auto-Reverse System for Windows and Sunroofs"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Electric vehicle warning sounds are a series of sounds designed to alert pedestrians to the presence of electric drive vehicles such as hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) travelling at low speeds. Vehicles operating in all-electric mode produce less noise than traditional combustion engine vehicles and can make it more difficult for pedestrians, the blind, cyclists, and others, to be aware of their presence.</p>",
+                "ID": 173,
+                "Name": "Automatic Pedestrian Alerting Sound (for Hybrid and EV only)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Automatic Crash Notification (ACN) refers to a number of different systems that are capable of calling for help after a crash has occurred. The design and implementation of an ACN varies from one manufacturer to the next, but they typically make use of sensors in the vehicle to determine when a crash has occurred and the cellular phone network to call for help. AACN is the successor to ACN.</p>",
+                "ID": 174,
+                "Name": "Automatic Crash Notification (CAN) / Advanced Automatic Crash Notification (AACN)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Event Data Recorders (EDR) are devices installed in motor vehicles to record technical vehicle and occupant information for a brief period before, during, and after a triggering event, typically a crash or near-crash event. Sometimes referred to as \"black-box\" data, these data or event records can be valuable when analyzing and reconstructing a crash. Exponent engineers have the specialized training and technical knowledge required to integrate physical evidence with EDR data and produce a comprehensive vehicle crash reconstruction analysis.</p>",
+                "ID": 175,
+                "Name": "Event Data Recorder (EDR)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A keyless system permits starting a car without a physical key being inserted into an ignition. Instead, a small device known as a \"key fob\" transmits a code to a computer in the vehicle when the fob is within a certain close range. When the coded signal matches the code embedded in the vehicle's computer, a number of systems within the car are activated, including the starter system. This allows the car to be started by simply pressing a button on the dashboard while the key fob is left in a pocket or a purse. The vehicle is usually shut down by pushing the same button.</p>",
+                "ID": 176,
+                "Name": "Keyless Ignition"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Daytime Running Light (DRL) is an automotive lighting system on the front of a vehicle or bicycle, automatically switched on when the vehicle is in drive, emitting white, yellow, or amber light to increase the conspicuity of the vehicle during daylight conditions.</p>",
+                "ID": 177,
+                "Name": "Daytime Running Light (DRL)"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Low beam (dipped beam, passing beam, meeting beam) headlamps provide a distribution of light designed to provide adequate forward and lateral illumination with limits on light directed towards the eyes of other road users, to control glare. This beam is intended for use whenever other vehicles are present ahead. Halogen, High-Intensity Discharge (HID) and Light-Emitting Diode (LED) are the most common headlights on the market.</p>",
+                "ID": 178,
+                "Name": "Lower Beam Headlamp Light Source"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>A semiautomatic headlamp beam switching device is one which provides either automatic or manual control of beam switching at the option of the driver. When the control is automatic, the headlamps switch from the upper beam to the lower beam when illuminated by the headlamps on an approaching car and switch back to the upper beam when the road ahead is dark. When the control is manual, the driver may obtain either beam manually regardless of the condition of lights ahead of the vehicle.</p>",
+                "ID": 179,
+                "Name": "Semiautomatic Headlamp Beam Switching"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Adaptive driving beam is a type of front-lighting system that lets upper beam headlamps adapt their beam patterns to create shaded areas around oncoming and preceding vehicles to improve long-range visibility for the driver without causing discomfort, distraction, or glare to other road users.</p>",
+                "ID": 180,
+                "Name": "Adaptive Driving Beam (ADB)"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>SAE stands for the Society of Automotive Engineers. This field indicates the lower bound of intelligence level and automation capabilities of vehicles, ranking through 0 to 5, per SAE J3016 2018.</p>",
+                "ID": 181,
+                "Name": "SAE Automation Level From"
+            },
+            {
+                "DataType": "int",
+                "Description": "<p>SAE stands for the Society of Automotive Engineers. This field indicates the higher bound of intelligence level and automation capabilities of vehicles, ranking through 0 to 5, per SAE J3016 2018.</p>",
+                "ID": 182,
+                "Name": "SAE Automation Level To"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Rear cross-traffic alert can help drivers when backing out from a parking space. When the vehicle is in reverse and the speed is less than 5 MPH, this system is designed to detect other automobiles approaching between 5 and 18 MPH from the right or left rear of the vehicle.</p>",
+                "ID": 183,
+                "Name": "Rear Cross Traffic Alert"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Gross Combination Weight Rating (GCWR) is the maximum allowable combined mass of a road vehicle, the passengers and cargo in the tow vehicle, plus the mass of the trailer and cargo in the trailer. This rating is set by the vehicle manufacturer. This field captures the lower bound of GCWR range for the vehicle.</p>",
+                "ID": 184,
+                "Name": "Gross Combination Weight Rating From"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Gross Combination Weight Rating (GCWR) is the maximum allowable combined mass of a road vehicle, the passengers and cargo in the tow vehicle, plus the mass of the trailer and cargo in the trailer. This rating is set by the vehicle manufacturer. This field captures the higher bound of GCWR range for the vehicle.</p>",
+                "ID": 185,
+                "Name": "Gross Combination Weight Rating To"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>This internal field is to note the logic behind the NCSA mapping in special cases.</p>",
+                "ID": 186,
+                "Name": "NCSA Note"
+            },
+            {
+                "DataType": "lookup",
+                "Description": "<p>Gross Vehicle Weight Rating (GVWR) is the maximum operating weight of a vehicle including the vehicle's chassis, body, engine, engine fluids, fuel, accessories, driver, passengers and cargo, but excluding that of the trailers. As in 49 CFR 565.15, Class 1 is further broken down to Class A-D; Class 2 is further broken down to Class E-H. This field captures the higher bound of GVWR range for the vehicle.</p>",
+                "ID": 190,
+                "Name": "Gross Vehicle Weight Rating To"
+            },
+            {
+                "DataType": "string",
+                "Description": "<p>Error Text</p>",
+                "ID": 191,
+                "Name": "Error Text"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "DataType": "string",
+            "Description": "<p>Any other battery information that does not belong to any of the battery related fields.</p>",
+            "ID": 1,
+            "Name": "Other Battery Info"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Battery type field stores the battery chemistry type for anode, cathode.</p>",
+            "ID": 2,
+            "Name": "Battery Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Bed type is the type of bed (the open back) used for pickup trucks. The common values are standard, short, long, extended.</p>",
+            "ID": 3,
+            "Name": "Bed Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Cab type applies to both pickup truck and other medium and heavy duty trucks. The cab or cabin of a truck is the inside space in a truck where the driver is seated. For pickup trucks, the cab type is categorized by the combination number of doors and number of rows for seating. For medium and heavy duty trucks (MDHD), the cab type is categorized by the relative location of engine and cab.</p><p>For pickup trucks, there are 4 cab types:</p><ul><li>Regular: 2 door, 1 row of seats</li><li>Extra/Super/Quad/Double/King/Extended: 2 doors, 2 row of seats</li><li>Crew/Super Crew/Crew Max: 4 doors, 2 rows of seats</li><li>Mega: 4 doors, 2 rows of seats (with a bigger cabin than crew cab type)</li></ul><p>For medium and heavy duty (MDHD) trucks, there are several categories as listed below:</p><ul><li>Cab Beside Engine</li><li>CAE: Cab Above Engine</li><li>CBE: Cab Behind Engine</li><li>COE: Cab Over Engine or flat nose: Driver sits on top of the front axle and engine</li><li>LCF: Low Cab Forward</li><li>Conventional: Driver sits behind the engine</li><li>Non Tilt</li><li>Tilt</li></ul>",
+            "ID": 4,
+            "Name": "Cab Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Body Class presents the Body Type, based on 49 CFR 565.12(b): \"Body type means the general configuration or shape of a vehicle distinguished by such characteristics as the number of doors or windows, cargo-carrying features and the roofline (e.g., sedan, fastback, hatchback).\" Definitions are not provided for individual Body Types in the regulation.</p>",
+            "ID": 5,
+            "Name": "Body Class"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This is a numerical field to store the number of cylinders in an engine. Common values for passenger cars are 4 or 6.</p>",
+            "ID": 9,
+            "Name": "Engine Number of Cylinders"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Destination Market is the market where the vehicle is intended to be sold.</p>",
+            "ID": 10,
+            "Name": "Destination Market"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Engine displacement (in cubic centimeters) is the volume swept by all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead center to bottom dead center.</p>",
+            "ID": 11,
+            "Name": "Displacement (CC)"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Engine displacement (in cubic inches) is the volume swept by all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead center to bottom dead center.</p>",
+            "ID": 12,
+            "Name": "Displacement (CI)"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Engine displacement (in liters) is the volume swept by all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead center to bottom dead center.</p>",
+            "ID": 13,
+            "Name": "Displacement (L)"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This is a numerical field to store the number of doors on a vehicle.</p>",
+            "ID": 14,
+            "Name": "Doors"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Drive type stores information about vehicle drivetrain configuration. The most common drive types for passenger cars, crossover vehicles and pickup trucks are front wheel drive (FWD), rear wheel drive (RWD), all-wheel drive (AWD) and 4-wheel drive (4WD).</p>",
+            "ID": 15,
+            "Name": "Drive Type"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Engine stroke cycle is a numerical field for the number of strokes used by an internal combustion engine to complete a power cycle.</p>",
+            "ID": 17,
+            "Name": "Engine Stroke Cycles"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Engine model is a name that a manufacture applies to a family of engine.</p>",
+            "ID": 18,
+            "Name": "Engine Model"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>This field stores engine power in kilowatts (KW).</p>",
+            "ID": 21,
+            "Name": "Engine Power (KW)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field defines the type of different entertainment systems in vehicles, such as CD+stereo, rear entertainment system, etc.</p>",
+            "ID": 23,
+            "Name": "Entertainment System"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Fuel type defines the fuel used to power the vehicle. For vehicles that have two power sources, such as plug-in hybrid vehicle, both primary fuel type and secondary fuel type will be provided.</p>",
+            "ID": 24,
+            "Name": "Fuel Type - Primary"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Gross Vehicle Weight Rating (GVWR) is the maximum operating weight of a vehicle including the vehicle's chassis, body, engine, engine fluids, fuel, accessories, driver, passengers and cargo, but excluding that of the trailers. As in 49 CFR 565.15, Class 1 is further broken down to Class A-D; Class 2 is further broken down to Class E-H. This field captures the lower bound of GVWR range for the vehicle.</p>",
+            "ID": 25,
+            "Name": "Gross Vehicle Weight Rating From"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>As per 49 CFR 565, Make is a name that a manufacturer applies to a group of vehicles or engines.</p>",
+            "ID": 26,
+            "Name": "Make"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "Name of the vehicle manufacturer.",
+            "ID": 27,
+            "Name": "Manufacturer Name"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>As per 49 CFR 565, Model means a name that a manufacturer applies to a family of vehicles of the same type, make, line, series and body type.</p>",
+            "ID": 28,
+            "Name": "Model"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>If a Model Year is supplied when the VIN is decoded, such as from a crash report or a vehicle registration record, the Model Year value will be the supplied Model Year, even if the Model Year decoded from the VIN differs from the supplied Model Year. If the Model Year is not supplied when the VIN is decoded, the Model Year value will be decoded from the tenth character in the VIN.</p>",
+            "ID": 29,
+            "Name": "Model Year"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>City of the manufacturing plant where the manufacturer affixes the VIN.</p>",
+            "ID": 31,
+            "Name": "Plant City"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>A numeric field to store the number of seats in a vehicle.</p>",
+            "ID": 33,
+            "Name": "Number of Seats"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>As per 49 CFR 565, Series means a name that a manufacturer applies to a subdivision of a \"line\" denoting price, size or weight identification and that is used by the manufacturer for marketing purposes.</p>",
+            "ID": 34,
+            "Name": "Series"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Defines the location of steering column, either on left (LHD) or right hand side (RHD).</p>",
+            "ID": 36,
+            "Name": "Steering Location"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Transmission style provides information about the type of transmissions. The major types of transmissions are manual transmission, automatic transmission, continuous variable transmission (CVT), and dual clutch transmission (DCT).</p> ",
+            "ID": 37,
+            "Name": "Transmission Style"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Trim levels further identify a vehicle by a particular set of special features. Higher trim levels either will add to the features of the base (entry-level model), or replace them with something else.</p>",
+            "ID": 38,
+            "Name": "Trim"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field defines the type of the vehicle based on the World Manufacturer Identifier (WMI).</p>",
+            "ID": 39,
+            "Name": "Vehicle Type"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field defines the number of windows on a vehicle.</p>",
+            "ID": 40,
+            "Name": "Windows"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This numerical field defines the number of axles on a vehicle.</p>",
+            "ID": 41,
+            "Name": "Axles"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Brake system type is the type of brake systems used to stop and hold the vehicle or combination of motor vehicles. The normal brake systems include hydraulic brake system, air brake system, air and hydraulic brake system.</p>",
+            "ID": 42,
+            "Name": "Brake System Type"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field stores the information about how battery cells are arranged for a vehicle.</p>",
+            "ID": 48,
+            "Name": "Number of Battery Cells per Module"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Defines the length of the pickup truck bed in inches.</p>",
+            "ID": 49,
+            "Name": "Bed Length (inches)"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>This field provides additional details about the brake system.</p>",
+            "ID": 52,
+            "Name": "Brake System Description"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Curb weight (in pounds) is the total weight of a vehicle with standard equipment, all necessary operating consumables such as motor oil, transmission oil, coolant, air conditioning refrigerant, and a full tank of fuel, while not loaded with either passengers or cargo.</p>",
+            "ID": 54,
+            "Name": "Curb Weight (pounds)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field captures the location of curtain air bags. Curtain airbags are side airbags that protect the head.</p>",
+            "ID": 55,
+            "Name": "Curtain Air Bag Locations"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field captures the location of seat cushion air bags. The seat cushion airbag is used as a supplement to the seat belts to help prevent the front passenger from sliding forward in the event of a front impact collision.</p>",
+            "ID": 56,
+            "Name": "Seat Cushion Air Bag Locations"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Battery Current (Amps) field stores the lower range value for battery current in the unit of ampere (Amps).</p>",
+            "ID": 57,
+            "Name": "Battery Current (Amps) From"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Battery Voltage (Volts) field stores the lower range value for battery voltage in the unit of Volts.</p>",
+            "ID": 58,
+            "Name": "Battery Voltage (Volts) From"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Battery Energy (kWh) field stores the lower range value of battery energy in the unit of kilowatt-hour (kWh).</p>",
+            "ID": 59,
+            "Name": "Battery Energy (KWh) From"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field describes the wheel base variations for some trucks and passenger cars, relative to other variants of the vehicle model. This field may have values such as short, standard, long, extra long or super long.</p>",
+            "ID": 60,
+            "Name": "Wheel Base Type"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>A numeric field to capture the number of rows of seats in a vehicle.</p>",
+            "ID": 61,
+            "Name": "Number of Seat Rows"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Valve train design defines engine camshaft design and control. Common values are single overhead cam (SOHC), dual overhead cam (DOHC), overhead valve (OHV), etc.</p>",
+            "ID": 62,
+            "Name": "Valve Train Design"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Transmission speed is a numerical field to capture the number of speeds for a transmission, such as 6 for a six-speed automatic or manual transmission.</p>",
+            "ID": 63,
+            "Name": "Transmission Speeds"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Engine configuration defines how engine cylinders are arranged. Common values are V6 for V-shaped arrangement, I4 or L4 for in-line arrangement.</p>",
+            "ID": 64,
+            "Name": "Engine Configuration"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field captures the location of frontal air bags. Frontal air bags are generally designed to deploy in \"moderate to severe\" frontal or near-frontal crashes.</p>",
+            "ID": 65,
+            "Name": "Front Air Bag Locations"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "Fuel type defines the fuel used to power the vehicle. For vehicles that have two power sources, such as plug-in hybrid vehicle, both primary fuel type and secondary fuel type will be provided.",
+            "ID": 66,
+            "Name": "Fuel Type - Secondary"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Fuel Delivery / Fuel Injection Type defines the mechanism through which Fuel is delivered to the engine. Some of the examples include Common Rail Direct Injection for diesel, Multiport Fuel Inject, etc.</p>",
+            "ID": 67,
+            "Name": "Fuel Delivery / Fuel Injection Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field captures the location of knee air bags. Knee airbags, which deploy from a car's lower dashboard, are meant to distribute impact forces on an occupant's legs in the case of a crash, thereby reducing leg injuries.</p>",
+            "ID": 69,
+            "Name": "Knee Air Bag Locations"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Engine Brake is the horsepower (hp) at the engine output shaft. This field has a high and low range.</p>",
+            "ID": 71,
+            "Name": "Engine Brake (hp) From"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>EV Drive Unit field stores Electric Vehicle (EV) motor configuration for single or dual motor.</p>",
+            "ID": 72,
+            "Name": "EV Drive Unit"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>The country of the manufacturing plant where the manufacturer affixes the VIN.</p>",
+            "ID": 75,
+            "Name": "Plant Country"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Name of the company that owns the manufacturing plant  where the manufacturer affixes the VIN.</p>",
+            "ID": 76,
+            "Name": "Plant Company Name"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>The State or Province name within the Plant Country of the manufacturing plant where the manufacturer affixes the VIN.</p>",
+            "ID": 77,
+            "Name": "Plant State"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A yes/no field that captures whether or not the vehicle has a pretensioner. A pretensioner, is a device designed to make seatbelts even more effective by removing the slack from a seatbelt as soon as a crash is detected or if the system senses excessive seatbelt tension on the driver's or passenger's seatbelt.</p>",
+            "ID": 78,
+            "Name": "Pretensioner"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field describes the type of seat belt, such as manual or automatic. Automatic seat belts are seat belts that automatically close over riders in a vehicle. Automatic seat belts were mainly used in some older model GM, Nissan and Honda vehicles and is rarely seen now.</p>",
+            "ID": 79,
+            "Name": "Seat Belts Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Adaptive cruise control (ACC) is similar to conventional cruise control in that it maintains the vehicle's pre-set speed. However, unlike conventional cruise control, this new system can automatically adjust speed in order to maintain a proper distance between vehicles in the same lane. This is achieved through a radar headway sensor, digital signal processor and longitudinal controller. If the lead vehicle slows down, or if another object is detected, the system sends a signal to the engine or braking system to decelerate. Then, when the road is clear, the system will re-accelerate the vehicle back to the set speed.</p>",
+            "ID": 81,
+            "Name": "Adaptive Cruise Control (ACC)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Antilock Brake System or ABS means a portion of a service brake system that automatically controls the degree of rotational wheel slip during braking by: (1) Sensing the rate of angular rotation of the wheels; (2) Transmitting signals regarding the rate of wheel angular rotation to one or more controlling devices which interpret those signals and generate responsive controlling output signals; and (3) Transmitting those controlling signals to one or more modulator devices which adjust brake actuating forces in response to those signals.</p>",
+            "ID": 86,
+            "Name": "Anti-lock Braking System (ABS)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Crash Imminent Braking (CIB) systems detect an impending forward crash with another vehicle in time to avoid or mitigate the crash. These systems automatically energize the brakes in crash imminent situation to slow or stop the car, avoiding the crash or reducing its severity if the driver does not respond at all to the warnings.</p>",
+            "ID": 87,
+            "Name": "Crash Imminent Braking (CIB)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A Blind Spot Detection (BSD) system uses digital camera imaging technology or radar sensor technology to detect one or more vehicles in either of the adjacent lanes that may not be apparent to the driver. The system warns the driver of an approaching vehicle's presence to help facilitate safe lane changes.</p>",
+            "ID": 88,
+            "Name": "Blind Spot Detection (BSD)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>An internal NHTSA field to capture the body type of the vehicle.</p>",
+            "ID": 96,
+            "Name": "NCSA Body Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>An internal NHTSA field to capture the Make of the vehicle.</p>",
+            "ID": 97,
+            "Name": "NCSA Make"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>An internal NHTSA field to capture the Model of the vehicle.</p>",
+            "ID": 98,
+            "Name": "NCSA Model"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Electronic Stability Control (ESC) helps drivers maintain control of their vehicle during extreme steering maneuvers by keeping the vehicle headed in the driver's intended direction, even when the vehicle nears or exceeds the limits of road traction. ESC has the following attributes: (1) That augments vehicle directional stability by applying and adjusting the vehicle brake torques individually to induce a correcting yaw moment to a vehicle; (2) That is computer controlled with the computer using a closed-loop algorithm to limit vehicle oversteer and to limit vehicle understeer; (3) That has a means to determine the vehicle's yaw rate and to estimate its side slip or side slip derivative with respect to time; (4) That has a means to monitor driver steering inputs; (5) That has an algorithm to determine the need, and a means to modify engine torque, as necessary, to assist the driver in maintaining control of the vehicle, and (6) That is operational over the full speed range of the vehicle (except at vehicle speeds less than 20 km/h (12.4 mph), when being driven in reverse, or during system initialization).</p>",
+            "ID": 99,
+            "Name": "Electronic Stability Control (ESC)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>When the traction control computer detects a driven wheel or wheels spinning significantly faster than another, it invokes an electronic control unit to apply brake friction to wheels spinning due to loss of traction. This braking action on slipping wheel(s) will cause power transfer to wheel with traction due to the mechanical action within the differential.</p>",
+            "ID": 100,
+            "Name": "Traction Control"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A forward collision warning (FCW) system monitors a vehicle's speed, the speed of the vehicle in front of it, and the distance between the vehicles. If vehicles get too close due to the speed of the rear vehicle, the FCW system will warn that driver of an impending crash so that the driver can apply the brakes or take evasive action, such as steering, to prevent a potential crash. FCW systems provide an audible, visual, haptic warning, or any combination thereof, to alert the driver of an FCW-equipped vehicle of a potential collision with another vehicle or vehicles in the anticipated forward pathway of the vehicle.</p>",
+            "ID": 101,
+            "Name": "Forward Collision Warning (FCW)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A lane departure warning (LDW) system is an advanced safety technology that alerts drivers when they drift out of their lanes without a turn signal or any control input indicating the lane departure is intentional.</p>",
+            "ID": 102,
+            "Name": "Lane Departure Warning (LDW)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Using lane monitoring technology, Lane Keeping Support (LKS) is an emerging safety technology that prevents drivers from unintentionally drifting out of their lanes. LKS systems use information provided by sensors in a lane departure warning system (LDW) system to determine whether a vehicle is about to move out of its lane of travel. If so, LKS activates by correcting the steering, braking or accelerating one or more of the wheels, or a combination of both, resulting in the vehicle returning to its intended lane of travel. If the technology applied is intended to keep the vehicle in the center of the lane, LKS will indicate this as Lane Centering.</p>",
+            "ID": 103,
+            "Name": "Lane Keeping Support (LKS)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A rearview visibility system (RVS) (includes the camera and the display), also known as a backup camera, is a safety technology designed to prevent back-over crashes and protect vulnerable children and senior citizens. By providing an image of the area behind the vehicle, backup cameras help drivers to view people and objects that may be behind the vehicle.</p>",
+            "ID": 104,
+            "Name": "Rear Visibility System (RVS)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A Parking Assist system implemented in a vehicle uses computer processors; back up cameras; surround view cameras; and/or sensors to assist with steering and potentially other functions during parking maneuvers. Drivers may be required to accelerate, brake, and/or select gear position. Some systems are capable of parallel and/or perpendicular parking. Drivers must constantly supervise this support feature and maintain responsibility for parking.</p>",
+            "ID": 105,
+            "Name": "Parking Assist"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field captures the location of side air bags. Side airbags are typically designed for one of three areas of added protection; chest/torso, head or a combination of the two.</p>",
+            "ID": 107,
+            "Name": "Side Air Bag Locations"
+        },
+        {
+            "DataType": "string",
+            "Description": "Captures additional information about Trim of the vehicle.",
+            "ID": 109,
+            "Name": "Trim2"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Captures additional information about Series of the vehicle.</p>",
+            "ID": 110,
+            "Name": "Series2"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Wheel Base is the distance between the centers of the front and rear wheels measured in inches. This field captures the lower range of the wheel base.</p>",
+            "ID": 111,
+            "Name": "Wheel Base (inches) From"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Wheel Base is the distance between the centers of the front and rear wheels measured in inches. This field captures the higher range of the wheel base.</p>",
+            "ID": 112,
+            "Name": "Wheel Base (inches) To"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Note is used to store any additional information that does not correspond to any of the specified fields on the interface. This is a \"catch-all\" element for systems other than for engine, restraint system, brake and battery. Engine, restraint system, brake and battery have their own note element.</p>",
+            "ID": 114,
+            "Name": "Note"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field captures the number of wheels on a vehicle.</p>",
+            "ID": 115,
+            "Name": "Number of Wheels"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Trailer Type Connection means the connector or tongue used for the trailers.</p>",
+            "ID": 116,
+            "Name": "Trailer Type Connection"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Trailer Body Type means the purpose of the trailer or how it is designed to be used.</p>",
+            "ID": 117,
+            "Name": "Trailer Body Type"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Trailer length is the length of the trailer in feet from the front of the connector to the end of the trailer.</p>",
+            "ID": 118,
+            "Name": "Trailer Length (feet)"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field captures the size of the front wheel in inches.</p>",
+            "ID": 119,
+            "Name": "Wheel Size Front (inches)"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field captures the size of the rear wheel in inches.</p>",
+            "ID": 120,
+            "Name": "Wheel Size Rear (inches)"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Other Restraint Info field is used to code additional information about restraint system that cannot be coded in any other restraint fields.</p>",
+            "ID": 121,
+            "Name": "Other Restraint System Info"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Cooling type defines the cooling system used to control the engine temperature. It can be either air cooled or water cooled.</p>",
+            "ID": 122,
+            "Name": "Cooling Type"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Engine Brake up to is the higher range of the horsepower (hp) at the engine output shaft.</p>",
+            "ID": 125,
+            "Name": "Engine Brake (hp) To"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Electrification level defines to what level the vehicle is powered by electric system. The common electric system configurations are mild hybrid, strong hybrid, plug-in hybrid, battery electric and fuel cell vehicles.</p><p>(1) Mild Hybrid is the system such as 12 Volt start-stop or 48 Volt Belt Integrator Starter Generator (BISG) system which uses an electric motor to add assisting power to the internal combustion engine. The system has features such as stop-start, power assist and mild level of generative braking features.</p><p>(2) Strong Hybrid vehicles are vehicles such as Toyota Prius which mainly consists of motors, conventional gasoline engine and battery, but the source of electrical charge for the battery power is provided by the conventional engine and/or regenerative braking.</p><p>(3) Plug-in Hybrid vehicles are vehicles such as Toyota Rav4 Prime which mainly consists of motors, conventional gasoline engine and battery. Plug-in hybrid vehicles are like strong hybrids, but they have a larger battery pack and can be charged with an external source of electricity by an Electric Vehicle Supply Equipment (EVSE).</p><p>(4) BEVs (Battery Electric Vehicles) are vehicles such as Tesla Model S or Nissan Leaf which have only a battery and electrical motor components and use electricity as the only power source.</p><p>(5) Fuel Cell Electric Vehicles (FCEVs) utilize a full electric drive platform but consume electricity generated by an onboard fuel cell and hydrogen fuel.</p>",
+            "ID": 126,
+            "Name": "Electrification Level"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>There are 3 levels of battery chargers currently. Level 1 and 2 are AC chargers; Level 3 is DC charger. Chargers at each level charges batteries with different voltage and current levels. Level 3 is the fast charging.</p><p>-Level 1</p><ul><li>AC charger.</li><li>In North America this typically means 16 Amps at 120 Volts delivering 1.9 kW of power.</li><li>In Europe it may be 13 or 16 Amps at 240 Volts delivering 3 kW of power.</li><li>The EV may incorporate a standard domestic power cord to connect the vehicle to a domestic socket outlet or a Level 1 charging station.</li></ul><p>-Level 2</p><ul><li>AC Charger.</li><li>It delivers up to 20 kW of power from either Single or Three Phase Alternating Current (AC) sources of 208-240Volts at up to 80Amps.</li></ul><p>-Level 3</p><ul><li>DC charging, or \"fast charging\".</li><li>To achieve very short charging times, Level 3 chargers supply very high currents of up to 400 Amps at voltages up to 600Volts DC delivering a maximum power of 240kW.</li></ul>",
+            "ID": 127,
+            "Name": "Charger Level"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Charger power stores the power of the charging circuit on board in kilowatts (kW).</p>",
+            "ID": 128,
+            "Name": "Charger Power (KW)"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>This is a catch-all field for storing additional engine information that does not fit in any of the other engine fields.</p>",
+            "ID": 129,
+            "Name": "Other Engine Info"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Battery Current (Amps) up to field stores the higher range value for battery current in the unit of ampere (Amps).</p>",
+            "ID": 132,
+            "Name": "Battery Current (Amps) To"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>Battery Voltage (Volts) up to field stores the higher range value for battery voltage in the unit of Volts.</p>",
+            "ID": 133,
+            "Name": "Battery Voltage (Volts) To"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Battery Energy (kWh) up to field stores the higher range value of battery energy in the unit of kilowatt-hour (kWh).</p>",
+            "ID": 134,
+            "Name": "Battery Energy (KWh) To"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Turbo is a yes/no field to identify whether the engine is turbo charged or not.</p>",
+            "ID": 135,
+            "Name": "Turbo"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>Base price of the vehicle is the cost of a new vehicle with only the standard  equipment and factory warranty. It is the cost without any optional packages.</p>",
+            "ID": 136,
+            "Name": "Base Price ($)"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field stores the information about how battery modules are arranged for a vehicle.</p>",
+            "ID": 137,
+            "Name": "Number of Battery Modules per Pack"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field stores the information about how battery packs are arranged for a vehicle.</p>",
+            "ID": 138,
+            "Name": "Number of Battery Packs per Vehicle"
+        },
+        {
+            "DataType": "int",
+            "Description": "Top Speed of the vehicle in miles per hour (MPH).",
+            "ID": 139,
+            "Name": "Top Speed (MPH)"
+        },
+        {
+            "DataType": "string",
+            "Description": "A suggested VIN is provided when there are errors in the VIN decode.",
+            "ID": 142,
+            "Name": "Suggested VIN"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Error Code is a numerical code that determines the nature of the error from VIN decode, and why it occurred.</p>",
+            "ID": 143,
+            "Name": "Error Code"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>A list of possible characters that can be used to replace the erratic characters in the VIN.</p>",
+            "ID": 144,
+            "Name": "Possible Values"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Axle configuration describes the placement of the axles in a vehicle. This field is mainly used for trucks. The common values for this field are Set Back Axle, Set Forward Axle and Tandem Axle.</p>",
+            "ID": 145,
+            "Name": "Axle Configuration"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>The manufacturer of the engine.</p>",
+            "ID": 146,
+            "Name": "Engine Manufacturer"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>This field captures the length of bus in feet.</p>",
+            "ID": 147,
+            "Name": "Bus Length (feet)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field defines the relative height of bus floor from the ground. Common values include normal, lift/raised, low floor and sleeper coach. Low floor refers to a bus deck that is accessible from the sidewalk with only a single step with a small height difference, caused solely by the difference between the bus deck and sidewalk. This is distinct from high/raised floor, a bus deck design that requires climbing one or more steps to access the interior floor that is placed at a higher height. A sleeper coach is a type of specially adapted coach which is designed for the passengers to sleep in.</p>",
+            "ID": 148,
+            "Name": "Bus Floor Configuration Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>This field defines the type of bus. Common types include commuter coach, double deck coach, tourist coach, urban bus, transit bus, entertainer coach and motorhome.</p>",
+            "ID": 149,
+            "Name": "Bus Type"
+        },
+        {
+            "DataType": "string",
+            "Description": "Additional information about bus is captured in this field.",
+            "ID": 150,
+            "Name": "Other Bus Info"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Defines the type of customized motorcycle, including values such as bagger, chopper, cruise, touring. Custom motorcycle type is provided by the manufacturer but not defined.</p>",
+            "ID": 151,
+            "Name": "Custom Motorcycle Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Defines the type of suspension in motorcycles, including values such as hardtail, softail, wing fork, etc. Motorcycle Suspension Type is provided by the manufacturer but not defined.</p>",
+            "ID": 152,
+            "Name": "Motorcycle Suspension Type"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Defines the type of motorcycle chassis, including values such as trike, reversed trike/autocycle, three wheeler, etc.</p>",
+            "ID": 153,
+            "Name": "Motorcycle Chassis Type"
+        },
+        {
+            "DataType": "string",
+            "Description": "Additional information about motorcycles is captured in this field.",
+            "ID": 154,
+            "Name": "Other Motorcycle Info"
+        },
+        {
+            "DataType": "string",
+            "Description": "Additional information about trailers is captured in this field.",
+            "ID": 155,
+            "Name": "Other Trailer Info"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>This field is to store the additional description of the error text.</p>",
+            "ID": 156,
+            "Name": "Additional Error Text"
+        },
+        {
+            "DataType": "decimal",
+            "Description": "<p>A vehicle's track, or track width, is the distance in inches between the center line of each of the two wheels on the same axle on any given vehicle.</p>",
+            "ID": 159,
+            "Name": "Track Width"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A tire-pressure monitoring system (TPMS) Type is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMS can be divided into two different types - direct and indirect. Direct TPMS employ pressure sensors on each wheel, either internal or external. The sensors physically measure the tire pressure in each tire and report it to the vehicle's instrument cluster or a corresponding monitor. Indirect TPMS do not use physical pressure sensors but measure air pressures by monitoring individual wheel rotational speeds and other signals available outside of the tire itself.</p>",
+            "ID": 168,
+            "Name": "Tire Pressure Monitoring System (TPMS) Type"
+        },
+        {
+            "DataType": "string",
+            "Description": "This field stores additional information about active safety systems in a vehicle.",
+            "ID": 169,
+            "Name": "Active Safety System Note"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Dynamic brake support (DBS) is a crash avoidance technology and works as an automatic emergency braking system that detects an impending forward crash with another vehicle. The systems first alert the driver to take corrective action and supplements the driver's braking to avoid the crash. If the driver brakes, but not hard enough to avoid the crash, DBS automatically supplements the driver's braking in an effort to avoid the crash.</p>",
+            "ID": 170,
+            "Name": "Dynamic Brake Support (DBS)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A pedestrian automatic emergency braking (PAEB) system-also known as frontal pedestrian impact mitigation braking-is an emerging safety technology that provides automatic braking for vehicles when pedestrians are in front of the vehicle and the driver has not acted to avoid a crash.</p>",
+            "ID": 171,
+            "Name": "Pedestrian Automatic Emergency Braking (PAEB)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Auto-Reverse System enables power windows and sunroofs on motor vehicles to automatically reverse direction when such power windows and panels detect an obstruction. This feature can prevent children and others from being trapped, injured, or killed by the power windows and sunroofs.</p>",
+            "ID": 172,
+            "Name": "Auto-Reverse System for Windows and Sunroofs"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Electric vehicle warning sounds are a series of sounds designed to alert pedestrians to the presence of electric drive vehicles such as hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) travelling at low speeds. Vehicles operating in all-electric mode produce less noise than traditional combustion engine vehicles and can make it more difficult for pedestrians, the blind, cyclists, and others, to be aware of their presence.</p>",
+            "ID": 173,
+            "Name": "Automatic Pedestrian Alerting Sound (for Hybrid and EV only)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Automatic Crash Notification (ACN) refers to a number of different systems that are capable of calling for help after a crash has occurred. The design and implementation of an ACN varies from one manufacturer to the next, but they typically make use of sensors in the vehicle to determine when a crash has occurred and the cellular phone network to call for help. AACN is the successor to ACN.</p>",
+            "ID": 174,
+            "Name": "Automatic Crash Notification (CAN) / Advanced Automatic Crash Notification (AACN)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Event Data Recorders (EDR) are devices installed in motor vehicles to record technical vehicle and occupant information for a brief period before, during, and after a triggering event, typically a crash or near-crash event. Sometimes referred to as \"black-box\" data, these data or event records can be valuable when analyzing and reconstructing a crash. Exponent engineers have the specialized training and technical knowledge required to integrate physical evidence with EDR data and produce a comprehensive vehicle crash reconstruction analysis.</p>",
+            "ID": 175,
+            "Name": "Event Data Recorder (EDR)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A keyless system permits starting a car without a physical key being inserted into an ignition. Instead, a small device known as a \"key fob\" transmits a code to a computer in the vehicle when the fob is within a certain close range. When the coded signal matches the code embedded in the vehicle's computer, a number of systems within the car are activated, including the starter system. This allows the car to be started by simply pressing a button on the dashboard while the key fob is left in a pocket or a purse. The vehicle is usually shut down by pushing the same button.</p>",
+            "ID": 176,
+            "Name": "Keyless Ignition"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Daytime Running Light (DRL) is an automotive lighting system on the front of a vehicle or bicycle, automatically switched on when the vehicle is in drive, emitting white, yellow, or amber light to increase the conspicuity of the vehicle during daylight conditions.</p>",
+            "ID": 177,
+            "Name": "Daytime Running Light (DRL)"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Low beam (dipped beam, passing beam, meeting beam) headlamps provide a distribution of light designed to provide adequate forward and lateral illumination with limits on light directed towards the eyes of other road users, to control glare. This beam is intended for use whenever other vehicles are present ahead. Halogen, High-Intensity Discharge (HID) and Light-Emitting Diode (LED) are the most common headlights on the market.</p>",
+            "ID": 178,
+            "Name": "Lower Beam Headlamp Light Source"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>A semiautomatic headlamp beam switching device is one which provides either automatic or manual control of beam switching at the option of the driver. When the control is automatic, the headlamps switch from the upper beam to the lower beam when illuminated by the headlamps on an approaching car and switch back to the upper beam when the road ahead is dark. When the control is manual, the driver may obtain either beam manually regardless of the condition of lights ahead of the vehicle.</p>",
+            "ID": 179,
+            "Name": "Semiautomatic Headlamp Beam Switching"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Adaptive driving beam is a type of front-lighting system that lets upper beam headlamps adapt their beam patterns to create shaded areas around oncoming and preceding vehicles to improve long-range visibility for the driver without causing discomfort, distraction, or glare to other road users.</p>",
+            "ID": 180,
+            "Name": "Adaptive Driving Beam (ADB)"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>SAE stands for the Society of Automotive Engineers. This field indicates the lower bound of intelligence level and automation capabilities of vehicles, ranking through 0 to 5, per SAE J3016 2018.</p>",
+            "ID": 181,
+            "Name": "SAE Automation Level From"
+        },
+        {
+            "DataType": "int",
+            "Description": "<p>SAE stands for the Society of Automotive Engineers. This field indicates the higher bound of intelligence level and automation capabilities of vehicles, ranking through 0 to 5, per SAE J3016 2018.</p>",
+            "ID": 182,
+            "Name": "SAE Automation Level To"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Rear cross-traffic alert can help drivers when backing out from a parking space. When the vehicle is in reverse and the speed is less than 5 MPH, this system is designed to detect other automobiles approaching between 5 and 18 MPH from the right or left rear of the vehicle.</p>",
+            "ID": 183,
+            "Name": "Rear Cross Traffic Alert"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Gross Combination Weight Rating (GCWR) is the maximum allowable combined mass of a road vehicle, the passengers and cargo in the tow vehicle, plus the mass of the trailer and cargo in the trailer. This rating is set by the vehicle manufacturer. This field captures the lower bound of GCWR range for the vehicle.</p>",
+            "ID": 184,
+            "Name": "Gross Combination Weight Rating From"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Gross Combination Weight Rating (GCWR) is the maximum allowable combined mass of a road vehicle, the passengers and cargo in the tow vehicle, plus the mass of the trailer and cargo in the trailer. This rating is set by the vehicle manufacturer. This field captures the higher bound of GCWR range for the vehicle.</p>",
+            "ID": 185,
+            "Name": "Gross Combination Weight Rating To"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>This internal field is to note the logic behind the NCSA mapping in special cases.</p>",
+            "ID": 186,
+            "Name": "NCSA Note"
+        },
+        {
+            "DataType": "lookup",
+            "Description": "<p>Gross Vehicle Weight Rating (GVWR) is the maximum operating weight of a vehicle including the vehicle's chassis, body, engine, engine fluids, fuel, accessories, driver, passengers and cargo, but excluding that of the trailers. As in 49 CFR 565.15, Class 1 is further broken down to Class A-D; Class 2 is further broken down to Class E-H. This field captures the higher bound of GVWR range for the vehicle.</p>",
+            "ID": 190,
+            "Name": "Gross Vehicle Weight Rating To"
+        },
+        {
+            "DataType": "string",
+            "Description": "<p>Error Text</p>",
+            "ID": 191,
+            "Name": "Error Text"
+        }
+    ]
+}

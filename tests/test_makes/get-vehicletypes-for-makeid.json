@@ -1,0 +1,54 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/474?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 5,
+        "Message": "Response returned successfully",
+        "SearchCriteria": "Make ID: 474",
+        "Results": [
+            {
+                "VehicleTypeId": 1,
+                "VehicleTypeName": "Motorcycle"
+            },
+            {
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "VehicleTypeId": 3,
+                "VehicleTypeName": "Truck "
+            },
+            {
+                "VehicleTypeId": 7,
+                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+            },
+            {
+                "VehicleTypeId": 9,
+                "VehicleTypeName": "Low Speed Vehicle (LSV)"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "VehicleTypeId": 1,
+            "VehicleTypeName": "Motorcycle"
+        },
+        {
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        },
+        {
+            "VehicleTypeId": 3,
+            "VehicleTypeName": "Truck "
+        },
+        {
+            "VehicleTypeId": 7,
+            "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        },
+        {
+            "VehicleTypeId": 9,
+            "VehicleTypeName": "Low Speed Vehicle (LSV)"
+        }
+    ]
+}

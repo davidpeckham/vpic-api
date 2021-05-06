@@ -1,0 +1,62 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/TESLA/modelyear/2020?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 4,
+        "Message": "Results returned successfully",
+        "SearchCriteria": "Make:TESLA | ModelYear:2020",
+        "Results": [
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 1685,
+                "Model_Name": "Model S"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 10199,
+                "Model_Name": "Model X"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 17834,
+                "Model_Name": "Model 3"
+            },
+            {
+                "Make_ID": 441,
+                "Make_Name": "TESLA",
+                "Model_ID": 27027,
+                "Model_Name": "Model Y"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 1685,
+            "Model_Name": "Model S"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 10199,
+            "Model_Name": "Model X"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 17834,
+            "Model_Name": "Model 3"
+        },
+        {
+            "Make_ID": 441,
+            "Make_Name": "TESLA",
+            "Model_ID": 27027,
+            "Model_Name": "Model Y"
+        }
+    ]
+}

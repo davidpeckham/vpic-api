@@ -1,0 +1,50 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMake/kia?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 3,
+        "Message": "Response returned successfully",
+        "SearchCriteria": "Make: kia",
+        "Results": [
+            {
+                "MakeId": 499,
+                "MakeName": "KIA",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "MakeId": 499,
+                "MakeName": "KIA",
+                "VehicleTypeId": 7,
+                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+            },
+            {
+                "MakeId": 5848,
+                "MakeName": "MGS GRAND SPORT (MARDIKIAN)",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "MakeId": 499,
+            "MakeName": "KIA",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        },
+        {
+            "MakeId": 499,
+            "MakeName": "KIA",
+            "VehicleTypeId": 7,
+            "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+        },
+        {
+            "MakeId": 5848,
+            "MakeName": "MGS GRAND SPORT (MARDIKIAN)",
+            "VehicleTypeId": 2,
+            "VehicleTypeName": "Passenger Car"
+        }
+    ]
+}

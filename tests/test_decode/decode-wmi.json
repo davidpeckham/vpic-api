@@ -1,0 +1,35 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1FT?format=json",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 1,
+        "Message": "Results returned successfully",
+        "SearchCriteria": "WMI:1FT",
+        "Results": [
+            {
+                "CommonName": "Ford",
+                "CreatedOn": "2015-03-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Make": "FORD",
+                "ManufacturerName": "FORD MOTOR COMPANY, USA",
+                "ParentCompanyName": "",
+                "URL": "http:\/\/www.ford.com\/",
+                "UpdatedOn": null,
+                "VehicleType": "Truck "
+            }
+        ]
+    },
+    "expected_result": {
+        "CommonName": "Ford",
+        "CreatedOn": "2015-03-23",
+        "DateAvailableToPublic": "2015-01-01",
+        "Make": "FORD",
+        "ManufacturerName": "FORD MOTOR COMPANY, USA",
+        "ParentCompanyName": "",
+        "URL": "http:\/\/www.ford.com\/",
+        "UpdatedOn": null,
+        "VehicleType": "Truck "
+    }
+}

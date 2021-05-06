@@ -1,0 +1,38 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForManufacturerAndYear/988?year=2021&format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 2,
+        "Message": "Response returned successfully",
+        "SearchCriteria": "Manufacturer : 988, Year: 2021",
+        "Results": [
+            {
+                "MakeId": 474,
+                "MakeName": "HONDA",
+                "MfrId": 988,
+                "MfrName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+            },
+            {
+                "MakeId": 475,
+                "MakeName": "ACURA",
+                "MfrId": 988,
+                "MfrName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "MakeId": 474,
+            "MakeName": "HONDA",
+            "MfrId": 988,
+            "MfrName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+        },
+        {
+            "MakeId": 475,
+            "MakeName": "ACURA",
+            "MfrId": 988,
+            "MfrName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+        }
+    ]
+}

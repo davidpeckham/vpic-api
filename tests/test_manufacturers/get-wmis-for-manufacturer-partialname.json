@@ -1,0 +1,2034 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetWMIsForManufacturer/TECHNOLOG?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 101,
+        "Message": "Response returned successfully",
+        "SearchCriteria": "Manufacturer: TECHNOLOG",
+        "Results": [
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-19",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1282,
+                "Name": "American Performance Technologies, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "5ZK"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-25",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 7368,
+                "Name": "APPLIED CRYO TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1A9939"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6106,
+                "Name": "EMI TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1E9209"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-07",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 9827,
+                "Name": "BLAZING TECHNOLOGIES INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1B9825"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-07-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6658,
+                "Name": "GUANGZHOU HUAYE ELECTRIC VEHICLE TECHNOLOGY CO., LTD.",
+                "UpdatedOn": "2019-05-15",
+                "VehicleType": "Motorcycle",
+                "WMI": "LE8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 10777,
+                "Name": "ALLENTOWN SHOTCRETE TECHNOLOGY, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1A9766"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6666,
+                "Name": "GREEN POWER TECHNOLOGY, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1G9410"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 7278,
+                "Name": "CHRISTINI TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "4C9272"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1232,
+                "Name": "CYCLONE ENVIRONMENTAL TECHNOLOGIES, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1C9977"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-10",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 12353,
+                "Name": "MIDWEST MOBILE TECHNOLOGIES,INC.",
+                "UpdatedOn": "2016-03-10",
+                "VehicleType": "Trailer",
+                "WMI": "1M9596"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-10",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 17279,
+                "Name": "YADEA TECHNOLOGY GROUP CO. LTD",
+                "UpdatedOn": "2021-03-03",
+                "VehicleType": "Motorcycle",
+                "WMI": "L5X"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-14",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 11373,
+                "Name": "HURCO TECHNOLOGIES INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1H9513"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-07-14",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 7256,
+                "Name": "HUZHOU DAIXI ZHENHUA TECHNOLOGY TRADE CO. LTD.",
+                "UpdatedOn": "2015-07-14",
+                "VehicleType": "Motorcycle",
+                "WMI": "L37"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-07-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 9836,
+                "Name": "JIANGSU SINSKI SONIK MOTOR TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "LYX"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-07-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6820,
+                "Name": "JIANGSU SINSKI VEHICLE SCIENCE & TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "LXE"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-22",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6990,
+                "Name": "KLD ENERGY TECHNOLOGIES",
+                "UpdatedOn": "2017-03-06",
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "1K9345"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-22",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6990,
+                "Name": "KLD ENERGY TECHNOLOGIES",
+                "UpdatedOn": "2017-03-06",
+                "VehicleType": "Motorcycle",
+                "WMI": "1K9342"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-22",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 7052,
+                "Name": "LOAD TECHNOLOGY, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1L9448"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 11960,
+                "Name": "LRG TECHNOLOGIES INC. ",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1L9492"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2015-07-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 12902,
+                "Name": "GM DAEWOO AUTO & TECHNOLOGY COMPANY",
+                "UpdatedOn": "2016-03-08",
+                "VehicleType": "Passenger Car",
+                "WMI": "KLA"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-27",
+                "DateAvailableToPublic": "2015-07-27",
+                "Id": 8655,
+                "Name": "MVP TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1M9739"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-27",
+                "DateAvailableToPublic": "2015-07-27",
+                "Id": 12165,
+                "Name": "OLYMPUS TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1Z9359"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-29",
+                "DateAvailableToPublic": "2015-07-29",
+                "Id": 6044,
+                "Name": "NORTHWEST TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "55T"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-30",
+                "DateAvailableToPublic": "2015-07-30",
+                "Id": 12075,
+                "Name": "NANCHANG FREEDOM TECHNOLOGY LIMITED COMPANY",
+                "UpdatedOn": null,
+                "VehicleType": "Passenger Car",
+                "WMI": "L0E"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-30",
+                "DateAvailableToPublic": "2015-07-30",
+                "Id": 11212,
+                "Name": "NANFANG SPACE NAVIGATION SCIENCE & TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "LAY"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-31",
+                "DateAvailableToPublic": "2015-07-31",
+                "Id": 7201,
+                "Name": "MOBILE TECHNOLOGIES GROUP INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1M9850"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-03",
+                "DateAvailableToPublic": "2015-08-03",
+                "Id": 6894,
+                "Name": "MUD TECHNOLOGY INTERNATIONAL, INC.",
+                "UpdatedOn": "2015-08-03",
+                "VehicleType": "Trailer",
+                "WMI": "1M9873"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 7529,
+                "Name": "RMD TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "1R9675"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 6078,
+                "Name": "RILEY TECHNOLOGIES, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1R9733"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-05",
+                "DateAvailableToPublic": "2015-08-05",
+                "Id": 3896,
+                "Name": "ROBB TECHNOLOGIES LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1R9446"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-05",
+                "DateAvailableToPublic": "2015-08-05",
+                "Id": 6114,
+                "Name": "SYNERGY TECHNOLOGY, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4S9317"
+            },
+            {
+                "Country": "TAIWAN",
+                "CreatedOn": "2015-08-06",
+                "DateAvailableToPublic": "2015-08-06",
+                "Id": 10063,
+                "Name": "TAIWAN HELIO TECHNOLOGY CO., LTD.",
+                "UpdatedOn": "2017-03-20",
+                "VehicleType": "Motorcycle",
+                "WMI": "RKZ"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-07",
+                "DateAvailableToPublic": "2015-08-07",
+                "Id": 9433,
+                "Name": "SAFETY TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1S9981"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-13",
+                "DateAvailableToPublic": "2015-08-13",
+                "Id": 11384,
+                "Name": "WATERBLASTING TECHNOLOGIES INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1W9447"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-20",
+                "DateAvailableToPublic": "2015-08-20",
+                "Id": 7635,
+                "Name": "WISE TECHNOLOGY LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1W9552"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-08-24",
+                "DateAvailableToPublic": "2015-08-24",
+                "Id": 7197,
+                "Name": "ZHEJIANG LONGWISE TECHNOLOGY CO., LTD.",
+                "UpdatedOn": "2016-06-29",
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "L43"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-08-28",
+                "DateAvailableToPublic": "2015-08-28",
+                "Id": 5267,
+                "Name": "CROWN ENERGY TECHNOLOGIES INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4C9009"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-09-04",
+                "DateAvailableToPublic": "2015-09-04",
+                "Id": 7774,
+                "Name": "ELECTRO-TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "1E9507"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-10-09",
+                "DateAvailableToPublic": "2015-10-09",
+                "Id": 13828,
+                "Name": "VECTOR TECHNOLOGIES LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1V9090"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-10-13",
+                "DateAvailableToPublic": "2015-10-13",
+                "Id": 1589,
+                "Name": "WUXI TMEC POWER TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "L6M"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-12-07",
+                "DateAvailableToPublic": "2015-12-07",
+                "Id": 13647,
+                "Name": "ROSS TECHNOLOGY CORPORATION",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1R9799"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2015-12-09",
+                "DateAvailableToPublic": "2015-12-09",
+                "Id": 13753,
+                "Name": "ZHEJIANG YULE NEW ENERGY AUTOMOBILE TECHNOLOGY CO., LTD.",
+                "UpdatedOn": "2020-01-14",
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "LK8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-12-15",
+                "DateAvailableToPublic": "2015-12-15",
+                "Id": 11842,
+                "Name": "TORRID TECHNOLOGIES GROUP LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4T9178"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-03-08",
+                "DateAvailableToPublic": "2016-03-08",
+                "Id": 14420,
+                "Name": "LEGEND-WIDE TECHNOLOGY INC. D\/B\/A AERO MOTORS GROUP ( AMG )",
+                "UpdatedOn": null,
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "7FB"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-03-09",
+                "DateAvailableToPublic": "2016-03-09",
+                "Id": 14213,
+                "Name": "APPLIQUE TECHNOLOGIES INTERNATIONAL, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4A9015"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-03-15",
+                "DateAvailableToPublic": "2016-03-15",
+                "Id": 14057,
+                "Name": "ZHEJIANG DOOHAN TECHNOLOGY CO., LTD.",
+                "UpdatedOn": "2016-09-14",
+                "VehicleType": "Motorcycle",
+                "WMI": "L1T"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2016-03-17",
+                "DateAvailableToPublic": "2016-03-17",
+                "Id": 13081,
+                "Name": "ADVANCED TRANSPORTATION TECHNOLOGY R&D CO.",
+                "UpdatedOn": null,
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "KLM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-03-23",
+                "DateAvailableToPublic": "2016-03-23",
+                "Id": 7156,
+                "Name": "MOBILITY TECHNOLOGIES LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "50S"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-03-23",
+                "DateAvailableToPublic": "2016-03-23",
+                "Id": 14711,
+                "Name": "Release Industrial Technology LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "1R9792"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-07-21",
+                "DateAvailableToPublic": "2016-07-21",
+                "Id": 3956,
+                "Name": "COACHCRAFT TECHNOLOGIES, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1C9746"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2016-08-31",
+                "DateAvailableToPublic": "2016-08-31",
+                "Id": 15538,
+                "Name": "CHONGQING YINGANG SCIENCE & TECHNOLOGY (GROUP) CO., LTD.",
+                "UpdatedOn": "2016-09-01",
+                "VehicleType": "Motorcycle",
+                "WMI": "LY4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-11-14",
+                "DateAvailableToPublic": "2016-11-14",
+                "Id": 15904,
+                "Name": "APPLIED INTEGRATION TECHNOLOGIES, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4A9043"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-12-06",
+                "DateAvailableToPublic": "2016-12-13",
+                "Id": 15969,
+                "Name": "ADVANCED TECHNOLOGY AUTOMOTIVE COMPANY, LLC.",
+                "UpdatedOn": "2016-12-06",
+                "VehicleType": "Motorcycle",
+                "WMI": "4A9009"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-02-02",
+                "DateAvailableToPublic": "2017-02-02",
+                "Id": 16118,
+                "Name": "GETTIG TECHNOLOGIES LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1G9039"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-02-22",
+                "DateAvailableToPublic": "2017-02-22",
+                "Id": 15257,
+                "Name": "MCR TECHNOLOGY, INC ",
+                "UpdatedOn": null,
+                "VehicleType": "Bus",
+                "WMI": "1M9037"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-03-03",
+                "DateAvailableToPublic": "2017-03-03",
+                "Id": 15356,
+                "Name": "SYSTEMS TECHNOLOGY COMPANY ",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1S9158"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-03-22",
+                "DateAvailableToPublic": "2017-03-22",
+                "Id": 13272,
+                "Name": "CUSTOM TANK TECHNOLOGY",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1C9699"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-05-12",
+                "DateAvailableToPublic": "2017-05-12",
+                "Id": 11065,
+                "Name": "SAUK TECHNOLOGIES ",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1S9910"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-05-17",
+                "DateAvailableToPublic": "2017-05-17",
+                "Id": 8805,
+                "Name": "C.C.E. TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1C9812"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-05-24",
+                "DateAvailableToPublic": "2017-05-24",
+                "Id": 12617,
+                "Name": "BOXED UTILITY TRAILER TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1B9491"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-05-25",
+                "DateAvailableToPublic": "2017-05-25",
+                "Id": 12948,
+                "Name": "FUTURE HOME TECHNOLOGY",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1F9170"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-05-31",
+                "DateAvailableToPublic": "2017-05-31",
+                "Id": 5718,
+                "Name": "ALTAMONT TECHNOLOGIES, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1A9456"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-06-01",
+                "DateAvailableToPublic": "2017-06-01",
+                "Id": 10821,
+                "Name": "LAKE TECHNOLOGY PRODUCTS INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1L9179"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2017-07-21",
+                "DateAvailableToPublic": "2017-07-21",
+                "Id": 1706,
+                "Name": "JUNENG MOTORCYCLE TECHNOLOGY CO., LTD",
+                "UpdatedOn": "2018-04-23",
+                "VehicleType": "Motorcycle",
+                "WMI": "LZR"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-07-26",
+                "DateAvailableToPublic": "2017-07-26",
+                "Id": 16917,
+                "Name": "TECHNOLOGY DEVELOPMENT INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1T9378"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-08-01",
+                "DateAvailableToPublic": "2017-08-01",
+                "Id": 16994,
+                "Name": "Technology Systems",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1T9287"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-08-03",
+                "DateAvailableToPublic": "2017-08-03",
+                "Id": 17024,
+                "Name": "CERTIFIED ADVANCED TECHNOLOGIES, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1C9624"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-08-04",
+                "DateAvailableToPublic": "2017-08-04",
+                "Id": 17044,
+                "Name": "MSR TECHNOLOGIES ",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1M9147"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2017-08-25",
+                "DateAvailableToPublic": "2017-08-25",
+                "Id": 2903,
+                "Name": "MUST TECHNOLOGIES LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "2M9153"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-08-25",
+                "DateAvailableToPublic": "2017-08-25",
+                "Id": 17108,
+                "Name": "CHIEF TECHNOLOGIES, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4C9475"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2017-08-28",
+                "DateAvailableToPublic": "2017-08-28",
+                "Id": 5267,
+                "Name": "CROWN ENERGY TECHNOLOGIES INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "2C9173"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2017-08-28",
+                "DateAvailableToPublic": "2017-08-28",
+                "Id": 5267,
+                "Name": "CROWN ENERGY TECHNOLOGIES INC",
+                "UpdatedOn": null,
+                "VehicleType": "Truck ",
+                "WMI": "2R9678"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-09-22",
+                "DateAvailableToPublic": "2017-09-22",
+                "Id": 12541,
+                "Name": "ESARATI ELECTRIC TECHNOLOGIES CORP.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "5F5"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-10-17",
+                "DateAvailableToPublic": "2017-10-17",
+                "Id": 2038,
+                "Name": "CONTAINMENT TECHNOLOGY (CON-TEC)",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1C9796"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2017-10-23",
+                "DateAvailableToPublic": "2017-10-23",
+                "Id": 12557,
+                "Name": "HUNTER TECHNOLOGY INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "2HZ"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-10-24",
+                "DateAvailableToPublic": "2017-10-24",
+                "Id": 3757,
+                "Name": "STEEL TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1S9700"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-12-07",
+                "DateAvailableToPublic": "2017-12-07",
+                "Id": 11326,
+                "Name": "POSI-PLUS TECHNOLOGIES INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1P9445"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-01-25",
+                "DateAvailableToPublic": "2018-01-25",
+                "Id": 2999,
+                "Name": "TECHNOLOGY PLUS TRAILERS, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1T9775"
+            },
+            {
+                "Country": "TAIWAN",
+                "CreatedOn": "2018-01-26",
+                "DateAvailableToPublic": "2018-01-26",
+                "Id": 12828,
+                "Name": "EVT TECHNOLOGY CO., LTD.",
+                "UpdatedOn": "2018-01-26",
+                "VehicleType": "Motorcycle",
+                "WMI": "RF8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-01-30",
+                "DateAvailableToPublic": "2018-01-30",
+                "Id": 9549,
+                "Name": "EXCAVATION TECHNOLOGY CORPORATION",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1E9314"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-02-16",
+                "DateAvailableToPublic": "2018-02-16",
+                "Id": 17924,
+                "Name": "Advanced Transport Technologies Inc.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1A9230"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-03-21",
+                "DateAvailableToPublic": "2018-03-21",
+                "Id": 17962,
+                "Name": "MARBLE PROPULSION TECHNOLOGY’S INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4M9092"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-04-04",
+                "DateAvailableToPublic": "2018-04-04",
+                "Id": 18268,
+                "Name": "ACCELERATED MEDIA TECHNOLOGIES, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4A9091"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2018-08-20",
+                "DateAvailableToPublic": "2018-08-20",
+                "Id": 18648,
+                "Name": "MUNRO TECHNOLOGY CO.,LIMITED",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "R3B"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2018-11-16",
+                "DateAvailableToPublic": "2018-11-16",
+                "Id": 15649,
+                "Name": "GEA FARM TECHNOLOGIES CANADA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "2G9100"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2018-12-20",
+                "DateAvailableToPublic": "2018-12-20",
+                "Id": 18836,
+                "Name": "NIU TECHNOLOGIES GROUP LIMITED",
+                "UpdatedOn": "2018-12-20",
+                "VehicleType": "Motorcycle",
+                "WMI": "R1N"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-02-04",
+                "DateAvailableToPublic": "2019-02-04",
+                "Id": 18933,
+                "Name": "TULSA GAS TECHNOLOGIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4T9298"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-03-15",
+                "DateAvailableToPublic": "2019-03-15",
+                "Id": 19019,
+                "Name": "DAC TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1D9837"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2019-05-29",
+                "DateAvailableToPublic": "2019-05-29",
+                "Id": 19159,
+                "Name": "TINBOT TECHNOLOGY GMBH",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "WTK"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-09-06",
+                "DateAvailableToPublic": "2019-09-06",
+                "Id": 6309,
+                "Name": "EVOLUTION TRAILER TECHNOLOGIES",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1E9513"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2019-09-11",
+                "DateAvailableToPublic": "2019-09-11",
+                "Id": 19035,
+                "Name": "SHANDONG JIEJINGDIANCHE NEW ENERGY TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "L7Y"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-10-30",
+                "DateAvailableToPublic": "2019-10-30",
+                "Id": 19351,
+                "Name": "TROPOS TECHNOLOGIES INC",
+                "UpdatedOn": null,
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "7JM"
+            },
+            {
+                "Country": "HONG KONG",
+                "CreatedOn": "2019-11-25",
+                "DateAvailableToPublic": "2019-11-25",
+                "Id": 19496,
+                "Name": "WUXI XIYAO INTELLIGENT TECHNOLOGY CO LTD",
+                "UpdatedOn": "2020-06-18",
+                "VehicleType": "Motorcycle",
+                "WMI": "R46"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2020-05-18",
+                "DateAvailableToPublic": "2020-05-18",
+                "Id": 19820,
+                "Name": "NEW EDGE TECHNOLOGY SOLUTIONS",
+                "UpdatedOn": null,
+                "VehicleType": "Low Speed Vehicle (LSV)",
+                "WMI": "1N9398"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2020-06-01",
+                "DateAvailableToPublic": "2020-06-01",
+                "Id": 19756,
+                "Name": "CS&P TECHNOLOGIES LP",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "4C9571"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2020-08-04",
+                "DateAvailableToPublic": "2020-08-04",
+                "Id": 19903,
+                "Name": "JIANGSU NIU ELECTRIC TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "HA6"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2020-08-31",
+                "DateAvailableToPublic": "2020-08-31",
+                "Id": 20032,
+                "Name": "ELYX SMART TECHNOLOGY HOLDINGS (HONGKONG) LIMITED",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "R4N"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2020-10-26",
+                "DateAvailableToPublic": "2020-10-26",
+                "Id": 19902,
+                "Name": "JIANGSU LVNENG ELECTRICAL BICYCLE TECHNOLOGY CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "LV2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2021-01-25",
+                "DateAvailableToPublic": "2021-01-25",
+                "Id": 20329,
+                "Name": "PAJCO TECHNOLOGIES LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Trailer",
+                "WMI": "1P9859"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2021-02-24",
+                "DateAvailableToPublic": "2021-02-24",
+                "Id": 17279,
+                "Name": "YADEA TECHNOLOGY GROUP CO. LTD",
+                "UpdatedOn": "2021-03-03",
+                "VehicleType": "Motorcycle",
+                "WMI": "LR4"
+            },
+            {
+                "Country": "HONG KONG",
+                "CreatedOn": "2021-04-22",
+                "DateAvailableToPublic": "2021-04-22",
+                "Id": 20592,
+                "Name": "HANBIRD TECHNOLOGY(HONGKONG) LIMITED",
+                "UpdatedOn": null,
+                "VehicleType": "Motorcycle",
+                "WMI": "R5H"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-19",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1282,
+            "Name": "American Performance Technologies, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "5ZK"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-25",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 7368,
+            "Name": "APPLIED CRYO TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1A9939"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6106,
+            "Name": "EMI TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1E9209"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-07",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 9827,
+            "Name": "BLAZING TECHNOLOGIES INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1B9825"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-07-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6658,
+            "Name": "GUANGZHOU HUAYE ELECTRIC VEHICLE TECHNOLOGY CO., LTD.",
+            "UpdatedOn": "2019-05-15",
+            "VehicleType": "Motorcycle",
+            "WMI": "LE8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 10777,
+            "Name": "ALLENTOWN SHOTCRETE TECHNOLOGY, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1A9766"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6666,
+            "Name": "GREEN POWER TECHNOLOGY, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1G9410"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 7278,
+            "Name": "CHRISTINI TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "4C9272"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1232,
+            "Name": "CYCLONE ENVIRONMENTAL TECHNOLOGIES, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1C9977"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-10",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 12353,
+            "Name": "MIDWEST MOBILE TECHNOLOGIES,INC.",
+            "UpdatedOn": "2016-03-10",
+            "VehicleType": "Trailer",
+            "WMI": "1M9596"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-10",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 17279,
+            "Name": "YADEA TECHNOLOGY GROUP CO. LTD",
+            "UpdatedOn": "2021-03-03",
+            "VehicleType": "Motorcycle",
+            "WMI": "L5X"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-14",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 11373,
+            "Name": "HURCO TECHNOLOGIES INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1H9513"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-07-14",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 7256,
+            "Name": "HUZHOU DAIXI ZHENHUA TECHNOLOGY TRADE CO. LTD.",
+            "UpdatedOn": "2015-07-14",
+            "VehicleType": "Motorcycle",
+            "WMI": "L37"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-07-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 9836,
+            "Name": "JIANGSU SINSKI SONIK MOTOR TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "LYX"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-07-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6820,
+            "Name": "JIANGSU SINSKI VEHICLE SCIENCE & TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "LXE"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-22",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6990,
+            "Name": "KLD ENERGY TECHNOLOGIES",
+            "UpdatedOn": "2017-03-06",
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "1K9345"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-22",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6990,
+            "Name": "KLD ENERGY TECHNOLOGIES",
+            "UpdatedOn": "2017-03-06",
+            "VehicleType": "Motorcycle",
+            "WMI": "1K9342"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-22",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 7052,
+            "Name": "LOAD TECHNOLOGY, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1L9448"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 11960,
+            "Name": "LRG TECHNOLOGIES INC. ",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1L9492"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2015-07-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 12902,
+            "Name": "GM DAEWOO AUTO & TECHNOLOGY COMPANY",
+            "UpdatedOn": "2016-03-08",
+            "VehicleType": "Passenger Car",
+            "WMI": "KLA"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-27",
+            "DateAvailableToPublic": "2015-07-27",
+            "Id": 8655,
+            "Name": "MVP TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1M9739"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-27",
+            "DateAvailableToPublic": "2015-07-27",
+            "Id": 12165,
+            "Name": "OLYMPUS TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1Z9359"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-29",
+            "DateAvailableToPublic": "2015-07-29",
+            "Id": 6044,
+            "Name": "NORTHWEST TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "55T"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-30",
+            "DateAvailableToPublic": "2015-07-30",
+            "Id": 12075,
+            "Name": "NANCHANG FREEDOM TECHNOLOGY LIMITED COMPANY",
+            "UpdatedOn": null,
+            "VehicleType": "Passenger Car",
+            "WMI": "L0E"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-30",
+            "DateAvailableToPublic": "2015-07-30",
+            "Id": 11212,
+            "Name": "NANFANG SPACE NAVIGATION SCIENCE & TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "LAY"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-31",
+            "DateAvailableToPublic": "2015-07-31",
+            "Id": 7201,
+            "Name": "MOBILE TECHNOLOGIES GROUP INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1M9850"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-03",
+            "DateAvailableToPublic": "2015-08-03",
+            "Id": 6894,
+            "Name": "MUD TECHNOLOGY INTERNATIONAL, INC.",
+            "UpdatedOn": "2015-08-03",
+            "VehicleType": "Trailer",
+            "WMI": "1M9873"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 7529,
+            "Name": "RMD TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "1R9675"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 6078,
+            "Name": "RILEY TECHNOLOGIES, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1R9733"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-05",
+            "DateAvailableToPublic": "2015-08-05",
+            "Id": 3896,
+            "Name": "ROBB TECHNOLOGIES LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1R9446"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-05",
+            "DateAvailableToPublic": "2015-08-05",
+            "Id": 6114,
+            "Name": "SYNERGY TECHNOLOGY, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4S9317"
+        },
+        {
+            "Country": "TAIWAN",
+            "CreatedOn": "2015-08-06",
+            "DateAvailableToPublic": "2015-08-06",
+            "Id": 10063,
+            "Name": "TAIWAN HELIO TECHNOLOGY CO., LTD.",
+            "UpdatedOn": "2017-03-20",
+            "VehicleType": "Motorcycle",
+            "WMI": "RKZ"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-07",
+            "DateAvailableToPublic": "2015-08-07",
+            "Id": 9433,
+            "Name": "SAFETY TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1S9981"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-13",
+            "DateAvailableToPublic": "2015-08-13",
+            "Id": 11384,
+            "Name": "WATERBLASTING TECHNOLOGIES INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1W9447"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-20",
+            "DateAvailableToPublic": "2015-08-20",
+            "Id": 7635,
+            "Name": "WISE TECHNOLOGY LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1W9552"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-08-24",
+            "DateAvailableToPublic": "2015-08-24",
+            "Id": 7197,
+            "Name": "ZHEJIANG LONGWISE TECHNOLOGY CO., LTD.",
+            "UpdatedOn": "2016-06-29",
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "L43"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-08-28",
+            "DateAvailableToPublic": "2015-08-28",
+            "Id": 5267,
+            "Name": "CROWN ENERGY TECHNOLOGIES INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4C9009"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-09-04",
+            "DateAvailableToPublic": "2015-09-04",
+            "Id": 7774,
+            "Name": "ELECTRO-TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "1E9507"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-10-09",
+            "DateAvailableToPublic": "2015-10-09",
+            "Id": 13828,
+            "Name": "VECTOR TECHNOLOGIES LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1V9090"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-10-13",
+            "DateAvailableToPublic": "2015-10-13",
+            "Id": 1589,
+            "Name": "WUXI TMEC POWER TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "L6M"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-12-07",
+            "DateAvailableToPublic": "2015-12-07",
+            "Id": 13647,
+            "Name": "ROSS TECHNOLOGY CORPORATION",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1R9799"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2015-12-09",
+            "DateAvailableToPublic": "2015-12-09",
+            "Id": 13753,
+            "Name": "ZHEJIANG YULE NEW ENERGY AUTOMOBILE TECHNOLOGY CO., LTD.",
+            "UpdatedOn": "2020-01-14",
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "LK8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-12-15",
+            "DateAvailableToPublic": "2015-12-15",
+            "Id": 11842,
+            "Name": "TORRID TECHNOLOGIES GROUP LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4T9178"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-03-08",
+            "DateAvailableToPublic": "2016-03-08",
+            "Id": 14420,
+            "Name": "LEGEND-WIDE TECHNOLOGY INC. D\/B\/A AERO MOTORS GROUP ( AMG )",
+            "UpdatedOn": null,
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "7FB"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-03-09",
+            "DateAvailableToPublic": "2016-03-09",
+            "Id": 14213,
+            "Name": "APPLIQUE TECHNOLOGIES INTERNATIONAL, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4A9015"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-03-15",
+            "DateAvailableToPublic": "2016-03-15",
+            "Id": 14057,
+            "Name": "ZHEJIANG DOOHAN TECHNOLOGY CO., LTD.",
+            "UpdatedOn": "2016-09-14",
+            "VehicleType": "Motorcycle",
+            "WMI": "L1T"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2016-03-17",
+            "DateAvailableToPublic": "2016-03-17",
+            "Id": 13081,
+            "Name": "ADVANCED TRANSPORTATION TECHNOLOGY R&D CO.",
+            "UpdatedOn": null,
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "KLM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-03-23",
+            "DateAvailableToPublic": "2016-03-23",
+            "Id": 7156,
+            "Name": "MOBILITY TECHNOLOGIES LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "50S"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-03-23",
+            "DateAvailableToPublic": "2016-03-23",
+            "Id": 14711,
+            "Name": "Release Industrial Technology LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "1R9792"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-07-21",
+            "DateAvailableToPublic": "2016-07-21",
+            "Id": 3956,
+            "Name": "COACHCRAFT TECHNOLOGIES, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1C9746"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2016-08-31",
+            "DateAvailableToPublic": "2016-08-31",
+            "Id": 15538,
+            "Name": "CHONGQING YINGANG SCIENCE & TECHNOLOGY (GROUP) CO., LTD.",
+            "UpdatedOn": "2016-09-01",
+            "VehicleType": "Motorcycle",
+            "WMI": "LY4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-11-14",
+            "DateAvailableToPublic": "2016-11-14",
+            "Id": 15904,
+            "Name": "APPLIED INTEGRATION TECHNOLOGIES, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4A9043"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-12-06",
+            "DateAvailableToPublic": "2016-12-13",
+            "Id": 15969,
+            "Name": "ADVANCED TECHNOLOGY AUTOMOTIVE COMPANY, LLC.",
+            "UpdatedOn": "2016-12-06",
+            "VehicleType": "Motorcycle",
+            "WMI": "4A9009"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-02-02",
+            "DateAvailableToPublic": "2017-02-02",
+            "Id": 16118,
+            "Name": "GETTIG TECHNOLOGIES LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1G9039"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-02-22",
+            "DateAvailableToPublic": "2017-02-22",
+            "Id": 15257,
+            "Name": "MCR TECHNOLOGY, INC ",
+            "UpdatedOn": null,
+            "VehicleType": "Bus",
+            "WMI": "1M9037"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-03-03",
+            "DateAvailableToPublic": "2017-03-03",
+            "Id": 15356,
+            "Name": "SYSTEMS TECHNOLOGY COMPANY ",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1S9158"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-03-22",
+            "DateAvailableToPublic": "2017-03-22",
+            "Id": 13272,
+            "Name": "CUSTOM TANK TECHNOLOGY",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1C9699"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-05-12",
+            "DateAvailableToPublic": "2017-05-12",
+            "Id": 11065,
+            "Name": "SAUK TECHNOLOGIES ",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1S9910"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-05-17",
+            "DateAvailableToPublic": "2017-05-17",
+            "Id": 8805,
+            "Name": "C.C.E. TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1C9812"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-05-24",
+            "DateAvailableToPublic": "2017-05-24",
+            "Id": 12617,
+            "Name": "BOXED UTILITY TRAILER TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1B9491"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-05-25",
+            "DateAvailableToPublic": "2017-05-25",
+            "Id": 12948,
+            "Name": "FUTURE HOME TECHNOLOGY",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1F9170"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-05-31",
+            "DateAvailableToPublic": "2017-05-31",
+            "Id": 5718,
+            "Name": "ALTAMONT TECHNOLOGIES, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1A9456"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-06-01",
+            "DateAvailableToPublic": "2017-06-01",
+            "Id": 10821,
+            "Name": "LAKE TECHNOLOGY PRODUCTS INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1L9179"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2017-07-21",
+            "DateAvailableToPublic": "2017-07-21",
+            "Id": 1706,
+            "Name": "JUNENG MOTORCYCLE TECHNOLOGY CO., LTD",
+            "UpdatedOn": "2018-04-23",
+            "VehicleType": "Motorcycle",
+            "WMI": "LZR"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-07-26",
+            "DateAvailableToPublic": "2017-07-26",
+            "Id": 16917,
+            "Name": "TECHNOLOGY DEVELOPMENT INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1T9378"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-08-01",
+            "DateAvailableToPublic": "2017-08-01",
+            "Id": 16994,
+            "Name": "Technology Systems",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1T9287"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-08-03",
+            "DateAvailableToPublic": "2017-08-03",
+            "Id": 17024,
+            "Name": "CERTIFIED ADVANCED TECHNOLOGIES, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1C9624"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-08-04",
+            "DateAvailableToPublic": "2017-08-04",
+            "Id": 17044,
+            "Name": "MSR TECHNOLOGIES ",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1M9147"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2017-08-25",
+            "DateAvailableToPublic": "2017-08-25",
+            "Id": 2903,
+            "Name": "MUST TECHNOLOGIES LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "2M9153"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-08-25",
+            "DateAvailableToPublic": "2017-08-25",
+            "Id": 17108,
+            "Name": "CHIEF TECHNOLOGIES, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4C9475"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2017-08-28",
+            "DateAvailableToPublic": "2017-08-28",
+            "Id": 5267,
+            "Name": "CROWN ENERGY TECHNOLOGIES INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "2C9173"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2017-08-28",
+            "DateAvailableToPublic": "2017-08-28",
+            "Id": 5267,
+            "Name": "CROWN ENERGY TECHNOLOGIES INC",
+            "UpdatedOn": null,
+            "VehicleType": "Truck ",
+            "WMI": "2R9678"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-09-22",
+            "DateAvailableToPublic": "2017-09-22",
+            "Id": 12541,
+            "Name": "ESARATI ELECTRIC TECHNOLOGIES CORP.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "5F5"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-10-17",
+            "DateAvailableToPublic": "2017-10-17",
+            "Id": 2038,
+            "Name": "CONTAINMENT TECHNOLOGY (CON-TEC)",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1C9796"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2017-10-23",
+            "DateAvailableToPublic": "2017-10-23",
+            "Id": 12557,
+            "Name": "HUNTER TECHNOLOGY INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "2HZ"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-10-24",
+            "DateAvailableToPublic": "2017-10-24",
+            "Id": 3757,
+            "Name": "STEEL TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1S9700"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-12-07",
+            "DateAvailableToPublic": "2017-12-07",
+            "Id": 11326,
+            "Name": "POSI-PLUS TECHNOLOGIES INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1P9445"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-01-25",
+            "DateAvailableToPublic": "2018-01-25",
+            "Id": 2999,
+            "Name": "TECHNOLOGY PLUS TRAILERS, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1T9775"
+        },
+        {
+            "Country": "TAIWAN",
+            "CreatedOn": "2018-01-26",
+            "DateAvailableToPublic": "2018-01-26",
+            "Id": 12828,
+            "Name": "EVT TECHNOLOGY CO., LTD.",
+            "UpdatedOn": "2018-01-26",
+            "VehicleType": "Motorcycle",
+            "WMI": "RF8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-01-30",
+            "DateAvailableToPublic": "2018-01-30",
+            "Id": 9549,
+            "Name": "EXCAVATION TECHNOLOGY CORPORATION",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1E9314"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-02-16",
+            "DateAvailableToPublic": "2018-02-16",
+            "Id": 17924,
+            "Name": "Advanced Transport Technologies Inc.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1A9230"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-03-21",
+            "DateAvailableToPublic": "2018-03-21",
+            "Id": 17962,
+            "Name": "MARBLE PROPULSION TECHNOLOGY’S INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4M9092"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-04-04",
+            "DateAvailableToPublic": "2018-04-04",
+            "Id": 18268,
+            "Name": "ACCELERATED MEDIA TECHNOLOGIES, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4A9091"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2018-08-20",
+            "DateAvailableToPublic": "2018-08-20",
+            "Id": 18648,
+            "Name": "MUNRO TECHNOLOGY CO.,LIMITED",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "R3B"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2018-11-16",
+            "DateAvailableToPublic": "2018-11-16",
+            "Id": 15649,
+            "Name": "GEA FARM TECHNOLOGIES CANADA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "2G9100"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2018-12-20",
+            "DateAvailableToPublic": "2018-12-20",
+            "Id": 18836,
+            "Name": "NIU TECHNOLOGIES GROUP LIMITED",
+            "UpdatedOn": "2018-12-20",
+            "VehicleType": "Motorcycle",
+            "WMI": "R1N"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-02-04",
+            "DateAvailableToPublic": "2019-02-04",
+            "Id": 18933,
+            "Name": "TULSA GAS TECHNOLOGIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4T9298"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-03-15",
+            "DateAvailableToPublic": "2019-03-15",
+            "Id": 19019,
+            "Name": "DAC TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1D9837"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2019-05-29",
+            "DateAvailableToPublic": "2019-05-29",
+            "Id": 19159,
+            "Name": "TINBOT TECHNOLOGY GMBH",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "WTK"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-09-06",
+            "DateAvailableToPublic": "2019-09-06",
+            "Id": 6309,
+            "Name": "EVOLUTION TRAILER TECHNOLOGIES",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1E9513"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2019-09-11",
+            "DateAvailableToPublic": "2019-09-11",
+            "Id": 19035,
+            "Name": "SHANDONG JIEJINGDIANCHE NEW ENERGY TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "L7Y"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-10-30",
+            "DateAvailableToPublic": "2019-10-30",
+            "Id": 19351,
+            "Name": "TROPOS TECHNOLOGIES INC",
+            "UpdatedOn": null,
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "7JM"
+        },
+        {
+            "Country": "HONG KONG",
+            "CreatedOn": "2019-11-25",
+            "DateAvailableToPublic": "2019-11-25",
+            "Id": 19496,
+            "Name": "WUXI XIYAO INTELLIGENT TECHNOLOGY CO LTD",
+            "UpdatedOn": "2020-06-18",
+            "VehicleType": "Motorcycle",
+            "WMI": "R46"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2020-05-18",
+            "DateAvailableToPublic": "2020-05-18",
+            "Id": 19820,
+            "Name": "NEW EDGE TECHNOLOGY SOLUTIONS",
+            "UpdatedOn": null,
+            "VehicleType": "Low Speed Vehicle (LSV)",
+            "WMI": "1N9398"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2020-06-01",
+            "DateAvailableToPublic": "2020-06-01",
+            "Id": 19756,
+            "Name": "CS&P TECHNOLOGIES LP",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "4C9571"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2020-08-04",
+            "DateAvailableToPublic": "2020-08-04",
+            "Id": 19903,
+            "Name": "JIANGSU NIU ELECTRIC TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "HA6"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2020-08-31",
+            "DateAvailableToPublic": "2020-08-31",
+            "Id": 20032,
+            "Name": "ELYX SMART TECHNOLOGY HOLDINGS (HONGKONG) LIMITED",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "R4N"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2020-10-26",
+            "DateAvailableToPublic": "2020-10-26",
+            "Id": 19902,
+            "Name": "JIANGSU LVNENG ELECTRICAL BICYCLE TECHNOLOGY CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "LV2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2021-01-25",
+            "DateAvailableToPublic": "2021-01-25",
+            "Id": 20329,
+            "Name": "PAJCO TECHNOLOGIES LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Trailer",
+            "WMI": "1P9859"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2021-02-24",
+            "DateAvailableToPublic": "2021-02-24",
+            "Id": 17279,
+            "Name": "YADEA TECHNOLOGY GROUP CO. LTD",
+            "UpdatedOn": "2021-03-03",
+            "VehicleType": "Motorcycle",
+            "WMI": "LR4"
+        },
+        {
+            "Country": "HONG KONG",
+            "CreatedOn": "2021-04-22",
+            "DateAvailableToPublic": "2021-04-22",
+            "Id": 20592,
+            "Name": "HANBIRD TECHNOLOGY(HONGKONG) LIMITED",
+            "UpdatedOn": null,
+            "VehicleType": "Motorcycle",
+            "WMI": "R5H"
+        }
+    ]
+}

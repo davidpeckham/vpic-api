@@ -1,0 +1,54 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetMakeForManufacturer/METRO?format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 4,
+        "Message": "Results returned successfully",
+        "SearchCriteria": "Manufacturer:METRO",
+        "Results": [
+            {
+                "Make_ID": 5999,
+                "Make_Name": "METRO FAB INC",
+                "Mfr_Name": "METRO FAB INC "
+            },
+            {
+                "Make_ID": 7845,
+                "Make_Name": "METRO TANK & STEEL, INC",
+                "Mfr_Name": "METRO TANK & STEEL, INC."
+            },
+            {
+                "Make_ID": 7897,
+                "Make_Name": "METRO TRAILER MANUFACTURING, INC",
+                "Mfr_Name": "METRO TRAILER MANUFACTURING, INC "
+            },
+            {
+                "Make_ID": 8627,
+                "Make_Name": "METRORIDER LLC",
+                "Mfr_Name": "METRORIDER LLC"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Make_ID": 5999,
+            "Make_Name": "METRO FAB INC",
+            "Mfr_Name": "METRO FAB INC "
+        },
+        {
+            "Make_ID": 7845,
+            "Make_Name": "METRO TANK & STEEL, INC",
+            "Mfr_Name": "METRO TANK & STEEL, INC."
+        },
+        {
+            "Make_ID": 7897,
+            "Make_Name": "METRO TRAILER MANUFACTURING, INC",
+            "Mfr_Name": "METRO TRAILER MANUFACTURING, INC "
+        },
+        {
+            "Make_ID": 8627,
+            "Make_Name": "METRORIDER LLC",
+            "Mfr_Name": "METRORIDER LLC"
+        }
+    ]
+}
