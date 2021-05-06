@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "vpic-api"
-version = "0.1.0"
+version = "0.1.1"
 description = "A client for the United States National Highway Traffic Safety Administration (NHTSA) Vehicle Product Information Catalog (vPIC) API"
 authors = ["David Peckham <dave.peckham@icloud.com>"]
 license = "MIT"
 readme = "README.md"
+repository = https://github.com/davidpeckham/vpic-api
 keywords = [
     "vpic",
     "nhtsa",
@@ -18,7 +19,6 @@ classifiers = [
 packages = [
     { include = "vpic" },
 ]
-exclude = ["NOTES.rst"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
