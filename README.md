@@ -17,13 +17,11 @@ the USA:
 * Trailer
 * Truck
 
-vPIC has all of the information about how manufacturers assign a VIN that
-encodes the vehicles characteristics. Vehicle manufacturers provide this
+vPIC has information about how manufacturers assign a VIN that
+encodes a vehicle's characteristics. Vehicle manufacturers provide this
 information to NHTSA under U.S. law 49 CFR Part 565.
 
-The API available 24/7, is free to use, and does not require registration.
-NHTSA uses automatic traffic rate controls to maintain the performance of
-the API and their websites that use the API.
+The API available 24/7, is free to use, and does not require registration. NHTSA uses automatic traffic rate controls to maintain the performance of the API and their websites that use the API.
 
 See https://vpic.nhtsa.dot.gov/api/home/index/faq for more on the API.
 
