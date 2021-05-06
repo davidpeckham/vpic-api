@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A client for the United States National Highway Traffic Safety Administration (NHTSA) Vehicle Product Information Catalog (vPIC) API"
 authors = ["David Peckham <dave.peckham@icloud.com>"]
 license = "MIT"
-readme = "README.rst"
+readme = "README.md"
 keywords = [
     "vpic",
     "nhtsa",
@@ -13,8 +13,6 @@ keywords = [
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
-    "Intended Audience :: Financial and Insurance Industry",
-    "Intended Audience :: Manufacturing",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 packages = [
