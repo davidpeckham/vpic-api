@@ -32,23 +32,23 @@
     "expected_result": [
         {
             "VehicleTypeId": 1,
-            "VehicleTypeName": "Motorcycle"
+            "VehicleType": "Motorcycle"
         },
         {
             "VehicleTypeId": 2,
-            "VehicleTypeName": "Passenger Car"
+            "VehicleType": "Passenger Car"
         },
         {
             "VehicleTypeId": 3,
-            "VehicleTypeName": "Truck "
+            "VehicleType": "Truck "
         },
         {
             "VehicleTypeId": 7,
-            "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)"
         },
         {
             "VehicleTypeId": 9,
-            "VehicleTypeName": "Low Speed Vehicle (LSV)"
+            "VehicleType": "Low Speed Vehicle (LSV)"
         }
     ]
 }

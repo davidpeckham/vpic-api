@@ -2,80 +2,12 @@ import logging
 from typing import List, Union
 from urllib.parse import urljoin
 
-from requests.adapters import HTTPAdapter
-
-from .exceptions import handle_error_response
-from .session import VpicAPISession
-from .utils import standardize_variable_names
+from .client_base import ClientBase
 
 log = logging.getLogger(__name__)
 
 
-class BaseAPI(object):
-    def __init__(
-        self,
-        host="https://vpic.nhtsa.dot.gov/api/vehicles/",
-        standardize_variables=True,
-    ):
-        """
-        Instantiate a new API client.
-
-        Parameters
-        ----------
-        host : str
-            Hostname, including http(s)://, of the vPIC instance to query
-        standardize_variables: bool
-            vPIC uses different names for the same variable. Set this to True
-            to standardize variables before returning the response.
-
-        """
-        self.host = host
-        self.standardize_variables = standardize_variables
-        self.session = VpicAPISession()
-        self.session.mount(self.host, HTTPAdapter(pool_connections=2, max_retries=5))
-
-    @property
-    def url(self):
-        return self.host
-
-    def _request(self, endpoint, params=None):
-        if not params:
-            params = {"format": "json"}
-        else:
-            params["format"] = "json"
-
-        api = urljoin(self.url, endpoint)
-        resp = self.session.get(api, params=params)
-
-        if resp.status_code >= 400:
-            handle_error_response(resp)
-
-        results = resp.json()["Results"]
-        if self.standardize_variables:
-            results = standardize_variable_names(results)
-
-        return results
-
-    def _request_post(self, endpoint: str, data, params=None):
-        if not params:
-            params = {"format": "json"}
-        elif "format" not in params:
-            params["format"] = "json"
-
-        api = urljoin(self.url, endpoint)
-        resp = self.session.post(url=api, data=data, params=params)
-
-        if resp.status_code >= 400:
-            handle_error_response(resp)
-
-        results = resp.json()["Results"]
-        if self.standardize_variables:
-            results = standardize_variable_names(results)
-
-        return results
-
-
-class Vpic(BaseAPI):
+class Client(ClientBase):
     """
     A client for the United States National Highway Traffic Safety
     Administration (NHTSA) Vehicle Product Information Catalog (vPIC) Vehicle
@@ -126,7 +58,7 @@ class Vpic(BaseAPI):
             to standardize variables before returning the response.
 
         """
-        super(Vpic, self).__init__(host, standardize_variables)
+        super(Client, self).__init__(host, standardize_variables)
 
     def decode_vin(self, vin: str, model_year: int = None, extend=False, flatten=True):
         """
@@ -244,7 +176,7 @@ class Vpic(BaseAPI):
             "CommonName": "Ford",
             "CreatedOn": "2015-03-23",
             "DateAvailableToPublic": "2015-01-01",
-            "Make": "FORD",
+            "MakeName": "FORD",
             "ManufacturerName": "FORD MOTOR COMPANY, USA",
             "ParentCompanyName": "",
             "URL": "http://www.ford.com/",

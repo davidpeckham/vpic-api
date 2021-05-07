@@ -76,9 +76,9 @@
                     "Name": "Completed Vehicle Manufacturer"
                 }
             ],
-            "Mfr_CommonName": "Honda",
-            "Mfr_ID": 988,
-            "Mfr_Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "ManufacturerCommonName": "Honda",
+            "ManufacturerId": 988,
+            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
             "OtherManufacturerDetails": null,
             "PostalCode": "90501",
             "PrimaryProduct": null,

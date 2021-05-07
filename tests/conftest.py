@@ -4,12 +4,12 @@ from pathlib import Path
 import pytest
 import responses as responses_
 
-from vpic.client import Vpic
+from vpic.client import Client
 
 
 @pytest.fixture(scope="session")
-def vpic() -> Vpic:
-    return Vpic()
+def vpic() -> Client:
+    return Client()
 
 
 @pytest.fixture(scope="session")

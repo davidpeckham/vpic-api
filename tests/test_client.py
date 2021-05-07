@@ -1,13 +1,13 @@
-from vpic.client import BaseAPI
+from vpic.client_base import ClientBase
 
 
 def test_init():
-    c = BaseAPI(host="http://somehost/")
+    c = ClientBase(host="http://somehost/")
 
     assert c.host == "http://somehost/"
 
 
 def test_url():
-    c = BaseAPI(host="http://somehost")
+    c = ClientBase(host="http://somehost")
 
     assert c.url == "http://somehost"

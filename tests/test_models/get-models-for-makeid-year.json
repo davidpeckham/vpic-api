@@ -35,28 +35,28 @@
     },
     "expected_result": [
         {
-            "Make_ID": 441,
-            "Make_Name": "TESLA",
-            "Model_ID": 1685,
-            "Model_Name": "Model S"
+            "MakeId": 441,
+            "Make": "TESLA",
+            "ModelId": 1685,
+            "Model": "Model S"
         },
         {
-            "Make_ID": 441,
-            "Make_Name": "TESLA",
-            "Model_ID": 10199,
-            "Model_Name": "Model X"
+            "MakeId": 441,
+            "Make": "TESLA",
+            "ModelId": 10199,
+            "Model": "Model X"
         },
         {
-            "Make_ID": 441,
-            "Make_Name": "TESLA",
-            "Model_ID": 17834,
-            "Model_Name": "Model 3"
+            "MakeId": 441,
+            "Make": "TESLA",
+            "ModelId": 17834,
+            "Model": "Model 3"
         },
         {
-            "Make_ID": 441,
-            "Make_Name": "TESLA",
-            "Model_ID": 27027,
-            "Model_Name": "Model Y"
+            "MakeId": 441,
+            "Make": "TESLA",
+            "ModelId": 27027,
+            "Model": "Model Y"
         }
     ]
 }

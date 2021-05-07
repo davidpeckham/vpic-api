@@ -24,15 +24,15 @@
     "expected_result": [
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "MfrId": 988,
-            "MfrName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+            "Make": "HONDA",
+            "ManufacturerId": 988,
+            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
         },
         {
             "MakeId": 475,
-            "MakeName": "ACURA",
-            "MfrId": 988,
-            "MfrName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+            "Make": "ACURA",
+            "ManufacturerId": 988,
+            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
         }
     ]
 }

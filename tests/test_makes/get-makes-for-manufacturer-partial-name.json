@@ -31,24 +31,24 @@
     },
     "expected_result": [
         {
-            "Make_ID": 5999,
-            "Make_Name": "METRO FAB INC",
-            "Mfr_Name": "METRO FAB INC "
+            "MakeId": 5999,
+            "Make": "METRO FAB INC",
+            "Manufacturer": "METRO FAB INC "
         },
         {
-            "Make_ID": 7845,
-            "Make_Name": "METRO TANK & STEEL, INC",
-            "Mfr_Name": "METRO TANK & STEEL, INC."
+            "MakeId": 7845,
+            "Make": "METRO TANK & STEEL, INC",
+            "Manufacturer": "METRO TANK & STEEL, INC."
         },
         {
-            "Make_ID": 7897,
-            "Make_Name": "METRO TRAILER MANUFACTURING, INC",
-            "Mfr_Name": "METRO TRAILER MANUFACTURING, INC "
+            "MakeId": 7897,
+            "Make": "METRO TRAILER MANUFACTURING, INC",
+            "Manufacturer": "METRO TRAILER MANUFACTURING, INC "
         },
         {
-            "Make_ID": 8627,
-            "Make_Name": "METRORIDER LLC",
-            "Mfr_Name": "METRORIDER LLC"
+            "MakeId": 8627,
+            "Make": "METRORIDER LLC",
+            "Manufacturer": "METRORIDER LLC"
         }
     ]
 }

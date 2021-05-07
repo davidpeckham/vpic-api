@@ -1,6 +1,6 @@
 import json
 
-from vpic.utils import standardize_variable_names
+# from vpic.client_base import standardize_variable_names
 
 
 def expected_result(response_path):
@@ -8,4 +8,5 @@ def expected_result(response_path):
         content = json.load(fp)
     # TODO Update JSON response files to reflect the actual expected
     # result and then remove this call to standardize_variable_names
-    return standardize_variable_names(content["expected_result"])
+    # return standardize_variable_names(content["expected_result"])
+    return content["expected_result"]
