@@ -25,3 +25,76 @@ The API available 24/7, is free to use, and does not require registration. NHTSA
 
 See https://vpic.nhtsa.dot.gov/api/home/index/faq for more on the API.
 
+## Using vPIC
+
+### Decode a Vehicle Identification Number (VIN)
+
+Decode a 17-digit Vehicle Identification Number (VIN):
+
+```python
+from vpic import Client
+
+c = Client()
+
+result = c.decode_vin("1FA6P8TD5M5100001", 2021)
+```
+
+Here are a few of the 130+ attributes vPIC returns for the VIN:
+
+```json
+{
+    "Doors": "2",
+    "ErrorCode": "0",
+    "ErrorText": "0 - VIN decoded clean. Check Digit (9th position) is correct",
+    "Make": "FORD",
+    "MakeId": "460",
+    "Manufacturer": "FORD MOTOR COMPANY, USA",
+    "ManufacturerId": "976",
+    "Model": "Mustang",
+    "ModelId": "1781",
+    "ModelYear": "2021",
+    "PlantCity": "FLATROCK",
+    "PlantCountry": "UNITED STATES (USA)",
+    "PlantState": "MICHIGAN",
+    "Series": "I4 Coupe",
+    "VIN": "1FA6P8TD5M5100001",
+    "VehicleType": "PASSENGER CAR",
+}
+```
+
+### Get the Models for a Make and Model Year
+
+```python
+result = c.get_models_for_make("TESLA", 2021)
+```
+
+vPIC returns a list of the models for this make and model year:
+
+```json
+[
+    {
+        "MakeId": 441,
+        "Make": "TESLA",
+        "ModelId": 1685,
+        "Model": "Model S"
+    },
+    {
+        "MakeId": 441,
+        "Make": "TESLA",
+        "ModelId": 10199,
+        "Model": "Model X"
+    },
+    {
+        "MakeId": 441,
+        "Make": "TESLA",
+        "ModelId": 17834,
+        "Model": "Model 3"
+    },
+    {
+        "MakeId": 441,
+        "Make": "TESLA",
+        "ModelId": 27027,
+        "Model": "Model Y"
+    }
+]
+```
