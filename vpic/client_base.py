@@ -99,9 +99,9 @@ class ClientBase(object):
 
         if isinstance(object, dict):
             return {
-                _STANDARD_VARIABLE_NAMES.get(key, key): self._standardize_variable_names(
-                    value
-                )
+                _STANDARD_VARIABLE_NAMES.get(
+                    key, key
+                ): self._standardize_variable_names(value)
                 for key, value in object.items()
             }
         elif isinstance(object, list):

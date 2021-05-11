@@ -1,6 +1,5 @@
 import logging
-from typing import List, Union
-from urllib.parse import urljoin
+from typing import Any, Dict, List, Union
 
 from .client_base import ClientBase
 
@@ -60,7 +59,9 @@ class Client(ClientBase):
         """
         super(Client, self).__init__(host, standardize_variables)
 
-    def decode_vin(self, vin: str, model_year: int = None, extend=False, flatten=True):
+    def decode_vin(
+        self, vin: str, model_year: int = None, extend=False, flatten=True
+    ) -> Dict[str, Any]:
         """
         Decode the make, model, series, trim, and other vehicle information
         from VIN. Model year is required for pre-1980 vehicles, though vPIC
@@ -114,7 +115,7 @@ class Client(ClientBase):
         results = self._request(f"{endpoint}/{vin}", params)
         return results[0] if flatten else results
 
-    def decode_vin_batch(self, vins: List[str]):
+    def decode_vin_batch(self, vins: List[str]) -> List[Dict[str, Any]]:
         """
         Decode the make, model, series, trim, and other vehicle information
         for a list of VINs:
@@ -156,7 +157,7 @@ class Client(ClientBase):
 
         return self._request_post("DecodeVINValuesBatch", data={"DATA": ";".join(vins)})
 
-    def decode_wmi(self, wmi: str):
+    def decode_wmi(self, wmi: str) -> Dict[str, Any]:
         """
         This provides information on the World Manufacturer Identifier for a
         specific WMI code. WMIs may be put in as either 3 characters
@@ -191,7 +192,9 @@ class Client(ClientBase):
 
         return self._request(f"DecodeWMI/{wmi}")[0]
 
-    def get_wmis_for_manufacturer(self, manufacturer: Union[str, int]):
+    def get_wmis_for_manufacturer(
+        self, manufacturer: Union[str, int]
+    ) -> List[Dict[str, Any]]:
         """
         Returns the WMIs for one or more manufacturers who are registered
         with vPIC.
@@ -229,7 +232,7 @@ class Client(ClientBase):
 
         return self._request(f"GetWMIsForManufacturer/{manufacturer}")
 
-    def get_all_makes(self):
+    def get_all_makes(self) -> List[Dict[str, Any]]:
         """
         Returns all of the makes registered with vPIC.
 
@@ -257,7 +260,9 @@ class Client(ClientBase):
 
         return self._request("GetAllMakes")
 
-    def get_parts(self, cfr_part: str, from_date: str, to_date: str, page: int = 1):
+    def get_parts(
+        self, cfr_part: str, from_date: str, to_date: str, page: int = 1
+    ) -> List[Dict[str, Any]]:
         """
         Returns a list of documents submitted by manufacturers to NHTSA
         to comply with these regulations:
@@ -313,7 +318,9 @@ class Client(ClientBase):
         }
         return self._request("GetParts", params)
 
-    def get_all_manufacturers(self, manufacturer_type: str = None, page: int = 1):
+    def get_all_manufacturers(
+        self, manufacturer_type: str = None, page: int = 1
+    ) -> List[Dict[str, Any]]:
         """
         Return a list of vPIC manufacturers of the given manufacturer_type.
 
@@ -359,7 +366,9 @@ class Client(ClientBase):
         params = {"ManufacturerType": manufacturer_type, "page": page}
         return self._request("GetAllManufacturers", params)
 
-    def get_manufacturer_details(self, manufacturer: Union[str, int]):
+    def get_manufacturer_details(
+        self, manufacturer: Union[str, int]
+    ) -> List[Dict[str, Any]]:
         """
         Returns details for one or more manufacturers.
 
@@ -438,7 +447,7 @@ class Client(ClientBase):
 
     def get_makes_for_manufacturer(
         self, manufacturer: Union[str, int], model_year: int = None
-    ):
+    ) -> List[Dict[str, Any]]:
         """
         Returns makes produced by a manufacturer or manufacturers.
 
@@ -485,7 +494,7 @@ class Client(ClientBase):
 
         return results
 
-    def get_makes_for_vehicle_type(self, vehicle_type: str):
+    def get_makes_for_vehicle_type(self, vehicle_type: str) -> List[Dict[str, Any]]:
         """
         Returns makes that produce a vehicle_type
 
@@ -525,7 +534,7 @@ class Client(ClientBase):
 
         return self._request(f"GetMakesForVehicleType/{vehicle_type}")
 
-    def get_vehicle_types_for_make(self, make: Union[str, int]):
+    def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[Dict[str, Any]]:
         """
         Returns vehicle types produced by a make or makes
 
@@ -601,7 +610,7 @@ class Client(ClientBase):
 
     def get_equipment_plant_codes(
         self, year: int, equipment_type: int, report_type: str = "All"
-    ):
+    ) -> List[Dict[str, Any]]:
         """
         Returns a list of plants that manufacture certain vehicle equipment.
         Plants have a unique three-character U.S. Department of Transportation
@@ -659,7 +668,7 @@ class Client(ClientBase):
 
     def get_models_for_make(
         self, make: Union[int, str], model_year: int = None, vehicle_type: str = None
-    ):
+    ) -> List[Dict[str, Any]]:
         """
         Return a list of models for a make or makes. Optionally filter by
         model year and vehicle type.
@@ -715,7 +724,7 @@ class Client(ClientBase):
 
         return self._request(endpoint)
 
-    def get_vehicle_variable_list(self):
+    def get_vehicle_variable_list(self) -> List[Dict[str, Any]]:
         """
         Return a list of vehicle variables tracked by vPIC
 
@@ -723,7 +732,9 @@ class Client(ClientBase):
 
         return self._request("GetVehicleVariableList")
 
-    def get_vehicle_variable_values_list(self, variable_name: str):
+    def get_vehicle_variable_values_list(
+        self, variable_name: str
+    ) -> List[Dict[str, Any]]:
         """
         Return the values for a vehicle variable
 
@@ -741,7 +752,7 @@ class Client(ClientBase):
 
     def get_canadian_vehicle_specifications(
         self, year: int, make: str, model: str = None, units: str = "Metric"
-    ):
+    ) -> List[Dict[str, Any]]:
         """
         Return the values for a vehicle variable
 
