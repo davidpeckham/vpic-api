@@ -1,5 +1,6 @@
 import pytest
-from vpic.typed_client import TypedClient
+
+from vpic import TypedClient
 
 
 @pytest.fixture(scope="session")
