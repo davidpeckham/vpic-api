@@ -182,7 +182,8 @@ class Client(ClientBase):
             "ParentCompanyName": "",
             "URL": "http://www.ford.com/",
             "UpdatedOn": null,
-            "VehicleType": "Truck "
+            "VehicleType": "Truck ",
+            "WMI": "1FT"
         }
 
         """
@@ -190,7 +191,9 @@ class Client(ClientBase):
         if not len(wmi) in [3, 6]:
             raise ValueError("WMI must be 3 or 6 characters")
 
-        return self._request(f"DecodeWMI/{wmi}")[0]
+        result = self._request(f"DecodeWMI/{wmi}")[0]
+        result["WMI"] = wmi
+        return result
 
     def get_wmis_for_manufacturer(
         self, manufacturer: Union[str, int]
@@ -230,7 +233,15 @@ class Client(ClientBase):
         if manufacturer is None:
             raise ValueError("manufacturer is required")
 
-        return self._request(f"GetWMIsForManufacturer/{manufacturer}")
+        wmis = self._request(f"GetWMIsForManufacturer/{manufacturer}")
+
+        for wmi in wmis:
+            wmi["ManufacturerId"] = wmi["Id"]
+            del wmi["Id"]
+            wmi["ManufacturerName"] = wmi["Name"]
+            del wmi["Name"]
+
+        return wmis
 
     def get_all_makes(self) -> List[Dict[str, Any]]:
         """

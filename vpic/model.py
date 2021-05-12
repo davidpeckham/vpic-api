@@ -28,15 +28,18 @@ class Manufacturer:
 
 @dataclass(eq=True, frozen=True)
 class WorldManufacturerIndex:
-    common_name: str
     created_on: str
     date_available_to_public: str
-    make_name: str
     manufacturer_name: str
-    parent_company_name: str
     updated_on: str
-    url: str
     vehicle_type: str
+    wmi: str
+    common_name: str = '' ## optional
+    country: str = '' ## optional
+    make_name: str = '' ## optional
+    manufacturer_id: int = None
+    parent_company_name: str = ''  ## optional
+    url: str = '' ## optional
 
 
 @dataclass(eq=True, frozen=True)

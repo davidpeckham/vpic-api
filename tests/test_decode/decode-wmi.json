@@ -30,6 +30,7 @@
         "ParentCompanyName": "",
         "URL": "http:\/\/www.ford.com\/",
         "UpdatedOn": null,
-        "VehicleType": "Truck "
+        "VehicleType": "Truck ",
+        "WMI": "1FT"
     }
 }

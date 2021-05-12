@@ -1,6 +1,6 @@
 import logging
 import re
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Union
 
 from .client import Client
 from .model import (
@@ -62,8 +62,8 @@ class TypedClient:
             to standardize variables before returning the response.
 
         """
-        self.client = Client(host, standardize_variables=True)
-        self.snake_re = re.compile(r"(?<!^)([A-Z])(?=[a-z])")
+        self._client = Client(host, standardize_variables=True)
+        self._snake_re = re.compile(r"(?<!^)([A-Z])(?=[a-z])")
 
     # def _snake_case(self, object: Union[Dict, List, str]) -> Union[Dict, List, str]:
     #     """
@@ -76,7 +76,7 @@ class TypedClient:
     #     elif isinstance(object, list):
     #         return [self._snake_case(item) for item in object]
     #     else:
-    #         return self.snake_re.sub(r"_\1", object).lower()
+    #         return self._snake_re.sub(r"_\1", object).lower()
 
     def _snake_case(self, object: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -85,7 +85,7 @@ class TypedClient:
         """
 
         return {
-            self.snake_re.sub(r"_\1", key).lower(): value
+            self._snake_re.sub(r"_\1", key).lower(): value
             for key, value in object.items()
         }
 
@@ -173,7 +173,7 @@ class TypedClient:
         """
 
         return Vehicle(
-            **self._snake_case(self.client.decode_vin(vin, model_year, extend))
+            **self._snake_case(self._client.decode_vin(vin, model_year, extend))
         )
 
     def decode_vin_batch(self, vins: List[str]) -> List[Vehicle]:
@@ -219,7 +219,7 @@ class TypedClient:
 
         """
         return [
-            Vehicle(**self._snake_case(v)) for v in self.client.decode_vin_batch(vins)
+            Vehicle(**self._snake_case(v)) for v in self._client.decode_vin_batch(vins)
         ]
 
     def decode_wmi(self, wmi: str) -> WorldManufacturerIndex:
@@ -252,7 +252,45 @@ class TypedClient:
 
         """
 
-        return WorldManufacturerIndex(**self._snake_case(self.client.decode_wmi(wmi)))
+        return WorldManufacturerIndex(**self._snake_case(self._client.decode_wmi(wmi)))
+
+    def get_wmis_for_manufacturer(
+        self, manufacturer: Union[str, int]
+    ) -> List[WorldManufacturerIndex]:
+        """
+        Returns the WMIs for one or more manufacturers who are registered
+        with vPIC.
+
+        Parameters
+        ----------
+        manufacturer : Union[str, int]
+            Pass the Manufacturer Id (int) or the complete manufacturer
+            name (str) to return WMIs for a single manufacturer. Pass a
+            partial name to return WMIs for all manufacturers with names
+            that include the partial name.
+
+        Example
+        -------
+        get_wmis_for_manufacturer('Honda')
+
+        [
+            {
+                "Country": null,
+                "CreatedOn": "2015-03-26",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 987,
+                "Name": "HONDA MOTOR CO., LTD",
+                "UpdatedOn": "2015-06-04",
+                "VehicleType": "Passenger Car",
+                "WMI": "JHM"
+            },
+            ...
+        ]
+
+        """
+
+        wmis = self._client.get_wmis_for_manufacturer(manufacturer)
+        return [WorldManufacturerIndex(**self._snake_case(wmi)) for wmi in wmis]
 
     def get_all_makes(self) -> List[Make]:
         """
@@ -278,7 +316,7 @@ class TypedClient:
 
         """
 
-        return [Make(**self._snake_case(m)) for m in self.client.get_all_makes()]
+        return [Make(**self._snake_case(m)) for m in self._client.get_all_makes()]
 
     def get_equipment_plant_codes(
         self, year: int, equipment_type: int, report_type: str = "All"
@@ -326,7 +364,7 @@ class TypedClient:
 
         """
 
-        plant_codes = self.client.get_equipment_plant_codes(
+        plant_codes = self._client.get_equipment_plant_codes(
             year, equipment_type, report_type
         )
         return [PlantCode(**self._snake_case(pc)) for pc in plant_codes]
@@ -350,7 +388,7 @@ class TypedClient:
 
         """
 
-        variables = self.client.get_vehicle_variable_list()
+        variables = self._client.get_vehicle_variable_list()
         return [Variable(**self._snake_case(v)) for v in variables]
 
     def get_vehicle_variable_values_list(self, variable_name: str) -> List[Value]:
@@ -380,5 +418,5 @@ class TypedClient:
 
         """
 
-        values = self.client.get_vehicle_variable_values_list(variable_name)
+        values = self._client.get_vehicle_variable_values_list(variable_name)
         return [Value(**self._snake_case(v)) for v in values]
