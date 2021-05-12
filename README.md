@@ -46,11 +46,11 @@ Here are a few of the 130+ attributes vPIC returns for the VIN:
     "Doors": "2",
     "ErrorCode": "0",
     "ErrorText": "0 - VIN decoded clean. Check Digit (9th position) is correct",
-    "Make": "FORD",
+    "MakeName": "FORD",
     "MakeId": "460",
-    "Manufacturer": "FORD MOTOR COMPANY, USA",
+    "ManufacturerName": "FORD MOTOR COMPANY, USA",
     "ManufacturerId": "976",
-    "Model": "Mustang",
+    "ModelName": "Mustang",
     "ModelId": "1781",
     "ModelYear": "2021",
     "PlantCity": "FLATROCK",
@@ -74,27 +74,27 @@ vPIC returns a list of the models for this make and model year:
 [
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 1685,
-        "Model": "Model S"
+        "ModelName": "Model S"
     },
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 10199,
-        "Model": "Model X"
+        "ModelName": "Model X"
     },
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 17834,
-        "Model": "Model 3"
+        "ModelName": "Model 3"
     },
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 27027,
-        "Model": "Model Y"
+        "ModelName": "Model Y"
     }
 ]
 ```

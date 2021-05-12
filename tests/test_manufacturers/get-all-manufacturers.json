@@ -1316,7 +1316,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Tesla",
             "ManufacturerId": 955,
-            "Manufacturer": "TESLA, INC.",
+            "ManufacturerName": "TESLA, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1332,7 +1332,7 @@
             "Country": "UNITED KINGDOM (UK)",
             "ManufacturerCommonName": "Aston Martin",
             "ManufacturerId": 956,
-            "Manufacturer": "ASTON MARTIN LAGONDA LIMITED",
+            "ManufacturerName": "ASTON MARTIN LAGONDA LIMITED",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1344,7 +1344,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 958,
-            "Manufacturer": "JAGUAR LAND ROVER NA, LLC",
+            "ManufacturerName": "JAGUAR LAND ROVER NA, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1364,7 +1364,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Maserati",
             "ManufacturerId": 959,
-            "Manufacturer": "MASERATI NORTH AMERICA, INC.",
+            "ManufacturerName": "MASERATI NORTH AMERICA, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1380,7 +1380,7 @@
             "Country": "FRANCE",
             "ManufacturerCommonName": "Bugatti",
             "ManufacturerId": 970,
-            "Manufacturer": "BUGATTI AUTOMOBILES S.A.S",
+            "ManufacturerName": "BUGATTI AUTOMOBILES S.A.S",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1392,7 +1392,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Hombilt",
             "ManufacturerId": 971,
-            "Manufacturer": "HOMBILT TRAILERS INC",
+            "ManufacturerName": "HOMBILT TRAILERS INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1404,7 +1404,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "ACG",
             "ManufacturerId": 973,
-            "Manufacturer": "AMERICAN CUSTOM GOLF CARS, INC",
+            "ManufacturerName": "AMERICAN CUSTOM GOLF CARS, INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1420,7 +1420,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 974,
-            "Manufacturer": "MOONLIGHT AUTO",
+            "ManufacturerName": "MOONLIGHT AUTO",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1432,7 +1432,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Latitude",
             "ManufacturerId": 980,
-            "Manufacturer": "LATITUDE CAMPER COMPANY, LLC",
+            "ManufacturerName": "LATITUDE CAMPER COMPANY, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1444,7 +1444,7 @@
             "Country": "CANADA",
             "ManufacturerCommonName": "Westward",
             "ManufacturerId": 982,
-            "Manufacturer": "WESTWARD INDUSTRIES LTD.",
+            "ManufacturerName": "WESTWARD INDUSTRIES LTD.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1456,7 +1456,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "GM",
             "ManufacturerId": 984,
-            "Manufacturer": "GENERAL MOTORS LLC",
+            "ManufacturerName": "GENERAL MOTORS LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1476,7 +1476,7 @@
             "Country": "JAPAN",
             "ManufacturerCommonName": "Honda",
             "ManufacturerId": 987,
-            "Manufacturer": "HONDA MOTOR CO., LTD",
+            "ManufacturerName": "HONDA MOTOR CO., LTD",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1496,7 +1496,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Honda",
             "ManufacturerId": 988,
-            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "ManufacturerName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1516,7 +1516,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Volvo",
             "ManufacturerId": 1006,
-            "Manufacturer": "VOLVO CAR USA, LLC",
+            "ManufacturerName": "VOLVO CAR USA, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1532,7 +1532,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Volvo (Truck \/ Bus)",
             "ManufacturerId": 1015,
-            "Manufacturer": "VOLVO GROUP NORTH AMERICA, LLC",
+            "ManufacturerName": "VOLVO GROUP NORTH AMERICA, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1548,14 +1548,14 @@
             "Country": "GERMANY",
             "ManufacturerCommonName": "Daimler",
             "ManufacturerId": 1023,
-            "Manufacturer": "MERCEDES-BENZ AG",
+            "ManufacturerName": "MERCEDES-BENZ AG",
             "VehicleTypes": []
         },
         {
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Mack",
             "ManufacturerId": 1027,
-            "Manufacturer": "MACK TRUCKS INC.",
+            "ManufacturerName": "MACK TRUCKS INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1571,7 +1571,7 @@
             "Country": "ITALY",
             "ManufacturerCommonName": "Fiat",
             "ManufacturerId": 1029,
-            "Manufacturer": "FCA ITALY S.P.A.",
+            "ManufacturerName": "FCA ITALY S.P.A.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1591,7 +1591,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Chairiot Mobility",
             "ManufacturerId": 1030,
-            "Manufacturer": "CHAIRIOT MOBILITY INC",
+            "ManufacturerName": "CHAIRIOT MOBILITY INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1603,7 +1603,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "PACCAR",
             "ManufacturerId": 1031,
-            "Manufacturer": "PACCAR INC.",
+            "ManufacturerName": "PACCAR INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1615,7 +1615,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1035,
-            "Manufacturer": "MAD DAWG CYCLES AND TRAILERS",
+            "ManufacturerName": "MAD DAWG CYCLES AND TRAILERS",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1631,7 +1631,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1040,
-            "Manufacturer": "HAYES WELDING INC",
+            "ManufacturerName": "HAYES WELDING INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1643,7 +1643,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1044,
-            "Manufacturer": "BLUE BIRD BODY COMPANY",
+            "ManufacturerName": "BLUE BIRD BODY COMPANY",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1659,7 +1659,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Suzuki",
             "ManufacturerId": 1048,
-            "Manufacturer": "SUZUKI MOTOR OF AMERICA, INC",
+            "ManufacturerName": "SUZUKI MOTOR OF AMERICA, INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1671,7 +1671,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1053,
-            "Manufacturer": "PETE’S GOLF CARTS",
+            "ManufacturerName": "PETE’S GOLF CARTS",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1683,7 +1683,7 @@
             "Country": "UNITED KINGDOM (UK)",
             "ManufacturerCommonName": "Jaguar Land Rover",
             "ManufacturerId": 1079,
-            "Manufacturer": "JAGUAR LAND ROVER LIMITED",
+            "ManufacturerName": "JAGUAR LAND ROVER LIMITED",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1699,7 +1699,7 @@
             "Country": "CHINA",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1080,
-            "Manufacturer": "GEELY GROUP ZHEJIANG MOTORCYCLE CO., LTD.",
+            "ManufacturerName": "GEELY GROUP ZHEJIANG MOTORCYCLE CO., LTD.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1711,14 +1711,14 @@
             "Country": "JAPAN",
             "ManufacturerCommonName": "Mitsubishi Fuso Truck",
             "ManufacturerId": 1081,
-            "Manufacturer": "MITSUBISHI FUSO TRUCK & BUS CORPORATION",
+            "ManufacturerName": "MITSUBISHI FUSO TRUCK & BUS CORPORATION",
             "VehicleTypes": []
         },
         {
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "FOREST RIVER, INC.",
             "ManufacturerId": 1084,
-            "Manufacturer": "FOREST RIVER, INC.",
+            "ManufacturerName": "FOREST RIVER, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1738,7 +1738,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1089,
-            "Manufacturer": "JOHN THOMAS, INC",
+            "ManufacturerName": "JOHN THOMAS, INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1750,7 +1750,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "AM GENERAL",
             "ManufacturerId": 1093,
-            "Manufacturer": "AM GENERAL CORPORATION ",
+            "ManufacturerName": "AM GENERAL CORPORATION ",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1762,7 +1762,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1101,
-            "Manufacturer": "THOR INDUSTRIES",
+            "ManufacturerName": "THOR INDUSTRIES",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1774,7 +1774,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Cruiser RV",
             "ManufacturerId": 1104,
-            "Manufacturer": "CRUISER RV",
+            "ManufacturerName": "CRUISER RV",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1786,7 +1786,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1106,
-            "Manufacturer": "MVP RV INC. (THOR CALIFORNIA, INC.)",
+            "ManufacturerName": "MVP RV INC. (THOR CALIFORNIA, INC.)",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1798,7 +1798,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Thor Manufacturing",
             "ManufacturerId": 1107,
-            "Manufacturer": "THOR MANUFACTURING LLC",
+            "ManufacturerName": "THOR MANUFACTURING LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1810,7 +1810,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Winnebago Of Indiana",
             "ManufacturerId": 1108,
-            "Manufacturer": "WINNEBAGO OF INDIANA, LLC",
+            "ManufacturerName": "WINNEBAGO OF INDIANA, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1822,7 +1822,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Gillig",
             "ManufacturerId": 1118,
-            "Manufacturer": "GILLIG LLC",
+            "ManufacturerName": "GILLIG LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1834,7 +1834,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1120,
-            "Manufacturer": "CHAMPION TELECOM, INC.",
+            "ManufacturerName": "CHAMPION TELECOM, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1846,7 +1846,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1121,
-            "Manufacturer": "CHAMPION BRIDGE CO., INC.",
+            "ManufacturerName": "CHAMPION BRIDGE CO., INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1858,7 +1858,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1122,
-            "Manufacturer": "Champion Trailers, Inc.",
+            "ManufacturerName": "Champion Trailers, Inc.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1870,7 +1870,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "PIERCE MANUFACTURING",
             "ManufacturerId": 1124,
-            "Manufacturer": "PIERCE MANUFACTURING INC.",
+            "ManufacturerName": "PIERCE MANUFACTURING INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1882,7 +1882,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "MCI",
             "ManufacturerId": 1126,
-            "Manufacturer": "MOTOR COACH INDUSTRIES, INC.",
+            "ManufacturerName": "MOTOR COACH INDUSTRIES, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1898,7 +1898,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1127,
-            "Manufacturer": "TURTLEBACK TRAILERS LLC",
+            "ManufacturerName": "TURTLEBACK TRAILERS LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1910,7 +1910,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Prevost",
             "ManufacturerId": 1128,
-            "Manufacturer": "PREVOST A DIVISION OF PREVOST CAR (US) INC. (NOVA BUS, INCORPORATED)",
+            "ManufacturerName": "PREVOST A DIVISION OF PREVOST CAR (US) INC. (NOVA BUS, INCORPORATED)",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1922,7 +1922,7 @@
             "Country": "TURKEY",
             "ManufacturerCommonName": "TEMSA ",
             "ManufacturerId": 1129,
-            "Manufacturer": "TEMSA ULASIM ARACLARI SANAYI VE TICARET A.S.",
+            "ManufacturerName": "TEMSA ULASIM ARACLARI SANAYI VE TICARET A.S.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1934,7 +1934,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Triumph Motorcycles",
             "ManufacturerId": 1131,
-            "Manufacturer": "TRIUMPH MOTORCYCLES (AMERICA) LIMITED",
+            "ManufacturerName": "TRIUMPH MOTORCYCLES (AMERICA) LIMITED",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1946,7 +1946,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Polaris",
             "ManufacturerId": 1132,
-            "Manufacturer": "POLARIS INDUSTRIES INC.",
+            "ManufacturerName": "POLARIS INDUSTRIES INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1962,7 +1962,7 @@
             "Country": "ITALY",
             "ManufacturerCommonName": "Ducati",
             "ManufacturerId": 1133,
-            "Manufacturer": "DUCATI MOTOR HOLDING S.p.A. ",
+            "ManufacturerName": "DUCATI MOTOR HOLDING S.p.A. ",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1974,7 +1974,7 @@
             "Country": "CANADA",
             "ManufacturerCommonName": "BRP",
             "ManufacturerId": 1134,
-            "Manufacturer": "BOMBARDIER RECREATIONAL PRODUCTS INC ",
+            "ManufacturerName": "BOMBARDIER RECREATIONAL PRODUCTS INC ",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -1986,7 +1986,7 @@
             "Country": "TAIWAN",
             "ManufacturerCommonName": "Genuine Scooters",
             "ManufacturerId": 1135,
-            "Manufacturer": "MOTIVE POWER INDUSTRY CO. LTD.",
+            "ManufacturerName": "MOTIVE POWER INDUSTRY CO. LTD.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -1998,7 +1998,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1142,
-            "Manufacturer": "KTLL Group LLC dBa VICTORY TRAILERS",
+            "ManufacturerName": "KTLL Group LLC dBa VICTORY TRAILERS",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2010,7 +2010,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Volkswagen",
             "ManufacturerId": 1147,
-            "Manufacturer": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+            "ManufacturerName": "VOLKSWAGEN GROUP OF AMERICA, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2026,7 +2026,7 @@
             "Country": "GERMANY",
             "ManufacturerCommonName": "Volkswagen",
             "ManufacturerId": 1148,
-            "Manufacturer": "VOLKSWAGEN AG",
+            "ManufacturerName": "VOLKSWAGEN AG",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2042,7 +2042,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Google Auto",
             "ManufacturerId": 1151,
-            "Manufacturer": "GOOGLE AUTO LLC",
+            "ManufacturerName": "GOOGLE AUTO LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2054,7 +2054,7 @@
             "Country": "TAIWAN",
             "ManufacturerCommonName": "Yamaha",
             "ManufacturerId": 1153,
-            "Manufacturer": "YAMAHA MOTOR TAIWAN CO., LTD.",
+            "ManufacturerName": "YAMAHA MOTOR TAIWAN CO., LTD.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2066,7 +2066,7 @@
             "Country": "BELGIUM",
             "ManufacturerCommonName": "Van Hool",
             "ManufacturerId": 1163,
-            "Manufacturer": "VAN HOOL N.V.",
+            "ManufacturerName": "VAN HOOL N.V.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2082,7 +2082,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Volvo Bus (Mexico)",
             "ManufacturerId": 1164,
-            "Manufacturer": "VOLVO INDUSTRIAL DE MEXICO, S.A. DE C.V.",
+            "ManufacturerName": "VOLVO INDUSTRIAL DE MEXICO, S.A. DE C.V.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2094,7 +2094,7 @@
             "Country": "BRAZIL",
             "ManufacturerCommonName": "Busscar",
             "ManufacturerId": 1166,
-            "Manufacturer": "BUSSCAR ONIBUS S.A.",
+            "ManufacturerName": "BUSSCAR ONIBUS S.A.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2106,7 +2106,7 @@
             "Country": "CHINA",
             "ManufacturerCommonName": "ZheJiang LingYun",
             "ManufacturerId": 1167,
-            "Manufacturer": "ZheJiang LingYun Motorcycle Co., Ltd.",
+            "ManufacturerName": "ZheJiang LingYun Motorcycle Co., Ltd.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2118,7 +2118,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "MOBILITY VENTURES",
             "ManufacturerId": 1174,
-            "Manufacturer": "AM GENERAL LLC",
+            "ManufacturerName": "AM GENERAL LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2130,7 +2130,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1178,
-            "Manufacturer": "3T MFG.",
+            "ManufacturerName": "3T MFG.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2146,7 +2146,7 @@
             "Country": "CANADA",
             "ManufacturerCommonName": "9013-7233 Quebec",
             "ManufacturerId": 1180,
-            "Manufacturer": "9013-7233 QUEBEC INC.",
+            "ManufacturerName": "9013-7233 QUEBEC INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2158,7 +2158,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "A&M Fabrications",
             "ManufacturerId": 1182,
-            "Manufacturer": "A & M FABRICATIONS LLC",
+            "ManufacturerName": "A & M FABRICATIONS LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2170,7 +2170,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "ARM INC",
             "ManufacturerId": 1189,
-            "Manufacturer": "A.R.M.(U.S.A.), INC.",
+            "ManufacturerName": "A.R.M.(U.S.A.), INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2182,7 +2182,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "A-BAR-D",
             "ManufacturerId": 1192,
-            "Manufacturer": "A-BAR-D MFG.",
+            "ManufacturerName": "A-BAR-D MFG.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2194,7 +2194,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES",
             "ManufacturerId": 1193,
-            "Manufacturer": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES LLC",
+            "ManufacturerName": "ABASTECEDORA DE TRACTOPARTES Y REFACCIONES LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2206,7 +2206,7 @@
             "Country": "CANADA",
             "ManufacturerCommonName": "Matrixx Specialized Trailers",
             "ManufacturerId": 1196,
-            "Manufacturer": "2231545 ONTARIO INC. DBA MATRIXX SPECIALIZED TRAILERS",
+            "ManufacturerName": "2231545 ONTARIO INC. DBA MATRIXX SPECIALIZED TRAILERS",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2218,7 +2218,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Trailers",
             "ManufacturerId": 1199,
-            "Manufacturer": "COUNTRY TRAILERS LLC",
+            "ManufacturerName": "COUNTRY TRAILERS LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2230,7 +2230,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Crary Agricultural",
             "ManufacturerId": 1202,
-            "Manufacturer": "CRARY AGRICULTURAL SOLUTIONS, LLC",
+            "ManufacturerName": "CRARY AGRICULTURAL SOLUTIONS, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2242,7 +2242,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1207,
-            "Manufacturer": "CREATIVE COACHWORKS, INC",
+            "ManufacturerName": "CREATIVE COACHWORKS, INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2254,7 +2254,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1218,
-            "Manufacturer": "CUSTOM CYCLE STUDIO LLC",
+            "ManufacturerName": "CUSTOM CYCLE STUDIO LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2270,7 +2270,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "C.D.M.",
             "ManufacturerId": 1219,
-            "Manufacturer": "CUSTOM DESIGN MANUFACTURING",
+            "ManufacturerName": "CUSTOM DESIGN MANUFACTURING",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2282,7 +2282,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Custom Mobile Designs",
             "ManufacturerId": 1228,
-            "Manufacturer": "CUSTOM MOBILE DESIGNS LLC",
+            "ManufacturerName": "CUSTOM MOBILE DESIGNS LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2294,7 +2294,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Custom Pits and Fabrication",
             "ManufacturerId": 1229,
-            "Manufacturer": "CUSTOM PITS AND FABRICATION LLC",
+            "ManufacturerName": "CUSTOM PITS AND FABRICATION LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2306,7 +2306,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1244,
-            "Manufacturer": "MARKET DIRECT CAMPERS\/MDC",
+            "ManufacturerName": "MARKET DIRECT CAMPERS\/MDC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2318,7 +2318,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Count's Kustoms",
             "ManufacturerId": 1246,
-            "Manufacturer": "COUNT'S KUSTOMS",
+            "ManufacturerName": "COUNT'S KUSTOMS",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2330,7 +2330,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Copper River Fabricators",
             "ManufacturerId": 1247,
-            "Manufacturer": "COPPER RIVER FABRICATORS, INC.",
+            "ManufacturerName": "COPPER RIVER FABRICATORS, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2342,7 +2342,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Coras Trailers",
             "ManufacturerId": 1250,
-            "Manufacturer": "CORAS TRAILER MANUFACTURING, INC.",
+            "ManufacturerName": "CORAS TRAILER MANUFACTURING, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2354,7 +2354,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1254,
-            "Manufacturer": "CORNELIUS MANUFACTURING, INC.",
+            "ManufacturerName": "CORNELIUS MANUFACTURING, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2366,7 +2366,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "American Made",
             "ManufacturerId": 1255,
-            "Manufacturer": "AMERICAN MADE",
+            "ManufacturerName": "AMERICAN MADE",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2378,7 +2378,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1256,
-            "Manufacturer": "AMERICAN MANUFACTURING OPERATIONS, INC.",
+            "ManufacturerName": "AMERICAN MANUFACTURING OPERATIONS, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2390,7 +2390,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1265,
-            "Manufacturer": "COTNER TRAILERS, INC",
+            "ManufacturerName": "COTNER TRAILERS, INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2402,7 +2402,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "CRONKHITE",
             "ManufacturerId": 1290,
-            "Manufacturer": "CRONKHITE INDUSTRIES, INC.",
+            "ManufacturerName": "CRONKHITE INDUSTRIES, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2414,7 +2414,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": "Coyote",
             "ManufacturerId": 1296,
-            "Manufacturer": "COYOTE MFG CO",
+            "ManufacturerName": "COYOTE MFG CO",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2426,7 +2426,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1298,
-            "Manufacturer": "CROSS CLEANING SOLUTIONS, LLC",
+            "ManufacturerName": "CROSS CLEANING SOLUTIONS, LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2438,7 +2438,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1302,
-            "Manufacturer": "TIM NOBLES TRAILERS and Repair LLC",
+            "ManufacturerName": "TIM NOBLES TRAILERS and Repair LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2450,7 +2450,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1305,
-            "Manufacturer": "TOP NOTCH TRAILER Manufacturing, Inc.",
+            "ManufacturerName": "TOP NOTCH TRAILER Manufacturing, Inc.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2462,7 +2462,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1308,
-            "Manufacturer": "CSC MOTORCYCLES INC.",
+            "ManufacturerName": "CSC MOTORCYCLES INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2474,7 +2474,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1318,
-            "Manufacturer": "AFFORDABLE TRAILERS",
+            "ManufacturerName": "AFFORDABLE TRAILERS",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2486,7 +2486,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1341,
-            "Manufacturer": "TMP TRUCK & TRAILER",
+            "ManufacturerName": "TMP TRUCK & TRAILER",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2498,7 +2498,7 @@
             "Country": "SWEDEN",
             "ManufacturerCommonName": "Koenigsegg",
             "ManufacturerId": 1344,
-            "Manufacturer": "KOENIGSEGG AUTOMOTIVE AB",
+            "ManufacturerName": "KOENIGSEGG AUTOMOTIVE AB",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2510,7 +2510,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1347,
-            "Manufacturer": "DYMAC VEHICLE GROUP, INC.",
+            "ManufacturerName": "DYMAC VEHICLE GROUP, INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2522,7 +2522,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1351,
-            "Manufacturer": "MID SOUTH DISTRIBUTION SERVICES",
+            "ManufacturerName": "MID SOUTH DISTRIBUTION SERVICES",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2534,7 +2534,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1352,
-            "Manufacturer": "IMPACT HYDRAULIC",
+            "ManufacturerName": "IMPACT HYDRAULIC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2546,7 +2546,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1359,
-            "Manufacturer": "KEIZER MORRIS INTERNATIONAL, INC. DBA KM INTERNATIONAL",
+            "ManufacturerName": "KEIZER MORRIS INTERNATIONAL, INC. DBA KM INTERNATIONAL",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2558,7 +2558,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1361,
-            "Manufacturer": "LIBERATOR TRIKES LLC",
+            "ManufacturerName": "LIBERATOR TRIKES LLC",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2570,7 +2570,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1379,
-            "Manufacturer": "WILKENS MANUFACTURING",
+            "ManufacturerName": "WILKENS MANUFACTURING",
             "VehicleTypes": [
                 {
                     "IsPrimary": true,
@@ -2582,7 +2582,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1402,
-            "Manufacturer": "E. T. & T. ENTERPRISES dba HOLLAND METAL FAB., INC",
+            "ManufacturerName": "E. T. & T. ENTERPRISES dba HOLLAND METAL FAB., INC",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2594,7 +2594,7 @@
             "Country": "UNITED STATES (USA)",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1404,
-            "Manufacturer": "GREEN VALLEY PRODUCTS",
+            "ManufacturerName": "GREEN VALLEY PRODUCTS",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,
@@ -2606,7 +2606,7 @@
             "Country": "CANADA",
             "ManufacturerCommonName": null,
             "ManufacturerId": 1410,
-            "Manufacturer": "SIGNALISATION VER-MAC INC.",
+            "ManufacturerName": "SIGNALISATION VER-MAC INC.",
             "VehicleTypes": [
                 {
                     "IsPrimary": false,

@@ -31,7 +31,7 @@ class WorldManufacturerIndex:
     common_name: str
     created_on: str
     date_available_to_public: str
-    make: str
+    make_name: str
     manufacturer_name: str
     parent_company_name: str
     updated_on: str
@@ -54,7 +54,7 @@ class Variable:
 
 
 @dataclass(eq=True, frozen=True)
-class VariableValue:
+class Value:
     element_name: str
     id: int
     name: str
@@ -143,11 +143,11 @@ class Vehicle:
     lane_departure_warning: str
     lane_keep_system: str
     lower_beam_headlamp_light_source: str
-    make: str
+    make_name: str
     make_id: str
-    manufacturer: str
+    manufacturer_name: str
     manufacturer_id: str
-    model: str
+    model_name: str
     model_id: str
     model_year: str
     motorcycle_chassis_type: str
@@ -207,3 +207,16 @@ class Vehicle:
     wheel_size_rear: str
     wheels: str
     windows: str
+
+
+@dataclass(eq=True, frozen=True)
+class PlantCode:
+    address: str
+    city: str
+    country: str
+    dot_code: str
+    name: str
+    old_dot_code: str
+    postal_code: str
+    state_province: str
+    status: str
