@@ -34,12 +34,12 @@ class WorldManufacturerIndex:
     updated_on: str
     vehicle_type: str
     wmi: str
-    common_name: str = '' ## optional
-    country: str = '' ## optional
-    make_name: str = '' ## optional
+    common_name: str = ''
+    country: str = ''
+    make_name: str = ''
     manufacturer_id: int = None
-    parent_company_name: str = ''  ## optional
-    url: str = '' ## optional
+    parent_company_name: str = '' 
+    url: str = ''
 
 
 @dataclass(eq=True, frozen=True)
@@ -223,3 +223,15 @@ class PlantCode:
     postal_code: str
     state_province: str
     status: str
+
+@dataclass(eq=True, frozen=True)
+class Document:
+    cover_letter_url: str
+    letter_date: str
+    manufacturer_id: int
+    manufacturer_name: str
+    name: str
+    url: str
+    type: str = None
+    model_year_from: str = None
+    model_year_to: str = None

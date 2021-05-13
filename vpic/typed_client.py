@@ -2,8 +2,11 @@ import logging
 import re
 from typing import Any, Dict, List, Union
 
+from requests.models import DecodeError
+
 from .client import Client
 from .model import (
+    Document,
     Make,
     PlantCode,
     Vehicle,
@@ -317,6 +320,60 @@ class TypedClient:
         """
 
         return [Make(**self._snake_case(m)) for m in self._client.get_all_makes()]
+
+    def get_parts(
+        self, cfr_part: str, from_date: str, to_date: str, page: int = 1
+    ) -> List[Document]:
+        """
+        Returns a list of documents submitted by manufacturers to NHTSA
+        to comply with these regulations:
+
+        * 49 CFR Part 565 (Vehicle Identification Number Guidance)
+        * 49 CFR Part 566 (Manufacturer Identification – Reporting Requirements)
+
+        This provides a list of ORGs with letter date in the given range
+        of the dates and with specified Type of ORG. Up to 1000 results
+        will be returned at a time.
+
+        Parameters
+        ----------
+        cfr_part : str
+            '565' to return 49 CFR Part 565 submissions
+            '566' to return 49 CFR Part 566 submissions
+        from_date : str
+            the beginning of the publication date range to search
+        end_date : str
+            the end of the publication date range to search
+        page: int
+            results are paginated; this is the number of the page to return
+
+        Example
+        -------
+        get_parts('565', '2015-01-01', '2015-05-05', 1)
+
+        [
+            Document(
+                cover_letter_url='',
+                letter_date='1/1/2015',
+                manufacturer_id=959,
+                manufacturer_name='MASERATI NORTH AMERICA, INC.',
+                name='ORG13044',
+                url='http:\\vpic.nhtsa.dot.gov\mid\home\displayfile\b5e46b...',
+                type=None,
+                model_year_from=None,
+                model_year_to=None
+            ),
+            ...
+        ]
+
+        """
+
+        documents = self._client.get_parts(cfr_part, from_date, to_date, page)
+        for doc in documents:
+            # _snake_case can't handle lowerUPPER
+            doc["CoverLetterUrl"] = doc["CoverLetterURL"]
+            del doc["CoverLetterURL"]
+        return [Document(**self._snake_case(doc)) for doc in documents]
 
     def get_equipment_plant_codes(
         self, year: int, equipment_type: int, report_type: str = "All"
