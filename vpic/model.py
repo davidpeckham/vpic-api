@@ -1,14 +1,15 @@
 from dataclasses import dataclass
+from typing import Dict, List, Optional
 
 
 @dataclass(eq=True, frozen=True)
 class Make:
     make_id: int
     make_name: str
-    # manufacturer_id: Optional[int]
-    # manufacturer_name: Optional[str]
-    # vehicle_type_id: Optional[int]
-    # vehicle_type: Optional[str]
+    manufacturer_id: Optional[int] = None
+    manufacturer_name: Optional[str] = None
+    # vehicle_type_id: Optional[int] = None
+    # vehicle_type: Optional[str] = None
 
 
 @dataclass(eq=True, frozen=True)
@@ -27,6 +28,58 @@ class Manufacturer:
 
 
 @dataclass(eq=True, frozen=True)
+class ManufacturerDetail:
+    manufacturer_id: int
+    manufacturer_name: str
+    manufacturer_common_name: str
+    address: Optional[str] = None
+    address2: Optional[str] = None
+    city: Optional[str] = None
+    contact_email: Optional[str] = None
+    contact_fax: Optional[str] = None
+    contact_phone: Optional[str] = None
+    country: Optional[str] = None
+    dbas: Optional[str] = None
+    equipment_items: Optional[List[str]] = None
+    last_updated: Optional[str] = None
+    manufacturer_types: List[Dict[str, str]] = []
+    # Manufacturer_Types: [
+    #     {
+    #         "Name": "Completed Vehicle Manufacturer"
+    #     }],
+    other_manufacturer_details: Optional[str] = None
+    postal_code: Optional[str] = None
+    primary_product: Optional[str] = None
+    principal_first_name: Optional[str] = None
+    principal_last_name: Optional[str] = None
+    principal_position: Optional[str] = None
+    state_province: Optional[str] = None
+    submitted_name: Optional[str] = None
+    submitted_on: Optional[str] = None
+    submitted_position: Optional[str] = None
+    vehicle_types: List[Dict[str, str]] = []
+    # Vehicle_Types: [
+    #    {            "GVWRFrom": "Class 1A: 3,000 lb or less (1,360 kg or less)",
+    #         "GVWRTo": "Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)",
+    #         "IsPrimary": true,
+    #         "Name": "Passenger Car"
+    #     },
+    #     {
+    #         "GVWRFrom": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+    #         "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+    #         "IsPrimary": false,
+    #         "Name": "Truck "
+    #     },
+    #     {
+    #         "GVWRFrom": "Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)",
+    #         "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
+    #         "IsPrimary": false,
+    #         "Name": "Multipurpose Passenger Vehicle (MPV)"
+    #     }
+    # ]
+
+
+@dataclass(eq=True, frozen=True)
 class WorldManufacturerIndex:
     created_on: str
     date_available_to_public: str
@@ -34,12 +87,12 @@ class WorldManufacturerIndex:
     updated_on: str
     vehicle_type: str
     wmi: str
-    common_name: str = ''
-    country: str = ''
-    make_name: str = ''
-    manufacturer_id: int = None
-    parent_company_name: str = '' 
-    url: str = ''
+    common_name: str = ""
+    country: str = ""
+    make_name: str = ""
+    manufacturer_id: Optional[int] = None
+    parent_company_name: str = ""
+    url: str = ""
 
 
 @dataclass(eq=True, frozen=True)
@@ -224,6 +277,7 @@ class PlantCode:
     state_province: str
     status: str
 
+
 @dataclass(eq=True, frozen=True)
 class Document:
     cover_letter_url: str
@@ -232,6 +286,6 @@ class Document:
     manufacturer_name: str
     name: str
     url: str
-    type: str = None
-    model_year_from: str = None
-    model_year_to: str = None
+    type: Optional[str] = None
+    model_year_from: Optional[str] = None
+    model_year_to: Optional[str] = None

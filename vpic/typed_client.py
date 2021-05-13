@@ -2,12 +2,12 @@ import logging
 import re
 from typing import Any, Dict, List, Union
 
-from requests.models import DecodeError
-
 from .client import Client
 from .model import (
     Document,
     Make,
+    Manufacturer,
+    ManufacturerDetail,
     PlantCode,
     Vehicle,
     WorldManufacturerIndex,
@@ -277,16 +277,18 @@ class TypedClient:
         get_wmis_for_manufacturer('Honda')
 
         [
-            {
-                "Country": null,
-                "CreatedOn": "2015-03-26",
-                "DateAvailableToPublic": "2015-01-01",
-                "Id": 987,
-                "Name": "HONDA MOTOR CO., LTD",
-                "UpdatedOn": "2015-06-04",
-                "VehicleType": "Passenger Car",
-                "WMI": "JHM"
-            },
+            WorldManufacturerIndex(
+                created_on='2015-03-26',
+                date_available_to_public='2015-01-01',
+                manufacturer_name='HONDA MOTOR CO., LTD',
+                updated_on='2015-06-04',
+                vehicle_type='Passenger Car',
+                wmi='JHM', common_name='',
+                country=None,
+                make_name='',
+                manufacturer_id=987,
+                parent_company_name='',
+                url=''),
             ...
         ]
 
@@ -358,7 +360,7 @@ class TypedClient:
                 manufacturer_id=959,
                 manufacturer_name='MASERATI NORTH AMERICA, INC.',
                 name='ORG13044',
-                url='http:\\vpic.nhtsa.dot.gov\mid\home\displayfile\b5e46b...',
+                url='...',
                 type=None,
                 model_year_from=None,
                 model_year_to=None
@@ -374,6 +376,286 @@ class TypedClient:
             doc["CoverLetterUrl"] = doc["CoverLetterURL"]
             del doc["CoverLetterURL"]
         return [Document(**self._snake_case(doc)) for doc in documents]
+
+    def get_all_manufacturers(
+        self, manufacturer_type: str = None, page: int = 1
+    ) -> List[Manufacturer]:
+        """
+        Return a list of vPIC manufacturers of the given manufacturer_type.
+
+        This provides a list of all the Manufacturers available in vPIC Dataset.
+
+        Parameters
+        ----------
+        manufacturer_type : str (optional)
+            The manufacturer type, which is Incomplete Vehicles, Completed
+            Vehicle Manufacturer, Incomplete Vehicle Manufacturer, Intermediate
+            Manufacturer, Final-Stage Manufacturer, Alterer, Replica Vehicle
+            Manufacturer. You can pass the full type name, or a substring of
+            the type. See get_vehicle_variable_values_list("Manufacturer Type")
+            for the list of manufacturer types.
+        page: int
+            results are paginated; this is the number of the page to return
+
+        Example
+        -------
+        get_all_manufacturers("Completed Vehicle", 1)
+
+        [
+            {
+            "Country": "UNITED STATES (USA)",
+            "Mfr_CommonName": "Tesla",
+            "Mfr_ID": 955,
+            "Mfr_Name": "TESLA, INC.",
+            "VehicleTypes": [
+                {
+                    "IsPrimary": true,
+                    "Name": "Passenger Car"
+                },
+                {
+                    "IsPrimary": false,
+                    "Name": "Multipurpose Passenger Vehicle (MPV)"
+                }
+            },
+            ...
+        ]
+
+        """
+        raise NotImplementedError
+
+    def get_manufacturer_details(
+        self, manufacturer: Union[str, int]
+    ) -> List[ManufacturerDetail]:
+        """
+        Returns details for one or more manufacturers.
+
+        Parameters
+        ----------
+        manufacturer : Union[str, int]
+            Pass the Manufacturer Id (int) or the complete manufacturer
+            name (str) to return detail for a single manufacturer. Pass a
+            partial name to return manufacturers with names that include
+            the partial name.
+
+        Example
+        -------
+        get_manufacturer_details(988)
+
+        [
+            ManufacturerDetail(
+                manufacturer_id=988,
+                manufacturer_name='HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC',
+                manufacturer_common_name='Honda',
+                address='1919 Torrance Blvd.',
+                address2=None,
+                city='Torrance',
+                contact_email='someone@ahm.honda.com',
+                contact_fax=None,
+                contact_phone='(310)555-1212',
+                country='UNITED STATES (USA)',
+                dbas='Marysville Auto Plant and East Liberty Auto Plant; Alabama A...',
+                equipment_items=[],
+                last_updated='/Date(1618422117803-0400)/',
+                manufacturer_types=[{'Name': 'Completed Vehicle Manufacturer'}],
+                other_manufacturer_details=None,
+                postal_code='90501',
+                primary_product=None,
+                principal_first_name='Shinji Aoyama',
+                principal_last_name=None,
+                principal_position='President & CEO',
+                state_province='CALIFORNIA',
+                submitted_name=None,
+                submitted_on='/Date(1618286400000-0400)/',
+                submitted_position=None,
+                vehicle_types=[
+                    {'GVWRFrom': 'Class 1A: 3,
+                        000 lb or less (1,
+                        360 kg or less)', 'GVWRTo': 'Class 1D: 5,
+                        001 - 6,
+                        000 lb (2,
+                        268 - 2,
+                        722 kg)', 'IsPrimary': True, 'Name': 'Passenger Car'
+                    },
+                    {'GVWRFrom': 'Class 2E: 6,
+                        001 - 7,
+                        000 lb (2,
+                        722 - 3,
+                        175 kg)', 'GVWRTo': 'Class 2E: 6,
+                        001 - 7,
+                        000 lb (2,
+                        722 - 3,
+                        175 kg)', 'IsPrimary': False, 'Name': 'Truck '
+                    },
+                    {'GVWRFrom': 'Class 1B: 3,
+                        001 - 4,
+                        000 lb (1,
+                        360 - 1,
+                        814 kg)', 'GVWRTo': 'Class 2E: 6,
+                        001 - 7,
+                        000 lb (2,
+                        722 - 3,
+                        175 kg)', 'IsPrimary': False, 'Name': 'Multipurpose Passen...'
+                    }
+                ]
+            )
+        ]
+
+        """
+
+        results = self._client.get_manufacturer_details(manufacturer)
+        for r in results:
+            r["dbas"] = r["DBAs"]
+            del r["DBAs"]
+            # del r["Manufacturer_Types"]
+            # del r["Vehicle_Types"]
+        return [ManufacturerDetail(**self._snake_case(m)) for m in results]
+
+    def get_makes_for_manufacturer(
+        self, manufacturer: Union[str, int], model_year: int = None
+    ) -> List[Make]:
+        """
+        Returns makes produced by a manufacturer or manufacturers.
+
+        Parameters
+        ----------
+        manufacturer : Union[str, int]
+            Pass the Manufacturer Id (int) or the complete manufacturer
+            name (str) to return detail for a single manufacturer. Pass a
+            partial name to return manufacturers with names that include
+            the partial name.
+        model_year : int
+            Optional. Pass a model year to return only those makes made by
+            the manufacturer for that model year.
+
+        Example
+        -------
+        get_makes_for_manufacturer(988)
+
+        [
+            Make(
+                make_id:474
+                make_name:'HONDA'
+                manufacturer_id:None
+                manufacturer_name:'HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC'
+            ),
+            Make(
+                make_id=475,
+                make_name='ACURA',
+                manufacturer_id=None,
+                manufacturer_name='HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC'
+            )
+            ...
+        ]
+
+        """
+
+        makes = self._client.get_makes_for_manufacturer(manufacturer, model_year)
+        return [Make(**self._snake_case(m)) for m in makes]
+
+    def get_makes_for_vehicle_type(self, vehicle_type: str) -> List[Dict[str, Any]]:
+        """
+        Returns makes that produce a vehicle_type
+
+        Parameters
+        ----------
+        vehicle_type : str
+            A vPIC vehicle_type. For example, "Passenger Car", "Truck",
+            or "Multipurpose Passenger Vehicle (MPV)". If you pass a
+            partial vehicle_type, for example "Passenger", results will
+            include makes for all matching vehicle types. Matching is not
+            case sensitive.
+
+        Example
+        -------
+        get_makes_for_vehicle_type('Car')
+
+        [
+            {
+                "MakeId": 440,
+                "MakeName": "ASTON MARTIN",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "MakeId": 441,
+                "MakeName": "TESLA",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            ...
+        ]
+
+        """
+
+        raise NotImplementedError
+
+    def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[Dict[str, Any]]:
+        """
+        Returns vehicle types produced by a make or makes
+
+        Parameters
+        ----------
+        make : Union[int,str]
+            Pass the MakeId (int) or the complete make name (str) to return
+            vehicle types for a single manufacturer. Pass a partial make name
+            to return vehicle types for all makes that match the partial name.
+            When you pass a make name, results will include the MakeId and
+            MakeName because you may get vehicle_types for more than one make.
+
+        Examples
+        --------
+
+        get_vehicle_types_for_make(499)
+
+        [
+            {
+                "VehicleTypeId": 1,
+                "VehicleTypeName": "Motorcycle"
+            },
+            {
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "VehicleTypeId": 3,
+                "VehicleTypeName": "Truck "
+            },
+            {
+                "VehicleTypeId": 7,
+                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+            },
+            {
+                "VehicleTypeId": 9,
+                "VehicleTypeName": "Low Speed Vehicle (LSV)"
+            }
+        ]
+
+        get_vehicle_types_for_make('kia')
+
+        [
+            {
+                "MakeId": 499,
+                "MakeName": "KIA",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "MakeId": 499,
+                "MakeName": "KIA",
+                "VehicleTypeId": 7,
+                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+            },
+            {
+                "MakeId": 5848,
+                "MakeName": "MGS GRAND SPORT (MARDIKIAN)",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            }
+        ]
+
+        """
+
+        raise NotImplementedError
 
     def get_equipment_plant_codes(
         self, year: int, equipment_type: int, report_type: str = "All"
@@ -426,6 +708,48 @@ class TypedClient:
         )
         return [PlantCode(**self._snake_case(pc)) for pc in plant_codes]
 
+    def get_models_for_make(
+        self, make: Union[int, str], model_year: int = None, vehicle_type: str = None
+    ) -> List[Dict[str, Any]]:
+        """
+        Return a list of models for a make or makes. Optionally filter by
+        model year and vehicle type.
+
+        Parameters
+        ----------
+        make : Union[int,str]
+            Pass the MakeId (int) or the complete make name (str) to return
+            vehicle types for a single manufacturer. Pass a partial make name
+            to return vehicle types for all makes that match the partial name.
+            When you pass a make name, results will include the MakeId and
+            MakeName because you may get vehicle_types for more than one make.
+        modelyear: int
+            the model year
+        vehicle_type : str
+            one of the vPIC vehicle_types (for example, "Passenger Car",
+            "Truck", or "Multipurpose Passenger Vehicle (MPV)")
+
+        Returns
+        -------
+        [
+            {
+                "MakeId": 474,
+                "MakeName": "HONDA",
+                "Model_ID": 1864,
+                "Model_Name": "Pilot",
+                "VehicleTypeId": 7,
+                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+            },
+            ...
+        ]
+
+        VehicleTypeId and VehicleTypeName are only returned
+        when you specify vehicle_type.
+
+        """
+
+        raise NotImplementedError
+
     def get_vehicle_variable_list(self) -> List[Variable]:
         """
         Return a list of vehicle variables tracked by vPIC
@@ -477,3 +801,18 @@ class TypedClient:
 
         values = self._client.get_vehicle_variable_values_list(variable_name)
         return [Value(**self._snake_case(v)) for v in values]
+
+    def get_canadian_vehicle_specifications(
+        self, year: int, make: str, model: str = None, units: str = "Metric"
+    ) -> List[Dict[str, Any]]:
+        """
+        Return the values for a vehicle variable
+
+        Parameters
+        ----------
+        variable_name : str
+            the name of the vehicle variable
+
+        """
+
+        raise NotImplementedError
