@@ -8,16 +8,18 @@ class Make:
     make_name: str
     manufacturer_id: Optional[int] = None
     manufacturer_name: Optional[str] = None
-    # vehicle_type_id: Optional[int] = None
-    # vehicle_type: Optional[str] = None
+    vehicle_type_id: Optional[int] = None
+    vehicle_type: Optional[str] = None
 
 
 @dataclass(eq=True, frozen=True)
 class Model:
-    # make_id: int
-    # make_name: str
     model_id: int
     model_name: str
+    make_id: Optional[int] = None
+    make_name: Optional[str] = None
+    vehicle_type_id: Optional[int] = None
+    vehicle_type: Optional[str] = None
 
 
 @dataclass(eq=True, frozen=True)
@@ -42,7 +44,7 @@ class ManufacturerDetail:
     dbas: Optional[str] = None
     equipment_items: Optional[List[str]] = None
     last_updated: Optional[str] = None
-    manufacturer_types: List[Dict[str, str]] = []
+    manufacturer_types: List[Dict[str, str]] = None
     # Manufacturer_Types: [
     #     {
     #         "Name": "Completed Vehicle Manufacturer"
@@ -57,7 +59,7 @@ class ManufacturerDetail:
     submitted_name: Optional[str] = None
     submitted_on: Optional[str] = None
     submitted_position: Optional[str] = None
-    vehicle_types: List[Dict[str, str]] = []
+    vehicle_types: List[Dict[str, str]] = None
     # Vehicle_Types: [
     #    {            "GVWRFrom": "Class 1A: 3,000 lb or less (1,360 kg or less)",
     #         "GVWRTo": "Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)",
@@ -98,7 +100,9 @@ class WorldManufacturerIndex:
 @dataclass(eq=True, frozen=True)
 class VehicleType:
     vehicle_type_id: int
-    vehicle_type_name: str
+    vehicle_type: str
+    make_id: Optional[int] = None
+    make_name: Optional[str] = None
 
 
 @dataclass(eq=True, frozen=True)

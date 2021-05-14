@@ -1,5 +1,6 @@
 from typing import List
-from vpic.model import Make
+
+from vpic.model import Make, VehicleType
 from vpic.typed_client import TypedClient
 
 
@@ -33,3 +34,17 @@ class TestMakes:
     ):
         makes: List[Make] = typed_client.get_makes_for_manufacturer(988, 2021)
         assert len(makes) == 2
+
+    def test_get_makes_for_vehicle_type(self, typed_client: TypedClient, responses):
+        makes: List[Make] = typed_client.get_makes_for_vehicle_type("Car")
+        assert len(makes) == 162
+
+    def test_get_vehicle_types_for_make_id(self, typed_client: TypedClient, responses):
+        types: List[VehicleType] = typed_client.get_vehicle_types_for_make(474)
+        assert len(types) == 5
+
+    def test_get_vehicle_types_for_make_name(
+        self, typed_client: TypedClient, responses
+    ):
+        types: List[VehicleType] = typed_client.get_vehicle_types_for_make("kia")
+        assert len(types) == 3

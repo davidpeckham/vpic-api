@@ -8,8 +8,10 @@ from .model import (
     Make,
     Manufacturer,
     ManufacturerDetail,
+    Model,
     PlantCode,
     Vehicle,
+    VehicleType,
     WorldManufacturerIndex,
     Variable,
     Value,
@@ -552,7 +554,7 @@ class TypedClient:
         makes = self._client.get_makes_for_manufacturer(manufacturer, model_year)
         return [Make(**self._snake_case(m)) for m in makes]
 
-    def get_makes_for_vehicle_type(self, vehicle_type: str) -> List[Dict[str, Any]]:
+    def get_makes_for_vehicle_type(self, vehicle_type: str) -> List[Make]:
         """
         Returns makes that produce a vehicle_type
 
@@ -570,28 +572,25 @@ class TypedClient:
         get_makes_for_vehicle_type('Car')
 
         [
-            {
-                "MakeId": 440,
-                "MakeName": "ASTON MARTIN",
-                "VehicleTypeId": 2,
-                "VehicleTypeName": "Passenger Car"
-            },
-            {
-                "MakeId": 441,
-                "MakeName": "TESLA",
-                "VehicleTypeId": 2,
-                "VehicleTypeName": "Passenger Car"
-            },
+            Make(
+                make_id=440,
+                make_name='ASTON MARTIN',
+                manufacturer_id=None,
+                manufacturer_name=None,
+                vehicle_type_id=2,
+                vehicle_type='Passenger Car'
+            )
             ...
         ]
 
         """
 
-        raise NotImplementedError
+        makes = self._client.get_makes_for_vehicle_type(vehicle_type)
+        return [Make(**self._snake_case(m)) for m in makes]
 
-    def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[Dict[str, Any]]:
+    def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[VehicleType]:
         """
-        Returns vehicle types produced by a make or makes
+        Returns vehicle types produced by a make or make
 
         Parameters
         ----------
@@ -605,57 +604,45 @@ class TypedClient:
         Examples
         --------
 
-        get_vehicle_types_for_make(499)
+        get_vehicle_types_for_make(474)
 
         [
-            {
-                "VehicleTypeId": 1,
-                "VehicleTypeName": "Motorcycle"
-            },
-            {
-                "VehicleTypeId": 2,
-                "VehicleTypeName": "Passenger Car"
-            },
-            {
-                "VehicleTypeId": 3,
-                "VehicleTypeName": "Truck "
-            },
-            {
-                "VehicleTypeId": 7,
-                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
-            },
-            {
-                "VehicleTypeId": 9,
-                "VehicleTypeName": "Low Speed Vehicle (LSV)"
-            }
-        ]
-
-        get_vehicle_types_for_make('kia')
-
-        [
-            {
-                "MakeId": 499,
-                "MakeName": "KIA",
-                "VehicleTypeId": 2,
-                "VehicleTypeName": "Passenger Car"
-            },
-            {
-                "MakeId": 499,
-                "MakeName": "KIA",
-                "VehicleTypeId": 7,
-                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
-            },
-            {
-                "MakeId": 5848,
-                "MakeName": "MGS GRAND SPORT (MARDIKIAN)",
-                "VehicleTypeId": 2,
-                "VehicleTypeName": "Passenger Car"
-            }
+            VehicleType(
+                vehicle_type_id=1,
+                vehicle_type='Motorcycle',
+                make_id=None,
+                make_name=None
+            ),
+            VehicleType(
+                vehicle_type_id=2,
+                vehicle_type='Passenger Car',
+                make_id=None,
+                make_name=None
+            ),
+            VehicleType(
+                vehicle_type_id=3,
+                vehicle_type='Truck ',
+                make_id=None,
+                make_name=None
+            ),
+            VehicleType(
+                vehicle_type_id=7,
+                vehicle_type='Multipurpose Passenger Vehicle (MPV)',
+                make_id=None,
+                make_name=None
+            ),
+            VehicleType(
+                vehicle_type_id=9,
+                vehicle_type='Low Speed Vehicle (LSV)',
+                make_id=None,
+                make_name=None
+            )
         ]
 
         """
 
-        raise NotImplementedError
+        types = self._client.get_vehicle_types_for_make(make)
+        return [VehicleType(**self._snake_case(vt)) for vt in types]
 
     def get_equipment_plant_codes(
         self, year: int, equipment_type: int, report_type: str = "All"
@@ -710,7 +697,7 @@ class TypedClient:
 
     def get_models_for_make(
         self, make: Union[int, str], model_year: int = None, vehicle_type: str = None
-    ) -> List[Dict[str, Any]]:
+    ) -> List[Model]:
         """
         Return a list of models for a make or makes. Optionally filter by
         model year and vehicle type.
@@ -729,26 +716,48 @@ class TypedClient:
             one of the vPIC vehicle_types (for example, "Passenger Car",
             "Truck", or "Multipurpose Passenger Vehicle (MPV)")
 
-        Returns
+        Example
         -------
+        get_models_for_make("TESLA", model_year=2020)
+
         [
-            {
-                "MakeId": 474,
-                "MakeName": "HONDA",
-                "Model_ID": 1864,
-                "Model_Name": "Pilot",
-                "VehicleTypeId": 7,
-                "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
-            },
-            ...
+            Model(
+                model_id=1685, 
+                model_name='Model S', 
+                make_id=441, 
+                make_name='TESLA', 
+                vehicle_type_id=None
+            ),
+            Model(
+                model_id=10199, 
+                model_name='Model X', 
+                make_id=441, 
+                make_name='TESLA', 
+                vehicle_type_id=None
+            ), 
+            Model(
+                model_id=17834, 
+                model_name='Model 3', 
+                make_id=441, 
+                make_name='TESLA', 
+                vehicle_type_id=None
+            ), 
+            Model(
+                model_id=27027, 
+                model_name='Model Y', 
+                make_id=441, 
+                make_name='TESLA', 
+                vehicle_type_id=None
+                )
         ]
 
-        VehicleTypeId and VehicleTypeName are only returned
+        VehicleTypeId and VehicleType are only returned
         when you specify vehicle_type.
 
         """
 
-        raise NotImplementedError
+        models = self._client.get_models_for_make(make, model_year, vehicle_type)
+        return [Model(**self._snake_case(m)) for m in models]
 
     def get_vehicle_variable_list(self) -> List[Variable]:
         """
