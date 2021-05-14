@@ -12,16 +12,15 @@ log = logging.getLogger(__name__)
 _STANDARD_VARIABLE_NAMES = {
     "ID": "Id",
     "Make_ID": "MakeId",
-    "MakeName": "Make",
-    "Make_Name": "Make",
+    "Make_Name": "MakeName",
     "MakeID": "MakeId",
     "Mfr_CommonName": "ManufacturerCommonName",
     "Mfr_ID": "ManufacturerId",
-    "Mfr_Name": "Manufacturer",
+    "Mfr_Name": "ManufacturerName",
     "MfrId": "ManufacturerId",
-    "MfrName": "Manufacturer",
+    "MfrName": "ManufacturerName",
     "Model_ID": "ModelId",
-    "Model_Name": "Model",
+    "Model_Name": "ModelName",
     "ModelID": "ModelId",
     "VehicleTypeName": "VehicleType",
 }
@@ -99,9 +98,9 @@ class ClientBase(object):
 
         if isinstance(object, dict):
             return {
-                _STANDARD_VARIABLE_NAMES.get(key, key): self._standardize_variable_names(
-                    value
-                )
+                _STANDARD_VARIABLE_NAMES.get(
+                    key, key
+                ): self._standardize_variable_names(value)
                 for key, value in object.items()
             }
         elif isinstance(object, list):

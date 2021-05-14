@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 import responses as responses_
 
-from vpic.client import Client
+from vpic import Client
 
 
 @pytest.fixture(scope="session")

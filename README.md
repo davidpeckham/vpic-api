@@ -25,7 +25,122 @@ The API available 24/7, is free to use, and does not require registration. NHTSA
 
 See https://vpic.nhtsa.dot.gov/api/home/index/faq for more on the API.
 
-## Using vPIC
+## Using vpic.TypedClient
+
+Use vpic.TypedClient to receive responses as Python objects.
+
+### Decode a Vehicle Identification Number (VIN)
+
+Decode a 17-digit Vehicle Identification Number (VIN):
+
+```python
+from vpic import TypedClient
+
+c = TypedClient()
+
+result = c.decode_vin("1FTMW1T88MFA00001")
+
+Vehicle(
+    abs="",
+    ...
+    body_cab_type="Crew/ Super Crew/ Crew Max",
+    body_class="Pickup",
+    brake_system_desc="",
+    brake_system_type="Hydraulic",
+    ...
+    displacementcc="3500.0",
+    displacementci="213.58310433156",
+    displacementl="3.5",
+    ...
+    drive_type="4WD/4-Wheel Drive/4x4",
+    ...
+    engine_configuration="V-Shaped",
+    engine_cycles="",
+    engine_cylinders="6",
+    enginehp="375",
+    enginehp_to="",
+    enginekw="279.6375",
+    engine_manufacturer="Ford",
+    engine_model="GTDI",
+    entertainment_system="",
+    error_code="0",
+    error_text="0 - VIN decoded clean. Check Digit (9th position) is correct",
+    ...
+    make="FORD",
+    make_id="460",
+    manufacturer="FORD MOTOR COMPANY, USA",
+    manufacturer_id="976",
+    model="F-150",
+    model_id="1801",
+    model_year="2021",
+    motorcycle_chassis_type="Not Applicable",
+    motorcycle_suspension_type="Not Applicable",
+    ...
+    plant_city="DEARBORN",
+    plant_company_name="",
+    plant_country="UNITED STATES (USA)",
+    plant_state="MICHIGAN",
+    ...
+    series="F-Series",
+    series2="",
+    ...
+    trim="SuperCrew-SSV",
+    ...
+    vin="1FTMW1T88MFA00001",
+    ...
+    vehicle_type="TRUCK ",
+    ...
+)
+```
+
+### Get the Models for a Make and Model Year
+
+```python
+get_models_for_make("TESLA", model_year=2020)
+
+[
+    Model(
+        model_id=1685,
+        model_name="Model S",
+        make_id=441,
+        make_name="TESLA",
+        vehicle_type_id=None
+    ),
+    Model(
+        model_id=10199,
+        model_name="Model X",
+        make_id=441,
+        make_name="TESLA",
+        vehicle_type_id=None
+    ),
+    Model(
+        model_id=17834,
+        model_name="Model 3",
+        make_id=441,
+        make_name="TESLA",
+        vehicle_type_id=None
+    ),
+    Model(
+        model_id=27027,
+        model_name="Model Y",
+        make_id=441,
+        make_name="TESLA",
+        vehicle_type_id=None
+        )
+]
+```
+
+## Using vpic.Client
+
+Use vpic.Client if you need the JSON responses returned by the vPIC API.
+
+This client automatically standardizes variable names where vPIC uses inconsistent naming. Turn this off if you need to see the unaltered JSON responses:
+
+```python
+from vpic import Client
+
+c = Client(standardize_names=False)
+```
 
 ### Decode a Vehicle Identification Number (VIN)
 
@@ -46,11 +161,11 @@ Here are a few of the 130+ attributes vPIC returns for the VIN:
     "Doors": "2",
     "ErrorCode": "0",
     "ErrorText": "0 - VIN decoded clean. Check Digit (9th position) is correct",
-    "Make": "FORD",
+    "MakeName": "FORD",
     "MakeId": "460",
-    "Manufacturer": "FORD MOTOR COMPANY, USA",
+    "ManufacturerName": "FORD MOTOR COMPANY, USA",
     "ManufacturerId": "976",
-    "Model": "Mustang",
+    "ModelName": "Mustang",
     "ModelId": "1781",
     "ModelYear": "2021",
     "PlantCity": "FLATROCK",
@@ -74,27 +189,27 @@ vPIC returns a list of the models for this make and model year:
 [
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 1685,
-        "Model": "Model S"
+        "ModelName": "Model S"
     },
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 10199,
-        "Model": "Model X"
+        "ModelName": "Model X"
     },
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 17834,
-        "Model": "Model 3"
+        "ModelName": "Model 3"
     },
     {
         "MakeId": 441,
-        "Make": "TESLA",
+        "MakeName": "TESLA",
         "ModelId": 27027,
-        "Model": "Model Y"
+        "ModelName": "Model Y"
     }
 ]
 ```

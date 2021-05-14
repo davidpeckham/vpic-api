@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.3.0] - 2021-05-14
+
+### Added
+- Dataclasses for API return types
+- TypedClient returns dataclasses instead of JSON
+- Unit tests for TypedClient
+
 ## [0.2.0] - 2021-05-09
 
 ### Added
