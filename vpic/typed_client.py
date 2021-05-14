@@ -8,6 +8,7 @@ from .model import (
     Make,
     Manufacturer,
     ManufacturerDetail,
+    ManufacturerType,
     Model,
     PlantCode,
     Vehicle,
@@ -68,7 +69,7 @@ class TypedClient:
 
         """
         self._client = Client(host, standardize_variables=True)
-        self._snake_re = re.compile(r"(?<!^)([A-Z])(?=[a-z])")
+        self._snake_re = re.compile(r"([A-Z]+)(?=([a-z_]|))")
 
     # def _snake_case(self, object: Union[Dict, List, str]) -> Union[Dict, List, str]:
     #     """
@@ -89,10 +90,24 @@ class TypedClient:
 
         """
 
-        return {
-            self._snake_re.sub(r"_\1", key).lower(): value
-            for key, value in object.items()
-        }
+        # TODO simplify this
+        new_object: Dict[str, Any] = {}
+        for key, value in object.items():
+            new_key = self._snake_re.sub(r"_\1", key).lower()
+            new_key = new_key.replace("__", "_")
+            if new_key[0] == '_':
+                new_key = new_key[1:]
+            new_key = new_key.replace("ncsa", "ncsa_")
+            new_key = new_key.replace("evdrive", "ev_drive")
+            new_key = new_key.replace("sae", "sae_")
+            new_key = new_key.replace("dotcode", "dot_code")
+            new_object[new_key] = value
+        return new_object
+
+        # return {
+        #     self._snake_re.sub(r"_\1", key).lower(): value
+        #     for key, value in object.items()
+        # }
 
     def decode_vin(self, vin: str, model_year: int = None, extend=False) -> Vehicle:
         """
@@ -508,8 +523,19 @@ class TypedClient:
         for r in results:
             r["dbas"] = r["DBAs"]
             del r["DBAs"]
-            # del r["Manufacturer_Types"]
-            # del r["Vehicle_Types"]
+            r["ManufacturerTypes"] = [
+                ManufacturerType(name=mt["Name"]) for mt in r["ManufacturerTypes"]
+            ]
+            r["VehicleTypes"] = [
+                VehicleType(
+                    vehicle_type=vt["Name"],
+                    is_primary=vt["IsPrimary"],
+                    gvwr_from=vt["GVWRFrom"],
+                    gvwr_to=vt["GVWRTo"],
+                )
+                for vt in r["VehicleTypes"]
+            ]
+
         return [ManufacturerDetail(**self._snake_case(m)) for m in results]
 
     def get_makes_for_manufacturer(
@@ -722,31 +748,31 @@ class TypedClient:
 
         [
             Model(
-                model_id=1685, 
-                model_name='Model S', 
-                make_id=441, 
-                make_name='TESLA', 
+                model_id=1685,
+                model_name='Model S',
+                make_id=441,
+                make_name='TESLA',
                 vehicle_type_id=None
             ),
             Model(
-                model_id=10199, 
-                model_name='Model X', 
-                make_id=441, 
-                make_name='TESLA', 
+                model_id=10199,
+                model_name='Model X',
+                make_id=441,
+                make_name='TESLA',
                 vehicle_type_id=None
-            ), 
+            ),
             Model(
-                model_id=17834, 
-                model_name='Model 3', 
-                make_id=441, 
-                make_name='TESLA', 
+                model_id=17834,
+                model_name='Model 3',
+                make_id=441,
+                make_name='TESLA',
                 vehicle_type_id=None
-            ), 
+            ),
             Model(
-                model_id=27027, 
-                model_name='Model Y', 
-                make_id=441, 
-                make_name='TESLA', 
+                model_id=27027,
+                model_name='Model Y',
+                make_id=441,
+                make_name='TESLA',
                 vehicle_type_id=None
                 )
         ]
@@ -813,7 +839,7 @@ class TypedClient:
 
     def get_canadian_vehicle_specifications(
         self, year: int, make: str, model: str = None, units: str = "Metric"
-    ) -> List[Dict[str, Any]]:
+    ) -> List[Model]:
         """
         Return the values for a vehicle variable
 

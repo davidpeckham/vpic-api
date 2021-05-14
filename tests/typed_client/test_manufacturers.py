@@ -24,12 +24,17 @@ class TestManufacturers:
 
     def test_get_manufacturer_details(self, typed_client: TypedClient, responses):
         details: List[ManufacturerDetail] = typed_client.get_manufacturer_details(988)
-        assert details[0].manufacturer_id == 988
+        assert len(details) == 1
+        honda = details[0]
+        assert honda.manufacturer_id == 988
         assert (
-            details[0].manufacturer_name
+            honda.manufacturer_name
             == "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
         )
-        assert details[0].manufacturer_common_name == "Honda"
+        assert honda.manufacturer_common_name == "Honda"
+        assert honda.manufacturer_types is not None
+        if honda.manufacturer_types is not None:
+            assert honda.manufacturer_types[0].name == "Completed Vehicle Manufacturer"
 
     def test_get_manufacturer_details_name(self, typed_client: TypedClient, responses):
         details: List[ManufacturerDetail] = typed_client.get_manufacturer_details(

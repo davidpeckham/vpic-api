@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 
 @dataclass(eq=True, frozen=True)
@@ -30,6 +30,22 @@ class Manufacturer:
 
 
 @dataclass(eq=True, frozen=True)
+class ManufacturerType:
+    name: str
+
+
+@dataclass(eq=True, frozen=True)
+class VehicleType:
+    vehicle_type: str
+    vehicle_type_id: Optional[int] = None
+    make_id: Optional[int] = None
+    make_name: Optional[str] = None
+    gvwr_from: Optional[str] = None
+    gvwr_to: Optional[str] = None
+    is_primary: Optional[bool] = None
+
+
+@dataclass(eq=True, frozen=True)
 class ManufacturerDetail:
     manufacturer_id: int
     manufacturer_name: str
@@ -44,11 +60,7 @@ class ManufacturerDetail:
     dbas: Optional[str] = None
     equipment_items: Optional[List[str]] = None
     last_updated: Optional[str] = None
-    manufacturer_types: List[Dict[str, str]] = None
-    # Manufacturer_Types: [
-    #     {
-    #         "Name": "Completed Vehicle Manufacturer"
-    #     }],
+    manufacturer_types: Optional[List[ManufacturerType]] = None
     other_manufacturer_details: Optional[str] = None
     postal_code: Optional[str] = None
     primary_product: Optional[str] = None
@@ -59,26 +71,7 @@ class ManufacturerDetail:
     submitted_name: Optional[str] = None
     submitted_on: Optional[str] = None
     submitted_position: Optional[str] = None
-    vehicle_types: List[Dict[str, str]] = None
-    # Vehicle_Types: [
-    #    {            "GVWRFrom": "Class 1A: 3,000 lb or less (1,360 kg or less)",
-    #         "GVWRTo": "Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)",
-    #         "IsPrimary": true,
-    #         "Name": "Passenger Car"
-    #     },
-    #     {
-    #         "GVWRFrom": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
-    #         "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
-    #         "IsPrimary": false,
-    #         "Name": "Truck "
-    #     },
-    #     {
-    #         "GVWRFrom": "Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)",
-    #         "GVWRTo": "Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
-    #         "IsPrimary": false,
-    #         "Name": "Multipurpose Passenger Vehicle (MPV)"
-    #     }
-    # ]
+    vehicle_types: Optional[List[VehicleType]] = None
 
 
 @dataclass(eq=True, frozen=True)
@@ -95,14 +88,6 @@ class WorldManufacturerIndex:
     manufacturer_id: Optional[int] = None
     parent_company_name: str = ""
     url: str = ""
-
-
-@dataclass(eq=True, frozen=True)
-class VehicleType:
-    vehicle_type_id: int
-    vehicle_type: str
-    make_id: Optional[int] = None
-    make_name: Optional[str] = None
 
 
 @dataclass(eq=True, frozen=True)
@@ -138,18 +123,18 @@ class Vehicle:
     axle_configuration: str
     axles: str
     base_price: str
-    batterya: str
-    batterya_to: str
+    battery_a: str
+    battery_a_to: str
     battery_cells: str
     battery_info: str
-    batteryk_wh: str
-    batteryk_wh_to: str
+    battery_kwh: str
+    battery_kwh_to: str
     battery_modules: str
     battery_packs: str
     battery_type: str
-    batteryv: str
-    batteryv_to: str
-    bed_lengthin: str
+    battery_v: str
+    battery_v_to: str
+    bed_length_in: str
     bed_type: str
     blind_spot_mon: str
     body_cab_type: str
@@ -163,15 +148,15 @@ class Vehicle:
     cib: str
     cash_for_clunkers: str
     charger_level: str
-    charger_powerkw: str
+    charger_power_kw: str
     cooling_type: str
-    curb_weightlb: str
+    curb_weight_lb: str
     custom_motorcycle_type: str
     daytime_running_light: str
     destination_market: str
-    displacementcc: str
-    displacementci: str
-    displacementl: str
+    displacement_cc: str
+    displacement_ci: str
+    displacement_l: str
     doors: str
     drive_type: str
     driver_assist: str
@@ -183,9 +168,9 @@ class Vehicle:
     engine_configuration: str
     engine_cycles: str
     engine_cylinders: str
-    enginehp: str
-    enginehp_to: str
-    enginekw: str
+    engine_hp: str
+    engine_hp_to: str
+    engine_kw: str
     engine_manufacturer: str
     engine_model: str
     entertainment_system: str
@@ -244,9 +229,9 @@ class Vehicle:
     series: str
     series2: str
     steering_location: str
-    suggestedvin: str
+    suggested_vin: str
     tpms: str
-    top_speedmph: str
+    top_speed_mph: str
     track_width: str
     traction_control: str
     trailer_body_type: str
