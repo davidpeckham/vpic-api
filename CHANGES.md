@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.3.1] - 2021-05-14
+
+### Fixed
+- Fixed property names in README.md and in TypedClient docstrings
+
 ## [0.3.0] - 2021-05-14
 
 ### Added
