@@ -36,24 +36,19 @@ class Client(ClientBase):
 
     See https://vpic.nhtsa.dot.gov/api/home/index/faq for more on the API.
 
-    """
+    Args:
+        host: Hostname, including http(s)://, of the vPIC instance to query
+        standardize_variables: vPIC uses different names for the same
+            variable. Set this to True to standardize variables before
+            returning the response.
 
-    host = "https://vpic.nhtsa.dot.gov/api/vehicles"
+    """
 
     def __init__(
         self,
         host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles/",
         standardize_variables: bool = True,
     ):
-        """Instantiate a new API client
-
-        Arguments:
-            host: Hostname, including http(s)://, of the vPIC instance to query
-            standardize_variables: vPIC uses different names for the same 
-                variable. Set this to True to standardize variables before 
-                returning the response.
-
-        """
         super(Client, self).__init__(host, standardize_variables)
 
     def decode_vin(

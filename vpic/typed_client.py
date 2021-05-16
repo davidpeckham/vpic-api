@@ -57,8 +57,6 @@ class TypedClient:
 
     """
 
-    host = "https://vpic.nhtsa.dot.gov/api/vehicles"
-
     def __init__(
         self, host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles/"
     ):
@@ -159,7 +157,7 @@ class TypedClient:
                 engine_model="GTDI",
                 entertainment_system="",
                 error_code="0",
-                error_text="0 - VIN decoded clean. Check Digit (9th position) is correct",
+                error_text="0 - VIN decoded clean. Check Digit (9th position) is co...",
                 ...
                 make_name="FORD",
                 make_id="460",
@@ -210,8 +208,8 @@ class TypedClient:
         See get_vehicle_variable_list for the variables returned here.
 
         Args:
-            vins: A list of 17-digit VIN or partial VINs and optional model year. 
-                Use asterisk for missing characters. For example: ["VIN, model_year", 
+            vins: A list of 17-digit VIN or partial VINs and optional model year.
+                Use asterisk for missing characters. For example: ["VIN, model_year",
                 "VIN, model_year", ...]
 
         Returns:
@@ -237,7 +235,7 @@ class TypedClient:
         specific WMI code.
 
         Args:
-            wmi: A 3-character or 6-character World Manufacturer Index code. 
+            wmi: A 3-character or 6-character World Manufacturer Index code.
                  Large volume manufacturers usually have a  3 character WMI
                  representing positions 1 to 3 ("JTD") of a VIN. Smaller
                  manufacturers have a 6 character WMI representing positions

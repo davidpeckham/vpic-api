@@ -1,5 +1,5 @@
 import logging
-from typing import Dict, Optional
+from typing import Any, Dict, Optional
 from urllib.parse import urljoin
 
 from requests.adapters import HTTPAdapter
@@ -28,33 +28,32 @@ _STANDARD_VARIABLE_NAMES: Dict[str, str] = {
 
 
 class ClientBase(object):
+    """A base class for vPIC clients
+
+    Args:
+        host: Hostname, including http(s)://, of the vPIC instance to query
+        standardize_variables: vPIC uses different names for the same
+            variable. Set this to True to standardize variables before
+            returning the response.
+
+    """
+
     def __init__(
         self,
-        host: Optional[str] = None,
+        host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles",
         standardize_variables: bool = True,
     ):
-        """
-        Instantiate a new API client.
-
-        Parameters
-        ----------
-        host : str
-            Hostname, including http(s)://, of the vPIC instance to query
-        standardize_variables: bool
-            vPIC uses different names for the same variable. Set this to True
-            to standardize variables before returning the response.
-
-        """
-        self.host: str = host
+        if host:
+            self.host = host
         self.standardize_variables: bool = standardize_variables
         self.session = VpicAPISession()
-        self.session.mount(self.host, HTTPAdapter(pool_connections=2, max_retries=5))
+        self.session.mount(self.url, HTTPAdapter(pool_connections=2, max_retries=5))
 
     @property
-    def url(self):
+    def url(self) -> str:
         return self.host
 
-    def _request(self, endpoint: str, params: Dict[str, str] = None):
+    def _request(self, endpoint: str, params: Dict[str, Any] = None):
         if not params:
             params = {"format": "json"}
         else:
