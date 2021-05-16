@@ -1,5 +1,5 @@
 from typing import List
-from vpic.model import Document, ManufacturerDetail, PlantCode, WorldManufacturerIndex
+from vpic.models import Document, ManufacturerDetail, PlantCode, WorldManufacturerIndex
 from vpic.typed_client import TypedClient
 
 

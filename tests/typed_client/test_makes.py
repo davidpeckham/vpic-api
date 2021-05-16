@@ -1,6 +1,6 @@
 from typing import List
 
-from vpic.model import Make, VehicleType
+from vpic.models import Make, VehicleType
 from vpic.typed_client import TypedClient
 
 

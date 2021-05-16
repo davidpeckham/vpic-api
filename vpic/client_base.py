@@ -1,4 +1,5 @@
 import logging
+from typing import Dict, Optional
 from urllib.parse import urljoin
 
 from requests.adapters import HTTPAdapter
@@ -6,10 +7,10 @@ from requests.adapters import HTTPAdapter
 from .exceptions import handle_error_response
 from .session import VpicAPISession
 
-log = logging.getLogger(__name__)
+log: logging.Logger = logging.getLogger(__name__)
 
 
-_STANDARD_VARIABLE_NAMES = {
+_STANDARD_VARIABLE_NAMES: Dict[str, str] = {
     "ID": "Id",
     "Make_ID": "MakeId",
     "Make_Name": "MakeName",
@@ -29,8 +30,8 @@ _STANDARD_VARIABLE_NAMES = {
 class ClientBase(object):
     def __init__(
         self,
-        host=None,
-        standardize_variables=True,
+        host: Optional[str] = None,
+        standardize_variables: bool = True,
     ):
         """
         Instantiate a new API client.
@@ -44,8 +45,8 @@ class ClientBase(object):
             to standardize variables before returning the response.
 
         """
-        self.host = host
-        self.standardize_variables = standardize_variables
+        self.host: str = host
+        self.standardize_variables: bool = standardize_variables
         self.session = VpicAPISession()
         self.session.mount(self.host, HTTPAdapter(pool_connections=2, max_retries=5))
 
@@ -53,7 +54,7 @@ class ClientBase(object):
     def url(self):
         return self.host
 
-    def _request(self, endpoint, params=None):
+    def _request(self, endpoint: str, params: Dict[str, str] = None):
         if not params:
             params = {"format": "json"}
         else:

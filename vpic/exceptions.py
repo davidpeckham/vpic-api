@@ -1,3 +1,7 @@
+from typing import Optional
+from requests.models import Response
+
+
 def handle_error_response(resp):
 
     HTTP_ERRORS = {
@@ -21,11 +25,25 @@ def handle_error_response(resp):
 
 
 class VpicAPIError(Exception):
-    message = "An unknown error occurred"
-    detail = None
-    response = None
+    """Base class for vPIC API client exceptions.
 
-    def __init__(self, message=None, detail=None, response=None):
+    Attributes:
+        message : Human readable string describing the exception.
+        detail: A more detailed or specific description of the exception.
+        response: The ``requests.models.Response`` from the vPIC API.
+
+    """
+
+    message: str = "An unknown error occurred"
+    detail: Optional[str] = None
+    response: Optional[Response] = None
+
+    def __init__(
+        self,
+        message: Optional[str] = None,
+        detail: Optional[str] = None,
+        response: Optional[Response] = None,
+    ):
         self.response = response
         if message:
             self.message = message
@@ -41,24 +59,37 @@ class InvalidRequest(VpicAPIError):
 
 
 class MethodNotFound(VpicAPIError):
+    """Method not found in vPIC API."""
+
     pass
 
 
 class InvalidParameters(VpicAPIError):
+    """You passed an invalid parameter value."""
+
     pass
 
 
 class TooManyRequests(VpicAPIError):
-    # see the Retry-After header
+    """You made too many requests
+
+    See the Retry-After header for advice about how long to wait
+    before submitting another request.
+
+    """
+
     pass
 
 
 class InternalError(VpicAPIError):
+    """An error occurred in the service"""
+
     pass
 
 
 class ServiceUnavailable(VpicAPIError):
-    # see the Retry-After header
+    """The service is not available, and may be down for maintenance."""
+
     pass
 
 

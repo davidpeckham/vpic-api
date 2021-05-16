@@ -1,7 +1,7 @@
 from typing import List
 
 import pytest
-from vpic.model import Model
+from vpic.models import Model
 from vpic.typed_client import TypedClient
 
 

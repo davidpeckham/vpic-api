@@ -1,0 +1,19 @@
+site_name: vpic-api
+theme:
+  name: material
+
+repo_url: https://github.com/davidpeckham/vpic-api
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+    - About: index.md
+    - Code Reference:
+        - Client: client.md
+        - TypedClient: typed-client.md
+        - Models: models.md
+        - Exceptions: exceptions.md
+        - Session: session.md
+        - ClientBase: client-base.md

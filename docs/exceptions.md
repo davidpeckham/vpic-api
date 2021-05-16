@@ -1,0 +1,2 @@
+# Exceptions
+::: vpic.exceptions

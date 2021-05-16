@@ -1,4 +1,4 @@
-from vpic.model import Vehicle, WorldManufacturerIndex
+from vpic.models import Vehicle, WorldManufacturerIndex
 from vpic.typed_client import TypedClient
 
 

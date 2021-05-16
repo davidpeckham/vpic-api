@@ -1,5 +1,5 @@
 import logging
-from typing import Any, Dict, List, Union
+from typing import Any, Dict, List, Optional, Union
 
 from .client_base import ClientBase
 
@@ -42,19 +42,16 @@ class Client(ClientBase):
 
     def __init__(
         self,
-        host="https://vpic.nhtsa.dot.gov/api/vehicles/",
-        standardize_variables=True,
+        host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles/",
+        standardize_variables: bool = True,
     ):
-        """
-        Instantiate a new API client.
+        """Instantiate a new API client
 
-        Parameters
-        ----------
-        host : str
-            Hostname, including http(s)://, of the vPIC instance to query
-        standardize_variables: bool
-            vPIC uses different names for the same variable. Set this to True
-            to standardize variables before returning the response.
+        Arguments:
+            host: Hostname, including http(s)://, of the vPIC instance to query
+            standardize_variables: vPIC uses different names for the same 
+                variable. Set this to True to standardize variables before 
+                returning the response.
 
         """
         super(Client, self).__init__(host, standardize_variables)
@@ -62,8 +59,7 @@ class Client(ClientBase):
     def decode_vin(
         self, vin: str, model_year: int = None, extend=False, flatten=True
     ) -> Dict[str, Any]:
-        """
-        Decode the make, model, series, trim, and other vehicle information
+        """Decode the make, model, series, trim, and other vehicle information
         from VIN. Model year is required for pre-1980 vehicles, though vPIC
         recommends that you always pass it.
 
@@ -96,7 +92,7 @@ class Client(ClientBase):
             raise ValueError("vin is required")
         if not len(vin) in range(6, 17 + 1):
             raise ValueError(
-                "vin must be at least 3 characters and at most 17 characters"
+                "vin must be at least 6 characters and at most 17 characters"
             )
         if model_year and model_year < 1981:
             raise ValueError("model year must be 1981 or later")
@@ -116,9 +112,8 @@ class Client(ClientBase):
         return results[0] if flatten else results
 
     def decode_vin_batch(self, vins: List[str]) -> List[Dict[str, Any]]:
-        """
-        Decode the make, model, series, trim, and other vehicle information
-        for a list of VINs:
+        """Decode the make, model, series, trim, and other vehicle information
+        for a list of VINs
 
         [
             "VIN, model_year",

@@ -1,5 +1,5 @@
 from typing import List
-from vpic.model import Variable, Value
+from vpic.models import Variable, Value
 from vpic.typed_client import TypedClient
 
 

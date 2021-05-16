@@ -1,0 +1,2 @@
+# Client module
+::: vpic.client
