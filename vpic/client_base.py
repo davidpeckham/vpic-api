@@ -44,7 +44,7 @@ class ClientBase(object):
         standardize_variables: bool = True,
     ):
         if host:
-            self.host = host
+            self.host: str = host
         self.standardize_variables: bool = standardize_variables
         self.session = VpicAPISession()
         self.session.mount(self.url, HTTPAdapter(pool_connections=2, max_retries=5))

@@ -12,8 +12,6 @@ nav:
     - About: index.md
     - Code Reference:
         - Client: client.md
-        - TypedClient: typed-client.md
+        - TypedClient: typed_client.md
         - Models: models.md
         - Exceptions: exceptions.md
-        - Session: session.md
-        - ClientBase: client-base.md
