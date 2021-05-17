@@ -37,5 +37,5 @@ For more on the NHTSA vPIC, visit [their home page](https://vpic.nhtsa.dot.gov/a
 ## Alternatives
 
 In May 2021, NHTSA released a standalone database for Microsoft SQL Server 2012.
-This database as all of the information you need to decode VINs. You can download
+This database has all of the information you need to decode VINs. You can download
 it from the [vPIC API home page](https://vpic.nhtsa.dot.gov/api/).
