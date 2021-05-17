@@ -1,6 +1,6 @@
 # vpic-api
 
-A client library for the U.S. NHTSA vPIC API
+A client library for the U.S. NHTSA vPIC API.
 
 vPIC is the United States National Highway Traffic Safety Administration (NHTSA)
 [Vehicle Product Information Catalog (vPIC) Vehicle Listing API](https://vpic.nhtsa.dot.gov/api). 
