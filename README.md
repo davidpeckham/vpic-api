@@ -1,5 +1,6 @@
 # vpic-api
-Python client library for decoding VINs and querying the United States 
+
+A Python client library for decoding VINs and querying the United States 
 National Highway Traffic Safety Administration (NHTSA) [Vehicle Product 
 Information Catalog Vehicle Listing (vPIC) API](https://vpic.nhtsa.dot.gov/api/).
 
@@ -19,7 +20,7 @@ the USA:
 
 vPIC has information about how manufacturers assign a VIN that
 encodes a vehicle's characteristics. Vehicle manufacturers provide this
-information to NHTSA under U.S. law 49 CFR Part 565.
+information to NHTSA under U.S. 49 CFR Parts 551 – 574.
 
 The API available 24/7, is free to use, and does not require registration. NHTSA uses automatic traffic rate controls to maintain the performance of the API and their websites that use the API.
 
