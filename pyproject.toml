@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vpic-api"
-version = "0.3.1"
+version = "0.4.0"
 description = "A client for the United States National Highway Traffic Safety Administration (NHTSA) Vehicle Product Information Catalog (vPIC) API"
 authors = ["David Peckham <dave.peckham@icloud.com>"]
 license = "MIT"
@@ -14,6 +14,8 @@ packages = [
 include = [
     { path = "tests", format = "sdist" }
 ]
+
+documentation = "https://davidpeckham.github.io/vpic-api/"
 
 repository = "https://github.com/davidpeckham/vpic-api"
 
