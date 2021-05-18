@@ -20,7 +20,7 @@ def responses():
     def _request_callback():
         def _handle(request):
             response_file = endpoints[request.url]["response_file"]
-            with Path(response_file).open() as fp:
+            with Path(response_file).open(encoding='utf-8') as fp:
                 resp = json.load(fp)
             return (
                 resp["status"],
@@ -41,7 +41,7 @@ def responses():
 
         response_files = list(Path("tests").glob("**/*.json"))
         for rf in response_files:
-            with rf.open() as fp:
+            with rf.open(encoding='utf-8') as fp:
                 resp = json.load(fp)
                 endpoints[resp["url"]] = {
                     "method": resp.get("method", "GET"),
