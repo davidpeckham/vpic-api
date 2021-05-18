@@ -34,4 +34,5 @@ jobs:
         run: poetry install
 
       - name: Publish docs to Github Pages
-        run: mkdocs gh-deploy --force
+        shell: bash
+        run: poetry run mkdocs gh-deploy --force
