@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vpic-api"
-version = "0.4.2-prerelease"
+version = "0.5.1-alpha.0"
 description = "A client library for the United States National Highway Traffic Safety Administration (NHTSA) Vehicle Product Information Catalog (vPIC) API"
 authors = ["David Peckham <dave.peckham@icloud.com>"]
 license = "MIT"
