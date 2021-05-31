@@ -3,19 +3,21 @@ from . import expected_result
 
 class TestManufacturers:
     def test_get_wmis_for_manufacturerid(self, vpic, responses, datadir):
-        assert vpic.get_wmis_for_manufacturer(988) == expected_result(
-            datadir / "get-wmis-for-manufacturerid.json"
-        )
+        actual = vpic.get_wmis_for_manufacturer(988)
+        expected = expected_result(datadir / "get-wmis-for-manufacturerid.json")
+        assert actual == expected
 
     def test_get_wmis_for_manufacturer_name(self, vpic, responses, datadir):
-        assert vpic.get_wmis_for_manufacturer("Honda") == expected_result(
-            datadir / "get-wmis-for-manufacturer-name.json"
-        )
+        actual = vpic.get_wmis_for_manufacturer("Honda")
+        expected = expected_result(datadir / "get-wmis-for-manufacturer-name.json")
+        assert actual == expected
 
     def test_get_wmis_for_manufacturer_partialname(self, vpic, responses, datadir):
-        assert vpic.get_wmis_for_manufacturer("TECHNOLOG") == expected_result(
+        actual = vpic.get_wmis_for_manufacturer("TECHNOLOG")
+        expected = expected_result(
             datadir / "get-wmis-for-manufacturer-partialname.json"
         )
+        assert actual == expected
 
     def test_get_all_manufacturers(self, vpic, responses, datadir):
         assert vpic.get_all_manufacturers(

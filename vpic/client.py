@@ -180,7 +180,6 @@ class Client(ClientBase):
                 "URL": "http://www.ford.com/",
                 "UpdatedOn": null,
                 "VehicleType": "Truck ",
-                "WMI": "1FT"
             }
 
         """
@@ -188,7 +187,7 @@ class Client(ClientBase):
             raise ValueError("WMI must be 3 or 6 characters")
 
         result = self._request(f"DecodeWMI/{wmi}")[0]
-        result["WMI"] = wmi
+        # result["WMI"] = wmi
         return result
 
     def get_wmis_for_manufacturer(
@@ -239,11 +238,11 @@ class Client(ClientBase):
 
         wmis = self._request(endpoint, params)
 
-        for wmi in wmis:
-            wmi["ManufacturerId"] = wmi["Id"]
-            del wmi["Id"]
-            wmi["ManufacturerName"] = wmi["Name"]
-            del wmi["Name"]
+        # for wmi in wmis:
+        #     wmi["ManufacturerId"] = wmi["Id"]
+        #     del wmi["Id"]
+        #     wmi["Manufacturer"] = wmi["Name"]
+        #     del wmi["Name"]
 
         return wmis
 

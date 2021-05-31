@@ -7,10 +7,10 @@ from vpic.typed_client import TypedClient
 class TestMakes:
     def test_get_all_makes(self, typed_client: TypedClient, responses):
         makes: List[Make] = typed_client.get_all_makes()
-        assert len(makes) == 9583
-        assert makes[0].make_name == "ASTON MARTIN"
+        assert len(makes) == 9624
+        assert makes[0].make == "ASTON MARTIN"
         assert makes[0].make_id == 440
-        assert makes[1].make_name == "TESLA"
+        assert makes[1].make == "TESLA"
         assert makes[1].make_id == 441
 
     def test_get_makes_for_manufacturer(self, typed_client: TypedClient, responses):
@@ -37,7 +37,7 @@ class TestMakes:
 
     def test_get_makes_for_vehicle_type(self, typed_client: TypedClient, responses):
         makes: List[Make] = typed_client.get_makes_for_vehicle_type("Car")
-        assert len(makes) == 162
+        assert len(makes) == 167
 
     def test_get_vehicle_types_for_make_id(self, typed_client: TypedClient, responses):
         types: List[VehicleType] = typed_client.get_vehicle_types_for_make(474)

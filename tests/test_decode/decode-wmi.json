@@ -3,6 +3,7 @@
     "method": "GET",
     "status": 200,
     "content_type": "application/json",
+    "limit": 1,
     "content": {
         "Count": 1,
         "Message": "Results returned successfully",
@@ -12,10 +13,10 @@
                 "CommonName": "Ford",
                 "CreatedOn": "2015-03-23",
                 "DateAvailableToPublic": "2015-01-01",
-                "MakeName": "FORD",
+                "Make": "FORD",
                 "ManufacturerName": "FORD MOTOR COMPANY, USA",
                 "ParentCompanyName": "",
-                "URL": "http:\/\/www.ford.com\/",
+                "URL": "http://www.ford.com/",
                 "UpdatedOn": null,
                 "VehicleType": "Truck "
             }
@@ -25,12 +26,11 @@
         "CommonName": "Ford",
         "CreatedOn": "2015-03-23",
         "DateAvailableToPublic": "2015-01-01",
-        "MakeName": "FORD",
-        "ManufacturerName": "FORD MOTOR COMPANY, USA",
+        "Make": "FORD",
+        "Manufacturer": "FORD MOTOR COMPANY, USA",
         "ParentCompanyName": "",
-        "URL": "http:\/\/www.ford.com\/",
+        "URL": "http://www.ford.com/",
         "UpdatedOn": null,
-        "VehicleType": "Truck ",
-        "WMI": "1FT"
+        "VehicleType": "Truck "
     }
 }

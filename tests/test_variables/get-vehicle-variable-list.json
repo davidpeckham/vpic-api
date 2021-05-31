@@ -351,13 +351,13 @@
             },
             {
                 "DataType": "lookup",
-                "Description": "<p>Adaptive cruise control (ACC) is similar to conventional cruise control in that it maintains the vehicle's pre-set speed. However, unlike conventional cruise control, this new system can automatically adjust speed in order to maintain a proper distance between vehicles in the same lane. This is achieved through a radar headway sensor, digital signal processor and longitudinal controller. If the lead vehicle slows down, or if another object is detected, the system sends a signal to the engine or braking system to decelerate. Then, when the road is clear, the system will re-accelerate the vehicle back to the set speed.</p>",
+                "Description": "<p>Adaptive Cruise Control (ACC) automatically adjusts the vehicle\u2019s speed to keep a pre-set distance from the vehicle in front of it.</p>",
                 "ID": 81,
                 "Name": "Adaptive Cruise Control (ACC)"
             },
             {
                 "DataType": "lookup",
-                "Description": "<p>Antilock Brake System or ABS means a portion of a service brake system that automatically controls the degree of rotational wheel slip during braking by: (1) Sensing the rate of angular rotation of the wheels; (2) Transmitting signals regarding the rate of wheel angular rotation to one or more controlling devices which interpret those signals and generate responsive controlling output signals; and (3) Transmitting those controlling signals to one or more modulator devices which adjust brake actuating forces in response to those signals.</p>",
+                "Description": "<p>Anti-lock Braking System or ABS means a portion of a service brake system that automatically controls the degree of rotational wheel slip during braking by: (1) Sensing the rate of angular rotation of the wheels; (2) Transmitting signals regarding the rate of wheel angular rotation to one or more controlling devices which interpret those signals and generate responsive controlling output signals; and (3) Transmitting those controlling signals to one or more modulator devices which adjust brake actuating forces in response to those signals.</p>",
                 "ID": 86,
                 "Name": "Anti-lock Braking System (ABS)"
             },
@@ -417,7 +417,7 @@
             },
             {
                 "DataType": "lookup",
-                "Description": "<p>Using lane monitoring technology, Lane Keeping Support (LKS) is an emerging safety technology that prevents drivers from unintentionally drifting out of their lanes. LKS systems use information provided by sensors in a lane departure warning system (LDW) system to determine whether a vehicle is about to move out of its lane of travel. If so, LKS activates by correcting the steering, braking or accelerating one or more of the wheels, or a combination of both, resulting in the vehicle returning to its intended lane of travel. If the technology applied is intended to keep the vehicle in the center of the lane, LKS will indicate this as Lane Centering.</p>",
+                "Description": "<p>A Lane Keeping Support (LKS) system prevents a driver from unintentionally drifting out of the intended travel lane. LKS systems use information provided by lane departure warning system (LDW) sensors to determine whether a vehicle is about to unintentionally move out of its lane of travel. If so, LKS activates and corrects the steering, brakes or accelerates one or more of the wheels, or does a combination of both, resulting in the vehicle returning to its intended lane of travel.</p>",
                 "ID": 103,
                 "Name": "Lane Keeping Support (LKS)"
             },
@@ -717,7 +717,7 @@
             },
             {
                 "DataType": "lookup",
-                "Description": "<p>Auto-Reverse System enables power windows and sunroofs on motor vehicles to automatically reverse direction when such power windows and panels detect an obstruction. This feature can prevent children and others from being trapped, injured, or killed by the power windows and sunroofs.</p>",
+                "Description": "<p>An Auto-Reverse System enables power windows and sunroofs on motor vehicles to automatically reverse direction when such power windows and panels detect an obstruction. This feature can prevent children and others from being trapped, injured, or killed by the power windows and sunroofs.</p>",
                 "ID": 172,
                 "Name": "Auto-Reverse System for Windows and Sunroofs"
             },
@@ -765,7 +765,7 @@
             },
             {
                 "DataType": "lookup",
-                "Description": "<p>Adaptive driving beam is a type of front-lighting system that lets upper beam headlamps adapt their beam patterns to create shaded areas around oncoming and preceding vehicles to improve long-range visibility for the driver without causing discomfort, distraction, or glare to other road users.</p>",
+                "Description": "<p>Adaptive Driving Beam (ADB) is a type of front-lighting system that lets upper beam headlamps adapt their beam patterns to create shaded areas around oncoming and preceding vehicles to improve long-range visibility for the driver without causing discomfort, distraction, or glare to other road users.</p>",
                 "ID": 180,
                 "Name": "Adaptive Driving Beam (ADB)"
             },
@@ -1164,13 +1164,13 @@
         },
         {
             "DataType": "lookup",
-            "Description": "<p>Adaptive cruise control (ACC) is similar to conventional cruise control in that it maintains the vehicle's pre-set speed. However, unlike conventional cruise control, this new system can automatically adjust speed in order to maintain a proper distance between vehicles in the same lane. This is achieved through a radar headway sensor, digital signal processor and longitudinal controller. If the lead vehicle slows down, or if another object is detected, the system sends a signal to the engine or braking system to decelerate. Then, when the road is clear, the system will re-accelerate the vehicle back to the set speed.</p>",
+            "Description": "<p>Adaptive Cruise Control (ACC) automatically adjusts the vehicle\u2019s speed to keep a pre-set distance from the vehicle in front of it.</p>",
             "Id": 81,
             "Name": "Adaptive Cruise Control (ACC)"
         },
         {
             "DataType": "lookup",
-            "Description": "<p>Antilock Brake System or ABS means a portion of a service brake system that automatically controls the degree of rotational wheel slip during braking by: (1) Sensing the rate of angular rotation of the wheels; (2) Transmitting signals regarding the rate of wheel angular rotation to one or more controlling devices which interpret those signals and generate responsive controlling output signals; and (3) Transmitting those controlling signals to one or more modulator devices which adjust brake actuating forces in response to those signals.</p>",
+            "Description": "<p>Anti-lock Braking System or ABS means a portion of a service brake system that automatically controls the degree of rotational wheel slip during braking by: (1) Sensing the rate of angular rotation of the wheels; (2) Transmitting signals regarding the rate of wheel angular rotation to one or more controlling devices which interpret those signals and generate responsive controlling output signals; and (3) Transmitting those controlling signals to one or more modulator devices which adjust brake actuating forces in response to those signals.</p>",
             "Id": 86,
             "Name": "Anti-lock Braking System (ABS)"
         },
@@ -1230,7 +1230,7 @@
         },
         {
             "DataType": "lookup",
-            "Description": "<p>Using lane monitoring technology, Lane Keeping Support (LKS) is an emerging safety technology that prevents drivers from unintentionally drifting out of their lanes. LKS systems use information provided by sensors in a lane departure warning system (LDW) system to determine whether a vehicle is about to move out of its lane of travel. If so, LKS activates by correcting the steering, braking or accelerating one or more of the wheels, or a combination of both, resulting in the vehicle returning to its intended lane of travel. If the technology applied is intended to keep the vehicle in the center of the lane, LKS will indicate this as Lane Centering.</p>",
+            "Description": "<p>A Lane Keeping Support (LKS) system prevents a driver from unintentionally drifting out of the intended travel lane. LKS systems use information provided by lane departure warning system (LDW) sensors to determine whether a vehicle is about to unintentionally move out of its lane of travel. If so, LKS activates and corrects the steering, brakes or accelerates one or more of the wheels, or does a combination of both, resulting in the vehicle returning to its intended lane of travel.</p>",
             "Id": 103,
             "Name": "Lane Keeping Support (LKS)"
         },
@@ -1530,7 +1530,7 @@
         },
         {
             "DataType": "lookup",
-            "Description": "<p>Auto-Reverse System enables power windows and sunroofs on motor vehicles to automatically reverse direction when such power windows and panels detect an obstruction. This feature can prevent children and others from being trapped, injured, or killed by the power windows and sunroofs.</p>",
+            "Description": "<p>An Auto-Reverse System enables power windows and sunroofs on motor vehicles to automatically reverse direction when such power windows and panels detect an obstruction. This feature can prevent children and others from being trapped, injured, or killed by the power windows and sunroofs.</p>",
             "Id": 172,
             "Name": "Auto-Reverse System for Windows and Sunroofs"
         },
@@ -1578,7 +1578,7 @@
         },
         {
             "DataType": "lookup",
-            "Description": "<p>Adaptive driving beam is a type of front-lighting system that lets upper beam headlamps adapt their beam patterns to create shaded areas around oncoming and preceding vehicles to improve long-range visibility for the driver without causing discomfort, distraction, or glare to other road users.</p>",
+            "Description": "<p>Adaptive Driving Beam (ADB) is a type of front-lighting system that lets upper beam headlamps adapt their beam patterns to create shaded areas around oncoming and preceding vehicles to improve long-range visibility for the driver without causing discomfort, distraction, or glare to other road users.</p>",
             "Id": 180,
             "Name": "Adaptive Driving Beam (ADB)"
         },

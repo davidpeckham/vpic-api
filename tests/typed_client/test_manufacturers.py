@@ -28,7 +28,7 @@ class TestManufacturers:
         honda = details[0]
         assert honda.manufacturer_id == 988
         assert (
-            honda.manufacturer_name
+            honda.manufacturer
             == "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
         )
         assert honda.manufacturer_common_name == "Honda"
@@ -42,7 +42,7 @@ class TestManufacturers:
         )
 
         assert details[0].manufacturer_id == 987
-        assert details[0].manufacturer_name == "HONDA MOTOR CO., LTD"
+        assert details[0].manufacturer == "HONDA MOTOR CO., LTD"
         assert details[0].manufacturer_common_name == "Honda"
 
     def test_get_manufacturer_details_by_partial_name(
@@ -52,12 +52,12 @@ class TestManufacturers:
             "METRO"
         )
         assert details[0].manufacturer_id == 3382
-        assert details[0].manufacturer_name == "NICHIBEI METROPAGES, INC."
+        assert details[0].manufacturer == "NICHIBEI METROPAGES, INC."
         assert details[0].manufacturer_common_name is None
 
     def test_get_equipment_plant_codes(self, typed_client: TypedClient, responses):
         plant_codes: List[PlantCode] = typed_client.get_equipment_plant_codes(2016, 1)
-        assert len(plant_codes) == 1089
+        assert len(plant_codes) == 1091
         assert hasattr(plant_codes[0], "dot_code")
 
     def test_get_parts_565(self, typed_client: TypedClient, responses):

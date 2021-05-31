@@ -1,6 +1,8 @@
 import logging
-import re
-from typing import Any, Dict, List, Optional, Union
+from typing import List, Optional, Union
+
+from marshmallow import EXCLUDE, RAISE
+import desert
 
 from .client import Client
 from .models import (
@@ -8,15 +10,15 @@ from .models import (
     Make,
     Manufacturer,
     ManufacturerDetail,
-    ManufacturerType,
     Model,
     PlantCode,
+    Value,
+    Variable,
     Vehicle,
     VehicleType,
     WorldManufacturerIndex,
-    Variable,
-    Value,
 )
+from .transforms import snake_case
 
 log = logging.getLogger(__name__)
 
@@ -64,44 +66,6 @@ class TypedClient:
         self, host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles/"
     ):
         self._client = Client(host, standardize_variables=True)
-        self._snake_re = re.compile(r"([A-Z]+)(?=([a-z_]|))")
-
-    # def _snake_case(self, object: Union[Dict, List, str]) -> Union[Dict, List, str]:
-    #     """
-    #     Convert variable names (JSON keys) to snake case
-
-    #     """
-
-    #     if isinstance(object, dict):
-    #         return {self._snake_case(key): value for key, value in object.items()}
-    #     elif isinstance(object, list):
-    #         return [self._snake_case(item) for item in object]
-    #     else:
-    #         return self._snake_re.sub(r"_\1", object).lower()
-
-    def _snake_case(self, object: Dict[str, Any]) -> Dict[str, Any]:
-        """Convert variable names (JSON keys) to snake case
-
-        Args:
-            object: dictionary whose key names will be standardized
-
-        Returns:
-            A new dictionary with standardized names
-
-        """
-        # TODO simplify this
-        new_object: Dict[str, Any] = {}
-        for key, value in object.items():
-            new_key = self._snake_re.sub(r"_\1", key).lower()
-            new_key = new_key.replace("__", "_")
-            if new_key[0] == "_":
-                new_key = new_key[1:]
-            new_key = new_key.replace("ncsa", "ncsa_")
-            new_key = new_key.replace("evdrive", "ev_drive")
-            new_key = new_key.replace("sae", "sae_")
-            new_key = new_key.replace("dotcode", "dot_code")
-            new_object[new_key] = value
-        return new_object
 
     def decode_vin(
         self, vin: str, model_year: Optional[int] = None, extend: Optional[bool] = False
@@ -162,11 +126,11 @@ class TypedClient:
                 error_code="0",
                 error_text="0 - VIN decoded clean. Check Digit (9th position) is co...",
                 ...
-                make_name="FORD",
+                make="FORD",
                 make_id="460",
-                manufacturer_name="FORD MOTOR COMPANY, USA",
+                manufacturer="FORD MOTOR COMPANY, USA",
                 manufacturer_id="976",
-                model_name="F-150",
+                model="F-150",
                 model_id="1801",
                 model_year="2021",
                 motorcycle_chassis_type="Not Applicable",
@@ -189,9 +153,8 @@ class TypedClient:
             )
 
         """
-        return Vehicle(
-            **self._snake_case(self._client.decode_vin(vin, model_year, extend))
-        )
+        schema = desert.schema(Vehicle, meta={"unknown": EXCLUDE})
+        return schema.load(snake_case(self._client.decode_vin(vin, model_year, extend)))
 
     def decode_vin_batch(self, vins: List[str]) -> List[Vehicle]:
         """Decode a batch of 17-digit VINs or partial VINs.
@@ -227,9 +190,9 @@ class TypedClient:
             [Vehicle(...), Vehicle(...)]
 
         """
-        return [
-            Vehicle(**self._snake_case(v)) for v in self._client.decode_vin_batch(vins)
-        ]
+        vehicles = self._client.decode_vin_batch(vins)
+        schema = desert.schema(Vehicle, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(v)) for v in vehicles]
 
     def decode_wmi(self, wmi: str) -> WorldManufacturerIndex:
         """Decode a WMI to get manufacturer information
@@ -257,7 +220,7 @@ class TypedClient:
                 created_on="2015-03-23",
                 date_available_to_public="2015-01-01",
                 make="FORD",
-                manufacturer_name="FORD MOTOR COMPANY, USA",
+                manufacturer="FORD MOTOR COMPANY, USA",
                 parent_company_name="",
                 updated_on=None,
                 url="http://www.ford.com/",
@@ -265,7 +228,8 @@ class TypedClient:
             )
 
         """
-        return WorldManufacturerIndex(**self._snake_case(self._client.decode_wmi(wmi)))
+        schema = desert.schema(WorldManufacturerIndex, meta={"unknown": EXCLUDE})
+        return schema.load(snake_case(self._client.decode_wmi(wmi)))
 
     def get_wmis_for_manufacturer(
         self,
@@ -296,12 +260,12 @@ class TypedClient:
                 WorldManufacturerIndex(
                     created_on='2015-03-26',
                     date_available_to_public='2015-01-01',
-                    manufacturer_name='HONDA MOTOR CO., LTD',
+                    manufacturer='HONDA MOTOR CO., LTD',
                     updated_on='2015-06-04',
                     vehicle_type='Passenger Car',
                     wmi='JHM', common_name='',
                     country=None,
-                    make_name='',
+                    make='',
                     manufacturer_id=987,
                     parent_company_name='',
                     url=''
@@ -311,7 +275,8 @@ class TypedClient:
 
         """
         wmis = self._client.get_wmis_for_manufacturer(manufacturer, vehicle_type)
-        return [WorldManufacturerIndex(**self._snake_case(wmi)) for wmi in wmis]
+        schema = desert.schema(WorldManufacturerIndex, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(wmi)) for wmi in wmis]
 
     def get_all_makes(self) -> List[Make]:
         """Returns all of the makes registered with vPIC.
@@ -322,21 +287,23 @@ class TypedClient:
         Examples:
             >>> get_all_makes()
             [
-                Make(make_id=440, make_name='ASTON MARTIN'),
-                Make(make_id=441, make_name='TESLA'),
-                Make(make_id=442, make_name='JAGUAR'),
-                Make(make_id=443, make_name='MASERATI'),
-                Make(make_id=444, make_name='LAND ROVER'),
-                Make(make_id=445, make_name='ROLLS ROYCE'),
-                Make(make_id=446, make_name='BUELL (EBR)'),
-                Make(make_id=447, make_name='JIALING'),
-                Make(make_id=448, make_name='TOYOTA'),
-                Make(make_id=449, make_name='MERCEDES-BENZ'),
+                Make(make_id=440, make='ASTON MARTIN'),
+                Make(make_id=441, make='TESLA'),
+                Make(make_id=442, make='JAGUAR'),
+                Make(make_id=443, make='MASERATI'),
+                Make(make_id=444, make='LAND ROVER'),
+                Make(make_id=445, make='ROLLS ROYCE'),
+                Make(make_id=446, make='BUELL (EBR)'),
+                Make(make_id=447, make='JIALING'),
+                Make(make_id=448, make='TOYOTA'),
+                Make(make_id=449, make='MERCEDES-BENZ'),
                 ...
             ]
 
         """
-        return [Make(**self._snake_case(m)) for m in self._client.get_all_makes()]
+        makes = self._client.get_all_makes()
+        schema = desert.schema(Make, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(make)) for make in makes]
 
     def get_parts(
         self, cfr_part: str, from_date: str, to_date: str, page: int = 1
@@ -372,7 +339,7 @@ class TypedClient:
                     cover_letter_url='',
                     letter_date='1/1/2015',
                     manufacturer_id=959,
-                    manufacturer_name='MASERATI NORTH AMERICA, INC.',
+                    manufacturer='MASERATI NORTH AMERICA, INC.',
                     name='ORG13044',
                     url='...',
                     type=None,
@@ -385,10 +352,11 @@ class TypedClient:
         """
         documents = self._client.get_parts(cfr_part, from_date, to_date, page)
         for doc in documents:
-            # _snake_case can't handle lowerUPPER
+            # snake_case doesn't handle lowerUPPER
             doc["CoverLetterUrl"] = doc["CoverLetterURL"]
             del doc["CoverLetterURL"]
-        return [Document(**self._snake_case(doc)) for doc in documents]
+        schema = desert.schema(Document, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(doc)) for doc in documents]
 
     def get_all_manufacturers(
         self, manufacturer_type: Optional[str] = None, page: int = 1
@@ -454,7 +422,7 @@ class TypedClient:
             [
                 ManufacturerDetail(
                     manufacturer_id=988,
-                    manufacturer_name="HONDA DEVELOPMENT & MANUFACTURING OF AMER...",
+                    manufacturer="HONDA DEVELOPMENT & MANUFACTURING OF AMER...",
                     manufacturer_common_name="Honda",
                     address="1919 Torrance Blvd.",
                     address2=None,
@@ -485,7 +453,7 @@ class TypedClient:
                             vehicle_type="Passenger Car",
                             vehicle_type_id=None,
                             make_id=None,
-                            make_name=None,
+                            make=None,
                             gvwr_from="Class 1A: 3,000 lb or less (1,360 kg or less)",
                             gvwr_to="Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)",
                             is_primary=True
@@ -494,7 +462,7 @@ class TypedClient:
                             vehicle_type="Truck ",
                             vehicle_type_id=None,
                             make_id=None,
-                            make_name=None,
+                            make=None,
                             gvwr_from="Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
                             gvwr_to="Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
                             is_primary=False
@@ -503,7 +471,7 @@ class TypedClient:
                             vehicle_type="Multipurpose Passenger Vehicle (MPV)",
                             vehicle_type_id=None,
                             make_id=None,
-                            make_name=None,
+                            make=None,
                             gvwr_from="Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)",
                             gvwr_to="Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)",
                             is_primary=False
@@ -517,20 +485,26 @@ class TypedClient:
         for r in results:
             r["dbas"] = r["DBAs"]
             del r["DBAs"]
-            r["ManufacturerTypes"] = [
-                ManufacturerType(name=mt["Name"]) for mt in r["ManufacturerTypes"]
-            ]
-            r["VehicleTypes"] = [
-                VehicleType(
-                    vehicle_type=vt["Name"],
-                    is_primary=vt["IsPrimary"],
-                    gvwr_from=vt["GVWRFrom"],
-                    gvwr_to=vt["GVWRTo"],
-                )
-                for vt in r["VehicleTypes"]
-            ]
 
-        return [ManufacturerDetail(**self._snake_case(m)) for m in results]
+            # r["ManufacturerTypes"] = [
+            #     ManufacturerType(name=mt["Name"]) for mt in r["ManufacturerTypes"]
+            # ]
+            # r["VehicleTypes"] = [
+            #     VehicleType(
+            #         vehicle_type=vt["Name"],
+            #         is_primary=vt["IsPrimary"],
+            #         gvwr_from=vt["GVWRFrom"],
+            #         gvwr_to=vt["GVWRTo"],
+            #     )
+            #     for vt in r["VehicleTypes"]
+            # ]
+
+            # r["ManufacturerTypes"] = [snake_case(mt) for mt in r["ManufacturerTypes"]]
+            # r["VehicleTypes"] = [snake_case(vt) for vt in r["VehicleTypes"]]
+
+        schema = desert.schema(ManufacturerDetail, meta={"unknown": EXCLUDE})
+        snake_cased = [snake_case(r) for r in results]
+        return [schema.load(sc) for sc in snake_cased]
 
     def get_makes_for_manufacturer(
         self, manufacturer: Union[str, int], model_year: Optional[int] = None
@@ -556,22 +530,23 @@ class TypedClient:
             [
                 Make(
                     make_id:474
-                    make_name:'HONDA'
+                    make:'HONDA'
                     manufacturer_id:None
-                    manufacturer_name:'HONDA DEVELOPMENT & MANUFACTURING OF AMERICA...'
+                    manufacturer:'HONDA DEVELOPMENT & MANUFACTURING OF AMERICA...'
                 ),
                 Make(
                     make_id=475,
-                    make_name='ACURA',
+                    make='ACURA',
                     manufacturer_id=None,
-                    manufacturer_name='HONDA DEVELOPMENT & MANUFACTURING OF AMERICA...'
+                    manufacturer='HONDA DEVELOPMENT & MANUFACTURING OF AMERICA...'
                 )
                 ...
             ]
 
         """
         makes = self._client.get_makes_for_manufacturer(manufacturer, model_year)
-        return [Make(**self._snake_case(m)) for m in makes]
+        schema = desert.schema(Make, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(m)) for m in makes]
 
     def get_makes_for_vehicle_type(self, vehicle_type: str) -> List[Make]:
         """Returns makes that produce a vehicle_type
@@ -594,9 +569,9 @@ class TypedClient:
             [
                 Make(
                     make_id=440,
-                    make_name='ASTON MARTIN',
+                    make='ASTON MARTIN',
                     manufacturer_id=None,
-                    manufacturer_name=None,
+                    manufacturer=None,
                     vehicle_type_id=2,
                     vehicle_type='Passenger Car'
                 )
@@ -605,7 +580,8 @@ class TypedClient:
 
         """
         makes = self._client.get_makes_for_vehicle_type(vehicle_type)
-        return [Make(**self._snake_case(m)) for m in makes]
+        schema = desert.schema(Make, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(m)) for m in makes]
 
     def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[VehicleType]:
         """Returns vehicle types produced by a make or make
@@ -630,37 +606,39 @@ class TypedClient:
                     vehicle_type_id=1,
                     vehicle_type='Motorcycle',
                     make_id=None,
-                    make_name=None
+                    make=None
                 ),
                 VehicleType(
                     vehicle_type_id=2,
                     vehicle_type='Passenger Car',
                     make_id=None,
-                    make_name=None
+                    make=None
                 ),
                 VehicleType(
                     vehicle_type_id=3,
                     vehicle_type='Truck ',
                     make_id=None,
-                    make_name=None
+                    make=None
                 ),
                 VehicleType(
                     vehicle_type_id=7,
                     vehicle_type='Multipurpose Passenger Vehicle (MPV)',
                     make_id=None,
-                    make_name=None
+                    make=None
                 ),
                 VehicleType(
                     vehicle_type_id=9,
                     vehicle_type='Low Speed Vehicle (LSV)',
                     make_id=None,
-                    make_name=None
+                    make=None
                 )
             ]
 
         """
-        types = self._client.get_vehicle_types_for_make(make)
-        return [VehicleType(**self._snake_case(vt)) for vt in types]
+        schema = desert.schema(VehicleType, meta={"unknown": EXCLUDE})
+        results = self._client.get_vehicle_types_for_make(make)
+        snake_cased = [snake_case(r) for r in results]
+        return [schema.load(sc) for sc in snake_cased]
 
     def get_equipment_plant_codes(
         self, year: int, equipment_type: int, report_type: str = "All"
@@ -706,7 +684,8 @@ class TypedClient:
         plant_codes = self._client.get_equipment_plant_codes(
             year, equipment_type, report_type
         )
-        return [PlantCode(**self._snake_case(pc)) for pc in plant_codes]
+        schema = desert.schema(PlantCode, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(pc)) for pc in plant_codes]
 
     def get_models_for_make(
         self,
@@ -739,30 +718,30 @@ class TypedClient:
             [
                 Model(
                     model_id=1685,
-                    model_name='Model S',
+                    model='Model S',
                     make_id=441,
-                    make_name='TESLA',
+                    make='TESLA',
                     vehicle_type_id=None
                 ),
                 Model(
                     model_id=10199,
-                    model_name='Model X',
+                    model='Model X',
                     make_id=441,
-                    make_name='TESLA',
+                    make='TESLA',
                     vehicle_type_id=None
                 ),
                 Model(
                     model_id=17834,
-                    model_name='Model 3',
+                    model='Model 3',
                     make_id=441,
-                    make_name='TESLA',
+                    make='TESLA',
                     vehicle_type_id=None
                 ),
                 Model(
                     model_id=27027,
-                    model_name='Model Y',
+                    model='Model Y',
                     make_id=441,
-                    make_name='TESLA',
+                    make='TESLA',
                     vehicle_type_id=None
                     )
             ]
@@ -772,7 +751,8 @@ class TypedClient:
 
         """
         models = self._client.get_models_for_make(make, model_year, vehicle_type)
-        return [Model(**self._snake_case(m)) for m in models]
+        schema = desert.schema(Model, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(m)) for m in models]
 
     def get_vehicle_variable_list(self) -> List[Variable]:
         """Return a list of vehicle variables tracked by vPIC
@@ -793,7 +773,8 @@ class TypedClient:
 
         """
         variables = self._client.get_vehicle_variable_list()
-        return [Variable(**self._snake_case(v)) for v in variables]
+        schema = desert.schema(Variable, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(v)) for v in variables]
 
     def get_vehicle_variable_values_list(self, variable_name: str) -> List[Value]:
         """Return the values for a vehicle variable
@@ -823,4 +804,5 @@ class TypedClient:
 
         """
         values = self._client.get_vehicle_variable_values_list(variable_name)
-        return [Value(**self._snake_case(v)) for v in values]
+        schema = desert.schema(Value, meta={"unknown": EXCLUDE})
+        return [schema.load(snake_case(v)) for v in values]

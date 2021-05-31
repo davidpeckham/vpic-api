@@ -87,78 +87,78 @@
     "expected_result": [
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "HONDA MOTOR CO., LTD"
+            "Make": "HONDA",
+            "Manufacturer": "HONDA MOTOR CO., LTD"
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+            "Make": "HONDA",
+            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "HONDA OF CANADA MFG., INC."
+            "Make": "HONDA",
+            "Manufacturer": "HONDA OF CANADA MFG., INC."
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "HONDA OF THE U.K. MFG., LTD."
+            "Make": "HONDA",
+            "Manufacturer": "HONDA OF THE U.K. MFG., LTD."
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "HONDA DE MEXICO"
+            "Make": "HONDA",
+            "Manufacturer": "HONDA DE MEXICO"
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "THAI HONDA MANUFACTURING CO., LTD."
+            "Make": "HONDA",
+            "Manufacturer": "THAI HONDA MANUFACTURING CO., LTD."
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "HONDA VIETNAM CO., LTD."
+            "Make": "HONDA",
+            "Manufacturer": "HONDA VIETNAM CO., LTD."
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "MOTO HONDA DA AMAZONIA LTDA."
+            "Make": "HONDA",
+            "Manufacturer": "MOTO HONDA DA AMAZONIA LTDA."
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "SUNDIRO HONDA MOTORCYCLE CO., LTD."
+            "Make": "HONDA",
+            "Manufacturer": "SUNDIRO HONDA MOTORCYCLE CO., LTD."
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
-            "ManufacturerName": "MONTESA HONDA SA"
+            "Make": "HONDA",
+            "Manufacturer": "MONTESA HONDA SA"
         },
         {
             "MakeId": 475,
-            "MakeName": "ACURA",
-            "ManufacturerName": "HONDA MOTOR CO., LTD"
+            "Make": "ACURA",
+            "Manufacturer": "HONDA MOTOR CO., LTD"
         },
         {
             "MakeId": 475,
-            "MakeName": "ACURA",
-            "ManufacturerName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
+            "Make": "ACURA",
+            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC"
         },
         {
             "MakeId": 475,
-            "MakeName": "ACURA",
-            "ManufacturerName": "HONDA OF CANADA MFG., INC."
+            "Make": "ACURA",
+            "Manufacturer": "HONDA OF CANADA MFG., INC."
         },
         {
             "MakeId": 542,
-            "MakeName": "ISUZU",
-            "ManufacturerName": "HONDA MOTOR CO., LTD"
+            "Make": "ISUZU",
+            "Manufacturer": "HONDA MOTOR CO., LTD"
         },
         {
             "MakeId": 7351,
-            "MakeName": "SUNDIRO  HONDA MOTORCYCLE CO. LTD",
-            "ManufacturerName": "SUNDIRO HONDA MOTORCYCLE CO., LTD."
+            "Make": "SUNDIRO  HONDA MOTORCYCLE CO. LTD",
+            "Manufacturer": "SUNDIRO HONDA MOTORCYCLE CO., LTD."
         }
     ]
 }

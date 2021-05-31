@@ -17,7 +17,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 3382,
@@ -44,7 +44,7 @@
                 "Country": null,
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 4454,
@@ -71,7 +71,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 4455,
@@ -98,7 +98,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 4456,
@@ -125,7 +125,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 4457,
@@ -152,7 +152,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1454600705520-0500)\/",
+                "LastUpdated": "/Date(1454600705520-0500)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Intermediate Vehicle Manufacturer"
@@ -175,7 +175,7 @@
                 "PrincipalPosition": "Owner",
                 "StateProvince": "TX",
                 "SubmittedName": "Barbara Paull",
-                "SubmittedOn": "\/Date(1229490000000-0500)\/",
+                "SubmittedOn": "/Date(1229490000000-0500)/",
                 "SubmittedPosition": "Owner",
                 "VehicleTypes": [
                     {
@@ -196,7 +196,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 7672,
@@ -223,7 +223,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(-2208970800000-0500)\/",
+                "LastUpdated": "/Date(-2208970800000-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 8238,
@@ -250,7 +250,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1498048038803-0400)\/",
+                "LastUpdated": "/Date(1498048038803-0400)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Final-Stage Vehicle Manufacturer"
@@ -267,7 +267,7 @@
                 "PrincipalPosition": null,
                 "StateProvince": "KY",
                 "SubmittedName": "Gary D. Reed",
-                "SubmittedOn": "\/Date(701931600000-0400)\/",
+                "SubmittedOn": "/Date(701931600000-0400)/",
                 "SubmittedPosition": null,
                 "VehicleTypes": [
                     {
@@ -288,7 +288,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1452003144627-0500)\/",
+                "LastUpdated": "/Date(1452003144627-0500)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Final-Stage Vehicle Manufacturer"
@@ -305,7 +305,7 @@
                 "PrincipalPosition": null,
                 "StateProvince": "NY",
                 "SubmittedName": "Micheal Digonis",
-                "SubmittedOn": "\/Date(1155355200000-0400)\/",
+                "SubmittedOn": "/Date(1155355200000-0400)/",
                 "SubmittedPosition": "President",
                 "VehicleTypes": [
                     {
@@ -326,7 +326,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1448653549293-0500)\/",
+                "LastUpdated": "/Date(1448653549293-0500)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Intermediate Vehicle Manufacturer"
@@ -349,7 +349,7 @@
                 "PrincipalPosition": null,
                 "StateProvince": "MA",
                 "SubmittedName": "Robert E.Arnold",
-                "SubmittedOn": "\/Date(1116907200000-0400)\/",
+                "SubmittedOn": "/Date(1116907200000-0400)/",
                 "SubmittedPosition": "Jr. President",
                 "VehicleTypes": [
                     {
@@ -370,7 +370,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1515077425007-0500)\/",
+                "LastUpdated": "/Date(1515077425007-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 11760,
@@ -383,7 +383,7 @@
                 "PrincipalPosition": "President",
                 "StateProvince": "NJ",
                 "SubmittedName": "Mark Timko",
-                "SubmittedOn": "\/Date(1177905600000-0400)\/",
+                "SubmittedOn": "/Date(1177905600000-0400)/",
                 "SubmittedPosition": "President",
                 "VehicleTypes": [
                     {
@@ -404,7 +404,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1448995547177-0500)\/",
+                "LastUpdated": "/Date(1448995547177-0500)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Final-Stage Vehicle Manufacturer"
@@ -424,7 +424,7 @@
                 "PrincipalPosition": null,
                 "StateProvince": "CO",
                 "SubmittedName": "SHAWN KHANKAN",
-                "SubmittedOn": "\/Date(1217908800000-0400)\/",
+                "SubmittedOn": "/Date(1217908800000-0400)/",
                 "SubmittedPosition": null,
                 "VehicleTypes": [
                     {
@@ -445,7 +445,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1446489978617-0500)\/",
+                "LastUpdated": "/Date(1446489978617-0500)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Vehicle Alterer"
@@ -462,7 +462,7 @@
                 "PrincipalPosition": "SERVICE MANAGER",
                 "StateProvince": "IDAHO",
                 "SubmittedName": "BRAD MCCOY",
-                "SubmittedOn": "\/Date(1445313600000-0400)\/",
+                "SubmittedOn": "/Date(1445313600000-0400)/",
                 "SubmittedPosition": "PRESIDENT",
                 "VehicleTypes": [
                     {
@@ -483,7 +483,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1456152060013-0500)\/",
+                "LastUpdated": "/Date(1456152060013-0500)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Final-Stage Vehicle Manufacturer"
@@ -500,7 +500,7 @@
                 "PrincipalPosition": "CEO",
                 "StateProvince": "IOWA",
                 "SubmittedName": "Scott Loges",
-                "SubmittedOn": "\/Date(1455919843880-0500)\/",
+                "SubmittedOn": "/Date(1455919843880-0500)/",
                 "SubmittedPosition": "Business Unit President",
                 "VehicleTypes": [
                     {
@@ -527,7 +527,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1489089348493-0500)\/",
+                "LastUpdated": "/Date(1489089348493-0500)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 15443,
@@ -540,7 +540,7 @@
                 "PrincipalPosition": null,
                 "StateProvince": "TX",
                 "SubmittedName": "Cy West Blackburn ",
-                "SubmittedOn": "\/Date(578635200000-0400)\/",
+                "SubmittedOn": "/Date(578635200000-0400)/",
                 "SubmittedPosition": null,
                 "VehicleTypes": []
             },
@@ -554,7 +554,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1506550321937-0400)\/",
+                "LastUpdated": "/Date(1506550321937-0400)/",
                 "ManufacturerTypes": [],
                 "Mfr_CommonName": null,
                 "Mfr_ID": 17294,
@@ -581,7 +581,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": null,
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1591288125060-0400)\/",
+                "LastUpdated": "/Date(1591288125060-0400)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Final-Stage Vehicle Manufacturer"
@@ -598,7 +598,7 @@
                 "PrincipalPosition": "Owner",
                 "StateProvince": "OREGON",
                 "SubmittedName": "Shawn Baird",
-                "SubmittedOn": "\/Date(1591224059610-0400)\/",
+                "SubmittedOn": "/Date(1591224059610-0400)/",
                 "SubmittedPosition": "Vice President for Rural Services",
                 "VehicleTypes": [
                     {
@@ -622,11 +622,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 3382,
-            "ManufacturerName": "NICHIBEI METROPAGES, INC.",
+            "Manufacturer": "NICHIBEI METROPAGES, INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": "11223",
             "PrimaryProduct": null,
@@ -649,11 +649,11 @@
             "Country": null,
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 4454,
-            "ManufacturerName": "METRO MFG. CO., LTD",
+            "Manufacturer": "METRO MFG. CO., LTD",
             "OtherManufacturerDetails": null,
             "PostalCode": null,
             "PrimaryProduct": null,
@@ -676,11 +676,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 4455,
-            "ManufacturerName": "METRO TANK & STEEL, INC.",
+            "Manufacturer": "METRO TANK & STEEL, INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": "76240",
             "PrimaryProduct": null,
@@ -703,11 +703,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 4456,
-            "ManufacturerName": "METRO TRUCK BODY, INC.",
+            "Manufacturer": "METRO TRUCK BODY, INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": null,
             "PrimaryProduct": null,
@@ -730,11 +730,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 4457,
-            "ManufacturerName": "METROTRANS CORPORATION",
+            "Manufacturer": "METROTRANS CORPORATION",
             "OtherManufacturerDetails": null,
             "PostalCode": "30223",
             "PrimaryProduct": null,
@@ -757,7 +757,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1454600705520-0500)\/",
+            "LastUpdated": "/Date(1454600705520-0500)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Intermediate Vehicle Manufacturer"
@@ -771,7 +771,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 7031,
-            "ManufacturerName": "GENERAL BODY METROPLEX",
+            "Manufacturer": "GENERAL BODY METROPLEX",
             "OtherManufacturerDetails": null,
             "PostalCode": "76010",
             "PrimaryProduct": null,
@@ -780,7 +780,7 @@
             "PrincipalPosition": "Owner",
             "StateProvince": "TX",
             "SubmittedName": "Barbara Paull",
-            "SubmittedOn": "\/Date(1229490000000-0500)\/",
+            "SubmittedOn": "/Date(1229490000000-0500)/",
             "SubmittedPosition": "Owner",
             "VehicleTypes": [
                 {
@@ -801,11 +801,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 7672,
-            "ManufacturerName": "METRO HOIST, INC.",
+            "Manufacturer": "METRO HOIST, INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": "06430",
             "PrimaryProduct": null,
@@ -828,11 +828,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(-2208970800000-0500)\/",
+            "LastUpdated": "/Date(-2208970800000-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 8238,
-            "ManufacturerName": "METRO EQUIPMENT AND RENTAL CORP.",
+            "Manufacturer": "METRO EQUIPMENT AND RENTAL CORP.",
             "OtherManufacturerDetails": null,
             "PostalCode": "44056",
             "PrimaryProduct": null,
@@ -855,7 +855,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1498048038803-0400)\/",
+            "LastUpdated": "/Date(1498048038803-0400)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Final-Stage Vehicle Manufacturer"
@@ -863,7 +863,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 8239,
-            "ManufacturerName": "METRO EQUIPMENT CO., INC.",
+            "Manufacturer": "METRO EQUIPMENT CO., INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": "40509",
             "PrimaryProduct": null,
@@ -872,7 +872,7 @@
             "PrincipalPosition": null,
             "StateProvince": "KY",
             "SubmittedName": "Gary D. Reed",
-            "SubmittedOn": "\/Date(701931600000-0400)\/",
+            "SubmittedOn": "/Date(701931600000-0400)/",
             "SubmittedPosition": null,
             "VehicleTypes": [
                 {
@@ -893,7 +893,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1452003144627-0500)\/",
+            "LastUpdated": "/Date(1452003144627-0500)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Final-Stage Vehicle Manufacturer"
@@ -901,7 +901,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 9742,
-            "ManufacturerName": "METROKING MOTORS LLC",
+            "Manufacturer": "METROKING MOTORS LLC",
             "OtherManufacturerDetails": null,
             "PostalCode": "10464",
             "PrimaryProduct": null,
@@ -910,7 +910,7 @@
             "PrincipalPosition": null,
             "StateProvince": "NY",
             "SubmittedName": "Micheal Digonis",
-            "SubmittedOn": "\/Date(1155355200000-0400)\/",
+            "SubmittedOn": "/Date(1155355200000-0400)/",
             "SubmittedPosition": "President",
             "VehicleTypes": [
                 {
@@ -931,7 +931,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1448653549293-0500)\/",
+            "LastUpdated": "/Date(1448653549293-0500)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Intermediate Vehicle Manufacturer"
@@ -945,7 +945,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 10626,
-            "ManufacturerName": "METROPOLITAN TRUCK CENTER, INC.",
+            "Manufacturer": "METROPOLITAN TRUCK CENTER, INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": "02072",
             "PrimaryProduct": null,
@@ -954,7 +954,7 @@
             "PrincipalPosition": null,
             "StateProvince": "MA",
             "SubmittedName": "Robert E.Arnold",
-            "SubmittedOn": "\/Date(1116907200000-0400)\/",
+            "SubmittedOn": "/Date(1116907200000-0400)/",
             "SubmittedPosition": "Jr. President",
             "VehicleTypes": [
                 {
@@ -975,11 +975,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1515077425007-0500)\/",
+            "LastUpdated": "/Date(1515077425007-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 11760,
-            "ManufacturerName": "METRORIDER LLC",
+            "Manufacturer": "METRORIDER LLC",
             "OtherManufacturerDetails": null,
             "PostalCode": "07063",
             "PrimaryProduct": null,
@@ -988,7 +988,7 @@
             "PrincipalPosition": "President",
             "StateProvince": "NJ",
             "SubmittedName": "Mark Timko",
-            "SubmittedOn": "\/Date(1177905600000-0400)\/",
+            "SubmittedOn": "/Date(1177905600000-0400)/",
             "SubmittedPosition": "President",
             "VehicleTypes": [
                 {
@@ -1009,7 +1009,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1448995547177-0500)\/",
+            "LastUpdated": "/Date(1448995547177-0500)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Final-Stage Vehicle Manufacturer"
@@ -1020,7 +1020,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 12079,
-            "ManufacturerName": "HIGHLANDS RANCH METRO DISTRICT",
+            "Manufacturer": "HIGHLANDS RANCH METRO DISTRICT",
             "OtherManufacturerDetails": null,
             "PostalCode": "80129",
             "PrimaryProduct": null,
@@ -1029,7 +1029,7 @@
             "PrincipalPosition": null,
             "StateProvince": "CO",
             "SubmittedName": "SHAWN KHANKAN",
-            "SubmittedOn": "\/Date(1217908800000-0400)\/",
+            "SubmittedOn": "/Date(1217908800000-0400)/",
             "SubmittedPosition": null,
             "VehicleTypes": [
                 {
@@ -1050,7 +1050,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1446489978617-0500)\/",
+            "LastUpdated": "/Date(1446489978617-0500)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Vehicle Alterer"
@@ -1058,7 +1058,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 13905,
-            "ManufacturerName": "METROQUIP",
+            "Manufacturer": "METROQUIP",
             "OtherManufacturerDetails": null,
             "PostalCode": "83642",
             "PrimaryProduct": null,
@@ -1067,7 +1067,7 @@
             "PrincipalPosition": "SERVICE MANAGER",
             "StateProvince": "IDAHO",
             "SubmittedName": "BRAD MCCOY",
-            "SubmittedOn": "\/Date(1445313600000-0400)\/",
+            "SubmittedOn": "/Date(1445313600000-0400)/",
             "SubmittedPosition": "PRESIDENT",
             "VehicleTypes": [
                 {
@@ -1088,7 +1088,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1456152060013-0500)\/",
+            "LastUpdated": "/Date(1456152060013-0500)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Final-Stage Vehicle Manufacturer"
@@ -1096,7 +1096,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 14626,
-            "ManufacturerName": "METRO WORLDWIDE, LLC",
+            "Manufacturer": "METRO WORLDWIDE, LLC",
             "OtherManufacturerDetails": null,
             "PostalCode": "50428-____",
             "PrimaryProduct": null,
@@ -1105,7 +1105,7 @@
             "PrincipalPosition": "CEO",
             "StateProvince": "IOWA",
             "SubmittedName": "Scott Loges",
-            "SubmittedOn": "\/Date(1455919843880-0500)\/",
+            "SubmittedOn": "/Date(1455919843880-0500)/",
             "SubmittedPosition": "Business Unit President",
             "VehicleTypes": [
                 {
@@ -1132,11 +1132,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1489089348493-0500)\/",
+            "LastUpdated": "/Date(1489089348493-0500)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 15443,
-            "ManufacturerName": "METRO FAB INC ",
+            "Manufacturer": "METRO FAB INC ",
             "OtherManufacturerDetails": null,
             "PostalCode": "76106-3733",
             "PrimaryProduct": null,
@@ -1145,7 +1145,7 @@
             "PrincipalPosition": null,
             "StateProvince": "TX",
             "SubmittedName": "Cy West Blackburn ",
-            "SubmittedOn": "\/Date(578635200000-0400)\/",
+            "SubmittedOn": "/Date(578635200000-0400)/",
             "SubmittedPosition": null,
             "VehicleTypes": []
         },
@@ -1159,11 +1159,11 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1506550321937-0400)\/",
+            "LastUpdated": "/Date(1506550321937-0400)/",
             "ManufacturerTypes": [],
             "ManufacturerCommonName": null,
             "ManufacturerId": 17294,
-            "ManufacturerName": "METRO TRAILER MANUFACTURING, INC ",
+            "Manufacturer": "METRO TRAILER MANUFACTURING, INC ",
             "OtherManufacturerDetails": null,
             "PostalCode": "48174",
             "PrimaryProduct": null,
@@ -1186,7 +1186,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": null,
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1591288125060-0400)\/",
+            "LastUpdated": "/Date(1591288125060-0400)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Final-Stage Vehicle Manufacturer"
@@ -1194,7 +1194,7 @@
             ],
             "ManufacturerCommonName": null,
             "ManufacturerId": 19858,
-            "ManufacturerName": "METRO WEST AMBULANCE SERVICE, INC.",
+            "Manufacturer": "METRO WEST AMBULANCE SERVICE, INC.",
             "OtherManufacturerDetails": null,
             "PostalCode": "97124",
             "PrimaryProduct": null,
@@ -1203,7 +1203,7 @@
             "PrincipalPosition": "Owner",
             "StateProvince": "OREGON",
             "SubmittedName": "Shawn Baird",
-            "SubmittedOn": "\/Date(1591224059610-0400)\/",
+            "SubmittedOn": "/Date(1591224059610-0400)/",
             "SubmittedPosition": "Vice President for Rural Services",
             "VehicleTypes": [
                 {

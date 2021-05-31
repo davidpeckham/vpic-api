@@ -6,25 +6,9 @@ from requests.adapters import HTTPAdapter
 
 from .exceptions import handle_error_response
 from .session import VpicAPISession
+from .transforms import standardize
 
 log: logging.Logger = logging.getLogger(__name__)
-
-
-_STANDARD_VARIABLE_NAMES: Dict[str, str] = {
-    "ID": "Id",
-    "Make_ID": "MakeId",
-    "Make_Name": "MakeName",
-    "MakeID": "MakeId",
-    "Mfr_CommonName": "ManufacturerCommonName",
-    "Mfr_ID": "ManufacturerId",
-    "Mfr_Name": "ManufacturerName",
-    "MfrId": "ManufacturerId",
-    "MfrName": "ManufacturerName",
-    "Model_ID": "ModelId",
-    "Model_Name": "ModelName",
-    "ModelID": "ModelId",
-    "VehicleTypeName": "VehicleType",
-}
 
 
 class ClientBase(object):
@@ -67,7 +51,7 @@ class ClientBase(object):
 
         results = resp.json()["Results"]
         if self.standardize_variables:
-            results = self._standardize_variable_names(results)
+            results = standardize(results)
 
         return results
 
@@ -85,25 +69,6 @@ class ClientBase(object):
 
         results = resp.json()["Results"]
         if self.standardize_variables:
-            results = self._standardize_variable_names(results)
+            results = standardize(results)
 
         return results
-
-    def _standardize_variable_names(self, object):
-        """
-        vPIC responses sometimes use different names for the same variable,
-        so we'll standardize them before returning to the caller.
-
-        """
-
-        if isinstance(object, dict):
-            return {
-                _STANDARD_VARIABLE_NAMES.get(
-                    key, key
-                ): self._standardize_variable_names(value)
-                for key, value in object.items()
-            }
-        elif isinstance(object, list):
-            return [self._standardize_variable_names(item) for item in object]
-        else:
-            return object

@@ -3,11 +3,24 @@ from typing import List, Optional
 
 
 @dataclass(eq=True, frozen=True)
+class Document:
+    cover_letter_url: str
+    letter_date: str
+    manufacturer_id: int
+    manufacturer: str
+    name: str
+    url: str
+    type: Optional[str] = None
+    model_year_from: Optional[str] = None
+    model_year_to: Optional[str] = None
+
+
+@dataclass(eq=True, frozen=True)
 class Make:
     make_id: int
-    make_name: str
+    make: str
     manufacturer_id: Optional[int] = None
-    manufacturer_name: Optional[str] = None
+    manufacturer: Optional[str] = None
     vehicle_type_id: Optional[int] = None
     vehicle_type: Optional[str] = None
 
@@ -15,9 +28,9 @@ class Make:
 @dataclass(eq=True, frozen=True)
 class Model:
     model_id: int
-    model_name: str
+    model: str
     make_id: Optional[int] = None
-    make_name: Optional[str] = None
+    make: Optional[str] = None
     vehicle_type_id: Optional[int] = None
     vehicle_type: Optional[str] = None
 
@@ -25,7 +38,7 @@ class Model:
 @dataclass(eq=True, frozen=True)
 class Manufacturer:
     manufacturer_id: int
-    manufacturer_name: str
+    manufacturer: str
     manufacturer_common_name: str
 
 
@@ -34,22 +47,30 @@ class ManufacturerType:
     name: str
 
 
-@dataclass(eq=True, frozen=True)
+@dataclass(eq=True, frozen=False)
 class VehicleType:
-    vehicle_type: str
+    name: Optional[str]
+    vehicle_type: Optional[str]
     vehicle_type_id: Optional[int] = None
+    make: Optional[str] = None
     make_id: Optional[int] = None
-    make_name: Optional[str] = None
     gvwr_from: Optional[str] = None
     gvwr_to: Optional[str] = None
     is_primary: Optional[bool] = None
+
+    def __post_init__(self):
+        if self.name is not None:
+            self.vehicle_type = self.name
+        del self.name
 
 
 @dataclass(eq=True, frozen=True)
 class ManufacturerDetail:
     manufacturer_id: int
-    manufacturer_name: str
-    manufacturer_common_name: str
+    manufacturer: str
+    manufacturer_common_name: Optional[str]
+    manufacturer_types: List[ManufacturerType]
+    vehicle_types: List[VehicleType]
     address: Optional[str] = None
     address2: Optional[str] = None
     city: Optional[str] = None
@@ -60,7 +81,6 @@ class ManufacturerDetail:
     dbas: Optional[str] = None
     equipment_items: Optional[List[str]] = None
     last_updated: Optional[str] = None
-    manufacturer_types: Optional[List[ManufacturerType]] = None
     other_manufacturer_details: Optional[str] = None
     postal_code: Optional[str] = None
     primary_product: Optional[str] = None
@@ -71,23 +91,26 @@ class ManufacturerDetail:
     submitted_name: Optional[str] = None
     submitted_on: Optional[str] = None
     submitted_position: Optional[str] = None
-    vehicle_types: Optional[List[VehicleType]] = None
 
 
 @dataclass(eq=True, frozen=True)
-class WorldManufacturerIndex:
-    created_on: str
-    date_available_to_public: str
-    manufacturer_name: str
-    updated_on: str
-    vehicle_type: str
-    wmi: str
-    common_name: str = ""
-    country: str = ""
-    make_name: str = ""
-    manufacturer_id: Optional[int] = None
-    parent_company_name: str = ""
-    url: str = ""
+class PlantCode:
+    dot_code: str
+    name: str
+    address: Optional[str] = None
+    city: Optional[str] = None
+    country: Optional[str] = None
+    old_dot_code: Optional[str] = None
+    postal_code: Optional[str] = None
+    state_province: Optional[str] = None
+    status: Optional[str] = None
+
+
+@dataclass(eq=True, frozen=True)
+class Value:
+    element_name: str
+    id: int
+    name: str
 
 
 @dataclass(eq=True, frozen=True)
@@ -96,13 +119,6 @@ class Variable:
     name: str
     data_type: str
     description: str
-
-
-@dataclass(eq=True, frozen=True)
-class Value:
-    element_name: str
-    id: int
-    name: str
 
 
 @dataclass(frozen=True)
@@ -180,19 +196,19 @@ class Vehicle:
     fuel_injection_type: str
     fuel_type_primary: str
     fuel_type_secondary: str
-    gcwr: str
+    gcwr_from: str
     gcwr_to: str
-    gvwr: str
+    gvwr_from: str
     gvwr_to: str
     keyless_ignition: str
     lane_departure_warning: str
     lane_keep_system: str
     lower_beam_headlamp_light_source: str
-    make_name: str
+    make: str
     make_id: str
-    manufacturer_name: str
+    manufacturer: str
     manufacturer_id: str
-    model_name: str
+    model: str
     model_id: str
     model_year: str
     motorcycle_chassis_type: str
@@ -254,27 +270,27 @@ class Vehicle:
     windows: str
 
 
-@dataclass(eq=True, frozen=True)
-class PlantCode:
-    address: str
-    city: str
-    country: str
-    dot_code: str
-    name: str
-    old_dot_code: str
-    postal_code: str
-    state_province: str
-    status: str
+@dataclass(eq=True, frozen=False)
+class WorldManufacturerIndex:
+    created_on: str
+    date_available_to_public: str
+    manufacturer: Optional[str]
+    name: Optional[str]
+    id: Optional[int]
+    updated_on: Optional[str]
+    vehicle_type: str
+    wmi: Optional[str] = None
+    common_name: str = ""
+    country: Optional[str] = None
+    make: str = ""
+    manufacturer_id: Optional[int] = None
+    parent_company_name: str = ""
+    url: str = ""
 
-
-@dataclass(eq=True, frozen=True)
-class Document:
-    cover_letter_url: str
-    letter_date: str
-    manufacturer_id: int
-    manufacturer_name: str
-    name: str
-    url: str
-    type: Optional[str] = None
-    model_year_from: Optional[str] = None
-    model_year_to: Optional[str] = None
+    def __post_init__(self):
+        if self.id is not None:
+            self.manufacturer_id = self.id
+        del self.id
+        if self.name is not None:
+            self.manufacturer = self.name
+        del self.name

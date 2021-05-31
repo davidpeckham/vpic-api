@@ -52,41 +52,41 @@
     "expected_result": [
         {
             "MakeId": 441,
-            "MakeName": "TESLA",
+            "Make": "TESLA",
             "ModelId": 1685,
-            "ModelName": "Model S",
+            "Model": "Model S",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 441,
-            "MakeName": "TESLA",
+            "Make": "TESLA",
             "ModelId": 2071,
-            "ModelName": "Roadster",
+            "Model": "Roadster",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 441,
-            "MakeName": "TESLA",
+            "Make": "TESLA",
             "ModelId": 10199,
-            "ModelName": "Model X",
+            "Model": "Model X",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 441,
-            "MakeName": "TESLA",
+            "Make": "TESLA",
             "ModelId": 17834,
-            "ModelName": "Model 3",
+            "Model": "Model 3",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 441,
-            "MakeName": "TESLA",
+            "Make": "TESLA",
             "ModelId": 27027,
-            "ModelName": "Model Y",
+            "Model": "Model Y",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         }

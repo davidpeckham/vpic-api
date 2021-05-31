@@ -3,7 +3,7 @@
     "status": 200,
     "content_type": "application/json",
     "content": {
-        "Count": 162,
+        "Count": 167,
         "Message": "Response returned successfully",
         "SearchCriteria": "Vehicle Type: Car",
         "Results": [
@@ -542,6 +542,12 @@
                 "VehicleTypeName": "Passenger Car"
             },
             {
+                "MakeId": 3706,
+                "MakeName": "TOTAL ELECTRIC VEHICLES",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
                 "MakeId": 3766,
                 "MakeName": "SPYKER",
                 "VehicleTypeId": 2,
@@ -752,6 +758,12 @@
                 "VehicleTypeName": "Passenger Car"
             },
             {
+                "MakeId": 6265,
+                "MakeName": "RALLY SPORT",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
                 "MakeId": 6313,
                 "MakeName": "RENAISSANCE",
                 "VehicleTypeId": 2,
@@ -872,6 +884,18 @@
                 "VehicleTypeName": "Passenger Car"
             },
             {
+                "MakeId": 9326,
+                "MakeName": "CARBODIES",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "MakeId": 9364,
+                "MakeName": "CREATIVE COACHWORKS INC.",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
                 "MakeId": 9376,
                 "MakeName": "WESTFALL MOTORS CORP.",
                 "VehicleTypeId": 2,
@@ -880,6 +904,12 @@
             {
                 "MakeId": 9401,
                 "MakeName": "CLENET",
+                "VehicleTypeId": 2,
+                "VehicleTypeName": "Passenger Car"
+            },
+            {
+                "MakeId": 9448,
+                "MakeName": "ELECTRIC CAR COMPANY",
                 "VehicleTypeId": 2,
                 "VehicleTypeName": "Passenger Car"
             },
@@ -984,973 +1014,1003 @@
     "expected_result": [
         {
             "MakeId": 440,
-            "MakeName": "ASTON MARTIN",
+            "Make": "ASTON MARTIN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 441,
-            "MakeName": "TESLA",
+            "Make": "TESLA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 442,
-            "MakeName": "JAGUAR",
+            "Make": "JAGUAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 443,
-            "MakeName": "MASERATI",
+            "Make": "MASERATI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 445,
-            "MakeName": "ROLLS ROYCE",
+            "Make": "ROLLS ROYCE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 448,
-            "MakeName": "TOYOTA",
+            "Make": "TOYOTA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 449,
-            "MakeName": "MERCEDES-BENZ",
+            "Make": "MERCEDES-BENZ",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 452,
-            "MakeName": "BMW",
+            "Make": "BMW",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 454,
-            "MakeName": "BUGATTI",
+            "Make": "BUGATTI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 456,
-            "MakeName": "MINI",
+            "Make": "MINI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 460,
-            "MakeName": "FORD",
+            "Make": "FORD",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 464,
-            "MakeName": "LINCOLN",
+            "Make": "LINCOLN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 465,
-            "MakeName": "MERCURY",
+            "Make": "MERCURY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 466,
-            "MakeName": "LOTUS",
+            "Make": "LOTUS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 467,
-            "MakeName": "CHEVROLET",
+            "Make": "CHEVROLET",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 468,
-            "MakeName": "BUICK",
+            "Make": "BUICK",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 469,
-            "MakeName": "CADILLAC",
+            "Make": "CADILLAC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 470,
-            "MakeName": "HOLDEN",
+            "Make": "HOLDEN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 471,
-            "MakeName": "OPEL",
+            "Make": "OPEL",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 472,
-            "MakeName": "GMC",
+            "Make": "GMC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 473,
-            "MakeName": "MAZDA",
+            "Make": "MAZDA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 474,
-            "MakeName": "HONDA",
+            "Make": "HONDA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 475,
-            "MakeName": "ACURA",
+            "Make": "ACURA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 476,
-            "MakeName": "DODGE",
+            "Make": "DODGE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 477,
-            "MakeName": "CHRYSLER",
+            "Make": "CHRYSLER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 478,
-            "MakeName": "NISSAN",
+            "Make": "NISSAN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 480,
-            "MakeName": "INFINITI",
+            "Make": "INFINITI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 481,
-            "MakeName": "MITSUBISHI",
+            "Make": "MITSUBISHI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 482,
-            "MakeName": "VOLKSWAGEN",
+            "Make": "VOLKSWAGEN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 485,
-            "MakeName": "VOLVO",
+            "Make": "VOLVO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 492,
-            "MakeName": "FIAT",
+            "Make": "FIAT",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 493,
-            "MakeName": "ALFA ROMEO",
+            "Make": "ALFA ROMEO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 497,
-            "MakeName": "LANCIA",
+            "Make": "LANCIA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 498,
-            "MakeName": "HYUNDAI",
+            "Make": "HYUNDAI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 499,
-            "MakeName": "KIA",
+            "Make": "KIA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 502,
-            "MakeName": "LAMBORGHINI",
+            "Make": "LAMBORGHINI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 504,
-            "MakeName": "SMART",
+            "Make": "SMART",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 509,
-            "MakeName": "SUZUKI",
+            "Make": "SUZUKI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 515,
-            "MakeName": "LEXUS",
+            "Make": "LEXUS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 523,
-            "MakeName": "SUBARU",
+            "Make": "SUBARU",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 533,
-            "MakeName": "MAYBACH",
+            "Make": "MAYBACH",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 536,
-            "MakeName": "PONTIAC",
+            "Make": "PONTIAC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 539,
-            "MakeName": "MORGAN",
+            "Make": "MORGAN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 542,
-            "MakeName": "ISUZU",
+            "Make": "ISUZU",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 565,
-            "MakeName": "TRIUMPH",
+            "Make": "TRIUMPH",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 572,
-            "MakeName": "SAAB",
+            "Make": "SAAB",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 582,
-            "MakeName": "AUDI",
+            "Make": "AUDI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 583,
-            "MakeName": "BENTLEY",
+            "Make": "BENTLEY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 584,
-            "MakeName": "PORSCHE",
+            "Make": "PORSCHE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 603,
-            "MakeName": "FERRARI",
+            "Make": "FERRARI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 606,
-            "MakeName": "AM GENERAL",
+            "Make": "AM GENERAL",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 629,
-            "MakeName": "CREATIVE COACHWORKS",
+            "Make": "CREATIVE COACHWORKS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 771,
-            "MakeName": "AC PROPULSION",
+            "Make": "AC PROPULSION",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 847,
-            "MakeName": "DAIHATSU",
+            "Make": "DAIHATSU",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 972,
-            "MakeName": "FALCON",
+            "Make": "FALCON",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 986,
-            "MakeName": "EV INNOVATIONS",
+            "Make": "EV INNOVATIONS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 992,
-            "MakeName": "FAW JIAXING HAPPY MESSENGER",
+            "Make": "FAW JIAXING HAPPY MESSENGER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1033,
-            "MakeName": "FISKER AUTOMOTIVE",
+            "Make": "FISKER AUTOMOTIVE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1034,
-            "MakeName": "NINA",
+            "Make": "NINA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1056,
-            "MakeName": "SATURN",
+            "Make": "SATURN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1077,
-            "MakeName": "DAEWOO",
+            "Make": "DAEWOO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1124,
-            "MakeName": "AMERICAN MOTORS",
+            "Make": "AMERICAN MOTORS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1142,
-            "MakeName": "FORMULA 1 STREET COM",
+            "Make": "FORMULA 1 STREET COM",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1146,
-            "MakeName": "GEO",
+            "Make": "GEO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1151,
-            "MakeName": "FORTUNESPORT VES",
+            "Make": "FORTUNESPORT VES",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1288,
-            "MakeName": "AAS",
+            "Make": "AAS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1292,
-            "MakeName": "EQUUS AUTOMOTIVE",
+            "Make": "EQUUS AUTOMOTIVE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1393,
-            "MakeName": "ELECTRIC MOBILE CARS",
+            "Make": "ELECTRIC MOBILE CARS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1498,
-            "MakeName": "AVERA MOTORS",
+            "Make": "AVERA MOTORS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1683,
-            "MakeName": "BAKKURA MOBILITY",
+            "Make": "BAKKURA MOBILITY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1755,
-            "MakeName": "TH!NK",
+            "Make": "TH!NK",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1777,
-            "MakeName": "CODA",
+            "Make": "CODA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1869,
-            "MakeName": "CONTEMPORARY CLASSIC CARS (CCC)",
+            "Make": "CONTEMPORARY CLASSIC CARS (CCC)",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1896,
-            "MakeName": "KOENIGSEGG",
+            "Make": "KOENIGSEGG",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 1991,
-            "MakeName": "BYD",
+            "Make": "BYD",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2018,
-            "MakeName": "KANDI",
+            "Make": "KANDI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2049,
-            "MakeName": "KEPLER MOTORS",
+            "Make": "KEPLER MOTORS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2131,
-            "MakeName": "MAKING YOU MOBILE",
+            "Make": "MAKING YOU MOBILE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2236,
-            "MakeName": "MCLAREN",
+            "Make": "MCLAREN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2376,
-            "MakeName": "MYCAR",
+            "Make": "MYCAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2408,
-            "MakeName": "EAGLE",
+            "Make": "EAGLE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2409,
-            "MakeName": "PLYMOUTH",
+            "Make": "PLYMOUTH",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2618,
-            "MakeName": "NANCHANG FREEDOM TECHNOLOGY LIMITED COMPANY",
+            "Make": "NANCHANG FREEDOM TECHNOLOGY LIMITED COMPANY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2665,
-            "MakeName": "NJD AUTOMOTIVE LLC",
+            "Make": "NJD AUTOMOTIVE LLC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 2745,
-            "MakeName": "PHOENIX MOTORCARS",
+            "Make": "PHOENIX MOTORCARS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 3176,
-            "MakeName": "ROCKET SLED MOTORS",
+            "Make": "ROCKET SLED MOTORS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 3440,
-            "MakeName": "VISION INDUSTRIES",
+            "Make": "VISION INDUSTRIES",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 3540,
-            "MakeName": "WARHAWK PERFORMANCE",
+            "Make": "WARHAWK PERFORMANCE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 3583,
-            "MakeName": "UKEYCHEYMA",
+            "Make": "UKEYCHEYMA",
+            "VehicleTypeId": 2,
+            "VehicleType": "Passenger Car"
+        },
+        {
+            "MakeId": 3706,
+            "Make": "TOTAL ELECTRIC VEHICLES",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 3766,
-            "MakeName": "SPYKER",
+            "Make": "SPYKER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4162,
-            "MakeName": "OLDSMOBILE",
+            "Make": "OLDSMOBILE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4220,
-            "MakeName": "PANOZ",
+            "Make": "PANOZ",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4355,
-            "MakeName": "SALEEN",
+            "Make": "SALEEN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4410,
-            "MakeName": "SOLECTRIA",
+            "Make": "SOLECTRIA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4451,
-            "MakeName": "YESTER YEAR AUTO",
+            "Make": "YESTER YEAR AUTO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4596,
-            "MakeName": "BXR",
+            "Make": "BXR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4634,
-            "MakeName": "ENGINE CONNECTION",
+            "Make": "ENGINE CONNECTION",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4644,
-            "MakeName": "BLUECAR",
+            "Make": "BLUECAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4764,
-            "MakeName": "MOSLER",
+            "Make": "MOSLER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4767,
-            "MakeName": "PAGANI",
+            "Make": "PAGANI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 4859,
-            "MakeName": "REVOLOGY",
+            "Make": "REVOLOGY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5015,
-            "MakeName": "EMA",
+            "Make": "EMA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5042,
-            "MakeName": "COSTIN SPORTS CAR",
+            "Make": "COSTIN SPORTS CAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5083,
-            "MakeName": "GENESIS",
+            "Make": "GENESIS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5208,
-            "MakeName": "MATRIX MOTOR COMPANY",
+            "Make": "MATRIX MOTOR COMPANY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5367,
-            "MakeName": "ARMBRUSTER STAGEWAY",
+            "Make": "ARMBRUSTER STAGEWAY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5381,
-            "MakeName": "LUMEN",
+            "Make": "LUMEN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5464,
-            "MakeName": "ASUNA",
+            "Make": "ASUNA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5468,
-            "MakeName": "MERKUR",
+            "Make": "MERKUR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5552,
-            "MakeName": "AVANTI",
+            "Make": "AVANTI",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5553,
-            "MakeName": "YUGO",
+            "Make": "YUGO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5554,
-            "MakeName": "PEUGEOT",
+            "Make": "PEUGEOT",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5555,
-            "MakeName": "STERLING MOTOR CAR",
+            "Make": "STERLING MOTOR CAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5557,
-            "MakeName": "CONSULIER GTP",
+            "Make": "CONSULIER GTP",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5657,
-            "MakeName": "DATSUN",
+            "Make": "DATSUN",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5661,
-            "MakeName": "PININFARINA",
+            "Make": "PININFARINA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5760,
-            "MakeName": "VINTAGE AUTO",
+            "Make": "VINTAGE AUTO",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5767,
-            "MakeName": "LONDONCOACH INC",
+            "Make": "LONDONCOACH INC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5848,
-            "MakeName": "MGS GRAND SPORT (MARDIKIAN)",
+            "Make": "MGS GRAND SPORT (MARDIKIAN)",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 5938,
-            "MakeName": "PANTHER",
+            "Make": "PANTHER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6018,
-            "MakeName": "DAYTONA COACH BUILDERS",
+            "Make": "DAYTONA COACH BUILDERS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6069,
-            "MakeName": "UCC",
+            "Make": "UCC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6263,
-            "MakeName": "RS SPIDER",
+            "Make": "RS SPIDER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6264,
-            "MakeName": "GRUPPE B",
+            "Make": "GRUPPE B",
+            "VehicleTypeId": 2,
+            "VehicleType": "Passenger Car"
+        },
+        {
+            "MakeId": 6265,
+            "Make": "RALLY SPORT",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6313,
-            "MakeName": "RENAISSANCE",
+            "Make": "RENAISSANCE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6364,
-            "MakeName": "JAC 427",
+            "Make": "JAC 427",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6408,
-            "MakeName": "HUNTER DESIGN GROUP, LLC",
+            "Make": "HUNTER DESIGN GROUP, LLC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6473,
-            "MakeName": "BLACKWATER",
+            "Make": "BLACKWATER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6663,
-            "MakeName": "GULLWING INTERNATIONAL MOTORS, LTD.",
+            "Make": "GULLWING INTERNATIONAL MOTORS, LTD.",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6759,
-            "MakeName": "AMERITECH CORPORATION",
+            "Make": "AMERITECH CORPORATION",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6792,
-            "MakeName": "STANFORD CUSTOMS",
+            "Make": "STANFORD CUSTOMS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6880,
-            "MakeName": "CLASSIC ROADSTERS",
+            "Make": "CLASSIC ROADSTERS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 6986,
-            "MakeName": "HERITAGE",
+            "Make": "HERITAGE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7099,
-            "MakeName": "COBRA CARS",
+            "Make": "COBRA CARS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7207,
-            "MakeName": "C-R CHEETAH RACE CARS",
+            "Make": "C-R CHEETAH RACE CARS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7225,
-            "MakeName": "PAS",
+            "Make": "PAS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7425,
-            "MakeName": "BUG MOTORS",
+            "Make": "BUG MOTORS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7477,
-            "MakeName": "EXCALIBUR AUTOMOBILE CORPORATION",
+            "Make": "EXCALIBUR AUTOMOBILE CORPORATION",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7765,
-            "MakeName": "IVES MOTORS CORPORATION (IMC)",
+            "Make": "IVES MOTORS CORPORATION (IMC)",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 7836,
-            "MakeName": "AUTODELTA USA INC",
+            "Make": "AUTODELTA USA INC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 8395,
-            "MakeName": "AUTOCAR LTD",
+            "Make": "AUTOCAR LTD",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 8605,
-            "MakeName": "BBC",
+            "Make": "BBC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 8785,
-            "MakeName": "PHOENIX SPORTS CARS, INC.",
+            "Make": "PHOENIX SPORTS CARS, INC.",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9250,
-            "MakeName": "VECTOR AEROMOTIVE CORPORATION",
+            "Make": "VECTOR AEROMOTIVE CORPORATION",
+            "VehicleTypeId": 2,
+            "VehicleType": "Passenger Car"
+        },
+        {
+            "MakeId": 9326,
+            "Make": "CARBODIES",
+            "VehicleTypeId": 2,
+            "VehicleType": "Passenger Car"
+        },
+        {
+            "MakeId": 9364,
+            "Make": "CREATIVE COACHWORKS INC.",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9376,
-            "MakeName": "WESTFALL MOTORS CORP.",
+            "Make": "WESTFALL MOTORS CORP.",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9401,
-            "MakeName": "CLENET",
+            "Make": "CLENET",
+            "VehicleTypeId": 2,
+            "VehicleType": "Passenger Car"
+        },
+        {
+            "MakeId": 9448,
+            "Make": "ELECTRIC CAR COMPANY",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9458,
-            "MakeName": "CX AUTOMOTIVE",
+            "Make": "CX AUTOMOTIVE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9533,
-            "MakeName": "LA EXOTICS",
+            "Make": "LA EXOTICS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9572,
-            "MakeName": "CLASSIC SPORTS CARS",
+            "Make": "CLASSIC SPORTS CARS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9720,
-            "MakeName": "SF MOTORS INC.",
+            "Make": "SF MOTORS INC.",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 9759,
-            "MakeName": "SCUDERIA CAMERON GLICKENHAUS (SCG)",
+            "Make": "SCUDERIA CAMERON GLICKENHAUS (SCG)",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10029,
-            "MakeName": "VINTAGE CRUISER",
+            "Make": "VINTAGE CRUISER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10030,
-            "MakeName": "VINTAGE MICROBUS",
+            "Make": "VINTAGE MICROBUS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10031,
-            "MakeName": "VINTAGE ROVER",
+            "Make": "VINTAGE ROVER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10047,
-            "MakeName": "LITE CAR",
+            "Make": "LITE CAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10224,
-            "MakeName": "POLESTAR",
+            "Make": "POLESTAR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10256,
-            "MakeName": "CZINGER",
+            "Make": "CZINGER",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10393,
-            "MakeName": "GLICKENHAUS",
+            "Make": "GLICKENHAUS",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10623,
-            "MakeName": "DONGFENG",
+            "Make": "DONGFENG",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10638,
-            "MakeName": "KARMA AUTOMOTIVE LLC",
+            "Make": "KARMA AUTOMOTIVE LLC",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10647,
-            "MakeName": "CRUISE",
+            "Make": "CRUISE",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 10919,
-            "MakeName": "LUCID AIR",
+            "Make": "LUCID AIR",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         }

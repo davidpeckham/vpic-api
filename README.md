@@ -67,11 +67,11 @@ Vehicle(
     error_code="0",
     error_text="0 - VIN decoded clean. Check Digit (9th position) is correct",
     ...
-    make_name="FORD",
+    make="FORD",
     make_id="460",
     manufacturer_name="FORD MOTOR COMPANY, USA",
     manufacturer_id="976",
-    model_name="F-150",
+    model="F-150",
     model_id="1801",
     model_year="2021",
     motorcycle_chassis_type="Not Applicable",
@@ -102,30 +102,30 @@ get_models_for_make("TESLA", model_year=2020)
 [
     Model(
         model_id=1685,
-        model_name="Model S",
+        model="Model S",
         make_id=441,
-        make_name="TESLA",
+        make="TESLA",
         vehicle_type_id=None
     ),
     Model(
         model_id=10199,
-        model_name="Model X",
+        model="Model X",
         make_id=441,
-        make_name="TESLA",
+        make="TESLA",
         vehicle_type_id=None
     ),
     Model(
         model_id=17834,
-        model_name="Model 3",
+        model="Model 3",
         make_id=441,
-        make_name="TESLA",
+        make="TESLA",
         vehicle_type_id=None
     ),
     Model(
         model_id=27027,
-        model_name="Model Y",
+        model="Model Y",
         make_id=441,
-        make_name="TESLA",
+        make="TESLA",
         vehicle_type_id=None
         )
 ]

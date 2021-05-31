@@ -219,7 +219,7 @@
                 "VariableId": 3
             },
             {
-                "Value": "Crew\/ Super Crew\/ Crew Max",
+                "Value": "Crew/ Super Crew/ Crew Max",
                 "ValueId": "4",
                 "Variable": "Cab Type",
                 "VariableId": 4
@@ -303,7 +303,7 @@
                 "VariableId": 63
             },
             {
-                "Value": "4WD\/4-Wheel Drive\/4x4",
+                "Value": "4WD/4-Wheel Drive/4x4",
                 "ValueId": "2",
                 "Variable": "Drive Type",
                 "VariableId": 15
@@ -485,7 +485,7 @@
             {
                 "Value": null,
                 "ValueId": null,
-                "Variable": "Fuel Delivery \/ Fuel Injection Type",
+                "Variable": "Fuel Delivery / Fuel Injection Type",
                 "VariableId": 67
             },
             {
@@ -689,7 +689,7 @@
             {
                 "Value": null,
                 "ValueId": null,
-                "Variable": "Automatic Crash Notification (CAN) \/ Advanced Automatic Crash Notification (AACN)",
+                "Variable": "Automatic Crash Notification (CAN) / Advanced Automatic Crash Notification (AACN)",
                 "VariableId": 174
             },
             {
@@ -1008,7 +1008,7 @@
             "VariableId": 3
         },
         {
-            "Value": "Crew\/ Super Crew\/ Crew Max",
+            "Value": "Crew/ Super Crew/ Crew Max",
             "ValueId": "4",
             "Variable": "Cab Type",
             "VariableId": 4
@@ -1092,7 +1092,7 @@
             "VariableId": 63
         },
         {
-            "Value": "4WD\/4-Wheel Drive\/4x4",
+            "Value": "4WD/4-Wheel Drive/4x4",
             "ValueId": "2",
             "Variable": "Drive Type",
             "VariableId": 15
@@ -1274,7 +1274,7 @@
         {
             "Value": null,
             "ValueId": null,
-            "Variable": "Fuel Delivery \/ Fuel Injection Type",
+            "Variable": "Fuel Delivery / Fuel Injection Type",
             "VariableId": 67
         },
         {
@@ -1478,7 +1478,7 @@
         {
             "Value": null,
             "ValueId": null,
-            "Variable": "Automatic Crash Notification (CAN) \/ Advanced Automatic Crash Notification (AACN)",
+            "Variable": "Automatic Crash Notification (CAN) / Advanced Automatic Crash Notification (AACN)",
             "VariableId": 174
         },
         {

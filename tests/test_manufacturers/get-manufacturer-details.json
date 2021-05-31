@@ -17,7 +17,7 @@
                 "Country": "UNITED STATES (USA)",
                 "DBAs": "Marysville Auto Plant and East Liberty Auto Plant; Alabama Auto Plant; Indiana Auto Plant",
                 "EquipmentItems": [],
-                "LastUpdated": "\/Date(1618422117803-0400)\/",
+                "LastUpdated": "/Date(1618422117803-0400)/",
                 "ManufacturerTypes": [
                     {
                         "Name": "Completed Vehicle Manufacturer"
@@ -34,7 +34,7 @@
                 "PrincipalPosition": "President & CEO",
                 "StateProvince": "CALIFORNIA",
                 "SubmittedName": "Wilson Tran",
-                "SubmittedOn": "\/Date(1618286400000-0400)\/",
+                "SubmittedOn": "/Date(1618286400000-0400)/",
                 "SubmittedPosition": "Sr. Specialist, II",
                 "VehicleTypes": [
                     {
@@ -70,7 +70,7 @@
             "Country": "UNITED STATES (USA)",
             "DBAs": "Marysville Auto Plant and East Liberty Auto Plant; Alabama Auto Plant; Indiana Auto Plant",
             "EquipmentItems": [],
-            "LastUpdated": "\/Date(1618422117803-0400)\/",
+            "LastUpdated": "/Date(1618422117803-0400)/",
             "ManufacturerTypes": [
                 {
                     "Name": "Completed Vehicle Manufacturer"
@@ -78,7 +78,7 @@
             ],
             "ManufacturerCommonName": "Honda",
             "ManufacturerId": 988,
-            "ManufacturerName": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "Manufacturer": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
             "OtherManufacturerDetails": null,
             "PostalCode": "90501",
             "PrimaryProduct": null,
@@ -87,7 +87,7 @@
             "PrincipalPosition": "President & CEO",
             "StateProvince": "CALIFORNIA",
             "SubmittedName": "Wilson Tran",
-            "SubmittedOn": "\/Date(1618286400000-0400)\/",
+            "SubmittedOn": "/Date(1618286400000-0400)/",
             "SubmittedPosition": "Sr. Specialist, II",
             "VehicleTypes": [
                 {

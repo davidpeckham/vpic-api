@@ -30,19 +30,19 @@
     "expected_result": [
         {
             "MakeId": 499,
-            "MakeName": "KIA",
+            "Make": "KIA",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         },
         {
             "MakeId": 499,
-            "MakeName": "KIA",
+            "Make": "KIA",
             "VehicleTypeId": 7,
             "VehicleType": "Multipurpose Passenger Vehicle (MPV)"
         },
         {
             "MakeId": 5848,
-            "MakeName": "MGS GRAND SPORT (MARDIKIAN)",
+            "Make": "MGS GRAND SPORT (MARDIKIAN)",
             "VehicleTypeId": 2,
             "VehicleType": "Passenger Car"
         }
