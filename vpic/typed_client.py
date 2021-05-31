@@ -1,8 +1,8 @@
 import logging
 from typing import List, Optional, Union
 
-from marshmallow import EXCLUDE, RAISE
 import desert
+import marshmallow
 
 from .client import Client
 from .models import (
@@ -55,16 +55,34 @@ class TypedClient:
     NHTSA uses automatic traffic rate controls to maintain the performance of
     the API and their websites that use the API.
 
+    NHTSA occasionally adds, removes, or renames variables in vPIC API
+    responses. This class uses Marshmallow to deserialize the response.
+    When a variable is missing or renamed, methods in this class raise
+    ``marshmallow.exceptions.ValidationError``. If you instantiate this class
+    with unknown='RAISE', methods will also raise
+    ``marshmallow.exceptions.ValidationError`` when the vPIC response
+    includes a new variable that isn't defined in the model (models.py).
+
     See https://vpic.nhtsa.dot.gov/api for more on the API.
 
     Attributes:
         host: Hostname, including http(s)://, of the vPIC instance to query.
+        unknowns: exclude new API response variables ('EXCLUDE'), or raise an
+            exception ('RAISE') instead
 
     """
 
     def __init__(
-        self, host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles/"
+        self,
+        host: Optional[str] = "https://vpic.nhtsa.dot.gov/api/vehicles/",
+        unknown: Optional[str] = "EXCLUDE",
     ):
+        if unknown == "EXCLUDE":
+            self._meta = {"unknown": marshmallow.EXCLUDE}
+        elif unknown == "RAISE":
+            self._meta = {"unknown": marshmallow.RAISE}
+        else:
+            raise ValueError("unknown must be 'EXCLUDE' or 'RAISE'")
         self._client = Client(host, standardize_variables=True)
 
     def decode_vin(
@@ -153,7 +171,7 @@ class TypedClient:
             )
 
         """
-        schema = desert.schema(Vehicle, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Vehicle, meta=self._meta)
         return schema.load(snake_case(self._client.decode_vin(vin, model_year, extend)))
 
     def decode_vin_batch(self, vins: List[str]) -> List[Vehicle]:
@@ -191,7 +209,7 @@ class TypedClient:
 
         """
         vehicles = self._client.decode_vin_batch(vins)
-        schema = desert.schema(Vehicle, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Vehicle, meta=self._meta)
         return [schema.load(snake_case(v)) for v in vehicles]
 
     def decode_wmi(self, wmi: str) -> WorldManufacturerIndex:
@@ -228,7 +246,7 @@ class TypedClient:
             )
 
         """
-        schema = desert.schema(WorldManufacturerIndex, meta={"unknown": EXCLUDE})
+        schema = desert.schema(WorldManufacturerIndex, meta=self._meta)
         return schema.load(snake_case(self._client.decode_wmi(wmi)))
 
     def get_wmis_for_manufacturer(
@@ -275,7 +293,7 @@ class TypedClient:
 
         """
         wmis = self._client.get_wmis_for_manufacturer(manufacturer, vehicle_type)
-        schema = desert.schema(WorldManufacturerIndex, meta={"unknown": EXCLUDE})
+        schema = desert.schema(WorldManufacturerIndex, meta=self._meta)
         return [schema.load(snake_case(wmi)) for wmi in wmis]
 
     def get_all_makes(self) -> List[Make]:
@@ -302,7 +320,7 @@ class TypedClient:
 
         """
         makes = self._client.get_all_makes()
-        schema = desert.schema(Make, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Make, meta=self._meta)
         return [schema.load(snake_case(make)) for make in makes]
 
     def get_parts(
@@ -355,7 +373,7 @@ class TypedClient:
             # snake_case doesn't handle lowerUPPER
             doc["CoverLetterUrl"] = doc["CoverLetterURL"]
             del doc["CoverLetterURL"]
-        schema = desert.schema(Document, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Document, meta=self._meta)
         return [schema.load(snake_case(doc)) for doc in documents]
 
     def get_all_manufacturers(
@@ -502,7 +520,7 @@ class TypedClient:
             # r["ManufacturerTypes"] = [snake_case(mt) for mt in r["ManufacturerTypes"]]
             # r["VehicleTypes"] = [snake_case(vt) for vt in r["VehicleTypes"]]
 
-        schema = desert.schema(ManufacturerDetail, meta={"unknown": EXCLUDE})
+        schema = desert.schema(ManufacturerDetail, meta=self._meta)
         snake_cased = [snake_case(r) for r in results]
         return [schema.load(sc) for sc in snake_cased]
 
@@ -545,7 +563,7 @@ class TypedClient:
 
         """
         makes = self._client.get_makes_for_manufacturer(manufacturer, model_year)
-        schema = desert.schema(Make, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Make, meta=self._meta)
         return [schema.load(snake_case(m)) for m in makes]
 
     def get_makes_for_vehicle_type(self, vehicle_type: str) -> List[Make]:
@@ -580,7 +598,7 @@ class TypedClient:
 
         """
         makes = self._client.get_makes_for_vehicle_type(vehicle_type)
-        schema = desert.schema(Make, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Make, meta=self._meta)
         return [schema.load(snake_case(m)) for m in makes]
 
     def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[VehicleType]:
@@ -635,7 +653,7 @@ class TypedClient:
             ]
 
         """
-        schema = desert.schema(VehicleType, meta={"unknown": EXCLUDE})
+        schema = desert.schema(VehicleType, meta=self._meta)
         results = self._client.get_vehicle_types_for_make(make)
         snake_cased = [snake_case(r) for r in results]
         return [schema.load(sc) for sc in snake_cased]
@@ -684,7 +702,7 @@ class TypedClient:
         plant_codes = self._client.get_equipment_plant_codes(
             year, equipment_type, report_type
         )
-        schema = desert.schema(PlantCode, meta={"unknown": EXCLUDE})
+        schema = desert.schema(PlantCode, meta=self._meta)
         return [schema.load(snake_case(pc)) for pc in plant_codes]
 
     def get_models_for_make(
@@ -751,7 +769,7 @@ class TypedClient:
 
         """
         models = self._client.get_models_for_make(make, model_year, vehicle_type)
-        schema = desert.schema(Model, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Model, meta=self._meta)
         return [schema.load(snake_case(m)) for m in models]
 
     def get_vehicle_variable_list(self) -> List[Variable]:
@@ -773,7 +791,7 @@ class TypedClient:
 
         """
         variables = self._client.get_vehicle_variable_list()
-        schema = desert.schema(Variable, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Variable, meta=self._meta)
         return [schema.load(snake_case(v)) for v in variables]
 
     def get_vehicle_variable_values_list(self, variable_name: str) -> List[Value]:
@@ -804,5 +822,5 @@ class TypedClient:
 
         """
         values = self._client.get_vehicle_variable_values_list(variable_name)
-        schema = desert.schema(Value, meta={"unknown": EXCLUDE})
+        schema = desert.schema(Value, meta=self._meta)
         return [schema.load(snake_case(v)) for v in values]

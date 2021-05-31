@@ -117,6 +117,7 @@ class Value:
 class Variable:
     id: int
     name: str
+    group_name: Optional[str]
     data_type: str
     description: str
 
@@ -152,6 +153,7 @@ class Vehicle:
     battery_v_to: str
     bed_length_in: str
     bed_type: str
+    blind_spot_intervention: str
     blind_spot_mon: str
     body_cab_type: str
     body_class: str
@@ -201,6 +203,7 @@ class Vehicle:
     gvwr_from: str
     gvwr_to: str
     keyless_ignition: str
+    lane_centering_assistance: str
     lane_departure_warning: str
     lane_keep_system: str
     lower_beam_headlamp_light_source: str
@@ -234,6 +237,7 @@ class Vehicle:
     plant_state: str
     possible_values: str
     pretensioner: str
+    rear_automatic_emergency_braking: str
     rear_cross_traffic_alert: str
     rear_visibility_system: str
     sae_automation_level: str

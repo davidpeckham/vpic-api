@@ -6,9 +6,10 @@ from vpic.typed_client import TypedClient
 class TestVariables:
     def test_get_vehicle_variable_list(self, typed_client: TypedClient, responses):
         variables: List[Variable] = typed_client.get_vehicle_variable_list()
-        assert len(variables) == 135
+        assert len(variables) == 138
         assert hasattr(variables[0], "data_type")
         assert hasattr(variables[0], "description")
+        assert hasattr(variables[0], "group_name")
         assert hasattr(variables[0], "id")
         assert hasattr(variables[0], "name")
         assert variables[0].id == 1

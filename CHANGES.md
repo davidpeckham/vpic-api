@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.6.0] - 2021-05-31
+
+### Added
+-- Support for vPIC Version 3.6, which was released on 2021-05-29
+-- Support for vPIC Version 3.5, which was release on 2021-05-14
+
 ## [0.3.1] - 2021-05-14
 
 ### Fixed

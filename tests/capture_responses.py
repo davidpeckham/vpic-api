@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 
-import responses
 from requests.adapters import HTTPAdapter
 from vpic.session import VpicAPISession
 from vpic.transforms import standardize
@@ -27,15 +26,13 @@ for rf in response_files:
         data = json.load(fp)
         url = data["url"]
         limit = data.get("limit", None)
-        # method = data["method"]
-        # status = data["status"]
-        # content_type = data["content_type"]
+        post_data = data.get("post_data", None)
 
-        if "Batch" in url:
-            print(f"{url} skipped (POST not implemented)")
-            continue
+        if post_data is None:
+            resp = session.get(url)
+        else:
+            resp = session.post(url=url, data=post_data)
 
-        resp = session.get(url)
         print(f"{fp.name} {url} {resp.status_code}")
 
         if resp.status_code < 400:

@@ -15,7 +15,7 @@ class Client(ClientBase):
     a client like this:
 
         ``c = Client(standardize_names=False)``
-    
+
     If you prefer to receive model objects instead of JSON responses,
     use ``vpic.Client`` instead.
 
@@ -50,7 +50,7 @@ class Client(ClientBase):
     Attributes:
         host: Hostname, including http(s)://, of the vPIC instance to query.
         standardize_variables: vPIC uses different names for the same
-            variable, so this client standarizes those names by default. 
+            variable, so this client standarizes those names by default.
             Set this to False to receive the raw vPIC response.
 
     """
@@ -191,9 +191,13 @@ class Client(ClientBase):
         return result
 
     def get_wmis_for_manufacturer(
-        self, manufacturer: Union[str, int], vehicle_type: Optional[Union[str, int]] = None
+        self,
+        manufacturer: Optional[Union[str, int]] = None,
+        vehicle_type: Optional[Union[str, int]] = None,
     ) -> List[Dict[str, Any]]:
         """Returns the WMIs for one or all manufacturers
+
+        You must pass one or both of provide manufacturer or vehicle_type.
 
         Args:
             manufacturer: Pass the Manufacturer Id (int) or the complete
@@ -205,7 +209,7 @@ class Client(ClientBase):
                 return WMIs for vehicle_types matching that name.
 
         Raises:
-            ValueError: if ``manufacturer`` is missing
+            ValueError: if ``manufacturer`` and ``vehicle_type`` are missing
 
         Examples:
             >>> get_wmis_for_manufacturer('Honda')
@@ -234,7 +238,7 @@ class Client(ClientBase):
 
         params = {}
         if vehicle_type:
-            params["vehicle_type"] = vehicle_type
+            params["vehicleType"] = vehicle_type
 
         wmis = self._request(endpoint, params)
 

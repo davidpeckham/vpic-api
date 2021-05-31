@@ -1,5 +1,3 @@
-import pytest
-
 from . import expected_result
 
 
@@ -34,7 +32,6 @@ class TestDecode:
             "1FA6P8C0!M!100001", 2021, flatten=False
         ) == expected_result(datadir / "decode-partial-vin-unflattened.json")
 
-    @pytest.mark.xfail()
     def test_decode_vin_batch(self, vpic, responses, datadir):
         assert vpic.decode_vin_batch(
             ["5UXWX7C5*BA,2011", "5YJSA3DS*EF"]

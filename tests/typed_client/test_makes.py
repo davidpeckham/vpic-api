@@ -7,7 +7,7 @@ from vpic.typed_client import TypedClient
 class TestMakes:
     def test_get_all_makes(self, typed_client: TypedClient, responses):
         makes: List[Make] = typed_client.get_all_makes()
-        assert len(makes) == 9624
+        assert len(makes) == 9628
         assert makes[0].make == "ASTON MARTIN"
         assert makes[0].make_id == 440
         assert makes[1].make == "TESLA"

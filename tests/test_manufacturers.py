@@ -19,6 +19,13 @@ class TestManufacturers:
         )
         assert actual == expected
 
+    def test_get_wmis_for_manufacturer_vehicletype(self, vpic, responses, datadir):
+        actual = vpic.get_wmis_for_manufacturer(vehicle_type='mpv')
+        expected = expected_result(
+            datadir / "get-wmis-for-manufacturer-vehicletype.json"
+        )
+        assert actual == expected
+
     def test_get_all_manufacturers(self, vpic, responses, datadir):
         assert vpic.get_all_manufacturers(
             "Completed Vehicle Manufacturer", 1

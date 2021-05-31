@@ -1,0 +1,4214 @@
+{
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/GetWMIsForManufacturer?vehicleType=mpv&format=json",
+    "status": 200,
+    "content_type": "application/json",
+    "content": {
+        "Count": 210,
+        "Message": "Response returned successfully",
+        "SearchCriteria": "VehicleType: mpv",
+        "Results": [
+            {
+                "Country": null,
+                "CreatedOn": "2015-06-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3E4"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-06-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": "2015-06-08",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2E4"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2015-03-24",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KL4"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KL7"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 987,
+                "Name": "HONDA MOTOR CO., LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JHL"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-05-13",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 996,
+                "Name": "NISSAN MOTOR COMPANY, LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JNR"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-05-13",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 997,
+                "Name": "NISSAN NORTH AMERICA, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5N3"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-06-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1048,
+                "Name": "SUZUKI MOTOR OF AMERICA, INC",
+                "UpdatedOn": "2015-06-01",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JS3"
+            },
+            {
+                "Country": null,
+                "CreatedOn": "2015-06-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1048,
+                "Name": "SUZUKI MOTOR OF AMERICA, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2S3"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-05-22",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1085,
+                "Name": "TOYOTA MOTOR MANUFACTURING CANADA",
+                "UpdatedOn": "2015-05-27",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2T2"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-05-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1085,
+                "Name": "TOYOTA MOTOR MANUFACTURING CANADA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2T3"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 990,
+                "Name": "HONDA OF CANADA MFG., INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2HK"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 990,
+                "Name": "HONDA OF CANADA MFG., INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2HN"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2GK"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2GN"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2D4"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2V4"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-03-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 977,
+                "Name": "FORD MOTOR COMPANY OF CANADA, LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2FM"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-03-25",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 977,
+                "Name": "FORD MOTOR COMPANY OF CANADA, LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2LM"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-05-20",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 977,
+                "Name": "FORD MOTOR COMPANY OF CANADA, LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2MR"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2017-01-23",
+                "DateAvailableToPublic": "2017-01-23",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2G5"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2017-01-24",
+                "DateAvailableToPublic": "2017-01-24",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2G8"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-06-17",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2J4"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-06-19",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": "2016-09-13",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2C4"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2D8"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-08-06",
+                "DateAvailableToPublic": "2015-08-06",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2A8"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-07-28",
+                "DateAvailableToPublic": "2015-07-28",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2P4"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-07-28",
+                "DateAvailableToPublic": "2015-07-28",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2B4"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-08-03",
+                "DateAvailableToPublic": "2015-08-03",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": "2015-08-03",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2CA"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-08-03",
+                "DateAvailableToPublic": "2015-08-03",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2C8"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2B8"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-07-07",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 11634,
+                "Name": "DAIMLERCHRYSLER COMMERCIAL BUSES NORTH AMERICA (Canada)",
+                "UpdatedOn": "2019-05-17",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2BA"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 13535,
+                "Name": "CAMI AUTOMOTIVE INC",
+                "UpdatedOn": "2019-05-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2CC"
+            },
+            {
+                "Country": "CANADA",
+                "CreatedOn": "2015-06-29",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1478,
+                "Name": "CHRYSLER GROUP LLC(USA),CHRYSLER CANADA, CHRYSLER DE MEXICO",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2V8"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2017-03-21",
+                "DateAvailableToPublic": "2017-03-21",
+                "Id": 13107,
+                "Name": "AMPHI-RANGER-FAHRZEUG GMBH",
+                "UpdatedOn": "2019-10-24",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "W09R09"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-06-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1149,
+                "Name": "AUDI",
+                "UpdatedOn": "2015-06-01",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WA1"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-03-10",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 966,
+                "Name": "BMW AG",
+                "UpdatedOn": "2015-03-18",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WBX"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2017-03-27",
+                "DateAvailableToPublic": "2017-03-27",
+                "Id": 966,
+                "Name": "BMW AG",
+                "UpdatedOn": "2017-03-27",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WMZ"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-08-12",
+                "DateAvailableToPublic": "2015-08-12",
+                "Id": 13510,
+                "Name": "DR. ING. H.C.F. PORSCHE AG",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WP1"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-03-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1146,
+                "Name": "DAIMLER CHRYSLER AG",
+                "UpdatedOn": "2021-02-10",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WDR"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-06-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1147,
+                "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WVG"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-08-13",
+                "DateAvailableToPublic": "2015-08-13",
+                "Id": 1147,
+                "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+                "UpdatedOn": "2015-08-20",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WV2"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-03-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1023,
+                "Name": "MERCEDES-BENZ AG",
+                "UpdatedOn": "2017-08-17",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WD4"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2019-11-05",
+                "DateAvailableToPublic": "2019-11-05",
+                "Id": 1023,
+                "Name": "MERCEDES-BENZ AG",
+                "UpdatedOn": "2019-11-05",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "W1W"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2019-11-05",
+                "DateAvailableToPublic": "2019-11-05",
+                "Id": 1023,
+                "Name": "MERCEDES-BENZ AG",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "W2W"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2015-04-20",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1042,
+                "Name": "Mercedes-Benz Cars",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WDC"
+            },
+            {
+                "Country": "GERMANY",
+                "CreatedOn": "2019-11-05",
+                "DateAvailableToPublic": "2019-11-05",
+                "Id": 1042,
+                "Name": "Mercedes-Benz Cars",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "W1N"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-04-16",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1041,
+                "Name": "Mazda Motor Corporation",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JM3"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-04-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 996,
+                "Name": "NISSAN MOTOR COMPANY, LTD",
+                "UpdatedOn": "2015-05-18",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JN8"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-04-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1052,
+                "Name": "Mitsubishi Motors Corporation (MMC)",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JA4"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2016-12-08",
+                "DateAvailableToPublic": "2016-12-08",
+                "Id": 1052,
+                "Name": "Mitsubishi Motors Corporation (MMC)",
+                "UpdatedOn": "2017-02-02",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JB4"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-05-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 962,
+                "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JTE"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-05-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 962,
+                "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JTL"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-05-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 962,
+                "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JTJ"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-05-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 962,
+                "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JTM"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-06-12",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1057,
+                "Name": "TOYOTA MOTOR CORPORATION",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JT6"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-06-12",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1057,
+                "Name": "TOYOTA MOTOR CORPORATION",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JT3"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2016-07-22",
+                "DateAvailableToPublic": "2016-07-22",
+                "Id": 2163,
+                "Name": "DAIHATSU MOTOR CO., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JD2"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-07-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 987,
+                "Name": "HONDA MOTOR CO., LTD",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JR2"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-07-22",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1171,
+                "Name": "ISUZU MOTORS LIMITED, JAPAN",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JAC"
+            },
+            {
+                "Country": "JAPAN",
+                "CreatedOn": "2015-07-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1171,
+                "Name": "ISUZU MOTORS LIMITED, JAPAN",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JAE"
+            },
+            {
+                "Country": "TAIWAN",
+                "CreatedOn": "2016-12-22",
+                "DateAvailableToPublic": "2016-12-22",
+                "Id": 16004,
+                "Name": "Sanfu Motor Industry ",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "LM5"
+            },
+            {
+                "Country": "TAIWAN",
+                "CreatedOn": "2016-12-22",
+                "DateAvailableToPublic": "2016-12-22",
+                "Id": 16004,
+                "Name": "Sanfu Motor Industry ",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "LES"
+            },
+            {
+                "Country": "UNITED KINGDOM (UK)",
+                "CreatedOn": "2015-03-04",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1079,
+                "Name": "JAGUAR LAND ROVER LIMITED",
+                "UpdatedOn": "2015-05-10",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "SAL"
+            },
+            {
+                "Country": "UNITED KINGDOM (UK)",
+                "CreatedOn": "2016-04-28",
+                "DateAvailableToPublic": "2016-04-28",
+                "Id": 1079,
+                "Name": "JAGUAR LAND ROVER LIMITED",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "SAD"
+            },
+            {
+                "Country": "UNITED KINGDOM (UK)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 991,
+                "Name": "HONDA OF THE U.K. MFG., LTD.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "SHS"
+            },
+            {
+                "Country": "UNITED KINGDOM (UK)",
+                "CreatedOn": "2016-04-29",
+                "DateAvailableToPublic": "2016-04-29",
+                "Id": 13983,
+                "Name": "BENTLEY MOTORS LIMITED",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "SJA"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-29",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 6055,
+                "Name": "BEYOND ROADS LLC",
+                "UpdatedOn": "2019-04-09",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4B9070"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-17",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1044,
+                "Name": "BLUE BIRD BODY COMPANY",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1BB"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-10",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 968,
+                "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "SUX"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-11",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 968,
+                "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+                "UpdatedOn": "2015-03-11",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5UX"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-11",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 968,
+                "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5YM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2021-03-29",
+                "DateAvailableToPublic": "2021-03-29",
+                "Id": 20037,
+                "Name": "BREMACH, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "7P2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-11-14",
+                "DateAvailableToPublic": "2016-11-14",
+                "Id": 15904,
+                "Name": "APPLIED INTEGRATION TECHNOLOGIES, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4A9043"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-12-11",
+                "DateAvailableToPublic": "2015-12-11",
+                "Id": 13808,
+                "Name": "ADVANCED VEHICLES ASSEMBLY, INC.",
+                "UpdatedOn": "2019-10-22",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1A9997"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-12-19",
+                "DateAvailableToPublic": "2016-12-19",
+                "Id": 1174,
+                "Name": "AM GENERAL LLC",
+                "UpdatedOn": "2016-12-19",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "137"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-07-05",
+                "DateAvailableToPublic": "2016-07-05",
+                "Id": 4479,
+                "Name": "AMERICAN MOTORS CORP.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2BC"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-05-14",
+                "DateAvailableToPublic": "2019-05-14",
+                "Id": 4479,
+                "Name": "AMERICAN MOTORS CORP.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1AC"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-05-14",
+                "DateAvailableToPublic": "2019-05-14",
+                "Id": 4479,
+                "Name": "AMERICAN MOTORS CORP.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1AM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1026,
+                "Name": "COACHWORKS HOLDINGS INC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4C9152"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-03-28",
+                "DateAvailableToPublic": "2017-03-28",
+                "Id": 19593,
+                "Name": "CONSULIER AUTOMOTIVE",
+                "UpdatedOn": "2020-01-06",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1C9516"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-16",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 9377,
+                "Name": "COOL AMPHIBIOUS MANUFACTURERS INTERNATIONAL, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4C9014"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-08-09",
+                "DateAvailableToPublic": "2018-08-09",
+                "Id": 14379,
+                "Name": "AUTOMOBILI LAMBORGHINI SPA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "ZPB"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-29",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1146,
+                "Name": "DAIMLER CHRYSLER AG",
+                "UpdatedOn": "2015-06-12",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WD5"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-11-25",
+                "DateAvailableToPublic": "2016-11-25",
+                "Id": 15948,
+                "Name": "Execucoach Inc",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1E9101"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-07-30",
+                "DateAvailableToPublic": "2018-07-30",
+                "Id": 18617,
+                "Name": "FARADAY&FUTURE INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "7G0"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 995,
+                "Name": "FCA CANADA INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2A4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-27",
+                "DateAvailableToPublic": "2015-10-27",
+                "Id": 1029,
+                "Name": "FCA ITALY S.P.A.",
+                "UpdatedOn": "2015-07-27",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "ZAC"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1A4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1D4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1J4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-17",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1J8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-19",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": "2016-09-13",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1C4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-28",
+                "DateAvailableToPublic": "2015-07-28",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1P4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-03",
+                "DateAvailableToPublic": "2015-08-03",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1C8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1B8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-02-03",
+                "DateAvailableToPublic": "2017-02-03",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1JC"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1A8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1D8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1Z4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1Z6"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-09",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1Z8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-28",
+                "DateAvailableToPublic": "2015-07-28",
+                "Id": 994,
+                "Name": "FCA US LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1B4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-11-16",
+                "DateAvailableToPublic": "2017-11-16",
+                "Id": 8658,
+                "Name": "HUNTER AUTOMOTIVE GROUP, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5ES"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1034,
+                "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+                "UpdatedOn": "2015-05-11",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5XY"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-04-24",
+                "DateAvailableToPublic": "2017-04-24",
+                "Id": 3717,
+                "Name": "LAFORZA AUTOMOBILES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1L9234"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 7451,
+                "Name": "MAHINDRA & MAHINDRA LIMITED",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "MCV"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-22",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1171,
+                "Name": "ISUZU MOTORS LIMITED, JAPAN",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1034,
+                "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5NM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4NT"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3GS"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-09-11",
+                "DateAvailableToPublic": "2015-09-11",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2018-06-29",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1GH"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1GK"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1GN"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-08-22",
+                "DateAvailableToPublic": "2017-08-25",
+                "Id": 4351,
+                "Name": "GENERAL PURPOSE VEHICLES, INC.",
+                "UpdatedOn": "2017-08-22",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1G9297"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 13490,
+                "Name": "HEHE CALIFORNIA COACH GROUP, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1H9610"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5J6"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2015-03-27",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5J8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5FN"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5FR"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-03-09",
+                "DateAvailableToPublic": "2017-03-09",
+                "Id": 988,
+                "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+                "UpdatedOn": "2021-04-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "7FA"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2016-05-10",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4GD"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4NU"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5S3"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5GR"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5GT"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5GZ"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3GM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3G5"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3G7"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2015-07-01",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2CT"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2016-12-28",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2CK"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2CN"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1GM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2CG"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2017-01-23",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1G5"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2GB"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2016-12-20",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "2GD"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-06-30",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3GK"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1FM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-25",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5LM"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-25",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4F2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-25",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4M2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-18",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1F1"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-20",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5L1"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1GY"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-14",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4N2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1075,
+                "Name": "FUJI HEAVY INDUSTRIES U.S.A., INC. (C/O SUBARU OF AMERICA)",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1075,
+                "Name": "FUJI HEAVY INDUSTRIES U.S.A., INC. (C/O SUBARU OF AMERICA)",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "JF2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5GA"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2020-05-05",
+                "DateAvailableToPublic": "2020-05-05",
+                "Id": 16928,
+                "Name": "SCUDERIA CAMERON GLICKENHAUS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S9542"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-07-26",
+                "DateAvailableToPublic": "2019-07-26",
+                "Id": 19307,
+                "Name": "SIGNATURE AUTOSPORT, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S9520"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2017-06-05",
+                "DateAvailableToPublic": "2017-06-05",
+                "Id": 8371,
+                "Name": "SOLECTRIA CORPORATION",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1S9S20"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-05",
+                "DateAvailableToPublic": "2015-08-05",
+                "Id": 7945,
+                "Name": "SPECIALTY PASSENGER VEHICLES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S9263"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2020-05-15",
+                "DateAvailableToPublic": "2020-05-15",
+                "Id": 19814,
+                "Name": "PHOENIX USA RV, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1P9843"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-03-14",
+                "DateAvailableToPublic": "2019-03-14",
+                "Id": 18988,
+                "Name": "RAGEUSA, LLC",
+                "UpdatedOn": "2019-03-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1R9885"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-10",
+                "DateAvailableToPublic": "2015-08-10",
+                "Id": 8514,
+                "Name": "TERRAFUGIA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1T9979"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-10",
+                "DateAvailableToPublic": "2015-08-10",
+                "Id": 1562,
+                "Name": "THE VEHICLE PRODUCTION GROUP LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "523"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-06-29",
+                "DateAvailableToPublic": "2018-06-29",
+                "Id": 18576,
+                "Name": "RS Companies",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1R9869"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-11",
+                "DateAvailableToPublic": "2015-08-11",
+                "Id": 6436,
+                "Name": "STEAMROLLER MOTORCYCLE COMPANY LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S9105"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1054,
+                "Name": "MITSUBISHI MOTORS NORTH AMERICA",
+                "UpdatedOn": "2015-04-23",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4A4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2019-03-12",
+                "DateAvailableToPublic": "2019-03-12",
+                "Id": 2426,
+                "Name": "MONTE CARLO MINIS LIMITED INC",
+                "UpdatedOn": "2019-03-12",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4M9072"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-07-23",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1098,
+                "Name": "ISUZU MANUFACTURING SERVICES OF AMERICA, INC.",
+                "UpdatedOn": "2015-07-23",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4S6"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 997,
+                "Name": "NISSAN NORTH AMERICA, INC",
+                "UpdatedOn": "2015-05-18",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5N1"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1023,
+                "Name": "MERCEDES-BENZ AG",
+                "UpdatedOn": "2015-05-28",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WD8"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-20",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1043,
+                "Name": "MERCEDES-BENZ OF NORTH AMERICA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4JG"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-08-18",
+                "DateAvailableToPublic": "2015-08-18",
+                "Id": 7217,
+                "Name": "UKEYCHEYMA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "54W"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2018-08-06",
+                "DateAvailableToPublic": "2018-08-06",
+                "Id": 15862,
+                "Name": "US SPECIALTY VEHICLES LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "7G6"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-21",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1087,
+                "Name": "TOYOTA MOTOR MANUFACTURING, INDIANA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "5TD"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-05-26",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1088,
+                "Name": "TOYOTA MOTOR MANUFACTURING, KENTUCKY, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "4T3"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-11-17",
+                "DateAvailableToPublic": "2016-11-17",
+                "Id": 1147,
+                "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1V2"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2020-04-28",
+                "DateAvailableToPublic": "2020-04-28",
+                "Id": 1147,
+                "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "WU1"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-04-07",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1006,
+                "Name": "VOLVO CAR USA, LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "YV4"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-12-01",
+                "DateAvailableToPublic": "2015-12-01",
+                "Id": 11039,
+                "Name": "WINNEBAGO INDUSTRIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1WV"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2016-07-18",
+                "DateAvailableToPublic": "2016-07-18",
+                "Id": 11039,
+                "Name": "WINNEBAGO INDUSTRIES, INC.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1WW"
+            },
+            {
+                "Country": "UNITED STATES (USA)",
+                "CreatedOn": "2015-10-13",
+                "DateAvailableToPublic": "2015-10-13",
+                "Id": 10071,
+                "Name": "WORLD TRANSPORT AUTHORITY INC",
+                "UpdatedOn": "2017-09-05",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "1W9303"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2016-04-27",
+                "DateAvailableToPublic": "2016-04-27",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "LRB"
+            },
+            {
+                "Country": "CHINA",
+                "CreatedOn": "2018-11-05",
+                "DateAvailableToPublic": "2018-11-05",
+                "Id": 17428,
+                "Name": "Changjiang Automobile Holdings Ltd.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "LA9HZG"
+            },
+            {
+                "Country": "ITALY",
+                "CreatedOn": "2017-05-23",
+                "DateAvailableToPublic": "2017-05-23",
+                "Id": 4834,
+                "Name": "ALFA ROMEO S.P.A.",
+                "UpdatedOn": "2019-10-15",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "ZAS"
+            },
+            {
+                "Country": "ITALY",
+                "CreatedOn": "2015-04-14",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1029,
+                "Name": "FCA ITALY S.P.A.",
+                "UpdatedOn": "2016-02-26",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "ZFB"
+            },
+            {
+                "Country": "SOUTH AFRICA",
+                "CreatedOn": "2015-06-26",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "ADM"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-03-27",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 992,
+                "Name": "HONDA DE MEXICO",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3CZ"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-06-25",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": "2017-03-14",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3G0"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3GY"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-07-14",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 976,
+                "Name": "FORD MOTOR COMPANY, USA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3FM"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-03-24",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 984,
+                "Name": "GENERAL MOTORS LLC",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3GN"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3A4"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-04-02",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3D4"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-06-17",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3J4"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-06-19",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": "2016-09-13",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3C4"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-07-28",
+                "DateAvailableToPublic": "2015-07-28",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3B4"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-07-28",
+                "DateAvailableToPublic": "2015-07-28",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3P4"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-08-03",
+                "DateAvailableToPublic": "2015-08-03",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3CA"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-08-03",
+                "DateAvailableToPublic": "2015-08-03",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3C8"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3B8"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-08-04",
+                "DateAvailableToPublic": "2015-08-04",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3D8"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-08-06",
+                "DateAvailableToPublic": "2015-08-06",
+                "Id": 1002,
+                "Name": "CHRYSLER DE MEXICO TOLUCA",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3A8"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2017-05-04",
+                "DateAvailableToPublic": "2017-05-04",
+                "Id": 16478,
+                "Name": "VOLKSWAGEN DE MEXICO SA DE CV",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3VV"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2019-12-03",
+                "DateAvailableToPublic": "2019-12-03",
+                "Id": 1083,
+                "Name": "MAZDA MOTOR MANUFACTURING DE MEXICO S.A. DE C.V.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3MV"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2015-04-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 999,
+                "Name": "NISSAN MEXICANA, S.A. DE C.V.",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3N8"
+            },
+            {
+                "Country": "MEXICO",
+                "CreatedOn": "2018-10-10",
+                "DateAvailableToPublic": "2018-10-10",
+                "Id": 997,
+                "Name": "NISSAN NORTH AMERICA, INC",
+                "UpdatedOn": "2020-10-21",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "3PC"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2015-04-01",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1000,
+                "Name": "RENAULT SAMSUNG MOTORS CO., LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KNM"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2017-09-25",
+                "DateAvailableToPublic": "2017-09-25",
+                "Id": 17268,
+                "Name": "SSANGYONG MOTOR CO. LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KPS"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2020-05-04",
+                "DateAvailableToPublic": "2020-05-04",
+                "Id": 1034,
+                "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KMU"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2015-04-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1034,
+                "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KM8"
+            },
+            {
+                "Country": "SOUTH KOREA",
+                "CreatedOn": "2015-04-15",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 1034,
+                "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+                "UpdatedOn": "2015-06-01",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "KND"
+            },
+            {
+                "Country": "ARGENTINA",
+                "CreatedOn": "2016-05-03",
+                "DateAvailableToPublic": "2016-05-03",
+                "Id": 964,
+                "Name": "MERCEDES-BENZ USA, LLC (SPRINTER)",
+                "UpdatedOn": "2016-05-04",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "8BT"
+            },
+            {
+                "Country": "ENGLAND",
+                "CreatedOn": "2019-05-14",
+                "DateAvailableToPublic": "2019-05-14",
+                "Id": 960,
+                "Name": "ROLLS ROYCE MOTOR CARS",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "SLA"
+            },
+            {
+                "Country": "INDIA",
+                "CreatedOn": "2017-06-09",
+                "DateAvailableToPublic": "2017-06-09",
+                "Id": 16564,
+                "Name": "Ford India Ltd",
+                "UpdatedOn": "2017-07-31",
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "MAJ"
+            },
+            {
+                "Country": "RUSSIA",
+                "CreatedOn": "2015-07-08",
+                "DateAvailableToPublic": "2015-01-01",
+                "Id": 10959,
+                "Name": "AUTOKAD LTD",
+                "UpdatedOn": null,
+                "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+                "WMI": "X89AC5"
+            }
+        ]
+    },
+    "expected_result": [
+        {
+            "Country": null,
+            "CreatedOn": "2015-06-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3E4"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-06-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": "2015-06-08",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2E4"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2015-03-24",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KL4"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KL7"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 987,
+            "Name": "HONDA MOTOR CO., LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JHL"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-05-13",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 996,
+            "Name": "NISSAN MOTOR COMPANY, LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JNR"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-05-13",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 997,
+            "Name": "NISSAN NORTH AMERICA, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5N3"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-06-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1048,
+            "Name": "SUZUKI MOTOR OF AMERICA, INC",
+            "UpdatedOn": "2015-06-01",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JS3"
+        },
+        {
+            "Country": null,
+            "CreatedOn": "2015-06-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1048,
+            "Name": "SUZUKI MOTOR OF AMERICA, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2S3"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-05-22",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1085,
+            "Name": "TOYOTA MOTOR MANUFACTURING CANADA",
+            "UpdatedOn": "2015-05-27",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2T2"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-05-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1085,
+            "Name": "TOYOTA MOTOR MANUFACTURING CANADA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2T3"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 990,
+            "Name": "HONDA OF CANADA MFG., INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2HK"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 990,
+            "Name": "HONDA OF CANADA MFG., INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2HN"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2GK"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2GN"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2D4"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2V4"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-03-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 977,
+            "Name": "FORD MOTOR COMPANY OF CANADA, LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2FM"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-03-25",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 977,
+            "Name": "FORD MOTOR COMPANY OF CANADA, LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2LM"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-05-20",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 977,
+            "Name": "FORD MOTOR COMPANY OF CANADA, LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2MR"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2017-01-23",
+            "DateAvailableToPublic": "2017-01-23",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2G5"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2017-01-24",
+            "DateAvailableToPublic": "2017-01-24",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2G8"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-06-17",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2J4"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-06-19",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": "2016-09-13",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2C4"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2D8"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-08-06",
+            "DateAvailableToPublic": "2015-08-06",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2A8"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-07-28",
+            "DateAvailableToPublic": "2015-07-28",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2P4"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-07-28",
+            "DateAvailableToPublic": "2015-07-28",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2B4"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-08-03",
+            "DateAvailableToPublic": "2015-08-03",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": "2015-08-03",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2CA"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-08-03",
+            "DateAvailableToPublic": "2015-08-03",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2C8"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2B8"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-07-07",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 11634,
+            "Name": "DAIMLERCHRYSLER COMMERCIAL BUSES NORTH AMERICA (Canada)",
+            "UpdatedOn": "2019-05-17",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2BA"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 13535,
+            "Name": "CAMI AUTOMOTIVE INC",
+            "UpdatedOn": "2019-05-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2CC"
+        },
+        {
+            "Country": "CANADA",
+            "CreatedOn": "2015-06-29",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1478,
+            "Name": "CHRYSLER GROUP LLC(USA),CHRYSLER CANADA, CHRYSLER DE MEXICO",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2V8"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2017-03-21",
+            "DateAvailableToPublic": "2017-03-21",
+            "Id": 13107,
+            "Name": "AMPHI-RANGER-FAHRZEUG GMBH",
+            "UpdatedOn": "2019-10-24",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "W09R09"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-06-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1149,
+            "Name": "AUDI",
+            "UpdatedOn": "2015-06-01",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WA1"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-03-10",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 966,
+            "Name": "BMW AG",
+            "UpdatedOn": "2015-03-18",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WBX"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2017-03-27",
+            "DateAvailableToPublic": "2017-03-27",
+            "Id": 966,
+            "Name": "BMW AG",
+            "UpdatedOn": "2017-03-27",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WMZ"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-08-12",
+            "DateAvailableToPublic": "2015-08-12",
+            "Id": 13510,
+            "Name": "DR. ING. H.C.F. PORSCHE AG",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WP1"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-03-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1146,
+            "Name": "DAIMLER CHRYSLER AG",
+            "UpdatedOn": "2021-02-10",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WDR"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-06-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1147,
+            "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WVG"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-08-13",
+            "DateAvailableToPublic": "2015-08-13",
+            "Id": 1147,
+            "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+            "UpdatedOn": "2015-08-20",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WV2"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-03-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1023,
+            "Name": "MERCEDES-BENZ AG",
+            "UpdatedOn": "2017-08-17",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WD4"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2019-11-05",
+            "DateAvailableToPublic": "2019-11-05",
+            "Id": 1023,
+            "Name": "MERCEDES-BENZ AG",
+            "UpdatedOn": "2019-11-05",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "W1W"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2019-11-05",
+            "DateAvailableToPublic": "2019-11-05",
+            "Id": 1023,
+            "Name": "MERCEDES-BENZ AG",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "W2W"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2015-04-20",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1042,
+            "Name": "Mercedes-Benz Cars",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WDC"
+        },
+        {
+            "Country": "GERMANY",
+            "CreatedOn": "2019-11-05",
+            "DateAvailableToPublic": "2019-11-05",
+            "Id": 1042,
+            "Name": "Mercedes-Benz Cars",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "W1N"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-04-16",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1041,
+            "Name": "Mazda Motor Corporation",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JM3"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-04-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 996,
+            "Name": "NISSAN MOTOR COMPANY, LTD",
+            "UpdatedOn": "2015-05-18",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JN8"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-04-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1052,
+            "Name": "Mitsubishi Motors Corporation (MMC)",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JA4"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2016-12-08",
+            "DateAvailableToPublic": "2016-12-08",
+            "Id": 1052,
+            "Name": "Mitsubishi Motors Corporation (MMC)",
+            "UpdatedOn": "2017-02-02",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JB4"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-05-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 962,
+            "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JTE"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-05-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 962,
+            "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JTL"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-05-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 962,
+            "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JTJ"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-05-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 962,
+            "Name": "TOYOTA MOTOR NORTH AMERICA, INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JTM"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-06-12",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1057,
+            "Name": "TOYOTA MOTOR CORPORATION",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JT6"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-06-12",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1057,
+            "Name": "TOYOTA MOTOR CORPORATION",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JT3"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2016-07-22",
+            "DateAvailableToPublic": "2016-07-22",
+            "Id": 2163,
+            "Name": "DAIHATSU MOTOR CO., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JD2"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-07-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 987,
+            "Name": "HONDA MOTOR CO., LTD",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JR2"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-07-22",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1171,
+            "Name": "ISUZU MOTORS LIMITED, JAPAN",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JAC"
+        },
+        {
+            "Country": "JAPAN",
+            "CreatedOn": "2015-07-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1171,
+            "Name": "ISUZU MOTORS LIMITED, JAPAN",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JAE"
+        },
+        {
+            "Country": "TAIWAN",
+            "CreatedOn": "2016-12-22",
+            "DateAvailableToPublic": "2016-12-22",
+            "Id": 16004,
+            "Name": "Sanfu Motor Industry ",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "LM5"
+        },
+        {
+            "Country": "TAIWAN",
+            "CreatedOn": "2016-12-22",
+            "DateAvailableToPublic": "2016-12-22",
+            "Id": 16004,
+            "Name": "Sanfu Motor Industry ",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "LES"
+        },
+        {
+            "Country": "UNITED KINGDOM (UK)",
+            "CreatedOn": "2015-03-04",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1079,
+            "Name": "JAGUAR LAND ROVER LIMITED",
+            "UpdatedOn": "2015-05-10",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "SAL"
+        },
+        {
+            "Country": "UNITED KINGDOM (UK)",
+            "CreatedOn": "2016-04-28",
+            "DateAvailableToPublic": "2016-04-28",
+            "Id": 1079,
+            "Name": "JAGUAR LAND ROVER LIMITED",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "SAD"
+        },
+        {
+            "Country": "UNITED KINGDOM (UK)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 991,
+            "Name": "HONDA OF THE U.K. MFG., LTD.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "SHS"
+        },
+        {
+            "Country": "UNITED KINGDOM (UK)",
+            "CreatedOn": "2016-04-29",
+            "DateAvailableToPublic": "2016-04-29",
+            "Id": 13983,
+            "Name": "BENTLEY MOTORS LIMITED",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "SJA"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-29",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 6055,
+            "Name": "BEYOND ROADS LLC",
+            "UpdatedOn": "2019-04-09",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4B9070"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-17",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1044,
+            "Name": "BLUE BIRD BODY COMPANY",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1BB"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-10",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 968,
+            "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "SUX"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-11",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 968,
+            "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+            "UpdatedOn": "2015-03-11",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5UX"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-11",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 968,
+            "Name": "BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5YM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2021-03-29",
+            "DateAvailableToPublic": "2021-03-29",
+            "Id": 20037,
+            "Name": "BREMACH, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "7P2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-11-14",
+            "DateAvailableToPublic": "2016-11-14",
+            "Id": 15904,
+            "Name": "APPLIED INTEGRATION TECHNOLOGIES, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4A9043"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-12-11",
+            "DateAvailableToPublic": "2015-12-11",
+            "Id": 13808,
+            "Name": "ADVANCED VEHICLES ASSEMBLY, INC.",
+            "UpdatedOn": "2019-10-22",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1A9997"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-12-19",
+            "DateAvailableToPublic": "2016-12-19",
+            "Id": 1174,
+            "Name": "AM GENERAL LLC",
+            "UpdatedOn": "2016-12-19",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "137"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-07-05",
+            "DateAvailableToPublic": "2016-07-05",
+            "Id": 4479,
+            "Name": "AMERICAN MOTORS CORP.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2BC"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-05-14",
+            "DateAvailableToPublic": "2019-05-14",
+            "Id": 4479,
+            "Name": "AMERICAN MOTORS CORP.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1AC"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-05-14",
+            "DateAvailableToPublic": "2019-05-14",
+            "Id": 4479,
+            "Name": "AMERICAN MOTORS CORP.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1AM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1026,
+            "Name": "COACHWORKS HOLDINGS INC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4C9152"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-03-28",
+            "DateAvailableToPublic": "2017-03-28",
+            "Id": 19593,
+            "Name": "CONSULIER AUTOMOTIVE",
+            "UpdatedOn": "2020-01-06",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1C9516"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-16",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 9377,
+            "Name": "COOL AMPHIBIOUS MANUFACTURERS INTERNATIONAL, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4C9014"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-08-09",
+            "DateAvailableToPublic": "2018-08-09",
+            "Id": 14379,
+            "Name": "AUTOMOBILI LAMBORGHINI SPA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "ZPB"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-29",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1146,
+            "Name": "DAIMLER CHRYSLER AG",
+            "UpdatedOn": "2015-06-12",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WD5"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-11-25",
+            "DateAvailableToPublic": "2016-11-25",
+            "Id": 15948,
+            "Name": "Execucoach Inc",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1E9101"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-07-30",
+            "DateAvailableToPublic": "2018-07-30",
+            "Id": 18617,
+            "Name": "FARADAY&FUTURE INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "7G0"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 995,
+            "Name": "FCA CANADA INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2A4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-27",
+            "DateAvailableToPublic": "2015-10-27",
+            "Id": 1029,
+            "Name": "FCA ITALY S.P.A.",
+            "UpdatedOn": "2015-07-27",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "ZAC"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1A4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1D4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1J4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-17",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1J8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-19",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": "2016-09-13",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1C4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-28",
+            "DateAvailableToPublic": "2015-07-28",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1P4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-03",
+            "DateAvailableToPublic": "2015-08-03",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1C8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1B8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-02-03",
+            "DateAvailableToPublic": "2017-02-03",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1JC"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1A8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1D8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1Z4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1Z6"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-09",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1Z8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-28",
+            "DateAvailableToPublic": "2015-07-28",
+            "Id": 994,
+            "Name": "FCA US LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1B4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-11-16",
+            "DateAvailableToPublic": "2017-11-16",
+            "Id": 8658,
+            "Name": "HUNTER AUTOMOTIVE GROUP, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5ES"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1034,
+            "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+            "UpdatedOn": "2015-05-11",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5XY"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-04-24",
+            "DateAvailableToPublic": "2017-04-24",
+            "Id": 3717,
+            "Name": "LAFORZA AUTOMOBILES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1L9234"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 7451,
+            "Name": "MAHINDRA & MAHINDRA LIMITED",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "MCV"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-22",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1171,
+            "Name": "ISUZU MOTORS LIMITED, JAPAN",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1034,
+            "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5NM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4NT"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3GS"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-09-11",
+            "DateAvailableToPublic": "2015-09-11",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2018-06-29",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1GH"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1GK"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1GN"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-08-22",
+            "DateAvailableToPublic": "2017-08-25",
+            "Id": 4351,
+            "Name": "GENERAL PURPOSE VEHICLES, INC.",
+            "UpdatedOn": "2017-08-22",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1G9297"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 13490,
+            "Name": "HEHE CALIFORNIA COACH GROUP, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1H9610"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5J6"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2015-03-27",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5J8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5FN"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5FR"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-03-09",
+            "DateAvailableToPublic": "2017-03-09",
+            "Id": 988,
+            "Name": "HONDA DEVELOPMENT & MANUFACTURING OF AMERICA, LLC",
+            "UpdatedOn": "2021-04-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "7FA"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2016-05-10",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4GD"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4NU"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5S3"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5GR"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5GT"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5GZ"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3GM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3G5"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3G7"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2015-07-01",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2CT"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2016-12-28",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2CK"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2CN"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1GM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2CG"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2017-01-23",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1G5"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2GB"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2016-12-20",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "2GD"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-06-30",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3GK"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1FM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-25",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5LM"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-25",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4F2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-25",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4M2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-18",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1F1"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-20",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5L1"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1GY"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-14",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4N2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1075,
+            "Name": "FUJI HEAVY INDUSTRIES U.S.A., INC. (C/O SUBARU OF AMERICA)",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1075,
+            "Name": "FUJI HEAVY INDUSTRIES U.S.A., INC. (C/O SUBARU OF AMERICA)",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "JF2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5GA"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2020-05-05",
+            "DateAvailableToPublic": "2020-05-05",
+            "Id": 16928,
+            "Name": "SCUDERIA CAMERON GLICKENHAUS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S9542"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-07-26",
+            "DateAvailableToPublic": "2019-07-26",
+            "Id": 19307,
+            "Name": "SIGNATURE AUTOSPORT, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S9520"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2017-06-05",
+            "DateAvailableToPublic": "2017-06-05",
+            "Id": 8371,
+            "Name": "SOLECTRIA CORPORATION",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1S9S20"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-05",
+            "DateAvailableToPublic": "2015-08-05",
+            "Id": 7945,
+            "Name": "SPECIALTY PASSENGER VEHICLES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S9263"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2020-05-15",
+            "DateAvailableToPublic": "2020-05-15",
+            "Id": 19814,
+            "Name": "PHOENIX USA RV, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1P9843"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-03-14",
+            "DateAvailableToPublic": "2019-03-14",
+            "Id": 18988,
+            "Name": "RAGEUSA, LLC",
+            "UpdatedOn": "2019-03-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1R9885"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-10",
+            "DateAvailableToPublic": "2015-08-10",
+            "Id": 8514,
+            "Name": "TERRAFUGIA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1T9979"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-10",
+            "DateAvailableToPublic": "2015-08-10",
+            "Id": 1562,
+            "Name": "THE VEHICLE PRODUCTION GROUP LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "523"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-06-29",
+            "DateAvailableToPublic": "2018-06-29",
+            "Id": 18576,
+            "Name": "RS Companies",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1R9869"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-11",
+            "DateAvailableToPublic": "2015-08-11",
+            "Id": 6436,
+            "Name": "STEAMROLLER MOTORCYCLE COMPANY LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S9105"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1054,
+            "Name": "MITSUBISHI MOTORS NORTH AMERICA",
+            "UpdatedOn": "2015-04-23",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4A4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2019-03-12",
+            "DateAvailableToPublic": "2019-03-12",
+            "Id": 2426,
+            "Name": "MONTE CARLO MINIS LIMITED INC",
+            "UpdatedOn": "2019-03-12",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4M9072"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-07-23",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1098,
+            "Name": "ISUZU MANUFACTURING SERVICES OF AMERICA, INC.",
+            "UpdatedOn": "2015-07-23",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4S6"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 997,
+            "Name": "NISSAN NORTH AMERICA, INC",
+            "UpdatedOn": "2015-05-18",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5N1"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1023,
+            "Name": "MERCEDES-BENZ AG",
+            "UpdatedOn": "2015-05-28",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WD8"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-20",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1043,
+            "Name": "MERCEDES-BENZ OF NORTH AMERICA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4JG"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-08-18",
+            "DateAvailableToPublic": "2015-08-18",
+            "Id": 7217,
+            "Name": "UKEYCHEYMA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "54W"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2018-08-06",
+            "DateAvailableToPublic": "2018-08-06",
+            "Id": 15862,
+            "Name": "US SPECIALTY VEHICLES LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "7G6"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-21",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1087,
+            "Name": "TOYOTA MOTOR MANUFACTURING, INDIANA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "5TD"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-05-26",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1088,
+            "Name": "TOYOTA MOTOR MANUFACTURING, KENTUCKY, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "4T3"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-11-17",
+            "DateAvailableToPublic": "2016-11-17",
+            "Id": 1147,
+            "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1V2"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2020-04-28",
+            "DateAvailableToPublic": "2020-04-28",
+            "Id": 1147,
+            "Name": "VOLKSWAGEN GROUP OF AMERICA, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "WU1"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-04-07",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1006,
+            "Name": "VOLVO CAR USA, LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "YV4"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-12-01",
+            "DateAvailableToPublic": "2015-12-01",
+            "Id": 11039,
+            "Name": "WINNEBAGO INDUSTRIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1WV"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2016-07-18",
+            "DateAvailableToPublic": "2016-07-18",
+            "Id": 11039,
+            "Name": "WINNEBAGO INDUSTRIES, INC.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1WW"
+        },
+        {
+            "Country": "UNITED STATES (USA)",
+            "CreatedOn": "2015-10-13",
+            "DateAvailableToPublic": "2015-10-13",
+            "Id": 10071,
+            "Name": "WORLD TRANSPORT AUTHORITY INC",
+            "UpdatedOn": "2017-09-05",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "1W9303"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2016-04-27",
+            "DateAvailableToPublic": "2016-04-27",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "LRB"
+        },
+        {
+            "Country": "CHINA",
+            "CreatedOn": "2018-11-05",
+            "DateAvailableToPublic": "2018-11-05",
+            "Id": 17428,
+            "Name": "Changjiang Automobile Holdings Ltd.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "LA9HZG"
+        },
+        {
+            "Country": "ITALY",
+            "CreatedOn": "2017-05-23",
+            "DateAvailableToPublic": "2017-05-23",
+            "Id": 4834,
+            "Name": "ALFA ROMEO S.P.A.",
+            "UpdatedOn": "2019-10-15",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "ZAS"
+        },
+        {
+            "Country": "ITALY",
+            "CreatedOn": "2015-04-14",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1029,
+            "Name": "FCA ITALY S.P.A.",
+            "UpdatedOn": "2016-02-26",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "ZFB"
+        },
+        {
+            "Country": "SOUTH AFRICA",
+            "CreatedOn": "2015-06-26",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "ADM"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-03-27",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 992,
+            "Name": "HONDA DE MEXICO",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3CZ"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-06-25",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": "2017-03-14",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3G0"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3GY"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-07-14",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 976,
+            "Name": "FORD MOTOR COMPANY, USA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3FM"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-03-24",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 984,
+            "Name": "GENERAL MOTORS LLC",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3GN"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3A4"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-04-02",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3D4"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-06-17",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3J4"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-06-19",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": "2016-09-13",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3C4"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-07-28",
+            "DateAvailableToPublic": "2015-07-28",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3B4"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-07-28",
+            "DateAvailableToPublic": "2015-07-28",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3P4"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-08-03",
+            "DateAvailableToPublic": "2015-08-03",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3CA"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-08-03",
+            "DateAvailableToPublic": "2015-08-03",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3C8"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3B8"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-08-04",
+            "DateAvailableToPublic": "2015-08-04",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3D8"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-08-06",
+            "DateAvailableToPublic": "2015-08-06",
+            "Id": 1002,
+            "Name": "CHRYSLER DE MEXICO TOLUCA",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3A8"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2017-05-04",
+            "DateAvailableToPublic": "2017-05-04",
+            "Id": 16478,
+            "Name": "VOLKSWAGEN DE MEXICO SA DE CV",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3VV"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2019-12-03",
+            "DateAvailableToPublic": "2019-12-03",
+            "Id": 1083,
+            "Name": "MAZDA MOTOR MANUFACTURING DE MEXICO S.A. DE C.V.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3MV"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2015-04-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 999,
+            "Name": "NISSAN MEXICANA, S.A. DE C.V.",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3N8"
+        },
+        {
+            "Country": "MEXICO",
+            "CreatedOn": "2018-10-10",
+            "DateAvailableToPublic": "2018-10-10",
+            "Id": 997,
+            "Name": "NISSAN NORTH AMERICA, INC",
+            "UpdatedOn": "2020-10-21",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "3PC"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2015-04-01",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1000,
+            "Name": "RENAULT SAMSUNG MOTORS CO., LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KNM"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2017-09-25",
+            "DateAvailableToPublic": "2017-09-25",
+            "Id": 17268,
+            "Name": "SSANGYONG MOTOR CO. LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KPS"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2020-05-04",
+            "DateAvailableToPublic": "2020-05-04",
+            "Id": 1034,
+            "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KMU"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2015-04-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1034,
+            "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KM8"
+        },
+        {
+            "Country": "SOUTH KOREA",
+            "CreatedOn": "2015-04-15",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 1034,
+            "Name": "HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)",
+            "UpdatedOn": "2015-06-01",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "KND"
+        },
+        {
+            "Country": "ARGENTINA",
+            "CreatedOn": "2016-05-03",
+            "DateAvailableToPublic": "2016-05-03",
+            "Id": 964,
+            "Name": "MERCEDES-BENZ USA, LLC (SPRINTER)",
+            "UpdatedOn": "2016-05-04",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "8BT"
+        },
+        {
+            "Country": "ENGLAND",
+            "CreatedOn": "2019-05-14",
+            "DateAvailableToPublic": "2019-05-14",
+            "Id": 960,
+            "Name": "ROLLS ROYCE MOTOR CARS",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "SLA"
+        },
+        {
+            "Country": "INDIA",
+            "CreatedOn": "2017-06-09",
+            "DateAvailableToPublic": "2017-06-09",
+            "Id": 16564,
+            "Name": "Ford India Ltd",
+            "UpdatedOn": "2017-07-31",
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "MAJ"
+        },
+        {
+            "Country": "RUSSIA",
+            "CreatedOn": "2015-07-08",
+            "DateAvailableToPublic": "2015-01-01",
+            "Id": 10959,
+            "Name": "AUTOKAD LTD",
+            "UpdatedOn": null,
+            "VehicleType": "Multipurpose Passenger Vehicle (MPV)",
+            "WMI": "X89AC5"
+        }
+    ]
+}
