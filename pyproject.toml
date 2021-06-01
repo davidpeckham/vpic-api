@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vpic-api"
-version = "0.6.1"
+version = "0.6.2"
 description = "A client library for the United States National Highway Traffic Safety Administration (NHTSA) Vehicle Product Information Catalog (vPIC) API"
 authors = ["David Peckham <dave.peckham@icloud.com>"]
 license = "MIT"
@@ -34,6 +34,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.7"
 requests = "^2.25.1"
+desert = "^2020.11.18"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -45,7 +46,6 @@ responses = "^0.13.3"
 mkdocs-material = "^7.1.4"
 mkdocstrings = "^0.15.0"
 tox = "^3.23.1"
-desert = "^2020.11.18"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

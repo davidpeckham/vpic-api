@@ -1,5 +1,21 @@
 # Change Log
 
+## [0.6.2] - 2021-06-01
+
+### Added
+- py.typed
+
+### Removed
+- Hard-coded version string. If you used this, you can get the same version string from importlib.metdata (Python 3.8+) or importlib_metadata (Python 3.7).
+
+### Fixed
+- Desert is now a runtime dependency, not a dev dependency
+
+## [0.6.1] - 2021-05-31
+
+### Fixed
+- Typo in CHANGES.md
+
 ## [0.6.0] - 2021-05-31
 
 ### Added
