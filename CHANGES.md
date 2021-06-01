@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.6.3] - 2021-06-01
+
+### Fixed
+- My github profile URL
+
 ## [0.6.2] - 2021-06-01
 
 ### Added

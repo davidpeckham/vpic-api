@@ -27,7 +27,7 @@ The Vehicle Production Information Catalog (vPIC) API is hosted by the U.S. Nati
 
 ## Author
 
-- [@davepeckham](https://www.github.com/davepeckham)
+- [@davidpeckham](https://github.com/davidpeckham)
 
 ## Installation
 
