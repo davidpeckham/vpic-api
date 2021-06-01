@@ -1,38 +1,49 @@
-# vpic-api
+# vPIC API Client Library
+
+![PyPI](https://img.shields.io/pypi/v/vpic-api)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/vpic-api)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/vpic-api)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/vpic-api)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![Tests](https://github.com/davidpeckham/vpic-api/actions/workflows/main.yml/badge.svg)](https://github.com/davidpeckham/vpic-api/actions/workflows/main.yml)
 
 A Python client library for decoding VINs and querying the United States 
 National Highway Traffic Safety Administration (NHTSA) [Vehicle Product 
 Information Catalog Vehicle Listing (vPIC) API](https://vpic.nhtsa.dot.gov/api/).
 
-Use this to gather information on vehicles and their specifications,
-and to decode VINs to extract information for specific vehicles. vPIC
-has information about these types of vehicles sold or imported in
-the USA:
+## NHTSA vPIC API
 
-* Bus
-* Incomplete Vehicle
-* Low Speed Vehicle (LSV)
-* Motorcycle
-* Multipurpose Passenger Vehicle (MPV)
-* Passenger Car
-* Trailer
-* Truck
+The Vehicle Production Information Catalog (vPIC) API is hosted by the U.S. National Highway Transportation Safety Administration (NHTSA). vPIC data is provided by manufacturers who make vehicles for sale in the United States. The vPIC API is available 24/7, is free to use, and does not require registration. See https://vpic.nhtsa.dot.gov/api/home/index/faq for more on the vPIC API.
 
-vPIC has information about how manufacturers assign a VIN that
-encodes a vehicle's characteristics. Vehicle manufacturers provide this
-information to NHTSA under U.S. 49 CFR Parts 551 – 574.
+## Features
 
-The API available 24/7, is free to use, and does not require registration. NHTSA uses automatic traffic rate controls to maintain the performance of the API and their websites that use the API.
+- Decode Vehicle Identification Numbers (VIN)
+- Discover manufacturers, makes, and models
+- Supports cars, MPVs, trucks, motorcycles, buses, trailers, low speed vehicles and incomplete vehicles manufactured in the U.S.A, or imported for sale in the U.S.A.
+- Find manufacturer model year VIN guides
+- Use vpic.TypedClient to get results as Python objects
+- Use vpic.Client to get results as JSON
+- Comprehensive support for the vPIC API
 
-See https://vpic.nhtsa.dot.gov/api/home/index/faq for more on the API.
+## Author
 
-## Using vpic.TypedClient
+- [@davepeckham](https://www.github.com/davepeckham)
 
-Use vpic.TypedClient to receive responses as Python objects.
+## Installation
 
-### Decode a Vehicle Identification Number (VIN)
+Install vpic-api with Poetry
 
-Decode a 17-digit Vehicle Identification Number (VIN):
+```bash 
+  poetry --dev add vpic-api
+```
+
+## vpic.TypedClient Examples
+
+vpic.TypedClient returns results as Python objects.
+
+### Decode a VIN
+
+Get the characteristics of a vehicle by it's 17-digit Vehicle Identification Number (VIN):
 
 ```python
 from vpic import TypedClient
@@ -69,7 +80,7 @@ Vehicle(
     ...
     make="FORD",
     make_id="460",
-    manufacturer_name="FORD MOTOR COMPANY, USA",
+    manufacturer="FORD MOTOR COMPANY, USA",
     manufacturer_id="976",
     model="F-150",
     model_id="1801",
@@ -131,11 +142,11 @@ get_models_for_make("TESLA", model_year=2020)
 ]
 ```
 
-## Using vpic.Client
+## vpic.Client Examples
 
-Use vpic.Client if you need the JSON responses returned by the vPIC API.
+vpic.Client returns JSON results from the vPIC API.
 
-This client automatically standardizes variable names where vPIC uses inconsistent naming. Turn this off if you need to see the unaltered JSON responses:
+This client automatically standardizes variable names where vPIC uses inconsistent naming. Disable this to see the unaltered JSON responses:
 
 ```python
 from vpic import Client
@@ -143,9 +154,9 @@ from vpic import Client
 c = Client(standardize_names=False)
 ```
 
-### Decode a Vehicle Identification Number (VIN)
+### Decode a VIN
 
-Decode a 17-digit Vehicle Identification Number (VIN):
+Get the characteristics of a vehicle by it's 17-digit Vehicle Identification Number (VIN):
 
 ```python
 from vpic import Client
@@ -162,11 +173,11 @@ Here are a few of the 130+ attributes vPIC returns for the VIN:
     "Doors": "2",
     "ErrorCode": "0",
     "ErrorText": "0 - VIN decoded clean. Check Digit (9th position) is correct",
-    "MakeName": "FORD",
+    "Make": "FORD",
     "MakeId": "460",
-    "ManufacturerName": "FORD MOTOR COMPANY, USA",
+    "Manufacturer": "FORD MOTOR COMPANY, USA",
     "ManufacturerId": "976",
-    "ModelName": "Mustang",
+    "Model": "Mustang",
     "ModelId": "1781",
     "ModelYear": "2021",
     "PlantCity": "FLATROCK",
@@ -184,33 +195,31 @@ Here are a few of the 130+ attributes vPIC returns for the VIN:
 result = c.get_models_for_make("TESLA", 2021)
 ```
 
-vPIC returns a list of the models for this make and model year:
-
 ```json
 [
     {
         "MakeId": 441,
-        "MakeName": "TESLA",
+        "Make": "TESLA",
         "ModelId": 1685,
-        "ModelName": "Model S"
+        "Model": "Model S"
     },
     {
         "MakeId": 441,
-        "MakeName": "TESLA",
+        "Make": "TESLA",
         "ModelId": 10199,
-        "ModelName": "Model X"
+        "Model": "Model X"
     },
     {
         "MakeId": 441,
-        "MakeName": "TESLA",
+        "Make": "TESLA",
         "ModelId": 17834,
-        "ModelName": "Model 3"
+        "Model": "Model 3"
     },
     {
         "MakeId": 441,
-        "MakeName": "TESLA",
+        "Make": "TESLA",
         "ModelId": 27027,
-        "ModelName": "Model Y"
+        "Model": "Model Y"
     }
 ]
 ```
