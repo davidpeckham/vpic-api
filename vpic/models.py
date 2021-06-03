@@ -11,8 +11,8 @@ class Document:
     name: str
     url: str
     type: Optional[str] = None
-    model_year_from: Optional[str] = None
-    model_year_to: Optional[str] = None
+    model_year_from: Optional[int] = None
+    model_year_to: Optional[int] = None
 
 
 @dataclass(eq=True, frozen=True)

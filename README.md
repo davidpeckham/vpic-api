@@ -17,13 +17,15 @@ The Vehicle Production Information Catalog (vPIC) API is hosted by the U.S. Nati
 
 ## Features
 
-- Decode Vehicle Identification Numbers (VIN)
+- Decode 17-digit Vehicle Identification Numbers (VIN)
+- Decode a partial VIN
 - Discover manufacturers, makes, and models
-- Supports cars, MPVs, trucks, motorcycles, buses, trailers, low speed vehicles and incomplete vehicles manufactured in the U.S.A, or imported for sale in the U.S.A.
+- Supports cars, MPVs, trucks, motorcycles, buses, trailers, low speed vehicles and incomplete vehicles sold the U.S.A.
 - Find manufacturer model year VIN guides
-- Use vpic.TypedClient to get results as Python objects
-- Use vpic.Client to get results as JSON
+- Supports vehicles made since 1981
 - Comprehensive support for the vPIC API
+- Get results as Python objects (see vpic.TypedClient)
+- Get results as JSON (see vpic.Client)
 
 ## Author
 
@@ -31,10 +33,8 @@ The Vehicle Production Information Catalog (vPIC) API is hosted by the U.S. Nati
 
 ## Installation
 
-Install vpic-api with Poetry
-
 ```bash 
-  poetry --dev add vpic-api
+  poetry add vpic-api
 ```
 
 ## vpic.TypedClient Examples

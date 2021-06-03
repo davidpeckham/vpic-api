@@ -348,7 +348,7 @@ class TypedClient:
             A list of ``Document``s registered with vPIC.
 
         Raises:
-            ValueError: if ``cvr_part`` is missing
+            ValueError: if ``cfr_part`` is missing
 
         Examples:
             >>> get_parts('565', '2015-01-01', '2015-05-05', 1)
@@ -361,7 +361,7 @@ class TypedClient:
                     name='ORG13044',
                     url='...',
                     type=None,
-                    model_year_from=None,
+                    model_year_from=20,
                     model_year_to=None
                 ),
                 ...

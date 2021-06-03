@@ -29,7 +29,7 @@ For more on the NHTSA vPIC, visit [their home page](https://vpic.nhtsa.dot.gov/a
 
 ## Features
 
-* Decode a 17-digit Vehicle Identification Numer (VIN)
+* Decode a 17-digit Vehicle Identification Number (VIN)
 * Decode a partial VIN when you don't have the complete VIN
 * Get information about vehicle manufacturers, plants, makes, and models
 * Supports 1981 and later model years

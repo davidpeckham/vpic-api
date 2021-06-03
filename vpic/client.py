@@ -296,7 +296,7 @@ class Client(ClientBase):
             page: results are paginated; this is page number to return
 
         Raises:
-            ValueError: if ``cvr_part`` is missing
+            ValueError: if ``cfr_part`` is missing
 
         Examples:
             >>> get_parts('565', '2015-01-01', '2015-05-05', 1)
