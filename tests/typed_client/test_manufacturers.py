@@ -1,15 +1,15 @@
 from typing import List
-from vpic.models import Document, ManufacturerDetail, PlantCode, WorldManufacturerIndex
+from vpic.models import Document, ManufacturerDetail, PlantCode, WMI
 from vpic.typed_client import TypedClient
 
 
 class TestManufacturers:
     def test_get_wmis_for_manufacturerid(self, typed_client: TypedClient, responses):
-        wmis: List[WorldManufacturerIndex] = typed_client.get_wmis_for_manufacturer(988)
+        wmis: List[WMI] = typed_client.get_wmis_for_manufacturer(988)
         assert len(wmis) == 20
 
     def test_get_wmis_for_manufacturer_name(self, typed_client: TypedClient, responses):
-        wmis: List[WorldManufacturerIndex] = typed_client.get_wmis_for_manufacturer(
+        wmis: List[WMI] = typed_client.get_wmis_for_manufacturer(
             "Honda"
         )
         assert len(wmis) == 44
@@ -17,7 +17,7 @@ class TestManufacturers:
     def test_get_wmis_for_manufacturer_partialname(
         self, typed_client: TypedClient, responses
     ):
-        wmis: List[WorldManufacturerIndex] = typed_client.get_wmis_for_manufacturer(
+        wmis: List[WMI] = typed_client.get_wmis_for_manufacturer(
             "TECHNOLOG"
         )
         assert len(wmis) == 101

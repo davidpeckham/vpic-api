@@ -1,4 +1,4 @@
-from vpic.models import Vehicle, WorldManufacturerIndex
+from vpic.models import Vehicle, WMI
 from vpic.typed_client import TypedClient
 
 
@@ -49,7 +49,7 @@ class TestDecode:
         assert tesla.vehicle_type == "PASSENGER CAR"
 
     def test_decode_wmi(self, typed_client: TypedClient, responses):
-        wmi: WorldManufacturerIndex = typed_client.decode_wmi("1FT")
+        wmi: WMI = typed_client.decode_wmi("1FT")
         assert wmi.common_name == "Ford"
         assert wmi.created_on == "2015-03-23"
         assert wmi.date_available_to_public == "2015-01-01"

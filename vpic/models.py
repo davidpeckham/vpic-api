@@ -275,7 +275,7 @@ class Vehicle:
 
 
 @dataclass(eq=True, frozen=False)
-class WorldManufacturerIndex:
+class WMI:
     created_on: str
     date_available_to_public: str
     manufacturer: Optional[str]

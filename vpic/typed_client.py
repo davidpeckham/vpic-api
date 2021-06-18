@@ -16,7 +16,7 @@ from .models import (
     Variable,
     Vehicle,
     VehicleType,
-    WorldManufacturerIndex,
+    WMI,
 )
 from .transforms import snake_case
 
@@ -212,7 +212,7 @@ class TypedClient:
         schema = desert.schema(Vehicle, meta=self._meta)
         return [schema.load(snake_case(v)) for v in vehicles]
 
-    def decode_wmi(self, wmi: str) -> WorldManufacturerIndex:
+    def decode_wmi(self, wmi: str) -> WMI:
         """Decode a WMI to get manufacturer information
 
         Provides information on the World Manufacturer Identifier for a
@@ -246,14 +246,14 @@ class TypedClient:
             )
 
         """
-        schema = desert.schema(WorldManufacturerIndex, meta=self._meta)
+        schema = desert.schema(WMI, meta=self._meta)
         return schema.load(snake_case(self._client.decode_wmi(wmi)))
 
     def get_wmis_for_manufacturer(
         self,
         manufacturer: Union[str, int],
         vehicle_type: Optional[Union[str, int]] = None,
-    ) -> List[WorldManufacturerIndex]:
+    ) -> List[WMI]:
         """Returns the WMIs for one or all manufacturers
 
         Args:
@@ -293,7 +293,7 @@ class TypedClient:
 
         """
         wmis = self._client.get_wmis_for_manufacturer(manufacturer, vehicle_type)
-        schema = desert.schema(WorldManufacturerIndex, meta=self._meta)
+        schema = desert.schema(WMI, meta=self._meta)
         return [schema.load(snake_case(wmi)) for wmi in wmis]
 
     def get_all_makes(self) -> List[Make]:
