@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.7.0] - 2021-06-17
+
+### Changed
+- Renamed WorldManufacturerIndex as WMI
+
 ## [0.6.3] - 2021-06-01
 
 ### Fixed
