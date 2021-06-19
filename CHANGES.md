@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.7.1] - 2021-06-19
+
+### Fixed
+- WMI.common_name and other properties are no longer required
+
 ## [0.7.0] - 2021-06-17
 
 ### Changed

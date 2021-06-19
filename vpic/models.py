@@ -50,7 +50,7 @@ class ManufacturerType:
 @dataclass(eq=True, frozen=False)
 class VehicleType:
     name: Optional[str]
-    vehicle_type: Optional[str]
+    vehicle_type: Optional[str] = None
     vehicle_type_id: Optional[int] = None
     make: Optional[str] = None
     make_id: Optional[int] = None
@@ -276,20 +276,20 @@ class Vehicle:
 
 @dataclass(eq=True, frozen=False)
 class WMI:
-    created_on: str
-    date_available_to_public: str
     manufacturer: Optional[str]
     name: Optional[str]
     id: Optional[int]
-    updated_on: Optional[str]
     vehicle_type: str
     wmi: Optional[str] = None
-    common_name: str = ""
+    common_name: Optional[str] = None
+    url: Optional[str] = None
     country: Optional[str] = None
-    make: str = ""
+    make: Optional[str] = None
     manufacturer_id: Optional[int] = None
-    parent_company_name: str = ""
-    url: str = ""
+    parent_company_name: Optional[str] = None
+    created_on: Optional[str] = None
+    updated_on: Optional[str] = None
+    date_available_to_public: Optional[str] = None
 
     def __post_init__(self):
         if self.id is not None:
