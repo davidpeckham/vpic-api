@@ -1,8 +1,9 @@
+from logging import exception
 from typing import Optional
 from requests.models import Response
 
 
-def handle_error_response(resp):
+def handle_error_response(resp: Response):
 
     HTTP_ERRORS = {
         400: InvalidRequest,
@@ -12,19 +13,24 @@ def handle_error_response(resp):
         503: ServiceUnavailable,
     }
 
-    error = resp.json()
-    message = error.get("message")
-    detail = error.get("messageDetail")
+    if resp.headers.get('content-type', 'application/json') == 'application/json':
+        error = resp.json()
+        message = error.get("message")
+        detail = error.get("messageDetail")
+    else:
+        error = ""
+        message = ""
+        detail = ""
 
-    exc = HTTP_ERRORS.get(resp.status_code, VpicAPIError)
-
-    if resp.status_code == 400 and detail.startswith("The parameters dictionary"):
+    exc = HTTP_ERRORS.get(resp.status_code, VPICError)
+    if detail.startswith("The parameters dictionary"):
         exc = InvalidParameters
 
     raise exc(message=message, detail=detail, response=resp)
 
 
-class VpicAPIError(Exception):
+
+class VPICError(Exception):
     """Base class for vPIC API client exceptions.
 
     Attributes:
@@ -54,23 +60,23 @@ class VpicAPIError(Exception):
         return self.message
 
 
-class InvalidRequest(VpicAPIError):
+class InvalidRequest(VPICError):
     pass
 
 
-class MethodNotFound(VpicAPIError):
+class MethodNotFound(VPICError):
     """Method not found in vPIC API."""
 
     pass
 
 
-class InvalidParameters(VpicAPIError):
+class InvalidParameters(VPICError):
     """You passed an invalid parameter value."""
 
     pass
 
 
-class TooManyRequests(VpicAPIError):
+class TooManyRequests(VPICError):
     """You made too many requests
 
     See the Retry-After header for advice about how long to wait
@@ -81,17 +87,17 @@ class TooManyRequests(VpicAPIError):
     pass
 
 
-class InternalError(VpicAPIError):
+class InternalError(VPICError):
     """An error occurred in the service"""
 
     pass
 
 
-class ServiceUnavailable(VpicAPIError):
+class ServiceUnavailable(VPICError):
     """The service is not available, and may be down for maintenance."""
 
     pass
 
 
-class ParseError(VpicAPIError):
+class ParseError(VPICError):
     pass

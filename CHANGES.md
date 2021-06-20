@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.7.2] - 2021-06-20
+
+### Fixed
+- Fixed a bug that swallowed HTTP errors
+
 ## [0.7.1] - 2021-06-19
 
 ### Fixed
