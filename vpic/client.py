@@ -522,8 +522,8 @@ class Client(ClientBase):
         """
         if vehicle_type is None:
             raise ValueError("vehicle_type is required")
-
-        return self._request(f"GetMakesForVehicleType/{vehicle_type}")
+        
+        return self._request(f"GetMakesForVehicleType/{vehicle_type.rstrip()}")
 
     def get_vehicle_types_for_make(self, make: Union[str, int]) -> List[Dict[str, Any]]:
         """Returns vehicle types produced by a make or make

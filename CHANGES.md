@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.7.4] - 2021-07-08
+
+### Fixed
+- Now strips trailing space from VehicleType "Truck " when building URL
+
 ## [0.7.2] - 2021-06-20
 
 ### Fixed
