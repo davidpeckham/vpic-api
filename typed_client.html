@@ -1,0 +1,3062 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
+    
+    
+      
+        <title>TypedClient - vpic-api</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.f1a3b89f.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#typedclient-module" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="vpic-api" class="md-header__button md-logo" aria-label="vpic-api" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            vpic-api
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TypedClient
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/davidpeckham/vpic-api/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="vpic-api" class="md-nav__button md-logo" aria-label="vpic-api" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    vpic-api
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/davidpeckham/vpic-api/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Code Reference
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Code Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Code Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="client.html" class="md-nav__link">
+        Client
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          TypedClient
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="typed_client.html" class="md-nav__link md-nav__link--active">
+        TypedClient
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.typed_client" class="md-nav__link">
+    vpic.typed_client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient" class="md-nav__link">
+    TypedClient
+  </a>
+  
+    <nav class="md-nav" aria-label="TypedClient">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.decode_vin" class="md-nav__link">
+    decode_vin()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.decode_vin_batch" class="md-nav__link">
+    decode_vin_batch()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.decode_wmi" class="md-nav__link">
+    decode_wmi()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_all_makes" class="md-nav__link">
+    get_all_makes()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_all_manufacturers" class="md-nav__link">
+    get_all_manufacturers()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_equipment_plant_codes" class="md-nav__link">
+    get_equipment_plant_codes()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_makes_for_manufacturer" class="md-nav__link">
+    get_makes_for_manufacturer()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_makes_for_vehicle_type" class="md-nav__link">
+    get_makes_for_vehicle_type()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_manufacturer_details" class="md-nav__link">
+    get_manufacturer_details()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_models_for_make" class="md-nav__link">
+    get_models_for_make()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_parts" class="md-nav__link">
+    get_parts()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_vehicle_types_for_make" class="md-nav__link">
+    get_vehicle_types_for_make()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_vehicle_variable_list" class="md-nav__link">
+    get_vehicle_variable_list()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_vehicle_variable_values_list" class="md-nav__link">
+    get_vehicle_variable_values_list()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_wmis_for_manufacturer" class="md-nav__link">
+    get_wmis_for_manufacturer()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="models.html" class="md-nav__link">
+        Models
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="exceptions.html" class="md-nav__link">
+        Exceptions
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.typed_client" class="md-nav__link">
+    vpic.typed_client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient" class="md-nav__link">
+    TypedClient
+  </a>
+  
+    <nav class="md-nav" aria-label="TypedClient">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.decode_vin" class="md-nav__link">
+    decode_vin()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.decode_vin_batch" class="md-nav__link">
+    decode_vin_batch()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.decode_wmi" class="md-nav__link">
+    decode_wmi()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_all_makes" class="md-nav__link">
+    get_all_makes()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_all_manufacturers" class="md-nav__link">
+    get_all_manufacturers()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_equipment_plant_codes" class="md-nav__link">
+    get_equipment_plant_codes()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_makes_for_manufacturer" class="md-nav__link">
+    get_makes_for_manufacturer()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_makes_for_vehicle_type" class="md-nav__link">
+    get_makes_for_vehicle_type()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_manufacturer_details" class="md-nav__link">
+    get_manufacturer_details()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_models_for_make" class="md-nav__link">
+    get_models_for_make()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_parts" class="md-nav__link">
+    get_parts()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_vehicle_types_for_make" class="md-nav__link">
+    get_vehicle_types_for_make()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_vehicle_variable_list" class="md-nav__link">
+    get_vehicle_variable_list()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_vehicle_variable_values_list" class="md-nav__link">
+    get_vehicle_variable_values_list()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpic.typed_client.TypedClient.get_wmis_for_manufacturer" class="md-nav__link">
+    get_wmis_for_manufacturer()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/davidpeckham/vpic-api/edit/master/docs/typed_client.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="typedclient-module">TypedClient module</h1>
+
+
+  <div class="doc doc-object doc-module">
+
+<a id="vpic.typed_client"></a>
+    <div class="doc doc-contents first">
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.typed_client.TypedClient" class="doc doc-heading">
+        <code>TypedClient</code>
+
+
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>A client library for the U.S. NHTSA vPIC API</p>
+<p><code>TypedClient</code> returns model objects instead of JSON responses. If you
+need the original vPIC JSON responses, use <code>vpic.Client</code>.</p>
+<p>A client library for the United States National Highway Traffic Safety
+Administration (NHTSA) Vehicle Product Information Catalog (vPIC) Vehicle
+Listing API.</p>
+<p>Use this to gather information on vehicles and their specifications,
+and to decode VINs to extract information for specific vehicles. vPIC
+has information about these types of vehicles sold or imported in
+the USA:</p>
+<ul>
+<li>Bus</li>
+<li>Incomplete Vehicle</li>
+<li>Low Speed Vehicle (LSV)</li>
+<li>Motorcycle</li>
+<li>Multipurpose Passenger Vehicle (MPV)</li>
+<li>Passenger Car</li>
+<li>Trailer</li>
+<li>Truck</li>
+</ul>
+<p>vPIC has all of the information about how manufacturers assign a VIN that
+encodes the vehicles characteristics. Vehicle manufacturers provide this
+information to NHTSA under U.S. law 49 CFR Part 565.</p>
+<p>The API available 24/7, is free to use, and does not require registration.
+NHTSA uses automatic traffic rate controls to maintain the performance of
+the API and their websites that use the API.</p>
+<p>NHTSA occasionally adds, removes, or renames variables in vPIC API
+responses. This class uses Marshmallow to deserialize the response.
+When a variable is missing or renamed, methods in this class raise
+<code>marshmallow.exceptions.ValidationError</code>. If you instantiate this class
+with unknown='RAISE', methods will also raise
+<code>marshmallow.exceptions.ValidationError</code> when the vPIC response
+includes a new variable that isn't defined in the model (models.py).</p>
+<p>See https://vpic.nhtsa.dot.gov/api for more on the API.</p>
+
+<p><strong>Attributes:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>host</code></td>
+        <td><code></code></td>
+        <td><p>Hostname, including http(s)://, of the vPIC instance to query.</p></td>
+      </tr>
+      <tr>
+        <td><code>unknowns</code></td>
+        <td><code></code></td>
+        <td><p>exclude new API response variables ('EXCLUDE'), or raise an
+exception ('RAISE') instead</p></td>
+      </tr>
+  </tbody>
+</table>
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.decode_vin" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">decode_vin</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vin</span><span class="p">,</span> <span class="n">model_year</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">extend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Decode a 17-digit Vehicle Identification Number (VIN) or partial VIN.</p>
+<p>Decode the make, model, series, trim, and other vehicle information
+from VIN. Model year is required for pre-1980 vehicles, though vPIC
+recommends that you always pass it.</p>
+<p>If you don't have a complete 17-digit VIN, you can pass a partial
+VIN, using asterisk (*) for missing characters. The VIN check digit
+(the 9th character) isn't required for partial VINs. The shorter the
+partial VIN, the less vehicle information you'll receive in the
+response.</p>
+<p>See get_vehicle_variable_list for the variables returned here.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>vin</code></td>
+        <td><code>str</code></td>
+        <td><p>A 17-digit VIN or partial VIN. Use asterisk for missing
+characters.</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>model_year</code></td>
+        <td><code>Optional[int]</code></td>
+        <td><p>The vehicle's model year. Recommended, but not required.</p></td>
+        <td><code>None</code></td>
+      </tr>
+      <tr>
+        <td><code>extend</code></td>
+        <td><code>Optional[bool]</code></td>
+        <td><p>If True, response will include variables for other NHTSA
+programs like NCSA. Defaults to False.</p></td>
+        <td><code>False</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>Vehicle</code></td>
+      <td><p>A <code>Vehicle</code> with the information decoded from <code>vin</code>.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>vin</code> is missing or isn't 6 to 17 characters long.</p></td>
+      </tr>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>model_year</code> is earlier than 1981.</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">decode_vin</span><span class="p">(</span><span class="s1">&#39;1FTMW1T88MFA00001&#39;</span><span class="p">)</span>
+<span class="n">Vehicle</span><span class="p">(</span>
+    <span class="nb">abs</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">body_cab_type</span><span class="o">=</span><span class="s2">&quot;Crew/ Super Crew/ Crew Max&quot;</span><span class="p">,</span>
+    <span class="n">body_class</span><span class="o">=</span><span class="s2">&quot;Pickup&quot;</span><span class="p">,</span>
+    <span class="n">brake_system_desc</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">brake_system_type</span><span class="o">=</span><span class="s2">&quot;Hydraulic&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">displacement_cc</span><span class="o">=</span><span class="s2">&quot;3500.0&quot;</span><span class="p">,</span>
+    <span class="n">displacement_ci</span><span class="o">=</span><span class="s2">&quot;213.58310433156&quot;</span><span class="p">,</span>
+    <span class="n">displacement_l</span><span class="o">=</span><span class="s2">&quot;3.5&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">drive_type</span><span class="o">=</span><span class="s2">&quot;4WD/4-Wheel Drive/4x4&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">engine_configuration</span><span class="o">=</span><span class="s2">&quot;V-Shaped&quot;</span><span class="p">,</span>
+    <span class="n">engine_cycles</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">engine_cylinders</span><span class="o">=</span><span class="s2">&quot;6&quot;</span><span class="p">,</span>
+    <span class="n">engine_hp</span><span class="o">=</span><span class="s2">&quot;375&quot;</span><span class="p">,</span>
+    <span class="n">engine_hp_to</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">engine_kw</span><span class="o">=</span><span class="s2">&quot;279.6375&quot;</span><span class="p">,</span>
+    <span class="n">engine_manufacturer</span><span class="o">=</span><span class="s2">&quot;Ford&quot;</span><span class="p">,</span>
+    <span class="n">engine_model</span><span class="o">=</span><span class="s2">&quot;GTDI&quot;</span><span class="p">,</span>
+    <span class="n">entertainment_system</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">error_code</span><span class="o">=</span><span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="n">error_text</span><span class="o">=</span><span class="s2">&quot;0 - VIN decoded clean. Check Digit (9th position) is co...&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">make</span><span class="o">=</span><span class="s2">&quot;FORD&quot;</span><span class="p">,</span>
+    <span class="n">make_id</span><span class="o">=</span><span class="s2">&quot;460&quot;</span><span class="p">,</span>
+    <span class="n">manufacturer</span><span class="o">=</span><span class="s2">&quot;FORD MOTOR COMPANY, USA&quot;</span><span class="p">,</span>
+    <span class="n">manufacturer_id</span><span class="o">=</span><span class="s2">&quot;976&quot;</span><span class="p">,</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;F-150&quot;</span><span class="p">,</span>
+    <span class="n">model_id</span><span class="o">=</span><span class="s2">&quot;1801&quot;</span><span class="p">,</span>
+    <span class="n">model_year</span><span class="o">=</span><span class="s2">&quot;2021&quot;</span><span class="p">,</span>
+    <span class="n">motorcycle_chassis_type</span><span class="o">=</span><span class="s2">&quot;Not Applicable&quot;</span><span class="p">,</span>
+    <span class="n">motorcycle_suspension_type</span><span class="o">=</span><span class="s2">&quot;Not Applicable&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">plant_city</span><span class="o">=</span><span class="s2">&quot;DEARBORN&quot;</span><span class="p">,</span>
+    <span class="n">plant_company_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">plant_country</span><span class="o">=</span><span class="s2">&quot;UNITED STATES (USA)&quot;</span><span class="p">,</span>
+    <span class="n">plant_state</span><span class="o">=</span><span class="s2">&quot;MICHIGAN&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">series</span><span class="o">=</span><span class="s2">&quot;F-Series&quot;</span><span class="p">,</span>
+    <span class="n">series2</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">trim</span><span class="o">=</span><span class="s2">&quot;SuperCrew-SSV&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">vin</span><span class="o">=</span><span class="s2">&quot;1FTMW1T88MFA00001&quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+    <span class="n">vehicle_type</span><span class="o">=</span><span class="s2">&quot;TRUCK &quot;</span><span class="p">,</span>
+    <span class="o">...</span>
+<span class="p">)</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">decode_vin</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">vin</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">model_year</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">extend</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vehicle</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Decode a 17-digit Vehicle Identification Number (VIN) or partial VIN.</span>
+
+<span class="sd">    Decode the make, model, series, trim, and other vehicle information</span>
+<span class="sd">    from VIN. Model year is required for pre-1980 vehicles, though vPIC</span>
+<span class="sd">    recommends that you always pass it.</span>
+
+<span class="sd">    If you don&#39;t have a complete 17-digit VIN, you can pass a partial</span>
+<span class="sd">    VIN, using asterisk (*) for missing characters. The VIN check digit</span>
+<span class="sd">    (the 9th character) isn&#39;t required for partial VINs. The shorter the</span>
+<span class="sd">    partial VIN, the less vehicle information you&#39;ll receive in the</span>
+<span class="sd">    response.</span>
+
+<span class="sd">    See get_vehicle_variable_list for the variables returned here.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        vin: A 17-digit VIN or partial VIN. Use asterisk for missing</span>
+<span class="sd">            characters.</span>
+<span class="sd">        model_year: The vehicle&#39;s model year. Recommended, but not required.</span>
+<span class="sd">        extend: If True, response will include variables for other NHTSA</span>
+<span class="sd">            programs like NCSA. Defaults to False.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A ``Vehicle`` with the information decoded from ``vin``.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``vin`` is missing or isn&#39;t 6 to 17 characters long.</span>
+<span class="sd">        ValueError: if ``model_year`` is earlier than 1981.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; decode_vin(&#39;1FTMW1T88MFA00001&#39;)</span>
+<span class="sd">        Vehicle(</span>
+<span class="sd">            abs=&quot;&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            body_cab_type=&quot;Crew/ Super Crew/ Crew Max&quot;,</span>
+<span class="sd">            body_class=&quot;Pickup&quot;,</span>
+<span class="sd">            brake_system_desc=&quot;&quot;,</span>
+<span class="sd">            brake_system_type=&quot;Hydraulic&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            displacement_cc=&quot;3500.0&quot;,</span>
+<span class="sd">            displacement_ci=&quot;213.58310433156&quot;,</span>
+<span class="sd">            displacement_l=&quot;3.5&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            drive_type=&quot;4WD/4-Wheel Drive/4x4&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            engine_configuration=&quot;V-Shaped&quot;,</span>
+<span class="sd">            engine_cycles=&quot;&quot;,</span>
+<span class="sd">            engine_cylinders=&quot;6&quot;,</span>
+<span class="sd">            engine_hp=&quot;375&quot;,</span>
+<span class="sd">            engine_hp_to=&quot;&quot;,</span>
+<span class="sd">            engine_kw=&quot;279.6375&quot;,</span>
+<span class="sd">            engine_manufacturer=&quot;Ford&quot;,</span>
+<span class="sd">            engine_model=&quot;GTDI&quot;,</span>
+<span class="sd">            entertainment_system=&quot;&quot;,</span>
+<span class="sd">            error_code=&quot;0&quot;,</span>
+<span class="sd">            error_text=&quot;0 - VIN decoded clean. Check Digit (9th position) is co...&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            make=&quot;FORD&quot;,</span>
+<span class="sd">            make_id=&quot;460&quot;,</span>
+<span class="sd">            manufacturer=&quot;FORD MOTOR COMPANY, USA&quot;,</span>
+<span class="sd">            manufacturer_id=&quot;976&quot;,</span>
+<span class="sd">            model=&quot;F-150&quot;,</span>
+<span class="sd">            model_id=&quot;1801&quot;,</span>
+<span class="sd">            model_year=&quot;2021&quot;,</span>
+<span class="sd">            motorcycle_chassis_type=&quot;Not Applicable&quot;,</span>
+<span class="sd">            motorcycle_suspension_type=&quot;Not Applicable&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            plant_city=&quot;DEARBORN&quot;,</span>
+<span class="sd">            plant_company_name=&quot;&quot;,</span>
+<span class="sd">            plant_country=&quot;UNITED STATES (USA)&quot;,</span>
+<span class="sd">            plant_state=&quot;MICHIGAN&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            series=&quot;F-Series&quot;,</span>
+<span class="sd">            series2=&quot;&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            trim=&quot;SuperCrew-SSV&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            vin=&quot;1FTMW1T88MFA00001&quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">            vehicle_type=&quot;TRUCK &quot;,</span>
+<span class="sd">            ...</span>
+<span class="sd">        )</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Vehicle</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">decode_vin</span><span class="p">(</span><span class="n">vin</span><span class="p">,</span> <span class="n">model_year</span><span class="p">,</span> <span class="n">extend</span><span class="p">)))</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.decode_vin_batch" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">decode_vin_batch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vins</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Decode a batch of 17-digit VINs or partial VINs.</p>
+<p>Model year is required for pre-1980 vehicles, though vPIC recommends
+that you always pass it.</p>
+<p>If you don't have a complete 17-digit VIN, you can pass a partial
+VIN, using asterisk (*) for missing characters. The VIN check digit
+(the 9th character) isn't required for partial VINs. The shorter the
+partial VIN, the less vehicle information you'll receive in the
+response.</p>
+<p>Vehicle variables will be returned in key-value pairs, the same
+format returned by decode_vin(.., flatten=True).</p>
+<p>See get_vehicle_variable_list for the variables returned here.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>vins</code></td>
+        <td><code>List[str]</code></td>
+        <td><p>A list of 17-digit VIN or partial VINs and optional model year.
+Use asterisk for missing characters. For example: ["VIN, model_year",
+"VIN, model_year", ...]</p></td>
+        <td><em>required</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Vehicle]</code></td>
+      <td><p>A list of <code>Vehicle</code>s with the information decoded from <code>vins</code>.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>vin</code> is missing or isn't 6 to 17 characters long.</p></td>
+      </tr>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>model_year</code> is earlier than 1981.</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">decode_vin_batch</span><span class="p">([</span><span class="s2">&quot;5UXWX7C5*BA,2011&quot;</span><span class="p">,</span> <span class="s2">&quot;5YJSA3DS*EF&quot;</span><span class="p">])</span>
+<span class="p">[</span><span class="n">Vehicle</span><span class="p">(</span><span class="o">...</span><span class="p">),</span> <span class="n">Vehicle</span><span class="p">(</span><span class="o">...</span><span class="p">)]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">decode_vin_batch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vins</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Vehicle</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Decode a batch of 17-digit VINs or partial VINs.</span>
+
+<span class="sd">    Model year is required for pre-1980 vehicles, though vPIC recommends</span>
+<span class="sd">    that you always pass it.</span>
+
+<span class="sd">    If you don&#39;t have a complete 17-digit VIN, you can pass a partial</span>
+<span class="sd">    VIN, using asterisk (*) for missing characters. The VIN check digit</span>
+<span class="sd">    (the 9th character) isn&#39;t required for partial VINs. The shorter the</span>
+<span class="sd">    partial VIN, the less vehicle information you&#39;ll receive in the</span>
+<span class="sd">    response.</span>
+
+<span class="sd">    Vehicle variables will be returned in key-value pairs, the same</span>
+<span class="sd">    format returned by decode_vin(.., flatten=True).</span>
+
+<span class="sd">    See get_vehicle_variable_list for the variables returned here.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        vins: A list of 17-digit VIN or partial VINs and optional model year.</span>
+<span class="sd">            Use asterisk for missing characters. For example: [&quot;VIN, model_year&quot;,</span>
+<span class="sd">            &quot;VIN, model_year&quot;, ...]</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Vehicle``s with the information decoded from ``vins``.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``vin`` is missing or isn&#39;t 6 to 17 characters long.</span>
+<span class="sd">        ValueError: if ``model_year`` is earlier than 1981.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; decode_vin_batch([&quot;5UXWX7C5*BA,2011&quot;, &quot;5YJSA3DS*EF&quot;])</span>
+<span class="sd">        [Vehicle(...), Vehicle(...)]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">vehicles</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">decode_vin_batch</span><span class="p">(</span><span class="n">vins</span><span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Vehicle</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">v</span><span class="p">))</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">vehicles</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.decode_wmi" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">decode_wmi</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">wmi</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Decode a WMI to get manufacturer information</p>
+<p>Provides information on the World Manufacturer Identifier for a
+specific WMI code.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>wmi</code></td>
+        <td><code>str</code></td>
+        <td><p>A 3-character or 6-character World Manufacturer Index code.
+ Large volume manufacturers usually have a  3 character WMI
+ representing positions 1 to 3 ("JTD") of a VIN. Smaller
+ manufacturers have a 6 character WMI representing positions
+ 1 to 3 and 12 to 14 of a VIN.</p></td>
+        <td><em>required</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>WMI</code></td>
+      <td><p>A <code>WorldManufacturerIndex</code> with information about the manufacturer.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>wmi</code> is missing or isn't 3 or 6 characters long.</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">decode_wmi</span><span class="p">(</span><span class="s1">&#39;1FT&#39;</span><span class="p">)</span>
+<span class="n">WorldManufacturerIndex</span><span class="p">(</span>
+    <span class="n">common_name</span><span class="o">=</span><span class="s2">&quot;Ford&quot;</span><span class="p">,</span>
+    <span class="n">created_on</span><span class="o">=</span><span class="s2">&quot;2015-03-23&quot;</span><span class="p">,</span>
+    <span class="n">date_available_to_public</span><span class="o">=</span><span class="s2">&quot;2015-01-01&quot;</span><span class="p">,</span>
+    <span class="n">make</span><span class="o">=</span><span class="s2">&quot;FORD&quot;</span><span class="p">,</span>
+    <span class="n">manufacturer</span><span class="o">=</span><span class="s2">&quot;FORD MOTOR COMPANY, USA&quot;</span><span class="p">,</span>
+    <span class="n">parent_company_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">updated_on</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">url</span><span class="o">=</span><span class="s2">&quot;http://www.ford.com/&quot;</span><span class="p">,</span>
+    <span class="n">vehicle_type</span><span class="o">=</span><span class="s2">&quot;Truck &quot;</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">decode_wmi</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">wmi</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">WMI</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Decode a WMI to get manufacturer information</span>
+
+<span class="sd">    Provides information on the World Manufacturer Identifier for a</span>
+<span class="sd">    specific WMI code.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        wmi: A 3-character or 6-character World Manufacturer Index code.</span>
+<span class="sd">             Large volume manufacturers usually have a  3 character WMI</span>
+<span class="sd">             representing positions 1 to 3 (&quot;JTD&quot;) of a VIN. Smaller</span>
+<span class="sd">             manufacturers have a 6 character WMI representing positions</span>
+<span class="sd">             1 to 3 and 12 to 14 of a VIN.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A ``WorldManufacturerIndex`` with information about the manufacturer.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``wmi`` is missing or isn&#39;t 3 or 6 characters long.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; decode_wmi(&#39;1FT&#39;)</span>
+<span class="sd">        WorldManufacturerIndex(</span>
+<span class="sd">            common_name=&quot;Ford&quot;,</span>
+<span class="sd">            created_on=&quot;2015-03-23&quot;,</span>
+<span class="sd">            date_available_to_public=&quot;2015-01-01&quot;,</span>
+<span class="sd">            make=&quot;FORD&quot;,</span>
+<span class="sd">            manufacturer=&quot;FORD MOTOR COMPANY, USA&quot;,</span>
+<span class="sd">            parent_company_name=&quot;&quot;,</span>
+<span class="sd">            updated_on=None,</span>
+<span class="sd">            url=&quot;http://www.ford.com/&quot;,</span>
+<span class="sd">            vehicle_type=&quot;Truck &quot;,</span>
+<span class="sd">        )</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">WMI</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">decode_wmi</span><span class="p">(</span><span class="n">wmi</span><span class="p">)))</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_all_makes" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_all_makes</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns all of the makes registered with vPIC.</p>
+
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Make]</code></td>
+      <td><p>A list of all of the <code>Make</code>s registered with vPIC.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_all_makes</span><span class="p">()</span>
+<span class="p">[</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">440</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;ASTON MARTIN&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">441</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;TESLA&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">442</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;JAGUAR&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">443</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;MASERATI&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">444</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;LAND ROVER&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">445</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;ROLLS ROYCE&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">446</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;BUELL (EBR)&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">447</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;JIALING&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">448</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;TOYOTA&#39;</span><span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span><span class="n">make_id</span><span class="o">=</span><span class="mi">449</span><span class="p">,</span> <span class="n">make</span><span class="o">=</span><span class="s1">&#39;MERCEDES-BENZ&#39;</span><span class="p">),</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_all_makes</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Make</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns all of the makes registered with vPIC.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of all of the ``Make``s registered with vPIC.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_all_makes()</span>
+<span class="sd">        [</span>
+<span class="sd">            Make(make_id=440, make=&#39;ASTON MARTIN&#39;),</span>
+<span class="sd">            Make(make_id=441, make=&#39;TESLA&#39;),</span>
+<span class="sd">            Make(make_id=442, make=&#39;JAGUAR&#39;),</span>
+<span class="sd">            Make(make_id=443, make=&#39;MASERATI&#39;),</span>
+<span class="sd">            Make(make_id=444, make=&#39;LAND ROVER&#39;),</span>
+<span class="sd">            Make(make_id=445, make=&#39;ROLLS ROYCE&#39;),</span>
+<span class="sd">            Make(make_id=446, make=&#39;BUELL (EBR)&#39;),</span>
+<span class="sd">            Make(make_id=447, make=&#39;JIALING&#39;),</span>
+<span class="sd">            Make(make_id=448, make=&#39;TOYOTA&#39;),</span>
+<span class="sd">            Make(make_id=449, make=&#39;MERCEDES-BENZ&#39;),</span>
+<span class="sd">            ...</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">makes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_all_makes</span><span class="p">()</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Make</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">make</span><span class="p">))</span> <span class="k">for</span> <span class="n">make</span> <span class="ow">in</span> <span class="n">makes</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_all_manufacturers" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_all_manufacturers</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer_type</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">page</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Return a list of vPIC manufacturers of the given manufacturer_type.</p>
+<p>This provides a list of all the Manufacturers available in vPIC Dataset.</p>
+<p>See <code>get_vehicle_variable_values_list("Manufacturer Type")</code> for the list
+of manufacturer types.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>manufacturer_type</code></td>
+        <td><code>Optional[str]</code></td>
+        <td><p>The manufacturer type, which is Incomplete Vehicles,
+Completed Vehicle Manufacturer, Incomplete Vehicle Manufacturer,
+Intermediate Manufacturer, Final-Stage Manufacturer, Alterer,
+Replica Vehicle Manufacturer. You can pass the full type name, or a
+substring of the type.</p></td>
+        <td><code>None</code></td>
+      </tr>
+      <tr>
+        <td><code>page</code></td>
+        <td><code>int</code></td>
+        <td><p>results are paginated; this is the page number to return</p></td>
+        <td><code>1</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Manufacturer]</code></td>
+      <td><p>A list of the <code>Manufacturers</code>s registered with vPIC.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_all_manufacturers</span><span class="p">(</span><span class="s2">&quot;Completed Vehicle&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="p">{</span>
+    <span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="s2">&quot;UNITED STATES (USA)&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Mfr_CommonName&quot;</span><span class="p">:</span> <span class="s2">&quot;Tesla&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Mfr_ID&quot;</span><span class="p">:</span> <span class="mi">955</span><span class="p">,</span>
+    <span class="s2">&quot;Mfr_Name&quot;</span><span class="p">:</span> <span class="s2">&quot;TESLA, INC.&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;VehicleTypes&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;IsPrimary&quot;</span><span class="p">:</span> <span class="n">true</span><span class="p">,</span>
+            <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;Passenger Car&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;IsPrimary&quot;</span><span class="p">:</span> <span class="n">false</span><span class="p">,</span>
+            <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;Multipurpose Passenger Vehicle (MPV)&quot;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_all_manufacturers</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer_type</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">page</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Manufacturer</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Return a list of vPIC manufacturers of the given manufacturer_type.</span>
+
+<span class="sd">    This provides a list of all the Manufacturers available in vPIC Dataset.</span>
+
+<span class="sd">    See ``get_vehicle_variable_values_list(&quot;Manufacturer Type&quot;)`` for the list</span>
+<span class="sd">    of manufacturer types.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        manufacturer_type: The manufacturer type, which is Incomplete Vehicles,</span>
+<span class="sd">            Completed Vehicle Manufacturer, Incomplete Vehicle Manufacturer,</span>
+<span class="sd">            Intermediate Manufacturer, Final-Stage Manufacturer, Alterer,</span>
+<span class="sd">            Replica Vehicle Manufacturer. You can pass the full type name, or a</span>
+<span class="sd">            substring of the type.</span>
+<span class="sd">        page: results are paginated; this is the page number to return</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of the ``Manufacturers``s registered with vPIC.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_all_manufacturers(&quot;Completed Vehicle&quot;, 1)</span>
+<span class="sd">        [</span>
+<span class="sd">            {</span>
+<span class="sd">            &quot;Country&quot;: &quot;UNITED STATES (USA)&quot;,</span>
+<span class="sd">            &quot;Mfr_CommonName&quot;: &quot;Tesla&quot;,</span>
+<span class="sd">            &quot;Mfr_ID&quot;: 955,</span>
+<span class="sd">            &quot;Mfr_Name&quot;: &quot;TESLA, INC.&quot;,</span>
+<span class="sd">            &quot;VehicleTypes&quot;: [</span>
+<span class="sd">                {</span>
+<span class="sd">                    &quot;IsPrimary&quot;: true,</span>
+<span class="sd">                    &quot;Name&quot;: &quot;Passenger Car&quot;</span>
+<span class="sd">                },</span>
+<span class="sd">                {</span>
+<span class="sd">                    &quot;IsPrimary&quot;: false,</span>
+<span class="sd">                    &quot;Name&quot;: &quot;Multipurpose Passenger Vehicle (MPV)&quot;</span>
+<span class="sd">                }</span>
+<span class="sd">            },</span>
+<span class="sd">            ...</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_equipment_plant_codes" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_equipment_plant_codes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">year</span><span class="p">,</span> <span class="n">equipment_type</span><span class="p">,</span> <span class="n">report_type</span><span class="o">=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns a list of plants that manufacture certain vehicle equipment.</p>
+<p>Plants have a unique three-character U.S. Department of Transportation
+(DOT) code. vPIC API documentation says this API only accepts 2016 and
+later.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>year</code></td>
+        <td><code>int</code></td>
+        <td><p>must be 2016 or later</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>equipment_type</code></td>
+        <td><code>int</code></td>
+        <td><p>return plants that manufacture one of these equipment
+types: 1 = Tires; 3 = Brake Hoses; 13 = Glazing; 16 = Retread</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>report_type</code></td>
+        <td><code>str</code></td>
+        <td><p>must be one of
+New = plants whose code was assigned during the selected year
+Updated = plants whose data was modified during the selected year
+Closed = plants that are no longer active
+All = all active and closed plants, regardless of year</p></td>
+        <td><code>&#39;All&#39;</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.PlantCode]</code></td>
+      <td><p>A list of <code>PlantCode</code>s that manufacture the equipment_type</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>year</code> is earlier than 2016</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_equipment_plant_codes</span><span class="p">(</span><span class="mi">2016</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;2950 INTERNATIONAL BLVD.&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;CLARKSVILLE&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;1850 BARTON FERRY ROAD&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;WEST POINT&#39;</span><span class="p">,</span> <span class="n">cou</span><span class="o">...</span><span class="p">),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;No. 52 Street 536, Bau Tran Hamlet, Nhuan Duc C...),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;NO. 23, HAILAR EAST ROAD&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;HUHHOT&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">...</span><span class="p">),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;NO. 9 EAST BEISAN ROAD&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;SHENYANG&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">...</span><span class="p">),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;HONGSHANZUI ECONOMIC DEV. ZONE&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;PINGQUAN...),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;QIANLIU VILLAGE XIADIAN TOWN&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;CHANGYI CI...),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;DOWANG TOWN&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;GUANGRAO COUNTY&#39;</span><span class="p">,</span> <span class="n">country</span><span class="o">=</span><span class="s1">&#39;...),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;NO.1 HUIXIN ROAD&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;GAOTANG&#39;</span><span class="p">,</span> <span class="n">country</span><span class="o">=</span><span class="s1">&#39;CHI...),</span>
+    <span class="n">PlantCode</span><span class="p">(</span><span class="n">address</span><span class="o">=</span><span class="s1">&#39;NO.668 LAMEI ROAD,JIESHI TOWN,BANAN DISTRICT&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">),</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_equipment_plant_codes</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">year</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">equipment_type</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">report_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;All&quot;</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">PlantCode</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns a list of plants that manufacture certain vehicle equipment.</span>
+
+<span class="sd">    Plants have a unique three-character U.S. Department of Transportation</span>
+<span class="sd">    (DOT) code. vPIC API documentation says this API only accepts 2016 and</span>
+<span class="sd">    later.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        year: must be 2016 or later</span>
+<span class="sd">        equipment_type: return plants that manufacture one of these equipment</span>
+<span class="sd">            types: 1 = Tires; 3 = Brake Hoses; 13 = Glazing; 16 = Retread</span>
+<span class="sd">        report_type: must be one of</span>
+<span class="sd">            New = plants whose code was assigned during the selected year</span>
+<span class="sd">            Updated = plants whose data was modified during the selected year</span>
+<span class="sd">            Closed = plants that are no longer active</span>
+<span class="sd">            All = all active and closed plants, regardless of year</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``PlantCode``s that manufacture the equipment_type</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``year`` is earlier than 2016</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; get_equipment_plant_codes(2016, 1)</span>
+<span class="sd">        [</span>
+<span class="sd">            PlantCode(address=&#39;2950 INTERNATIONAL BLVD.&#39;, city=&#39;CLARKSVILLE&#39;, ...),</span>
+<span class="sd">            PlantCode(address=&#39;1850 BARTON FERRY ROAD&#39;, city=&#39;WEST POINT&#39;, cou...),</span>
+<span class="sd">            PlantCode(address=&#39;No. 52 Street 536, Bau Tran Hamlet, Nhuan Duc C...),</span>
+<span class="sd">            PlantCode(address=&#39;NO. 23, HAILAR EAST ROAD&#39;, city=&#39;HUHHOT&#39;, count...),</span>
+<span class="sd">            PlantCode(address=&#39;NO. 9 EAST BEISAN ROAD&#39;, city=&#39;SHENYANG&#39;, count...),</span>
+<span class="sd">            PlantCode(address=&#39;HONGSHANZUI ECONOMIC DEV. ZONE&#39;, city=&#39;PINGQUAN...),</span>
+<span class="sd">            PlantCode(address=&#39;QIANLIU VILLAGE XIADIAN TOWN&#39;, city=&#39;CHANGYI CI...),</span>
+<span class="sd">            PlantCode(address=&#39;DOWANG TOWN&#39;, city=&#39;GUANGRAO COUNTY&#39;, country=&#39;...),</span>
+<span class="sd">            PlantCode(address=&#39;NO.1 HUIXIN ROAD&#39;, city=&#39;GAOTANG&#39;, country=&#39;CHI...),</span>
+<span class="sd">            PlantCode(address=&#39;NO.668 LAMEI ROAD,JIESHI TOWN,BANAN DISTRICT&#39;, ...),</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">plant_codes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_equipment_plant_codes</span><span class="p">(</span>
+        <span class="n">year</span><span class="p">,</span> <span class="n">equipment_type</span><span class="p">,</span> <span class="n">report_type</span>
+    <span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">PlantCode</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">pc</span><span class="p">))</span> <span class="k">for</span> <span class="n">pc</span> <span class="ow">in</span> <span class="n">plant_codes</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_makes_for_manufacturer" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_makes_for_manufacturer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer</span><span class="p">,</span> <span class="n">model_year</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns makes produced by a manufacturer or manufacturers.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>manufacturer</code></td>
+        <td><code>Union[str, int]</code></td>
+        <td><p>Pass the Manufacturer Id (int) or the complete
+manufacturer name (str) to return detail for a single manufacturer.
+Pass a partial name to return manufacturers with names that include
+the partial name.</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>model_year</code></td>
+        <td><code>Optional[int]</code></td>
+        <td><p>Pass a model year to return only those makes made by
+the manufacturer for that model year.</p></td>
+        <td><code>None</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Make]</code></td>
+      <td><p>A list of <code>Makes</code>s produced by the manufacturer(s)</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>manufacturer</code> is missing</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_makes_for_manufacturer</span><span class="p">(</span><span class="mi">988</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">Make</span><span class="p">(</span>
+        <span class="n">make_id</span><span class="p">:</span><span class="mi">474</span>
+        <span class="n">make</span><span class="p">:</span><span class="s1">&#39;HONDA&#39;</span>
+        <span class="n">manufacturer_id</span><span class="p">:</span><span class="kc">None</span>
+        <span class="n">manufacturer</span><span class="p">:</span><span class="s1">&#39;HONDA DEVELOPMENT &amp; MANUFACTURING OF AMERICA...&#39;</span>
+    <span class="p">),</span>
+    <span class="n">Make</span><span class="p">(</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="mi">475</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;ACURA&#39;</span><span class="p">,</span>
+        <span class="n">manufacturer_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">manufacturer</span><span class="o">=</span><span class="s1">&#39;HONDA DEVELOPMENT &amp; MANUFACTURING OF AMERICA...&#39;</span>
+    <span class="p">)</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_makes_for_manufacturer</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">],</span> <span class="n">model_year</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Make</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns makes produced by a manufacturer or manufacturers.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        manufacturer: Pass the Manufacturer Id (int) or the complete</span>
+<span class="sd">            manufacturer name (str) to return detail for a single manufacturer.</span>
+<span class="sd">            Pass a partial name to return manufacturers with names that include</span>
+<span class="sd">            the partial name.</span>
+<span class="sd">        model_year: Pass a model year to return only those makes made by</span>
+<span class="sd">            the manufacturer for that model year.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Makes``s produced by the manufacturer(s)</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``manufacturer`` is missing</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_makes_for_manufacturer(988)</span>
+<span class="sd">        [</span>
+<span class="sd">            Make(</span>
+<span class="sd">                make_id:474</span>
+<span class="sd">                make:&#39;HONDA&#39;</span>
+<span class="sd">                manufacturer_id:None</span>
+<span class="sd">                manufacturer:&#39;HONDA DEVELOPMENT &amp; MANUFACTURING OF AMERICA...&#39;</span>
+<span class="sd">            ),</span>
+<span class="sd">            Make(</span>
+<span class="sd">                make_id=475,</span>
+<span class="sd">                make=&#39;ACURA&#39;,</span>
+<span class="sd">                manufacturer_id=None,</span>
+<span class="sd">                manufacturer=&#39;HONDA DEVELOPMENT &amp; MANUFACTURING OF AMERICA...&#39;</span>
+<span class="sd">            )</span>
+<span class="sd">            ...</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">makes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_makes_for_manufacturer</span><span class="p">(</span><span class="n">manufacturer</span><span class="p">,</span> <span class="n">model_year</span><span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Make</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">m</span><span class="p">))</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">makes</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_makes_for_vehicle_type" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_makes_for_vehicle_type</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vehicle_type</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns makes that produce a vehicle_type</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>vehicle_type</code></td>
+        <td><code>str</code></td>
+        <td><p>A vPIC vehicle_type. For example, "Passenger Car",
+"Truck", or "Multipurpose Passenger Vehicle (MPV)". If you pass
+a partial vehicle_type, for example "Passenger", results will
+include makes for all matching vehicle types. Matching is not
+case sensitive.</p></td>
+        <td><em>required</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Make]</code></td>
+      <td><p>A list of <code>Makes</code>s that produce the <code>vehicle_type</code></p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>vehicle_type</code> is missing</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_makes_for_vehicle_type</span><span class="p">(</span><span class="s1">&#39;Car&#39;</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">Make</span><span class="p">(</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="mi">440</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;ASTON MARTIN&#39;</span><span class="p">,</span>
+        <span class="n">manufacturer_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">manufacturer</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Passenger Car&#39;</span>
+    <span class="p">)</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_makes_for_vehicle_type</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vehicle_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Make</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns makes that produce a vehicle_type</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        vehicle_type: A vPIC vehicle_type. For example, &quot;Passenger Car&quot;,</span>
+<span class="sd">            &quot;Truck&quot;, or &quot;Multipurpose Passenger Vehicle (MPV)&quot;. If you pass</span>
+<span class="sd">            a partial vehicle_type, for example &quot;Passenger&quot;, results will</span>
+<span class="sd">            include makes for all matching vehicle types. Matching is not</span>
+<span class="sd">            case sensitive.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Makes``s that produce the ``vehicle_type``</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``vehicle_type`` is missing</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_makes_for_vehicle_type(&#39;Car&#39;)</span>
+<span class="sd">        [</span>
+<span class="sd">            Make(</span>
+<span class="sd">                make_id=440,</span>
+<span class="sd">                make=&#39;ASTON MARTIN&#39;,</span>
+<span class="sd">                manufacturer_id=None,</span>
+<span class="sd">                manufacturer=None,</span>
+<span class="sd">                vehicle_type_id=2,</span>
+<span class="sd">                vehicle_type=&#39;Passenger Car&#39;</span>
+<span class="sd">            )</span>
+<span class="sd">            ...</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">makes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_makes_for_vehicle_type</span><span class="p">(</span><span class="n">vehicle_type</span><span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Make</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">m</span><span class="p">))</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">makes</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_manufacturer_details" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_manufacturer_details</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns details for one or more manufacturers.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>manufacturer</code></td>
+        <td><code>Union[str, int]</code></td>
+        <td><p>Pass the Manufacturer Id (int) or the complete
+manufacturer name (str) to return detail for a single
+manufacturer. Pass a partial name to return manufacturers
+with names that include the partial name.</p></td>
+        <td><em>required</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.ManufacturerDetail]</code></td>
+      <td><p>A list of <code>ManufacturerDetail</code>s for the manufacturer(s)</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_manufacturer_details</span><span class="p">(</span><span class="mi">988</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">ManufacturerDetail</span><span class="p">(</span>
+        <span class="n">manufacturer_id</span><span class="o">=</span><span class="mi">988</span><span class="p">,</span>
+        <span class="n">manufacturer</span><span class="o">=</span><span class="s2">&quot;HONDA DEVELOPMENT &amp; MANUFACTURING OF AMER...&quot;</span><span class="p">,</span>
+        <span class="n">manufacturer_common_name</span><span class="o">=</span><span class="s2">&quot;Honda&quot;</span><span class="p">,</span>
+        <span class="n">address</span><span class="o">=</span><span class="s2">&quot;1919 Torrance Blvd.&quot;</span><span class="p">,</span>
+        <span class="n">address2</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">city</span><span class="o">=</span><span class="s2">&quot;Torrance&quot;</span><span class="p">,</span>
+        <span class="n">contact_email</span><span class="o">=</span><span class="s2">&quot;...@ahm.honda.com&quot;</span><span class="p">,</span>
+        <span class="n">contact_fax</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">contact_phone</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
+        <span class="n">country</span><span class="o">=</span><span class="s2">&quot;UNITED STATES (USA)&quot;</span><span class="p">,</span>
+        <span class="n">dbas</span><span class="o">=</span><span class="s2">&quot;Marysville Auto Plant and East Liberty Auto Plant; ...&quot;</span><span class="p">,</span>
+        <span class="n">equipment_items</span><span class="o">=</span><span class="p">[],</span>
+        <span class="n">last_updated</span><span class="o">=</span><span class="s2">&quot;/Date(1618422117803-0400)/&quot;</span><span class="p">,</span>
+        <span class="n">manufacturer_types</span><span class="o">=</span><span class="p">[</span>
+            <span class="n">ManufacturerType</span><span class="p">(</span>
+                <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Completed Vehicle Manufacturer&quot;</span><span class="p">)</span>
+            <span class="p">],</span>
+        <span class="n">other_manufacturer_details</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">postal_code</span><span class="o">=</span><span class="s2">&quot;90501&quot;</span><span class="p">,</span>
+        <span class="n">primary_product</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">principal_first_name</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
+        <span class="n">principal_last_name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">principal_position</span><span class="o">=</span><span class="s2">&quot;President &amp; CEO&quot;</span><span class="p">,</span>
+        <span class="n">state_province</span><span class="o">=</span><span class="s2">&quot;CALIFORNIA&quot;</span><span class="p">,</span>
+        <span class="n">submitted_name</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
+        <span class="n">submitted_on</span><span class="o">=</span><span class="s2">&quot;/Date(1618286400000-0400)/&quot;</span><span class="p">,</span>
+        <span class="n">submitted_position</span><span class="o">=</span><span class="s2">&quot;Sr. Specialist, II&quot;</span><span class="p">,</span>
+        <span class="n">vehicle_types</span><span class="o">=</span><span class="p">[</span>
+            <span class="n">VehicleType</span><span class="p">(</span>
+                <span class="n">vehicle_type</span><span class="o">=</span><span class="s2">&quot;Passenger Car&quot;</span><span class="p">,</span>
+                <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">make</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">gvwr_from</span><span class="o">=</span><span class="s2">&quot;Class 1A: 3,000 lb or less (1,360 kg or less)&quot;</span><span class="p">,</span>
+                <span class="n">gvwr_to</span><span class="o">=</span><span class="s2">&quot;Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)&quot;</span><span class="p">,</span>
+                <span class="n">is_primary</span><span class="o">=</span><span class="kc">True</span>
+            <span class="p">),</span>
+            <span class="n">VehicleType</span><span class="p">(</span>
+                <span class="n">vehicle_type</span><span class="o">=</span><span class="s2">&quot;Truck &quot;</span><span class="p">,</span>
+                <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">make</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">gvwr_from</span><span class="o">=</span><span class="s2">&quot;Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)&quot;</span><span class="p">,</span>
+                <span class="n">gvwr_to</span><span class="o">=</span><span class="s2">&quot;Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)&quot;</span><span class="p">,</span>
+                <span class="n">is_primary</span><span class="o">=</span><span class="kc">False</span>
+            <span class="p">),</span>
+            <span class="n">VehicleType</span><span class="p">(</span>
+                <span class="n">vehicle_type</span><span class="o">=</span><span class="s2">&quot;Multipurpose Passenger Vehicle (MPV)&quot;</span><span class="p">,</span>
+                <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">make</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">gvwr_from</span><span class="o">=</span><span class="s2">&quot;Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)&quot;</span><span class="p">,</span>
+                <span class="n">gvwr_to</span><span class="o">=</span><span class="s2">&quot;Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)&quot;</span><span class="p">,</span>
+                <span class="n">is_primary</span><span class="o">=</span><span class="kc">False</span>
+            <span class="p">)</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_manufacturer_details</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">ManufacturerDetail</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns details for one or more manufacturers.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        manufacturer: Pass the Manufacturer Id (int) or the complete</span>
+<span class="sd">            manufacturer name (str) to return detail for a single</span>
+<span class="sd">            manufacturer. Pass a partial name to return manufacturers</span>
+<span class="sd">            with names that include the partial name.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``ManufacturerDetail``s for the manufacturer(s)</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_manufacturer_details(988)</span>
+<span class="sd">        [</span>
+<span class="sd">            ManufacturerDetail(</span>
+<span class="sd">                manufacturer_id=988,</span>
+<span class="sd">                manufacturer=&quot;HONDA DEVELOPMENT &amp; MANUFACTURING OF AMER...&quot;,</span>
+<span class="sd">                manufacturer_common_name=&quot;Honda&quot;,</span>
+<span class="sd">                address=&quot;1919 Torrance Blvd.&quot;,</span>
+<span class="sd">                address2=None,</span>
+<span class="sd">                city=&quot;Torrance&quot;,</span>
+<span class="sd">                contact_email=&quot;...@ahm.honda.com&quot;,</span>
+<span class="sd">                contact_fax=None,</span>
+<span class="sd">                contact_phone=&quot;...&quot;,</span>
+<span class="sd">                country=&quot;UNITED STATES (USA)&quot;,</span>
+<span class="sd">                dbas=&quot;Marysville Auto Plant and East Liberty Auto Plant; ...&quot;,</span>
+<span class="sd">                equipment_items=[],</span>
+<span class="sd">                last_updated=&quot;/Date(1618422117803-0400)/&quot;,</span>
+<span class="sd">                manufacturer_types=[</span>
+<span class="sd">                    ManufacturerType(</span>
+<span class="sd">                        name=&quot;Completed Vehicle Manufacturer&quot;)</span>
+<span class="sd">                    ],</span>
+<span class="sd">                other_manufacturer_details=None,</span>
+<span class="sd">                postal_code=&quot;90501&quot;,</span>
+<span class="sd">                primary_product=None,</span>
+<span class="sd">                principal_first_name=&quot;...&quot;,</span>
+<span class="sd">                principal_last_name=None,</span>
+<span class="sd">                principal_position=&quot;President &amp; CEO&quot;,</span>
+<span class="sd">                state_province=&quot;CALIFORNIA&quot;,</span>
+<span class="sd">                submitted_name=&quot;...&quot;,</span>
+<span class="sd">                submitted_on=&quot;/Date(1618286400000-0400)/&quot;,</span>
+<span class="sd">                submitted_position=&quot;Sr. Specialist, II&quot;,</span>
+<span class="sd">                vehicle_types=[</span>
+<span class="sd">                    VehicleType(</span>
+<span class="sd">                        vehicle_type=&quot;Passenger Car&quot;,</span>
+<span class="sd">                        vehicle_type_id=None,</span>
+<span class="sd">                        make_id=None,</span>
+<span class="sd">                        make=None,</span>
+<span class="sd">                        gvwr_from=&quot;Class 1A: 3,000 lb or less (1,360 kg or less)&quot;,</span>
+<span class="sd">                        gvwr_to=&quot;Class 1D: 5,001 - 6,000 lb (2,268 - 2,722 kg)&quot;,</span>
+<span class="sd">                        is_primary=True</span>
+<span class="sd">                    ),</span>
+<span class="sd">                    VehicleType(</span>
+<span class="sd">                        vehicle_type=&quot;Truck &quot;,</span>
+<span class="sd">                        vehicle_type_id=None,</span>
+<span class="sd">                        make_id=None,</span>
+<span class="sd">                        make=None,</span>
+<span class="sd">                        gvwr_from=&quot;Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)&quot;,</span>
+<span class="sd">                        gvwr_to=&quot;Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)&quot;,</span>
+<span class="sd">                        is_primary=False</span>
+<span class="sd">                    ),</span>
+<span class="sd">                    VehicleType(</span>
+<span class="sd">                        vehicle_type=&quot;Multipurpose Passenger Vehicle (MPV)&quot;,</span>
+<span class="sd">                        vehicle_type_id=None,</span>
+<span class="sd">                        make_id=None,</span>
+<span class="sd">                        make=None,</span>
+<span class="sd">                        gvwr_from=&quot;Class 1B: 3,001 - 4,000 lb (1,360 - 1,814 kg)&quot;,</span>
+<span class="sd">                        gvwr_to=&quot;Class 2E: 6,001 - 7,000 lb (2,722 - 3,175 kg)&quot;,</span>
+<span class="sd">                        is_primary=False</span>
+<span class="sd">                    )</span>
+<span class="sd">                ]</span>
+<span class="sd">            )</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_manufacturer_details</span><span class="p">(</span><span class="n">manufacturer</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+        <span class="n">r</span><span class="p">[</span><span class="s2">&quot;dbas&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">r</span><span class="p">[</span><span class="s2">&quot;DBAs&quot;</span><span class="p">]</span>
+        <span class="k">del</span> <span class="n">r</span><span class="p">[</span><span class="s2">&quot;DBAs&quot;</span><span class="p">]</span>
+
+        <span class="c1"># r[&quot;ManufacturerTypes&quot;] = [</span>
+        <span class="c1">#     ManufacturerType(name=mt[&quot;Name&quot;]) for mt in r[&quot;ManufacturerTypes&quot;]</span>
+        <span class="c1"># ]</span>
+        <span class="c1"># r[&quot;VehicleTypes&quot;] = [</span>
+        <span class="c1">#     VehicleType(</span>
+        <span class="c1">#         vehicle_type=vt[&quot;Name&quot;],</span>
+        <span class="c1">#         is_primary=vt[&quot;IsPrimary&quot;],</span>
+        <span class="c1">#         gvwr_from=vt[&quot;GVWRFrom&quot;],</span>
+        <span class="c1">#         gvwr_to=vt[&quot;GVWRTo&quot;],</span>
+        <span class="c1">#     )</span>
+        <span class="c1">#     for vt in r[&quot;VehicleTypes&quot;]</span>
+        <span class="c1"># ]</span>
+
+        <span class="c1"># r[&quot;ManufacturerTypes&quot;] = [snake_case(mt) for mt in r[&quot;ManufacturerTypes&quot;]]</span>
+        <span class="c1"># r[&quot;VehicleTypes&quot;] = [snake_case(vt) for vt in r[&quot;VehicleTypes&quot;]]</span>
+
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">ManufacturerDetail</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="n">snake_cased</span> <span class="o">=</span> <span class="p">[</span><span class="n">snake_case</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">results</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">sc</span><span class="p">)</span> <span class="k">for</span> <span class="n">sc</span> <span class="ow">in</span> <span class="n">snake_cased</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_models_for_make" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_models_for_make</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">make</span><span class="p">,</span> <span class="n">model_year</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">vehicle_type</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Return a list of models for a make or makes.</p>
+<p>Optionally filter the results by model year and vehicle type.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>make</code></td>
+        <td><code>Union[int, str]</code></td>
+        <td><p>Pass the MakeId (int) or the complete make name (str) to return
+vehicle types for a single manufacturer. Pass a partial make name
+to return vehicle types for all makes that match the partial name.
+When you pass a make name, results will include the MakeId and
+MakeName because you may get vehicle_types for more than one make.</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>model_year</code></td>
+        <td><code>Optional[int]</code></td>
+        <td><p>pass this to return models made in this model year</p></td>
+        <td><code>None</code></td>
+      </tr>
+      <tr>
+        <td><code>vehicle_type</code></td>
+        <td><code>Optional[str]</code></td>
+        <td><p>one of the vPIC vehicle_types (for example, "Passenger Car",
+"Truck", or "Multipurpose Passenger Vehicle (MPV)")</p></td>
+        <td><code>None</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Model]</code></td>
+      <td><p>A list of <code>Model</code>s</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>year</code> is earlier than 2016</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_models_for_make</span><span class="p">(</span><span class="s2">&quot;TESLA&quot;</span><span class="p">,</span> <span class="n">model_year</span><span class="o">=</span><span class="mi">2020</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">Model</span><span class="p">(</span>
+        <span class="n">model_id</span><span class="o">=</span><span class="mi">1685</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="s1">&#39;Model S&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="mi">441</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;TESLA&#39;</span><span class="p">,</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">Model</span><span class="p">(</span>
+        <span class="n">model_id</span><span class="o">=</span><span class="mi">10199</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="s1">&#39;Model X&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="mi">441</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;TESLA&#39;</span><span class="p">,</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">Model</span><span class="p">(</span>
+        <span class="n">model_id</span><span class="o">=</span><span class="mi">17834</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="s1">&#39;Model 3&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="mi">441</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;TESLA&#39;</span><span class="p">,</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">Model</span><span class="p">(</span>
+        <span class="n">model_id</span><span class="o">=</span><span class="mi">27027</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="s1">&#39;Model Y&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="mi">441</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;TESLA&#39;</span><span class="p">,</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="kc">None</span>
+        <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
+      <p>VehicleTypeId and VehicleType are only returned
+when you specify vehicle_type.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_models_for_make</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">make</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
+    <span class="n">model_year</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">vehicle_type</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Model</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Return a list of models for a make or makes.</span>
+
+<span class="sd">    Optionally filter the results by model year and vehicle type.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        make: Pass the MakeId (int) or the complete make name (str) to return</span>
+<span class="sd">            vehicle types for a single manufacturer. Pass a partial make name</span>
+<span class="sd">            to return vehicle types for all makes that match the partial name.</span>
+<span class="sd">            When you pass a make name, results will include the MakeId and</span>
+<span class="sd">            MakeName because you may get vehicle_types for more than one make.</span>
+<span class="sd">        model_year: pass this to return models made in this model year</span>
+<span class="sd">        vehicle_type: one of the vPIC vehicle_types (for example, &quot;Passenger Car&quot;,</span>
+<span class="sd">            &quot;Truck&quot;, or &quot;Multipurpose Passenger Vehicle (MPV)&quot;)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Model``s</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``year`` is earlier than 2016</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_models_for_make(&quot;TESLA&quot;, model_year=2020)</span>
+<span class="sd">        [</span>
+<span class="sd">            Model(</span>
+<span class="sd">                model_id=1685,</span>
+<span class="sd">                model=&#39;Model S&#39;,</span>
+<span class="sd">                make_id=441,</span>
+<span class="sd">                make=&#39;TESLA&#39;,</span>
+<span class="sd">                vehicle_type_id=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            Model(</span>
+<span class="sd">                model_id=10199,</span>
+<span class="sd">                model=&#39;Model X&#39;,</span>
+<span class="sd">                make_id=441,</span>
+<span class="sd">                make=&#39;TESLA&#39;,</span>
+<span class="sd">                vehicle_type_id=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            Model(</span>
+<span class="sd">                model_id=17834,</span>
+<span class="sd">                model=&#39;Model 3&#39;,</span>
+<span class="sd">                make_id=441,</span>
+<span class="sd">                make=&#39;TESLA&#39;,</span>
+<span class="sd">                vehicle_type_id=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            Model(</span>
+<span class="sd">                model_id=27027,</span>
+<span class="sd">                model=&#39;Model Y&#39;,</span>
+<span class="sd">                make_id=441,</span>
+<span class="sd">                make=&#39;TESLA&#39;,</span>
+<span class="sd">                vehicle_type_id=None</span>
+<span class="sd">                )</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    VehicleTypeId and VehicleType are only returned</span>
+<span class="sd">    when you specify vehicle_type.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">models</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_models_for_make</span><span class="p">(</span><span class="n">make</span><span class="p">,</span> <span class="n">model_year</span><span class="p">,</span> <span class="n">vehicle_type</span><span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Model</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">m</span><span class="p">))</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">models</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_parts" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_parts</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cfr_part</span><span class="p">,</span> <span class="n">from_date</span><span class="p">,</span> <span class="n">to_date</span><span class="p">,</span> <span class="n">page</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns a list of vehicle documentation submitted by manufacturers.</p>
+<p>Manufacturers provide vehicle information to NHTSA to comply with these
+regulations:</p>
+<ul>
+<li>49 CFR Part 565 (Vehicle Identification Number Guidance)</li>
+<li>49 CFR Part 566 (Manufacturer Identification – Reporting Requirements)</li>
+</ul>
+<p>This provides a list of documents submitted in a date range. Up to 1,000
+results will be returned at a time.</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>cfr_part</code></td>
+        <td><code>str</code></td>
+        <td><p>'565' to return 49 CFR Part 565 submissions;
+'566' to return 49 CFR Part 566 submissions</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>from_date</code></td>
+        <td><code>str</code></td>
+        <td><p>the beginning of the date range to search</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>to_date</code></td>
+        <td><code>str</code></td>
+        <td><p>the end of the date range to search</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>page</code></td>
+        <td><code>int</code></td>
+        <td><p>results are paginated; this is page number to return</p></td>
+        <td><code>1</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Document]</code></td>
+      <td><p>A list of <code>Document</code>s registered with vPIC.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>cfr_part</code> is missing</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_parts</span><span class="p">(</span><span class="s1">&#39;565&#39;</span><span class="p">,</span> <span class="s1">&#39;2015-01-01&#39;</span><span class="p">,</span> <span class="s1">&#39;2015-05-05&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">Document</span><span class="p">(</span>
+        <span class="n">cover_letter_url</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+        <span class="n">letter_date</span><span class="o">=</span><span class="s1">&#39;1/1/2015&#39;</span><span class="p">,</span>
+        <span class="n">manufacturer_id</span><span class="o">=</span><span class="mi">959</span><span class="p">,</span>
+        <span class="n">manufacturer</span><span class="o">=</span><span class="s1">&#39;MASERATI NORTH AMERICA, INC.&#39;</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="s1">&#39;ORG13044&#39;</span><span class="p">,</span>
+        <span class="n">url</span><span class="o">=</span><span class="s1">&#39;...&#39;</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">model_year_from</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
+        <span class="n">model_year_to</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_parts</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">cfr_part</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">from_date</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">to_date</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">page</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Document</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns a list of vehicle documentation submitted by manufacturers.</span>
+
+<span class="sd">    Manufacturers provide vehicle information to NHTSA to comply with these</span>
+<span class="sd">    regulations:</span>
+
+<span class="sd">    * 49 CFR Part 565 (Vehicle Identification Number Guidance)</span>
+<span class="sd">    * 49 CFR Part 566 (Manufacturer Identification – Reporting Requirements)</span>
+
+<span class="sd">    This provides a list of documents submitted in a date range. Up to 1,000</span>
+<span class="sd">    results will be returned at a time.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        cfr_part: &#39;565&#39; to return 49 CFR Part 565 submissions;</span>
+<span class="sd">            &#39;566&#39; to return 49 CFR Part 566 submissions</span>
+<span class="sd">        from_date: the beginning of the date range to search</span>
+<span class="sd">        to_date: the end of the date range to search</span>
+<span class="sd">        page: results are paginated; this is page number to return</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Document``s registered with vPIC.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``cfr_part`` is missing</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_parts(&#39;565&#39;, &#39;2015-01-01&#39;, &#39;2015-05-05&#39;, 1)</span>
+<span class="sd">        [</span>
+<span class="sd">            Document(</span>
+<span class="sd">                cover_letter_url=&#39;&#39;,</span>
+<span class="sd">                letter_date=&#39;1/1/2015&#39;,</span>
+<span class="sd">                manufacturer_id=959,</span>
+<span class="sd">                manufacturer=&#39;MASERATI NORTH AMERICA, INC.&#39;,</span>
+<span class="sd">                name=&#39;ORG13044&#39;,</span>
+<span class="sd">                url=&#39;...&#39;,</span>
+<span class="sd">                type=None,</span>
+<span class="sd">                model_year_from=20,</span>
+<span class="sd">                model_year_to=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            ...</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">documents</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_parts</span><span class="p">(</span><span class="n">cfr_part</span><span class="p">,</span> <span class="n">from_date</span><span class="p">,</span> <span class="n">to_date</span><span class="p">,</span> <span class="n">page</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">doc</span> <span class="ow">in</span> <span class="n">documents</span><span class="p">:</span>
+        <span class="c1"># snake_case doesn&#39;t handle lowerUPPER</span>
+        <span class="n">doc</span><span class="p">[</span><span class="s2">&quot;CoverLetterUrl&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">doc</span><span class="p">[</span><span class="s2">&quot;CoverLetterURL&quot;</span><span class="p">]</span>
+        <span class="k">del</span> <span class="n">doc</span><span class="p">[</span><span class="s2">&quot;CoverLetterURL&quot;</span><span class="p">]</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Document</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">doc</span><span class="p">))</span> <span class="k">for</span> <span class="n">doc</span> <span class="ow">in</span> <span class="n">documents</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_vehicle_types_for_make" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_vehicle_types_for_make</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">make</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns vehicle types produced by a make or make</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>make</code></td>
+        <td><code>Union[str, int]</code></td>
+        <td><p>Pass the MakeId (int) or the complete make name (str) to return
+vehicle types for a single manufacturer. Pass a partial make name
+to return vehicle types for all makes that match the partial name.
+When you pass a make name, results will include the MakeId and
+MakeName because you may get vehicle_types for more than one make.</p></td>
+        <td><em>required</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.VehicleType]</code></td>
+      <td><p>A list of <code>VehicleType</code>s produced by the <code>make</code>(s)</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>make</code> is missing</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_vehicle_types_for_make</span><span class="p">(</span><span class="mi">474</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">VehicleType</span><span class="p">(</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Motorcycle&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">VehicleType</span><span class="p">(</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Passenger Car&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">VehicleType</span><span class="p">(</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Truck &#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">VehicleType</span><span class="p">(</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Multipurpose Passenger Vehicle (MPV)&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">),</span>
+    <span class="n">VehicleType</span><span class="p">(</span>
+        <span class="n">vehicle_type_id</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Low Speed Vehicle (LSV)&#39;</span><span class="p">,</span>
+        <span class="n">make_id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_vehicle_types_for_make</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">make</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">VehicleType</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns vehicle types produced by a make or make</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        make: Pass the MakeId (int) or the complete make name (str) to return</span>
+<span class="sd">            vehicle types for a single manufacturer. Pass a partial make name</span>
+<span class="sd">            to return vehicle types for all makes that match the partial name.</span>
+<span class="sd">            When you pass a make name, results will include the MakeId and</span>
+<span class="sd">            MakeName because you may get vehicle_types for more than one make.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``VehicleType``s produced by the ``make``(s)</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``make`` is missing</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_vehicle_types_for_make(474)</span>
+<span class="sd">        [</span>
+<span class="sd">            VehicleType(</span>
+<span class="sd">                vehicle_type_id=1,</span>
+<span class="sd">                vehicle_type=&#39;Motorcycle&#39;,</span>
+<span class="sd">                make_id=None,</span>
+<span class="sd">                make=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            VehicleType(</span>
+<span class="sd">                vehicle_type_id=2,</span>
+<span class="sd">                vehicle_type=&#39;Passenger Car&#39;,</span>
+<span class="sd">                make_id=None,</span>
+<span class="sd">                make=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            VehicleType(</span>
+<span class="sd">                vehicle_type_id=3,</span>
+<span class="sd">                vehicle_type=&#39;Truck &#39;,</span>
+<span class="sd">                make_id=None,</span>
+<span class="sd">                make=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            VehicleType(</span>
+<span class="sd">                vehicle_type_id=7,</span>
+<span class="sd">                vehicle_type=&#39;Multipurpose Passenger Vehicle (MPV)&#39;,</span>
+<span class="sd">                make_id=None,</span>
+<span class="sd">                make=None</span>
+<span class="sd">            ),</span>
+<span class="sd">            VehicleType(</span>
+<span class="sd">                vehicle_type_id=9,</span>
+<span class="sd">                vehicle_type=&#39;Low Speed Vehicle (LSV)&#39;,</span>
+<span class="sd">                make_id=None,</span>
+<span class="sd">                make=None</span>
+<span class="sd">            )</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">VehicleType</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_vehicle_types_for_make</span><span class="p">(</span><span class="n">make</span><span class="p">)</span>
+    <span class="n">snake_cased</span> <span class="o">=</span> <span class="p">[</span><span class="n">snake_case</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">results</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">sc</span><span class="p">)</span> <span class="k">for</span> <span class="n">sc</span> <span class="ow">in</span> <span class="n">snake_cased</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_vehicle_variable_list" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_vehicle_variable_list</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Return a list of vehicle variables tracked by vPIC</p>
+
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Variable]</code></td>
+      <td><p>A list of <code>Variable</code>s</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_vehicle_variable_list</span><span class="p">()</span>
+<span class="p">[</span>
+    <span class="n">Variable</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Other Battery Info&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="n">descr</span><span class="o">...</span><span class="p">),</span>
+    <span class="n">Variable</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Battery Type&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;lookup&#39;</span><span class="p">,</span> <span class="n">description</span><span class="o">...</span><span class="p">),</span>
+    <span class="n">Variable</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Bed Type&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;lookup&#39;</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;&lt;p...),</span>
+    <span class="n">Variable</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Cab Type&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;lookup&#39;</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;&lt;p...),</span>
+    <span class="n">Variable</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Body Class&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;lookup&#39;</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;...),</span>
+    <span class="n">Variable</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Engine Number of Cylinders&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;int&#39;</span><span class="p">,</span> <span class="o">...</span><span class="p">),</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_vehicle_variable_list</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Variable</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Return a list of vehicle variables tracked by vPIC</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Variable``s</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_vehicle_variable_list()</span>
+<span class="sd">        [</span>
+<span class="sd">            Variable(id=1, name=&#39;Other Battery Info&#39;, data_type=&#39;string&#39;, descr...),</span>
+<span class="sd">            Variable(id=2, name=&#39;Battery Type&#39;, data_type=&#39;lookup&#39;, description...),</span>
+<span class="sd">            Variable(id=3, name=&#39;Bed Type&#39;, data_type=&#39;lookup&#39;, description=&#39;&lt;p...),</span>
+<span class="sd">            Variable(id=4, name=&#39;Cab Type&#39;, data_type=&#39;lookup&#39;, description=&#39;&lt;p...),</span>
+<span class="sd">            Variable(id=5, name=&#39;Body Class&#39;, data_type=&#39;lookup&#39;, description=&#39;...),</span>
+<span class="sd">            Variable(id=9, name=&#39;Engine Number of Cylinders&#39;, data_type=&#39;int&#39;, ...),</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">variables</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_vehicle_variable_list</span><span class="p">()</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Variable</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">v</span><span class="p">))</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">variables</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_vehicle_variable_values_list" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_vehicle_variable_values_list</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">variable_name</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Return the values for a vehicle variable</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>variable_name</code></td>
+        <td><code>str</code></td>
+        <td><p>the name of the vehicle variable</p></td>
+        <td><em>required</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.Value]</code></td>
+      <td><p>A list of <code>Values</code>s</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>variable_name</code> is missing</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_vehicle_variable_values_list</span><span class="p">(</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Motorcycle&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Passenger Car&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Truck &quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Bus&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Trailer&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Multipurpose P...&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Low Speed Vehi...&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Incomplete Ve...&quot;</span><span class="p">),</span>
+    <span class="n">Value</span><span class="p">(</span><span class="n">element_name</span><span class="o">=</span><span class="s2">&quot;Vehicle Type&quot;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mi">13</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Off Road Vehicle&quot;</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_vehicle_variable_values_list</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">variable_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Value</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Return the values for a vehicle variable</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        variable_name: the name of the vehicle variable</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``Values``s</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``variable_name`` is missing</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_vehicle_variable_values_list(&quot;Vehicle Type&quot;)</span>
+<span class="sd">        [</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=1, name=&quot;Motorcycle&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=2, name=&quot;Passenger Car&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=3, name=&quot;Truck &quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=5, name=&quot;Bus&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=6, name=&quot;Trailer&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=7, name=&quot;Multipurpose P...&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=9, name=&quot;Low Speed Vehi...&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=10, name=&quot;Incomplete Ve...&quot;),</span>
+<span class="sd">            Value(element_name=&quot;Vehicle Type&quot;, id=13, name=&quot;Off Road Vehicle&quot;)</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_vehicle_variable_values_list</span><span class="p">(</span><span class="n">variable_name</span><span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">Value</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">v</span><span class="p">))</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">values</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="vpic.typed_client.TypedClient.get_wmis_for_manufacturer" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_wmis_for_manufacturer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">manufacturer</span><span class="p">,</span> <span class="n">vehicle_type</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+
+
+</h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns the WMIs for one or all manufacturers</p>
+
+<p><strong>Parameters:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>manufacturer</code></td>
+        <td><code>Union[str, int]</code></td>
+        <td><p>Pass the Manufacturer Id (int) or the complete
+manufacturer name (str) to return WMIs for a single manufacturer.
+Pass a partial name to return WMIs for all manufacturers with
+names that include the partial name.</p></td>
+        <td><em>required</em></td>
+      </tr>
+      <tr>
+        <td><code>vehicle_type</code></td>
+        <td><code>Union[str, int]</code></td>
+        <td><p>Pass the vehicle_type Id (int) or complete vehicle_type
+name to return WMIs for that vehicle_type. Pass a partial name to
+return WMIs for vehicle_types matching that name.</p></td>
+        <td><code>None</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>List[vpic.models.WMI]</code></td>
+      <td><p>A list of <code>WorldManufacturerIndex</code> with information about the
+manufacturers.</p></td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Exceptions:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><code>ValueError</code></td>
+        <td><p>if <code>manufacturer</code> is missing</p></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Examples:</strong></p>
+    <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">get_wmis_for_manufacturer</span><span class="p">(</span><span class="s1">&#39;Honda&#39;</span><span class="p">)</span>
+<span class="p">[</span>
+    <span class="n">WorldManufacturerIndex</span><span class="p">(</span>
+        <span class="n">created_on</span><span class="o">=</span><span class="s1">&#39;2015-03-26&#39;</span><span class="p">,</span>
+        <span class="n">date_available_to_public</span><span class="o">=</span><span class="s1">&#39;2015-01-01&#39;</span><span class="p">,</span>
+        <span class="n">manufacturer</span><span class="o">=</span><span class="s1">&#39;HONDA MOTOR CO., LTD&#39;</span><span class="p">,</span>
+        <span class="n">updated_on</span><span class="o">=</span><span class="s1">&#39;2015-06-04&#39;</span><span class="p">,</span>
+        <span class="n">vehicle_type</span><span class="o">=</span><span class="s1">&#39;Passenger Car&#39;</span><span class="p">,</span>
+        <span class="n">wmi</span><span class="o">=</span><span class="s1">&#39;JHM&#39;</span><span class="p">,</span> <span class="n">common_name</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+        <span class="n">country</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">make</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+        <span class="n">manufacturer_id</span><span class="o">=</span><span class="mi">987</span><span class="p">,</span>
+        <span class="n">parent_company_name</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+        <span class="n">url</span><span class="o">=</span><span class="s1">&#39;&#39;</span>
+    <span class="p">),</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</code></pre></div>
+
+        <details class="quote">
+          <summary>Source code in <code>vpic/typed_client.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_wmis_for_manufacturer</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">manufacturer</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">],</span>
+    <span class="n">vehicle_type</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">WMI</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Returns the WMIs for one or all manufacturers</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        manufacturer: Pass the Manufacturer Id (int) or the complete</span>
+<span class="sd">            manufacturer name (str) to return WMIs for a single manufacturer.</span>
+<span class="sd">            Pass a partial name to return WMIs for all manufacturers with</span>
+<span class="sd">            names that include the partial name.</span>
+<span class="sd">        vehicle_type: Pass the vehicle_type Id (int) or complete vehicle_type</span>
+<span class="sd">            name to return WMIs for that vehicle_type. Pass a partial name to</span>
+<span class="sd">            return WMIs for vehicle_types matching that name.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A list of ``WorldManufacturerIndex`` with information about the</span>
+<span class="sd">        manufacturers.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: if ``manufacturer`` is missing</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        &gt;&gt;&gt; get_wmis_for_manufacturer(&#39;Honda&#39;)</span>
+<span class="sd">        [</span>
+<span class="sd">            WorldManufacturerIndex(</span>
+<span class="sd">                created_on=&#39;2015-03-26&#39;,</span>
+<span class="sd">                date_available_to_public=&#39;2015-01-01&#39;,</span>
+<span class="sd">                manufacturer=&#39;HONDA MOTOR CO., LTD&#39;,</span>
+<span class="sd">                updated_on=&#39;2015-06-04&#39;,</span>
+<span class="sd">                vehicle_type=&#39;Passenger Car&#39;,</span>
+<span class="sd">                wmi=&#39;JHM&#39;, common_name=&#39;&#39;,</span>
+<span class="sd">                country=None,</span>
+<span class="sd">                make=&#39;&#39;,</span>
+<span class="sd">                manufacturer_id=987,</span>
+<span class="sd">                parent_company_name=&#39;&#39;,</span>
+<span class="sd">                url=&#39;&#39;</span>
+<span class="sd">            ),</span>
+<span class="sd">            ...</span>
+<span class="sd">        ]</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">wmis</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_wmis_for_manufacturer</span><span class="p">(</span><span class="n">manufacturer</span><span class="p">,</span> <span class="n">vehicle_type</span><span class="p">)</span>
+    <span class="n">schema</span> <span class="o">=</span> <span class="n">desert</span><span class="o">.</span><span class="n">schema</span><span class="p">(</span><span class="n">WMI</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">schema</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">snake_case</span><span class="p">(</span><span class="n">wmi</span><span class="p">))</span> <span class="k">for</span> <span class="n">wmi</span> <span class="ow">in</span> <span class="n">wmis</span><span class="p">]</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="client.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Client" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Client
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="models.html" class="md-footer__link md-footer__link--next" aria-label="Next: Models" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Models
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.82b56eb2.min.js"></script>
+      
+    
+  </body>
+</html>

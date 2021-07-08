@@ -1,0 +1,1448 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
+    
+    
+      
+        <title>Models - vpic-api</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.f1a3b89f.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#models" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="vpic-api" class="md-header__button md-logo" aria-label="vpic-api" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            vpic-api
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Models
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/davidpeckham/vpic-api/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="vpic-api" class="md-nav__button md-logo" aria-label="vpic-api" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    vpic-api
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/davidpeckham/vpic-api/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Code Reference
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Code Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Code Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="client.html" class="md-nav__link">
+        Client
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="typed_client.html" class="md-nav__link">
+        TypedClient
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="models.html" class="md-nav__link md-nav__link--active">
+        Models
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models" class="md-nav__link">
+    vpic.models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Document" class="md-nav__link">
+    Document
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Make" class="md-nav__link">
+    Make
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Manufacturer" class="md-nav__link">
+    Manufacturer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.ManufacturerDetail" class="md-nav__link">
+    ManufacturerDetail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.ManufacturerType" class="md-nav__link">
+    ManufacturerType
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Model" class="md-nav__link">
+    Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.PlantCode" class="md-nav__link">
+    PlantCode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Value" class="md-nav__link">
+    Value
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Variable" class="md-nav__link">
+    Variable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Vehicle" class="md-nav__link">
+    Vehicle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.VehicleType" class="md-nav__link">
+    VehicleType
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.WMI" class="md-nav__link">
+    WMI
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="exceptions.html" class="md-nav__link">
+        Exceptions
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models" class="md-nav__link">
+    vpic.models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Document" class="md-nav__link">
+    Document
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Make" class="md-nav__link">
+    Make
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Manufacturer" class="md-nav__link">
+    Manufacturer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.ManufacturerDetail" class="md-nav__link">
+    ManufacturerDetail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.ManufacturerType" class="md-nav__link">
+    ManufacturerType
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Model" class="md-nav__link">
+    Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.PlantCode" class="md-nav__link">
+    PlantCode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Value" class="md-nav__link">
+    Value
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Variable" class="md-nav__link">
+    Variable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.Vehicle" class="md-nav__link">
+    Vehicle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.VehicleType" class="md-nav__link">
+    VehicleType
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpic.models.WMI" class="md-nav__link">
+    WMI
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/davidpeckham/vpic-api/edit/master/docs/models.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="models">Models</h1>
+
+
+  <div class="doc doc-object doc-module">
+
+<a id="vpic.models"></a>
+    <div class="doc doc-contents first">
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Document" class="doc doc-heading">
+        <code>Document</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Document(cover_letter_url: str, letter_date: str, manufacturer_id: int, manufacturer: str, name: str, url: str, type: Optional[str] = None, model_year_from: Optional[int] = None, model_year_to: Optional[int] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Make" class="doc doc-heading">
+        <code>Make</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Make(make_id: int, make: str, manufacturer_id: Optional[int] = None, manufacturer: Optional[str] = None, vehicle_type_id: Optional[int] = None, vehicle_type: Optional[str] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Manufacturer" class="doc doc-heading">
+        <code>Manufacturer</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Manufacturer(manufacturer_id: int, manufacturer: str, manufacturer_common_name: str)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.ManufacturerDetail" class="doc doc-heading">
+        <code>ManufacturerDetail</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>ManufacturerDetail(manufacturer_id: int, manufacturer: str, manufacturer_common_name: Optional[str], manufacturer_types: List[vpic.models.ManufacturerType], vehicle_types: List[vpic.models.VehicleType], address: Optional[str] = None, address2: Optional[str] = None, city: Optional[str] = None, contact_email: Optional[str] = None, contact_fax: Optional[str] = None, contact_phone: Optional[str] = None, country: Optional[str] = None, dbas: Optional[str] = None, equipment_items: Optional[List[str]] = None, last_updated: Optional[str] = None, other_manufacturer_details: Optional[str] = None, postal_code: Optional[str] = None, primary_product: Optional[str] = None, principal_first_name: Optional[str] = None, principal_last_name: Optional[str] = None, principal_position: Optional[str] = None, state_province: Optional[str] = None, submitted_name: Optional[str] = None, submitted_on: Optional[str] = None, submitted_position: Optional[str] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.ManufacturerType" class="doc doc-heading">
+        <code>ManufacturerType</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>ManufacturerType(name: str)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Model" class="doc doc-heading">
+        <code>Model</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Model(model_id: int, model: str, make_id: Optional[int] = None, make: Optional[str] = None, vehicle_type_id: Optional[int] = None, vehicle_type: Optional[str] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.PlantCode" class="doc doc-heading">
+        <code>PlantCode</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>PlantCode(dot_code: str, name: str, address: Optional[str] = None, city: Optional[str] = None, country: Optional[str] = None, old_dot_code: Optional[str] = None, postal_code: Optional[str] = None, state_province: Optional[str] = None, status: Optional[str] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Value" class="doc doc-heading">
+        <code>Value</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Value(element_name: str, id: int, name: str)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Variable" class="doc doc-heading">
+        <code>Variable</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Variable(id: int, name: str, group_name: Optional[str], data_type: str, description: str)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.Vehicle" class="doc doc-heading">
+        <code>Vehicle</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Vehicle(abs: str, active_safety_sys_note: str, adaptive_cruise_control: str, adaptive_driving_beam: str, adaptive_headlights: str, additional_error_text: str, air_bag_loc_curtain: str, air_bag_loc_front: str, air_bag_loc_knee: str, air_bag_loc_seat_cushion: str, air_bag_loc_side: str, auto_reverse_system: str, automatic_pedestrian_alerting_sound: str, axle_configuration: str, axles: str, base_price: str, battery_a: str, battery_a_to: str, battery_cells: str, battery_info: str, battery_kwh: str, battery_kwh_to: str, battery_modules: str, battery_packs: str, battery_type: str, battery_v: str, battery_v_to: str, bed_length_in: str, bed_type: str, blind_spot_intervention: str, blind_spot_mon: str, body_cab_type: str, body_class: str, brake_system_desc: str, brake_system_type: str, bus_floor_config_type: str, bus_length: str, bus_type: str, can_aacn: str, cib: str, cash_for_clunkers: str, charger_level: str, charger_power_kw: str, cooling_type: str, curb_weight_lb: str, custom_motorcycle_type: str, daytime_running_light: str, destination_market: str, displacement_cc: str, displacement_ci: str, displacement_l: str, doors: str, drive_type: str, driver_assist: str, dynamic_brake_support: str, edr: str, esc: str, ev_drive_unit: str, electrification_level: str, engine_configuration: str, engine_cycles: str, engine_cylinders: str, engine_hp: str, engine_hp_to: str, engine_kw: str, engine_manufacturer: str, engine_model: str, entertainment_system: str, error_code: str, error_text: str, forward_collision_warning: str, fuel_injection_type: str, fuel_type_primary: str, fuel_type_secondary: str, gcwr_from: str, gcwr_to: str, gvwr_from: str, gvwr_to: str, keyless_ignition: str, lane_centering_assistance: str, lane_departure_warning: str, lane_keep_system: str, lower_beam_headlamp_light_source: str, make: str, make_id: str, manufacturer: str, manufacturer_id: str, model: str, model_id: str, model_year: str, motorcycle_chassis_type: str, motorcycle_suspension_type: str, ncsa_body_type: str, ncsa_make: str, ncsa_map_exc_approved_by: str, ncsa_map_exc_approved_on: str, ncsa_mapping_exception: str, ncsa_model: str, ncsa_note: str, note: str, other_bus_info: str, other_engine_info: str, other_motorcycle_info: str, other_restraint_system_info: str, other_trailer_info: str, park_assist: str, pedestrian_automatic_emergency_braking: str, plant_city: str, plant_company_name: str, plant_country: str, plant_state: str, possible_values: str, pretensioner: str, rear_automatic_emergency_braking: str, rear_cross_traffic_alert: str, rear_visibility_system: str, sae_automation_level: str, sae_automation_level_to: str, seat_belts_all: str, seat_rows: str, seats: str, semiautomatic_headlamp_beam_switching: str, series: str, series2: str, steering_location: str, suggested_vin: str, tpms: str, top_speed_mph: str, track_width: str, traction_control: str, trailer_body_type: str, trailer_length: str, trailer_type: str, transmission_speeds: str, transmission_style: str, trim: str, trim2: str, turbo: str, vin: str, valve_train_design: str, vehicle_type: str, wheel_base_long: str, wheel_base_short: str, wheel_base_type: str, wheel_size_front: str, wheel_size_rear: str, wheels: str, windows: str)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.VehicleType" class="doc doc-heading">
+        <code>VehicleType</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>VehicleType(name: Optional[str], vehicle_type: Optional[str] = None, vehicle_type_id: Optional[int] = None, make: Optional[str] = None, make_id: Optional[int] = None, gvwr_from: Optional[str] = None, gvwr_to: Optional[str] = None, is_primary: Optional[bool] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="vpic.models.WMI" class="doc doc-heading">
+        <code>WMI</code>
+
+
+  <span class="doc doc-properties">
+      <small class="doc doc-property doc-property-dataclass"><code>dataclass</code></small>
+  </span>
+
+</h2>
+
+    <div class="doc doc-contents ">
+
+      <p>WMI(manufacturer: Optional[str], name: Optional[str], id: Optional[int], vehicle_type: str, wmi: Optional[str] = None, common_name: Optional[str] = None, url: Optional[str] = None, country: Optional[str] = None, make: Optional[str] = None, manufacturer_id: Optional[int] = None, parent_company_name: Optional[str] = None, created_on: Optional[str] = None, updated_on: Optional[str] = None, date_available_to_public: Optional[str] = None)</p>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="typed_client.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: TypedClient" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              TypedClient
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="exceptions.html" class="md-footer__link md-footer__link--next" aria-label="Next: Exceptions" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Exceptions
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.82b56eb2.min.js"></script>
+      
+    
+  </body>
+</html>
