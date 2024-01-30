@@ -150,7 +150,7 @@ class Client(ClientBase):
         if not len(vins) in range(1, 50 + 1):
             raise ValueError("pass at least one VIN, and at most 50 VINs")
 
-        return self._request_post("DecodeVINValuesBatch", data={"DATA": ";".join(vins)})
+        return self._request_post("DecodeVINValuesBatch", data={"DATA": ";".join(vins), "format": "json"})
 
     def decode_wmi(self, wmi: str) -> Dict[str, Any]:
         """Decode a WMI to get manufacturer information
